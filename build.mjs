@@ -4,7 +4,8 @@ import fs from 'fs/promises';
 import path from 'path';
 
 // Clean output directory, or create build directory
-const outDir = path.resolve(process.cwd(), 'build');
+let outDir = path.resolve(process.cwd(), 'build');
+
 if (existsSync(outDir)) {
     const filesToClean = (await fs.readdir(outDir)).map(dirName => path.resolve(outDir, dirName));
     for (const file of filesToClean) {

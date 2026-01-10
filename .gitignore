@@ -1,4 +1,5 @@
 node_modules/**
 build/*/**
+/impmal-malexp/
 /build/module.json
 .idea

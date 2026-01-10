@@ -42,14 +42,14 @@ jobs:
 
       # Create a folder containing all the module stuff and zip it for the release
       - name: Create Zip
-        run: zip -r9 ./module.zip build/
+        run: cd build; zip -r ../module.zip ./
 
       - name: Update Release with Files
         id: create_version_release
         uses: ncipollo/release-action@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          tag: main
+          tag: ${{steps.get-version.outputs.version}}
           allowUpdates: true
           omitDraftDuringUpdate: true
           omitPrereleaseDuringUpdate: true
