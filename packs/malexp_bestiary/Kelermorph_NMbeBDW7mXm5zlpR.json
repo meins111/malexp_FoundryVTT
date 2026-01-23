@@ -1,0 +1,1473 @@
+{
+  "name": "Kelermorph",
+  "type": "npc",
+  "_id": "NMbeBDW7mXm5zlpR",
+  "img": "modules/impmal-core/assets/tokens/unknown.webp",
+  "system": {
+    "characteristics": {
+      "ws": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      },
+      "bs": {
+        "starting": 60,
+        "advances": 0,
+        "modifier": 0
+      },
+      "str": {
+        "starting": 30,
+        "advances": 0,
+        "modifier": 0
+      },
+      "tgh": {
+        "starting": 30,
+        "advances": 0,
+        "modifier": 0
+      },
+      "ag": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      },
+      "int": {
+        "starting": 25,
+        "advances": 0,
+        "modifier": 0
+      },
+      "per": {
+        "starting": 60,
+        "advances": 0,
+        "modifier": 0
+      },
+      "wil": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      },
+      "fel": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      }
+    },
+    "skills": {
+      "athletics": {
+        "characteristic": "str",
+        "advances": 0,
+        "modifier": 0
+      },
+      "awareness": {
+        "characteristic": "per",
+        "advances": 0,
+        "modifier": 0
+      },
+      "dexterity": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "discipline": {
+        "characteristic": "wil",
+        "advances": 0,
+        "modifier": 0
+      },
+      "fortitude": {
+        "characteristic": "tgh",
+        "advances": 0,
+        "modifier": 0
+      },
+      "intuition": {
+        "characteristic": "per",
+        "advances": 0,
+        "modifier": 0
+      },
+      "linguistics": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "logic": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "lore": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "medicae": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "melee": {
+        "characteristic": "ws",
+        "advances": 0,
+        "modifier": 0
+      },
+      "navigation": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "piloting": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "presence": {
+        "characteristic": "wil",
+        "advances": 0,
+        "modifier": 0
+      },
+      "psychic": {
+        "characteristic": "wil",
+        "advances": 0,
+        "modifier": 0
+      },
+      "ranged": {
+        "characteristic": "bs",
+        "advances": 2,
+        "modifier": 0
+      },
+      "rapport": {
+        "characteristic": "fel",
+        "advances": 0,
+        "modifier": 0
+      },
+      "reflexes": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "stealth": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "tech": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      }
+    },
+    "notes": {
+      "player": "",
+      "gm": ""
+    },
+    "combat": {
+      "size": "medium",
+      "armourModifier": 0,
+      "speed": {
+        "land": {
+          "value": "normal",
+          "modifier": 0
+        },
+        "fly": {
+          "value": "none",
+          "modifier": 0
+        }
+      },
+      "wounds": {
+        "max": 0,
+        "value": 0
+      },
+      "criticals": {
+        "max": 0,
+        "value": 0
+      },
+      "hitLocations": {
+        "head": {
+          "range": [
+            1,
+            1
+          ],
+          "label": "IMPMAL.Head",
+          "abbrev": "IMPMAL.HeadAbbrev"
+        },
+        "leftArm": {
+          "range": [
+            2,
+            2
+          ],
+          "label": "IMPMAL.LeftArm",
+          "abbrev": "IMPMAL.LeftArmAbbrev"
+        },
+        "rightArm": {
+          "range": [
+            3,
+            3
+          ],
+          "label": "IMPMAL.RightArm",
+          "abbrev": "IMPMAL.RightArmAbbrev"
+        },
+        "leftLeg": {
+          "range": [
+            4,
+            4
+          ],
+          "label": "IMPMAL.LeftLeg",
+          "abbrev": "IMPMAL.LeftLegAbbrev"
+        },
+        "rightLeg": {
+          "range": [
+            5,
+            5
+          ],
+          "label": "IMPMAL.RightLeg",
+          "abbrev": "IMPMAL.RightLegAbbrev"
+        },
+        "body": {
+          "range": [
+            6,
+            10
+          ],
+          "label": "IMPMAL.Body",
+          "abbrev": "IMPMAL.BodyAbbrev"
+        }
+      },
+      "resolve": 2,
+      "armour": {
+        "formula": "",
+        "value": 2,
+        "useItems": false
+      }
+    },
+    "faction": {
+      "id": "",
+      "name": "Genestealer Cults"
+    },
+    "species": "Human",
+    "role": "elite",
+    "warp": {
+      "charge": 0,
+      "state": 0,
+      "sustaining": {
+        "list": []
+      }
+    },
+    "autoCalc": {
+      "wounds": true,
+      "criticals": true,
+      "initiative": true
+    }
+  },
+  "prototypeToken": {
+    "name": "Kelermorph",
+    "displayName": 30,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/impmal-core/assets/tokens/unknown.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [
+    {
+      "type": "trait",
+      "name": "Folktale Hero",
+      "_id": "A00GZjR2duCg9wqn",
+      "img": "modules/impmal-core/assets/icons/blank.webp",
+      "system": {
+        "notes": {
+          "player": "<p>The Kelermorph is capable of Inspiring all creatures around it to roll with Advantage on tests to resist to end the <em>Frightened</em> condition. The Kelermorph also grants +1 Resolve to <em>Genestealer Cult</em> creatures.</p>",
+          "gm": ""
+        },
+        "attack": {
+          "enabled": false,
+          "type": "melee",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "damage": {
+            "SL": false,
+            "base": "",
+            "characteristic": "",
+            "ignoreAP": false
+          },
+          "range": "",
+          "traits": {
+            "list": []
+          },
+          "self": false
+        },
+        "test": {
+          "enabled": false,
+          "target": "self",
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "roll": {
+          "enabled": false,
+          "formula": "",
+          "label": ""
+        },
+        "category": "standard",
+        "vehicle": {
+          "maneuverable": 0
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "hR2OnBexveFmPbTt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!NMbeBDW7mXm5zlpR.A00GZjR2duCg9wqn"
+    },
+    {
+      "folder": "pqODAMRANbgIQoQp",
+      "name": "Genestealer Mutation",
+      "type": "trait",
+      "_id": "oVmcLSCKVLRnAEKs",
+      "img": "modules/impmal-core/assets/icons/blank.webp",
+      "system": {
+        "notes": {
+          "player": "<p>The Individual is connected to the Genestealer Broodmind, and gains advantage on Discipline Tests when within Long Range of a Genestealer Psyker.</p>",
+          "gm": ""
+        },
+        "attack": {
+          "enabled": false,
+          "type": "melee",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "damage": {
+            "SL": false,
+            "base": "",
+            "characteristic": "",
+            "ignoreAP": false
+          },
+          "range": "",
+          "traits": {
+            "list": []
+          },
+          "self": false
+        },
+        "test": {
+          "enabled": false,
+          "target": "self",
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "roll": {
+          "enabled": false,
+          "formula": "",
+          "label": ""
+        },
+        "category": "standard",
+        "vehicle": {
+          "maneuverable": 0
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "hR2OnBexveFmPbTt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!NMbeBDW7mXm5zlpR.oVmcLSCKVLRnAEKs"
+    },
+    {
+      "type": "trait",
+      "name": "Gunslinger of Legend",
+      "_id": "kQgUBtM6j2TQcgE3",
+      "img": "modules/impmal-core/assets/icons/blank.webp",
+      "system": {
+        "notes": {
+          "player": "<p>The Kelermorph can wield three ranged Pistol weapons at once with any hand equally well, suffering no penalty for doing something with their “offhand”, and does not suffer Disadvantage when attacking with them at the same time.</p>",
+          "gm": ""
+        },
+        "attack": {
+          "enabled": false,
+          "type": "melee",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "damage": {
+            "SL": false,
+            "base": "",
+            "characteristic": "",
+            "ignoreAP": false
+          },
+          "range": "",
+          "traits": {
+            "list": []
+          },
+          "self": false
+        },
+        "test": {
+          "enabled": false,
+          "target": "self",
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "roll": {
+          "enabled": false,
+          "formula": "",
+          "label": ""
+        },
+        "category": "standard",
+        "vehicle": {
+          "maneuverable": 0
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "hR2OnBexveFmPbTt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!NMbeBDW7mXm5zlpR.kQgUBtM6j2TQcgE3"
+    },
+    {
+      "name": "Knife",
+      "type": "weapon",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 50,
+        "availability": "common",
+        "quantity": 1,
+        "equipped": {
+          "value": true,
+          "hand": "",
+          "force": false
+        },
+        "damage": {
+          "base": "0",
+          "characteristic": "str",
+          "SL": false,
+          "ignoreAP": false
+        },
+        "traits": {
+          "list": [
+            {
+              "key": "subtle"
+            },
+            {
+              "key": "thrown",
+              "value": "Short"
+            }
+          ]
+        },
+        "ammoCost": 0,
+        "attackType": "melee",
+        "category": "mundane",
+        "spec": "oneHanded",
+        "range": "",
+        "rangeModifier": {
+          "value": 0,
+          "override": ""
+        },
+        "mag": {
+          "value": 0,
+          "current": null
+        },
+        "ammo": {
+          "id": ""
+        },
+        "mods": {
+          "list": []
+        },
+        "slots": {
+          "list": [],
+          "value": 0
+        }
+      },
+      "folder": "Eic6vQH0ZQYinOav",
+      "_id": "MHQPPtFWFzoQdQxP",
+      "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+      "effects": [],
+      "sort": 4700000,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "hR2OnBexveFmPbTt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!NMbeBDW7mXm5zlpR.MHQPPtFWFzoQdQxP"
+    },
+    {
+      "name": "Liberator Autostub Pistols",
+      "type": "weapon",
+      "system": {
+        "notes": {
+          "player": "Mag, Enc, Cost, Avail speculated",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 1
+        },
+        "cost": 0,
+        "availability": "Special",
+        "quantity": 1,
+        "equipped": {
+          "value": true,
+          "hand": "",
+          "force": false
+        },
+        "damage": {
+          "base": "10",
+          "characteristic": "",
+          "SL": false,
+          "ignoreAP": false
+        },
+        "traits": {
+          "list": [
+            {
+              "key": "burst"
+            },
+            {
+              "key": "close"
+            },
+            {
+              "key": "loud"
+            },
+            {
+              "key": "penetrating",
+              "value": "2"
+            }
+          ]
+        },
+        "ammoCost": 0,
+        "attackType": "ranged",
+        "category": "",
+        "spec": "pistol",
+        "range": "medium",
+        "rangeModifier": {
+          "value": 0,
+          "override": ""
+        },
+        "mag": {
+          "value": 2,
+          "current": 2
+        },
+        "ammo": {
+          "id": ""
+        },
+        "mods": {
+          "list": []
+        },
+        "slots": {
+          "list": [],
+          "value": 0
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_id": "QWokcfjsnAYZkGiw",
+      "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "bfVhf0cfdU0mWsuU": 3,
+        "hR2OnBexveFmPbTt": 3
+      },
+      "_key": "!actors.items!NMbeBDW7mXm5zlpR.QWokcfjsnAYZkGiw"
+    },
+    {
+      "name": "Liberator Autostub Pistols",
+      "type": "weapon",
+      "system": {
+        "notes": {
+          "player": "Mag, Enc, Cost, Avail speculated",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 1
+        },
+        "cost": 0,
+        "availability": "Special",
+        "quantity": 1,
+        "equipped": {
+          "value": true,
+          "hand": "",
+          "force": false
+        },
+        "damage": {
+          "base": "10",
+          "characteristic": "",
+          "SL": false,
+          "ignoreAP": false
+        },
+        "traits": {
+          "list": [
+            {
+              "key": "burst"
+            },
+            {
+              "key": "close"
+            },
+            {
+              "key": "loud"
+            },
+            {
+              "key": "penetrating",
+              "value": "2"
+            }
+          ]
+        },
+        "ammoCost": 0,
+        "attackType": "ranged",
+        "category": "",
+        "spec": "pistol",
+        "range": "medium",
+        "rangeModifier": {
+          "value": 0,
+          "override": ""
+        },
+        "mag": {
+          "value": 2,
+          "current": 2
+        },
+        "ammo": {
+          "id": ""
+        },
+        "mods": {
+          "list": []
+        },
+        "slots": {
+          "list": [],
+          "value": 0
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_id": "Ru5nl2maXJ7yPNz7",
+      "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "bfVhf0cfdU0mWsuU": 3,
+        "hR2OnBexveFmPbTt": 3
+      },
+      "_key": "!actors.items!NMbeBDW7mXm5zlpR.Ru5nl2maXJ7yPNz7"
+    },
+    {
+      "name": "Liberator Autostub Pistols",
+      "type": "weapon",
+      "system": {
+        "notes": {
+          "player": "Mag, Enc, Cost, Avail speculated",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 1
+        },
+        "cost": 0,
+        "availability": "Special",
+        "quantity": 1,
+        "equipped": {
+          "value": true,
+          "hand": "",
+          "force": false
+        },
+        "damage": {
+          "base": "10",
+          "characteristic": "",
+          "SL": false,
+          "ignoreAP": false
+        },
+        "traits": {
+          "list": [
+            {
+              "key": "burst"
+            },
+            {
+              "key": "close"
+            },
+            {
+              "key": "loud"
+            },
+            {
+              "key": "penetrating",
+              "value": "2"
+            }
+          ]
+        },
+        "ammoCost": 0,
+        "attackType": "ranged",
+        "category": "",
+        "spec": "pistol",
+        "range": "medium",
+        "rangeModifier": {
+          "value": 0,
+          "override": ""
+        },
+        "mag": {
+          "value": 2,
+          "current": 2
+        },
+        "ammo": {
+          "id": ""
+        },
+        "mods": {
+          "list": []
+        },
+        "slots": {
+          "list": [],
+          "value": 0
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_id": "lECiCzbYMuCaM3vq",
+      "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "bfVhf0cfdU0mWsuU": 3,
+        "hR2OnBexveFmPbTt": 3
+      },
+      "_key": "!actors.items!NMbeBDW7mXm5zlpR.lECiCzbYMuCaM3vq"
+    },
+    {
+      "name": "Heavy Leathers",
+      "type": "protection",
+      "folder": "ZuAeviXZUQVXVQQr",
+      "_id": "hCeRh3X3ySTM7fBC",
+      "img": "modules/impmal-core/assets/icons/protection/armour.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 3
+        },
+        "cost": 60,
+        "availability": "common",
+        "quantity": 1,
+        "equipped": {
+          "value": true,
+          "hand": "",
+          "force": false
+        },
+        "traits": {
+          "list": []
+        },
+        "category": "mundane",
+        "armour": 2,
+        "locations": {
+          "list": [
+            "rightArm",
+            "leftArm",
+            "body",
+            "rightLeg",
+            "leftLeg"
+          ],
+          "label": "Arms, Body, Legs"
+        },
+        "damage": {},
+        "rended": {},
+        "slots": {
+          "list": [],
+          "value": 0
+        },
+        "mods": {
+          "list": []
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "hR2OnBexveFmPbTt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!NMbeBDW7mXm5zlpR.hCeRh3X3ySTM7fBC"
+    },
+    {
+      "type": "equipment",
+      "name": "2d10 Solars",
+      "_id": "STydoxr5WQHHiQZz",
+      "img": "modules/impmal-core/assets/icons/equipment/equipment.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "equipped": {
+          "value": false,
+          "hand": "",
+          "force": false
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 0,
+        "availability": "",
+        "quantity": 1,
+        "uses": {
+          "value": null,
+          "max": null,
+          "enabled": false
+        },
+        "test": {
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "traits": {
+          "list": []
+        },
+        "slots": {
+          "list": [],
+          "value": 0
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "hR2OnBexveFmPbTt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!NMbeBDW7mXm5zlpR.STydoxr5WQHHiQZz"
+    },
+    {
+      "type": "equipment",
+      "name": "Gang Colors",
+      "_id": "Uah7ahWMPY9YLKWm",
+      "img": "modules/impmal-core/assets/icons/equipment/equipment.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "equipped": {
+          "value": true,
+          "hand": "",
+          "force": false
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 0,
+        "availability": "",
+        "quantity": 1,
+        "uses": {
+          "value": null,
+          "max": null,
+          "enabled": false
+        },
+        "test": {
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "traits": {
+          "list": []
+        },
+        "slots": {
+          "list": [],
+          "value": 0
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "hR2OnBexveFmPbTt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!NMbeBDW7mXm5zlpR.Uah7ahWMPY9YLKWm"
+    },
+    {
+      "folder": "yorIe1MM659QjKCZ",
+      "type": "equipment",
+      "name": "Filtration Plugs",
+      "system": {
+        "notes": {
+          "player": "<p>These items are simple to manufacture and use. They come in pairs and are each set within the nostril to eliminate noxious pollutants and harmful gases (so long as the user remembers to not breathe through their mouth).</p><p>While using filtration plugs, you gain +2 SL on Fortitude Tests made to withstand the effects of harmful gases, such as in Zones with the @UUID[JournalEntry.hdElQAwiBr5AyoRf.JournalEntryPage.zQYkbNcsJmGintdL#hazard]{Hazard} Trait.</p>",
+          "gm": ""
+        },
+        "equipped": {
+          "value": true,
+          "hand": "",
+          "force": false
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 20,
+        "availability": "common",
+        "quantity": 1,
+        "uses": {
+          "value": null,
+          "max": null,
+          "enabled": false
+        },
+        "test": {
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "traits": {
+          "list": []
+        },
+        "slots": {
+          "list": [],
+          "value": 0
+        }
+      },
+      "_id": "kEbdSSNwwy79eoDP",
+      "img": "modules/impmal-core/assets/icons/equipment/filtration-plugs.webp",
+      "effects": [
+        {
+          "name": "Filtration Plugs",
+          "_id": "2zAmFIH3i4b4QsUk",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "transfer": true,
+          "statuses": [],
+          "flags": {
+            "impmal": {
+              "manualEffectKeys": false
+            }
+          },
+          "tint": "#ffffff",
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.351",
+            "systemId": "impmal",
+            "systemVersion": "3.2.1"
+          },
+          "img": "modules/impmal-core/assets/icons/equipment/filtration-plugs.webp",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false,
+                "skill": {}
+              },
+              "equipTransfer": true,
+              "prompt": false,
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {
+                  "barrier": false,
+                  "difficult": false,
+                  "warpTouched": false
+                },
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              },
+              "originalType": "document",
+              "testIndependent": false,
+              "selfOnly": false,
+              "area": {
+                "templateData": {
+                  "borderColor": null,
+                  "fillColor": null,
+                  "texture": null
+                },
+                "keep": false,
+                "aura": {
+                  "transferred": false,
+                  "render": false
+                },
+                "duration": "sustained"
+              }
+            },
+            "scriptData": [
+              {
+                "label": "Fortitude Tests to withstand harmful gases",
+                "trigger": "dialog",
+                "options": {
+                  "hideScript": "[Script.tL9YNmXaKogz1FAE]",
+                  "activateScript": "",
+                  "submissionScript": "",
+                  "targeter": false,
+                  "deleteEffect": false,
+                  "defending": false,
+                  "runIfDisabled": false,
+                  "showDuplicates": false
+                },
+                "script": "[Script.dc8x3nb7mpNiKqKd]",
+                "async": false
+              }
+            ],
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "zone": {
+              "type": "zone",
+              "traits": {},
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "computed": false
+          },
+          "sort": 0,
+          "_key": "!actors.items.effects!NMbeBDW7mXm5zlpR.kEbdSSNwwy79eoDP.2zAmFIH3i4b4QsUk"
+        }
+      ],
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "hR2OnBexveFmPbTt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!NMbeBDW7mXm5zlpR.kEbdSSNwwy79eoDP"
+    },
+    {
+      "type": "protection",
+      "name": "Ornamental Cape",
+      "_id": "iMa5YgIYePOrSjMH",
+      "img": "modules/impmal-core/assets/icons/protection/armour.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 0,
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": true,
+          "hand": "",
+          "force": false
+        },
+        "traits": {
+          "list": [
+            {
+              "key": "ornamental"
+            }
+          ]
+        },
+        "category": "",
+        "armour": 0,
+        "locations": {
+          "list": [],
+          "label": ""
+        },
+        "damage": {},
+        "rended": {},
+        "slots": {
+          "list": [],
+          "value": 0
+        },
+        "mods": {
+          "list": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "hR2OnBexveFmPbTt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!NMbeBDW7mXm5zlpR.iMa5YgIYePOrSjMH"
+    },
+    {
+      "folder": "RK7ZH8sQLg4GKQWP",
+      "name": "Might",
+      "type": "specialisation",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "<p>@UUID[JournalEntry.J8NVn5iNgM57cKmw.JournalEntryPage.NrJuy93Put0XCYq9#athletics-(str)]{Athletics}</p><p>Advanced capacity for moving greater weight, breaking physical objects, and enduring heavy loads. In appropriate circumstances, an Athletics (Might) Test can be used in place of a Presence (Intimidation) Test to achieve similar aims.</p>",
+          "gm": ""
+        },
+        "advances": 2,
+        "restricted": false,
+        "skill": "athletics"
+      },
+      "effects": [],
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "hR2OnBexveFmPbTt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_id": "oVYQWbbRSUfw4RQg",
+      "_key": "!actors.items!NMbeBDW7mXm5zlpR.oVYQWbbRSUfw4RQg"
+    },
+    {
+      "folder": "RK7ZH8sQLg4GKQWP",
+      "name": "Sight",
+      "type": "specialisation",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "<p>@UUID[JournalEntry.J8NVn5iNgM57cKmw.JournalEntryPage.NrJuy93Put0XCYq9#awareness-(per)]{Awareness}</p><p>Advanced capacity for perceiving important details and training in noticing elements that seem even a little incongruous.</p><p></p>",
+          "gm": ""
+        },
+        "advances": 2,
+        "restricted": false,
+        "skill": "awareness"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "hR2OnBexveFmPbTt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_id": "2joJ3JNWVsT9sR1l",
+      "_key": "!actors.items!NMbeBDW7mXm5zlpR.2joJ3JNWVsT9sR1l"
+    },
+    {
+      "folder": "RK7ZH8sQLg4GKQWP",
+      "name": "Pistols",
+      "type": "specialisation",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "<p>@UUID[JournalEntry.J8NVn5iNgM57cKmw.JournalEntryPage.NrJuy93Put0XCYq9#ranged-(bs)]{Ranged}</p><p>Extensive training in the use of handguns, such as laspistols, bolt pistols, autopistols, stub revolvers, and similar firearms. </p>",
+          "gm": ""
+        },
+        "advances": 2,
+        "restricted": false,
+        "skill": "ranged"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "hR2OnBexveFmPbTt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_id": "8JnywCphe2a8d3Cx",
+      "_key": "!actors.items!NMbeBDW7mXm5zlpR.8JnywCphe2a8d3Cx"
+    },
+    {
+      "folder": "RK7ZH8sQLg4GKQWP",
+      "name": "Charm",
+      "type": "specialisation",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "<p>@UUID[JournalEntry.J8NVn5iNgM57cKmw.JournalEntryPage.NrJuy93Put0XCYq9#rapport-(fel)]{Rapport}</p><p>Skilled at being exceedingly agreeable and pleasant company, leading to increased ability to make ‘reasonable’ requests of one’s new friends. Charm is often opposed by @UUID[Compendium.impmal-core.items.Item.rZwUyULrgjBjGlbN]{Discipline (Composure)}. </p>",
+          "gm": ""
+        },
+        "advances": 2,
+        "restricted": false,
+        "skill": "rapport"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "hR2OnBexveFmPbTt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_id": "irl6aMXEsxHs56Hu",
+      "_key": "!actors.items!NMbeBDW7mXm5zlpR.irl6aMXEsxHs56Hu"
+    }
+  ],
+  "effects": [],
+  "folder": "mehCsnkT0qSXEPeq",
+  "ownership": {
+    "default": 0,
+    "hR2OnBexveFmPbTt": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "impmal",
+    "systemVersion": "3.2.1"
+  },
+  "sort": 0,
+  "_key": "!actors!NMbeBDW7mXm5zlpR"
+}

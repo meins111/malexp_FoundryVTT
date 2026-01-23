@@ -1,0 +1,20 @@
+{
+  "type": "Actor",
+  "folder": null,
+  "name": "Star Children",
+  "color": null,
+  "sorting": "a",
+  "_id": "ynF8sdZ0ctNGKjgI",
+  "description": "",
+  "sort": 100000,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "impmal",
+    "systemVersion": "3.2.1"
+  },
+  "_key": "!folders!ynF8sdZ0ctNGKjgI"
+}

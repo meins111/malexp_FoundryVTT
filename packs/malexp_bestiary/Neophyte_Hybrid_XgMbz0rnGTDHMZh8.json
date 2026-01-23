@@ -1,0 +1,1149 @@
+{
+  "folder": "ynF8sdZ0ctNGKjgI",
+  "name": "Neophyte Hybrid",
+  "type": "npc",
+  "_id": "XgMbz0rnGTDHMZh8",
+  "img": "modules/impmal-core/assets/tokens/unknown.webp",
+  "system": {
+    "characteristics": {
+      "ws": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      },
+      "bs": {
+        "starting": 30,
+        "advances": 0,
+        "modifier": 0
+      },
+      "str": {
+        "starting": 30,
+        "advances": 0,
+        "modifier": 0
+      },
+      "tgh": {
+        "starting": 30,
+        "advances": 0,
+        "modifier": 0
+      },
+      "ag": {
+        "starting": 35,
+        "advances": 0,
+        "modifier": 0
+      },
+      "int": {
+        "starting": 25,
+        "advances": 0,
+        "modifier": 0
+      },
+      "per": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      },
+      "wil": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      },
+      "fel": {
+        "starting": 30,
+        "advances": 0,
+        "modifier": 0
+      }
+    },
+    "skills": {
+      "athletics": {
+        "characteristic": "str",
+        "advances": 0,
+        "modifier": 0
+      },
+      "awareness": {
+        "characteristic": "per",
+        "advances": 1,
+        "modifier": 0
+      },
+      "dexterity": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "discipline": {
+        "characteristic": "wil",
+        "advances": 0,
+        "modifier": 0
+      },
+      "fortitude": {
+        "characteristic": "tgh",
+        "advances": 0,
+        "modifier": 0
+      },
+      "intuition": {
+        "characteristic": "per",
+        "advances": 0,
+        "modifier": 0
+      },
+      "linguistics": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "logic": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "lore": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "medicae": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "melee": {
+        "characteristic": "ws",
+        "advances": 0,
+        "modifier": 0
+      },
+      "navigation": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "piloting": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "presence": {
+        "characteristic": "wil",
+        "advances": 0,
+        "modifier": 0
+      },
+      "psychic": {
+        "characteristic": "wil",
+        "advances": 0,
+        "modifier": 0
+      },
+      "ranged": {
+        "characteristic": "bs",
+        "advances": 0,
+        "modifier": 0
+      },
+      "rapport": {
+        "characteristic": "fel",
+        "advances": 0,
+        "modifier": 0
+      },
+      "reflexes": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "stealth": {
+        "characteristic": "ag",
+        "advances": 3,
+        "modifier": 0
+      },
+      "tech": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      }
+    },
+    "notes": {
+      "player": "",
+      "gm": ""
+    },
+    "combat": {
+      "size": "medium",
+      "armourModifier": 0,
+      "speed": {
+        "land": {
+          "value": "normal",
+          "modifier": 0
+        },
+        "fly": {
+          "value": "none",
+          "modifier": 0
+        }
+      },
+      "wounds": {
+        "max": 0,
+        "value": 0
+      },
+      "criticals": {
+        "max": 0,
+        "value": 0
+      },
+      "hitLocations": {
+        "head": {
+          "range": [
+            1,
+            1
+          ],
+          "label": "IMPMAL.Head",
+          "abbrev": "IMPMAL.HeadAbbrev"
+        },
+        "leftArm": {
+          "range": [
+            2,
+            2
+          ],
+          "label": "IMPMAL.LeftArm",
+          "abbrev": "IMPMAL.LeftArmAbbrev"
+        },
+        "rightArm": {
+          "range": [
+            3,
+            3
+          ],
+          "label": "IMPMAL.RightArm",
+          "abbrev": "IMPMAL.RightArmAbbrev"
+        },
+        "leftLeg": {
+          "range": [
+            4,
+            4
+          ],
+          "label": "IMPMAL.LeftLeg",
+          "abbrev": "IMPMAL.LeftLegAbbrev"
+        },
+        "rightLeg": {
+          "range": [
+            5,
+            5
+          ],
+          "label": "IMPMAL.RightLeg",
+          "abbrev": "IMPMAL.RightLegAbbrev"
+        },
+        "body": {
+          "range": [
+            6,
+            10
+          ],
+          "label": "IMPMAL.Body",
+          "abbrev": "IMPMAL.BodyAbbrev"
+        }
+      },
+      "resolve": 3,
+      "armour": {
+        "formula": "",
+        "value": 2,
+        "useItems": false
+      }
+    },
+    "faction": {
+      "id": "",
+      "name": "Genestealer Cults"
+    },
+    "species": "Human",
+    "role": "troop",
+    "warp": {
+      "charge": 0,
+      "state": 0,
+      "sustaining": {
+        "list": []
+      }
+    },
+    "autoCalc": {
+      "wounds": true,
+      "criticals": true,
+      "initiative": true
+    }
+  },
+  "prototypeToken": {
+    "name": "Neophyte Hybrid",
+    "displayName": 30,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/impmal-core/assets/tokens/unknown.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [
+    {
+      "folder": "RK7ZH8sQLg4GKQWP",
+      "name": "Might",
+      "type": "specialisation",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "<p>@UUID[JournalEntry.J8NVn5iNgM57cKmw.JournalEntryPage.NrJuy93Put0XCYq9#athletics-(str)]{Athletics}</p><p>Advanced capacity for moving greater weight, breaking physical objects, and enduring heavy loads. In appropriate circumstances, an Athletics (Might) Test can be used in place of a Presence (Intimidation) Test to achieve similar aims.</p>",
+          "gm": ""
+        },
+        "advances": 2,
+        "restricted": false,
+        "skill": "athletics"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "hR2OnBexveFmPbTt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_id": "B0FGDn0JquKjUWyD",
+      "_key": "!actors.items!XgMbz0rnGTDHMZh8.B0FGDn0JquKjUWyD"
+    },
+    {
+      "folder": "pqODAMRANbgIQoQp",
+      "name": "Genestealer Mutation",
+      "type": "trait",
+      "_id": "aTOyR88oC3JmeIoe",
+      "img": "modules/impmal-core/assets/icons/blank.webp",
+      "system": {
+        "notes": {
+          "player": "<p>The Individual is connected to the Genestealer Broodmind, and gains advantage on Discipline Tests when within Long Range of a Genestealer Psyker.</p>",
+          "gm": ""
+        },
+        "attack": {
+          "enabled": false,
+          "type": "melee",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "damage": {
+            "SL": false,
+            "base": "",
+            "characteristic": "",
+            "ignoreAP": false
+          },
+          "range": "",
+          "traits": {
+            "list": []
+          },
+          "self": false
+        },
+        "test": {
+          "enabled": false,
+          "target": "self",
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "roll": {
+          "enabled": false,
+          "formula": "",
+          "label": ""
+        },
+        "category": "standard",
+        "vehicle": {
+          "maneuverable": 0
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "hR2OnBexveFmPbTt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!XgMbz0rnGTDHMZh8.aTOyR88oC3JmeIoe"
+    },
+    {
+      "folder": "pqODAMRANbgIQoQp",
+      "name": "Resurgence",
+      "type": "trait",
+      "_id": "NtMrevyXRwVAtdpI",
+      "img": "modules/impmal-core/assets/icons/blank.webp",
+      "system": {
+        "notes": {
+          "player": "<p>When in Combat, the Cultist has a pool of 3 Resurgence Points. They may spend 1 Resurgence Point to gain +1SL on an Attack Test, 2 Resurgence Points to gain Advantage on any Test, or 3 Resurgence Points to reroll any Attack Test. The Cultist cannot regain the number of Resurgence Points they have spent, and can only spend Resurgence Points once per turn. If the Cultist has not spent any Resurgence Points by the time they die or are defeated, they can all be spent to revive themselves at the start of the next Round at half Wounds in a zone within Medium Range as long as it is not occupied by enemies.</p>",
+          "gm": ""
+        },
+        "attack": {
+          "enabled": false,
+          "type": "melee",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "damage": {
+            "SL": false,
+            "base": "",
+            "characteristic": "",
+            "ignoreAP": false
+          },
+          "range": "",
+          "traits": {
+            "list": []
+          },
+          "self": false
+        },
+        "test": {
+          "enabled": false,
+          "target": "self",
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "roll": {
+          "enabled": false,
+          "formula": "",
+          "label": ""
+        },
+        "category": "standard",
+        "vehicle": {
+          "maneuverable": 0
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "hR2OnBexveFmPbTt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!XgMbz0rnGTDHMZh8.NtMrevyXRwVAtdpI"
+    },
+    {
+      "name": "Autogun",
+      "type": "weapon",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 2
+        },
+        "cost": 600,
+        "availability": "common",
+        "quantity": 1,
+        "equipped": {
+          "value": true,
+          "hand": "",
+          "force": false
+        },
+        "damage": {
+          "base": "6",
+          "characteristic": "",
+          "SL": false,
+          "ignoreAP": false
+        },
+        "traits": {
+          "list": [
+            {
+              "key": "loud"
+            },
+            {
+              "key": "rapidFire",
+              "value": "3"
+            },
+            {
+              "key": "twohanded"
+            }
+          ]
+        },
+        "ammoCost": 30,
+        "attackType": "ranged",
+        "category": "solid",
+        "spec": "longGun",
+        "range": "long",
+        "rangeModifier": {
+          "value": 0,
+          "override": ""
+        },
+        "mag": {
+          "value": 5,
+          "current": 5
+        },
+        "ammo": {
+          "id": ""
+        },
+        "mods": {
+          "list": []
+        },
+        "slots": {
+          "list": [],
+          "value": 0
+        }
+      },
+      "folder": "Eic6vQH0ZQYinOav",
+      "_id": "sVVF7zNaq1amzqx7",
+      "img": "modules/impmal-core/assets/icons/weapons/autogun.webp",
+      "effects": [],
+      "sort": 4400000,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "hR2OnBexveFmPbTt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!XgMbz0rnGTDHMZh8.sVVF7zNaq1amzqx7"
+    },
+    {
+      "name": "Stub Pistol",
+      "type": "weapon",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 250,
+        "availability": "common",
+        "quantity": 1,
+        "equipped": {
+          "value": true,
+          "hand": "",
+          "force": false
+        },
+        "damage": {
+          "base": "6",
+          "characteristic": "",
+          "SL": false,
+          "ignoreAP": false
+        },
+        "traits": {
+          "list": [
+            {
+              "key": "burst"
+            },
+            {
+              "key": "close"
+            },
+            {
+              "key": "loud"
+            }
+          ]
+        },
+        "ammoCost": 20,
+        "attackType": "ranged",
+        "category": "solid",
+        "spec": "pistol",
+        "range": "medium",
+        "rangeModifier": {
+          "value": 0,
+          "override": ""
+        },
+        "mag": {
+          "value": 2,
+          "current": 2
+        },
+        "ammo": {
+          "id": ""
+        },
+        "mods": {
+          "list": []
+        },
+        "slots": {
+          "list": [],
+          "value": 0
+        }
+      },
+      "folder": "Eic6vQH0ZQYinOav",
+      "_id": "2wAqfkHLXJDcK69F",
+      "img": "modules/impmal-core/assets/icons/weapons/stub-pistol.webp",
+      "effects": [],
+      "sort": 600000,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "hR2OnBexveFmPbTt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!XgMbz0rnGTDHMZh8.2wAqfkHLXJDcK69F"
+    },
+    {
+      "name": "Knife",
+      "type": "weapon",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 50,
+        "availability": "common",
+        "quantity": 1,
+        "equipped": {
+          "value": true,
+          "hand": "",
+          "force": false
+        },
+        "damage": {
+          "base": "0",
+          "characteristic": "str",
+          "SL": false,
+          "ignoreAP": false
+        },
+        "traits": {
+          "list": [
+            {
+              "key": "subtle"
+            },
+            {
+              "key": "thrown",
+              "value": "Short"
+            }
+          ]
+        },
+        "ammoCost": 0,
+        "attackType": "melee",
+        "category": "mundane",
+        "spec": "oneHanded",
+        "range": "",
+        "rangeModifier": {
+          "value": 0,
+          "override": ""
+        },
+        "mag": {
+          "value": 0,
+          "current": null
+        },
+        "ammo": {
+          "id": ""
+        },
+        "mods": {
+          "list": []
+        },
+        "slots": {
+          "list": [],
+          "value": 0
+        }
+      },
+      "folder": "Eic6vQH0ZQYinOav",
+      "_id": "lNlNy4i52sQ7mTEP",
+      "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+      "effects": [],
+      "sort": 4700000,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "hR2OnBexveFmPbTt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!XgMbz0rnGTDHMZh8.lNlNy4i52sQ7mTEP"
+    },
+    {
+      "name": "Heavy Leathers",
+      "type": "protection",
+      "folder": "ZuAeviXZUQVXVQQr",
+      "_id": "ksvS1v0Tnz4SRsMm",
+      "img": "modules/impmal-core/assets/icons/protection/armour.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 3
+        },
+        "cost": 60,
+        "availability": "common",
+        "quantity": 1,
+        "equipped": {
+          "value": true,
+          "hand": "",
+          "force": false
+        },
+        "traits": {
+          "list": []
+        },
+        "category": "mundane",
+        "armour": 2,
+        "locations": {
+          "list": [
+            "rightArm",
+            "leftArm",
+            "body",
+            "rightLeg",
+            "leftLeg"
+          ],
+          "label": "Arms, Body, Legs"
+        },
+        "damage": {},
+        "rended": {},
+        "slots": {
+          "list": [],
+          "value": 0
+        },
+        "mods": {
+          "list": []
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "hR2OnBexveFmPbTt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!XgMbz0rnGTDHMZh8.ksvS1v0Tnz4SRsMm"
+    },
+    {
+      "type": "equipment",
+      "name": "Gang/Cult Colors",
+      "_id": "6bWAVzyYuRyCZRbb",
+      "img": "modules/impmal-core/assets/icons/equipment/equipment.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "equipped": {
+          "value": true,
+          "hand": "",
+          "force": false
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 0,
+        "availability": "",
+        "quantity": 1,
+        "uses": {
+          "value": null,
+          "max": null,
+          "enabled": false
+        },
+        "test": {
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "traits": {
+          "list": []
+        },
+        "slots": {
+          "list": [],
+          "value": 0
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "hR2OnBexveFmPbTt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!XgMbz0rnGTDHMZh8.6bWAVzyYuRyCZRbb"
+    },
+    {
+      "folder": "yorIe1MM659QjKCZ",
+      "type": "equipment",
+      "name": "Filtration Plugs",
+      "system": {
+        "notes": {
+          "player": "<p>These items are simple to manufacture and use. They come in pairs and are each set within the nostril to eliminate noxious pollutants and harmful gases (so long as the user remembers to not breathe through their mouth).</p><p>While using filtration plugs, you gain +2 SL on Fortitude Tests made to withstand the effects of harmful gases, such as in Zones with the @UUID[JournalEntry.hdElQAwiBr5AyoRf.JournalEntryPage.zQYkbNcsJmGintdL#hazard]{Hazard} Trait.</p>",
+          "gm": ""
+        },
+        "equipped": {
+          "value": true,
+          "hand": "",
+          "force": false
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 20,
+        "availability": "common",
+        "quantity": 1,
+        "uses": {
+          "value": null,
+          "max": null,
+          "enabled": false
+        },
+        "test": {
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "traits": {
+          "list": []
+        },
+        "slots": {
+          "list": [],
+          "value": 0
+        }
+      },
+      "_id": "BbeFc9VnxG7WQBjU",
+      "img": "modules/impmal-core/assets/icons/equipment/filtration-plugs.webp",
+      "effects": [
+        {
+          "name": "Filtration Plugs",
+          "_id": "2zAmFIH3i4b4QsUk",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "transfer": true,
+          "statuses": [],
+          "flags": {
+            "impmal": {
+              "manualEffectKeys": false
+            }
+          },
+          "tint": "#ffffff",
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.351",
+            "systemId": "impmal",
+            "systemVersion": "3.2.1"
+          },
+          "img": "modules/impmal-core/assets/icons/equipment/filtration-plugs.webp",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none",
+                "opposed": false,
+                "prevention": true,
+                "reversed": false,
+                "skill": {}
+              },
+              "equipTransfer": true,
+              "prompt": false,
+              "zone": {
+                "type": "zone",
+                "transferred": false,
+                "traits": {
+                  "barrier": false,
+                  "difficult": false,
+                  "warpTouched": false
+                },
+                "skipImmediateOnPlacement": false,
+                "keep": false
+              },
+              "originalType": "document",
+              "testIndependent": false,
+              "selfOnly": false,
+              "area": {
+                "templateData": {
+                  "borderColor": null,
+                  "fillColor": null,
+                  "texture": null
+                },
+                "keep": false,
+                "aura": {
+                  "transferred": false,
+                  "render": false
+                },
+                "duration": "sustained"
+              }
+            },
+            "scriptData": [
+              {
+                "label": "Fortitude Tests to withstand harmful gases",
+                "trigger": "dialog",
+                "options": {
+                  "hideScript": "[Script.tL9YNmXaKogz1FAE]",
+                  "activateScript": "",
+                  "submissionScript": "",
+                  "targeter": false,
+                  "deleteEffect": false,
+                  "defending": false,
+                  "runIfDisabled": false,
+                  "showDuplicates": false
+                },
+                "script": "[Script.dc8x3nb7mpNiKqKd]",
+                "async": false
+              }
+            ],
+            "itemTargetData": {
+              "ids": [],
+              "allItems": false
+            },
+            "zone": {
+              "type": "zone",
+              "traits": {},
+              "skipImmediateOnPlacement": false
+            },
+            "sourceData": {
+              "test": {}
+            },
+            "computed": false
+          },
+          "sort": 0,
+          "_key": "!actors.items.effects!XgMbz0rnGTDHMZh8.BbeFc9VnxG7WQBjU.2zAmFIH3i4b4QsUk"
+        }
+      ],
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "Re1K6cm6B4B40dzP": 3,
+        "hR2OnBexveFmPbTt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!XgMbz0rnGTDHMZh8.BbeFc9VnxG7WQBjU"
+    },
+    {
+      "type": "equipment",
+      "name": "1d10 Solars",
+      "_id": "hfVmGvE1Q27AHw7V",
+      "img": "modules/impmal-core/assets/icons/equipment/equipment.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "equipped": {
+          "value": false,
+          "hand": "",
+          "force": false
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 0,
+        "availability": "",
+        "quantity": 1,
+        "uses": {
+          "value": null,
+          "max": null,
+          "enabled": false
+        },
+        "test": {
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "traits": {
+          "list": []
+        },
+        "slots": {
+          "list": [],
+          "value": 0
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "hR2OnBexveFmPbTt": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!XgMbz0rnGTDHMZh8.hfVmGvE1Q27AHw7V"
+    }
+  ],
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "hR2OnBexveFmPbTt": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "impmal",
+    "systemVersion": "3.2.1"
+  },
+  "sort": 0,
+  "_key": "!actors!XgMbz0rnGTDHMZh8"
+}
