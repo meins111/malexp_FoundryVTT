@@ -1,0 +1,112 @@
+{
+  "folder": "NecronDynasty001",
+  "name": "Cryptothrall",
+  "type": "npc",
+  "_id": "CryptothrallElite01",
+  "img": "modules/impmal-core/assets/tokens/unknown.webp",
+  "system": {
+    "characteristics": {
+      "ws": { "starting": 40, "advances": 0, "modifier": 0 },
+      "bs": { "starting": 30, "advances": 0, "modifier": 0 },
+      "str": { "starting": 40, "advances": 0, "modifier": 0 },
+      "tgh": { "starting": 40, "advances": 0, "modifier": 0 },
+      "ag": { "starting": 30, "advances": 0, "modifier": 0 },
+      "int": { "starting": 10, "advances": 0, "modifier": 0 },
+      "per": { "starting": 30, "advances": 0, "modifier": 0 },
+      "wil": { "starting": 30, "advances": 0, "modifier": 0 },
+      "fel": { "starting": 10, "advances": 0, "modifier": 0 }
+    },
+    "skills": {
+      "athletics": { "characteristic": "str", "advances": 0, "modifier": 0 },
+      "awareness": { "characteristic": "per", "advances": 0, "modifier": 0 },
+      "dexterity": { "characteristic": "ag", "advances": 0, "modifier": 0 },
+      "discipline": { "characteristic": "wil", "advances": 0, "modifier": 0 },
+      "fortitude": { "characteristic": "tgh", "advances": 2, "modifier": 0 },
+      "intuition": { "characteristic": "per", "advances": 0, "modifier": 0 },
+      "linguistics": { "characteristic": "int", "advances": 0, "modifier": 0 },
+      "logic": { "characteristic": "int", "advances": 0, "modifier": 0 },
+      "lore": { "characteristic": "int", "advances": 0, "modifier": 0 },
+      "medicae": { "characteristic": "int", "advances": 0, "modifier": 0 },
+      "melee": { "characteristic": "ws", "advances": 2, "modifier": 0 },
+      "navigation": { "characteristic": "int", "advances": 0, "modifier": 0 },
+      "piloting": { "characteristic": "ag", "advances": 0, "modifier": 0 },
+      "presence": { "characteristic": "wil", "advances": 0, "modifier": 0 },
+      "psychic": { "characteristic": "wil", "advances": 0, "modifier": 0 },
+      "ranged": { "characteristic": "bs", "advances": 1, "modifier": 0 },
+      "rapport": { "characteristic": "fel", "advances": 0, "modifier": 0 },
+      "reflexes": { "characteristic": "ag", "advances": 0, "modifier": 0 },
+      "stealth": { "characteristic": "ag", "advances": 0, "modifier": 0 },
+      "tech": { "characteristic": "int", "advances": 0, "modifier": 0 }
+    },
+    "notes": { "player": "", "gm": "" },
+    "combat": {
+      "size": "medium",
+      "armourModifier": 0,
+      "speed": { "land": { "value": "normal", "modifier": 0 }, "fly": { "value": "none", "modifier": 0 } },
+      "wounds": { "max": 15, "value": 15 },
+      "criticals": { "max": 1, "value": 0 },
+      "resolve": 4,
+      "armour": { "formula": "", "value": 6, "useItems": false }
+    },
+    "faction": { "id": "", "name": "Necron (Dynasty)" },
+    "species": "Necron",
+    "role": "elite",
+    "autoCalc": { "wounds": false, "criticals": false, "initiative": false }
+  },
+  "prototypeToken": { "name": "Cryptothrall", "displayName": 30, "actorLink": false, "width": 1, "height": 1, "texture": { "src": "modules/impmal-core/assets/tokens/unknown.webp", "anchorX": 0.5, "anchorY": 0.5, "offsetX": 0, "offsetY": 0, "fit": "contain", "scaleX": 1, "scaleY": 1, "rotation": 0, "tint": "#ffffff", "alphaThreshold": 0.75 }, "disposition": -1, "displayBars": 20, "flags": {} },
+  "items": [
+    {
+      "name": "Living Metal (2)",
+      "type": "trait",
+      "_id": "CTTrait1LivingMetal",
+      "img": "modules/impmal-core/assets/icons/blank.webp",
+      "system": { "notes": { "player": "<p>At the start of the Cryptothrall's turn, it regains 2 Wounds. It is immune to the Bleeding, Fatigued, Frightened, and Poisoned Conditions. Additionally, it has no soul and cannot be detected by abilities such as Soulsight.</p>", "gm": "" }, "attack": { "enabled": false, "type": "melee", "characteristic": "", "skill": { "key": "", "specialisation": "" }, "damage": { "SL": false, "base": "", "characteristic": "", "ignoreAP": false }, "range": "", "traits": { "list": [] }, "self": false }, "test": { "enabled": false, "target": "self", "difficulty": "challenging", "characteristic": "", "skill": { "key": "", "specialisation": "" }, "self": false }, "roll": { "enabled": false, "formula": "", "label": "" }, "category": "standard" },
+      "effects": [], "sort": 0, "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "impmal", "systemVersion": "3.2.1" },
+      "_key": "!actors.items!CryptothrallElite01.CTTrait1LivingMetal"
+    },
+    {
+      "name": "Phase Out",
+      "type": "trait",
+      "_id": "CTTrait2PhaseOut",
+      "img": "modules/impmal-core/assets/icons/blank.webp",
+      "system": { "notes": { "player": "<p>When the Cryptothrall becomes Desperate, it teleports itself back to the nearest tomb world. It also attempts to do this when it is about to Die. The Cryptothrall only counts as being Defeated if it uses Phase Out or dies without using it.</p>", "gm": "" }, "attack": { "enabled": false, "type": "melee", "characteristic": "", "skill": { "key": "", "specialisation": "" }, "damage": { "SL": false, "base": "", "characteristic": "", "ignoreAP": false }, "range": "", "traits": { "list": [] }, "self": false }, "test": { "enabled": false, "target": "self", "difficulty": "challenging", "characteristic": "", "skill": { "key": "", "specialisation": "" }, "self": false }, "roll": { "enabled": false, "formula": "", "label": "" }, "category": "standard" },
+      "effects": [], "sort": 0, "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "impmal", "systemVersion": "3.2.1" },
+      "_key": "!actors.items!CryptothrallElite01.CTTrait2PhaseOut"
+    },
+    {
+      "name": "Reanimation Protocols (7+)",
+      "type": "trait",
+      "_id": "CTTrait3Reanimation",
+      "img": "modules/impmal-core/assets/icons/blank.webp",
+      "system": { "notes": { "player": "<p>When the Cryptothrall would die or be rendered Unconscious, roll 1d10. On a 7 or higher, it does not die or become Unconscious and gains wounds equal to the result.</p>", "gm": "" }, "attack": { "enabled": false, "type": "melee", "characteristic": "", "skill": { "key": "", "specialisation": "" }, "damage": { "SL": false, "base": "", "characteristic": "", "ignoreAP": false }, "range": "", "traits": { "list": [] }, "self": false }, "test": { "enabled": false, "target": "self", "difficulty": "challenging", "characteristic": "", "skill": { "key": "", "specialisation": "" }, "self": false }, "roll": { "enabled": false, "formula": "", "label": "" }, "category": "standard" },
+      "effects": [], "sort": 0, "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "impmal", "systemVersion": "3.2.1" },
+      "_key": "!actors.items!CryptothrallElite01.CTTrait3Reanimation"
+    },
+    {
+      "name": "Scouring Eye",
+      "type": "weapon",
+      "_id": "CTWeapon1ScouringEye",
+      "img": "modules/impmal-core/assets/icons/weapons/pistol.webp",
+      "system": { "notes": { "player": "", "gm": "" }, "encumbrance": { "value": 1 }, "cost": 0, "availability": "", "quantity": 1, "equipped": { "value": true, "hand": "", "force": false }, "damage": { "base": "8", "characteristic": "", "SL": true, "ignoreAP": false }, "traits": { "list": [ { "key": "close" }, { "key": "loud" }, { "key": "penetrating", "value": "4" } ] }, "ammoCost": 0, "attackType": "ranged", "category": "energy", "spec": "pistol", "range": "short", "rangeModifier": { "value": 0, "override": "" }, "mag": { "value": 0, "current": 0 }, "ammo": { "id": "" }, "mods": { "list": [] }, "slots": { "list": [], "value": 0 } },
+      "effects": [], "sort": 0, "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "impmal", "systemVersion": "3.2.1" },
+      "_key": "!actors.items!CryptothrallElite01.CTWeapon1ScouringEye"
+    },
+    {
+      "name": "Scythed Limbs",
+      "type": "weapon",
+      "_id": "CTWeapon2ScythedLimbs",
+      "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+      "system": { "notes": { "player": "", "gm": "" }, "encumbrance": { "value": 0 }, "cost": 0, "availability": "", "quantity": 1, "equipped": { "value": true, "hand": "", "force": false }, "damage": { "base": "6", "characteristic": "", "SL": true, "ignoreAP": false }, "traits": { "list": [ { "key": "penetrating", "value": "4" } ] }, "ammoCost": 0, "attackType": "melee", "category": "mundane", "spec": "oneHanded", "range": "", "rangeModifier": { "value": 0, "override": "" }, "mag": { "value": 0, "current": 0 }, "ammo": { "id": "" }, "mods": { "list": [] }, "slots": { "list": [], "value": 0 } },
+      "effects": [], "sort": 0, "flags": {},
+      "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "impmal", "systemVersion": "3.2.1" },
+      "_key": "!actors.items!CryptothrallElite01.CTWeapon2ScythedLimbs"
+    }
+  ],
+  "effects": [], "sort": 200000, "ownership": { "default": 0 }, "flags": {},
+  "_stats": { "compendiumSource": null, "duplicateSource": null, "exportSource": null, "coreVersion": "13.351", "systemId": "impmal", "systemVersion": "3.2.1" },
+  "_key": "!actors!CryptothrallElite01"
+}

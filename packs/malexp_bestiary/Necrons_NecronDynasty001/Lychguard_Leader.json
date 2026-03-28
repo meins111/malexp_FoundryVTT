@@ -1,0 +1,631 @@
+{
+  "folder": "NecronDynasty001",
+  "name": "Lychguard",
+  "type": "npc",
+  "_id": "LychguardLeader001",
+  "img": "modules/impmal-core/assets/tokens/unknown.webp",
+  "system": {
+    "characteristics": {
+      "ws": {
+        "starting": 50,
+        "advances": 0,
+        "modifier": 0
+      },
+      "bs": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      },
+      "str": {
+        "starting": 60,
+        "advances": 0,
+        "modifier": 0
+      },
+      "tgh": {
+        "starting": 60,
+        "advances": 0,
+        "modifier": 0
+      },
+      "ag": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      },
+      "int": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      },
+      "per": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      },
+      "wil": {
+        "starting": 50,
+        "advances": 0,
+        "modifier": 0
+      },
+      "fel": {
+        "starting": 30,
+        "advances": 0,
+        "modifier": 0
+      }
+    },
+    "skills": {
+      "athletics": {
+        "characteristic": "str",
+        "advances": 2,
+        "modifier": 0
+      },
+      "awareness": {
+        "characteristic": "per",
+        "advances": 1,
+        "modifier": 0
+      },
+      "dexterity": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "discipline": {
+        "characteristic": "wil",
+        "advances": 2,
+        "modifier": 0
+      },
+      "fortitude": {
+        "characteristic": "tgh",
+        "advances": 3,
+        "modifier": 0
+      },
+      "intuition": {
+        "characteristic": "per",
+        "advances": 2,
+        "modifier": 0
+      },
+      "linguistics": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "logic": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "lore": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "medicae": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "melee": {
+        "characteristic": "ws",
+        "advances": 2,
+        "modifier": 0
+      },
+      "navigation": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "piloting": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "presence": {
+        "characteristic": "wil",
+        "advances": 2,
+        "modifier": 0
+      },
+      "psychic": {
+        "characteristic": "wil",
+        "advances": 0,
+        "modifier": 0
+      },
+      "ranged": {
+        "characteristic": "bs",
+        "advances": 0,
+        "modifier": 0
+      },
+      "rapport": {
+        "characteristic": "fel",
+        "advances": 0,
+        "modifier": 0
+      },
+      "reflexes": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "stealth": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "tech": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      }
+    },
+    "notes": {
+      "player": "",
+      "gm": ""
+    },
+    "combat": {
+      "size": "large",
+      "armourModifier": 0,
+      "speed": {
+        "land": {
+          "value": "normal",
+          "modifier": 0
+        },
+        "fly": {
+          "value": "none",
+          "modifier": 0
+        }
+      },
+      "wounds": {
+        "max": 29,
+        "value": 29
+      },
+      "criticals": {
+        "max": 6,
+        "value": 0
+      },
+      "resolve": 5,
+      "armour": {
+        "formula": "1d10",
+        "value": 9,
+        "useItems": false
+      }
+    },
+    "faction": {
+      "id": "",
+      "name": "Necron (Dynasty)"
+    },
+    "species": "Necron",
+    "role": "leader",
+    "autoCalc": {
+      "wounds": false,
+      "criticals": false,
+      "initiative": false
+    }
+  },
+  "prototypeToken": {
+    "name": "Lychguard",
+    "displayName": 30,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/impmal-core/assets/tokens/unknown.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "flags": {}
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "impmal",
+    "systemVersion": "3.2.1"
+  },
+  "_key": "!actors!LychguardLeader001",
+  "items": [
+    {
+      "name": "Living Metal (4)",
+      "type": "trait",
+      "_id": "LGTrait1",
+      "img": "modules/impmal-core/assets/icons/blank.webp",
+      "system": {
+        "notes": {
+          "player": "<p>At the start of the Lychguard's turn, it regains 4 Wounds. It is immune to the Bleeding, Fatigued, Frightened, and Poisoned Conditions. Additionally, it has no soul and cannot be detected by abilities such as Soulsight.</p>",
+          "gm": ""
+        },
+        "attack": {
+          "enabled": false,
+          "type": "melee",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "damage": {
+            "SL": false,
+            "base": "",
+            "characteristic": "",
+            "ignoreAP": false
+          },
+          "range": "",
+          "traits": {
+            "list": []
+          },
+          "self": false
+        },
+        "test": {
+          "enabled": false,
+          "target": "self",
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "roll": {
+          "enabled": false,
+          "formula": "",
+          "label": ""
+        },
+        "category": "standard"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!LychguardLeader001.LGTrait1"
+    },
+    {
+      "name": "Phase Out",
+      "type": "trait",
+      "_id": "LGTrait2",
+      "img": "modules/impmal-core/assets/icons/blank.webp",
+      "system": {
+        "notes": {
+          "player": "<p>When the Lychguard becomes Desperate, it teleports itself back to the nearest tomb world. It also attempts to do this when it is about to Die. The Lychguard only counts as being Defeated if it uses Phase Out or dies without using it.</p>",
+          "gm": ""
+        },
+        "attack": {
+          "enabled": false,
+          "type": "melee",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "damage": {
+            "SL": false,
+            "base": "",
+            "characteristic": "",
+            "ignoreAP": false
+          },
+          "range": "",
+          "traits": {
+            "list": []
+          },
+          "self": false
+        },
+        "test": {
+          "enabled": false,
+          "target": "self",
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "roll": {
+          "enabled": false,
+          "formula": "",
+          "label": ""
+        },
+        "category": "standard"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!LychguardLeader001.LGTrait2"
+    },
+    {
+      "name": "Reanimation Protocols (7+)",
+      "type": "trait",
+      "_id": "LGTrait3",
+      "img": "modules/impmal-core/assets/icons/blank.webp",
+      "system": {
+        "notes": {
+          "player": "<p>When the Lychguard would die or be rendered Unconscious, roll 1d10. On a 7 or higher, it does not die or become Unconscious and gains wounds equal to the result.</p>",
+          "gm": ""
+        },
+        "attack": {
+          "enabled": false,
+          "type": "melee",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "damage": {
+            "SL": false,
+            "base": "",
+            "characteristic": "",
+            "ignoreAP": false
+          },
+          "range": "",
+          "traits": {
+            "list": []
+          },
+          "self": false
+        },
+        "test": {
+          "enabled": false,
+          "target": "self",
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "roll": {
+          "enabled": false,
+          "formula": "",
+          "label": ""
+        },
+        "category": "standard"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!LychguardLeader001.LGTrait3"
+    },
+    {
+      "name": "Ultimate Bodyguard",
+      "type": "trait",
+      "_id": "LGTrait4",
+      "img": "modules/impmal-core/assets/icons/blank.webp",
+      "system": {
+        "notes": {
+          "player": "<p>As long as the Lord the Lychguard has been assigned to protect is not Defeated, the Lychguard can never become Desperate. The Lychguard may spend their Reaction to immediately move to Defend this charge as long as it is within Long Range.</p>",
+          "gm": ""
+        },
+        "attack": {
+          "enabled": false,
+          "type": "melee",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "damage": {
+            "SL": false,
+            "base": "",
+            "characteristic": "",
+            "ignoreAP": false
+          },
+          "range": "",
+          "traits": {
+            "list": []
+          },
+          "self": false
+        },
+        "test": {
+          "enabled": false,
+          "target": "self",
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "roll": {
+          "enabled": false,
+          "formula": "",
+          "label": ""
+        },
+        "category": "standard"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!LychguardLeader001.LGTrait4"
+    },
+    {
+      "name": "Hyperphase Sword",
+      "type": "weapon",
+      "_id": "LGWeapon1",
+      "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 1
+        },
+        "cost": 0,
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": true,
+          "hand": "",
+          "force": false
+        },
+        "damage": {
+          "base": "12",
+          "characteristic": "",
+          "SL": true,
+          "ignoreAP": false
+        },
+        "traits": {
+          "list": [
+            {
+              "key": "penetrating",
+              "value": "6"
+            }
+          ]
+        },
+        "ammoCost": 0,
+        "attackType": "melee",
+        "category": "mundane",
+        "spec": "oneHanded",
+        "range": "",
+        "rangeModifier": {
+          "value": 0,
+          "override": ""
+        },
+        "mag": {
+          "value": 0,
+          "current": 0
+        },
+        "ammo": {
+          "id": ""
+        },
+        "mods": {
+          "list": []
+        },
+        "slots": {
+          "list": [],
+          "value": 0
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!LychguardLeader001.LGWeapon1"
+    },
+    {
+      "name": "Warscythe",
+      "type": "weapon",
+      "_id": "LGWeapon2",
+      "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 1
+        },
+        "cost": 0,
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": true,
+          "hand": "",
+          "force": false
+        },
+        "damage": {
+          "base": "12",
+          "characteristic": "",
+          "SL": true,
+          "ignoreAP": false
+        },
+        "traits": {
+          "list": [
+            {
+              "key": "phase"
+            },
+            {
+              "key": "twoHanded"
+            }
+          ]
+        },
+        "ammoCost": 0,
+        "attackType": "melee",
+        "category": "mundane",
+        "spec": "twoHanded",
+        "range": "",
+        "rangeModifier": {
+          "value": 0,
+          "override": ""
+        },
+        "mag": {
+          "value": 0,
+          "current": 0
+        },
+        "ammo": {
+          "id": ""
+        },
+        "mods": {
+          "list": []
+        },
+        "slots": {
+          "list": [],
+          "value": 0
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!LychguardLeader001.LGWeapon2"
+    }
+  ]
+}
