@@ -287,7 +287,15 @@
       },
       "effects": [],
       "sort": 0,
-      "flags": {},
+      "flags": {
+        "macro": {
+          "type": "script",
+          "scope": "macro",
+          "command": "const actor = this.actor;\nif (!actor) return;\nconst currentWounds = actor.system.combat.wounds.value;\nconst maxWounds = actor.system.combat.wounds.max;\nif (currentWounds > 0 && currentWounds < maxWounds) {\n    const newWounds = Math.max(currentWounds - 2, 0);\n    await actor.update({ \"system.combat.wounds.value\": newWounds });\n    ChatMessage.create({\n        speaker: ChatMessage.getSpeaker({ actor: actor }),\n        content: `<div class=\"im-chat-card\" style=\"border: 1px solid #00ffcc; padding: 8px; border-radius: 4px; background: #111;\"><h3 style=\"color: #00ffcc; margin-top: 0; display: flex; align-items: center; gap: 5px;\">🤖 Metal Viviente</h3><p style=\"font-size: 13px; margin-bottom: 5px;\">La estructura de la máquina se reconfigura de forma autónoma.</p><hr style=\"border: 0; border-top: 1px solid #333;\"><p style=\"font-size: 12px; margin: 0;\"><b>Efecto:</b> Se reducen 2 Heridas.</p><p style=\"font-size: 11px; color: #888; margin: 3px 0 0 0;\">Heridas: <code>${currentWounds}</code> ➔ <code style=\"color: #00ffcc; font-weight: bold;\">${newWounds}</code></p></div>`\n    });\n}",
+          "author": "MiguelWanderer",
+          "trigger": "startTurn"
+        }
+      },
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
