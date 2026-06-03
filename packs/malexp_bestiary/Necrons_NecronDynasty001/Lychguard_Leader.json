@@ -305,8 +305,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>When the Lychguard becomes Desperate, it teleports itself back to the nearest tomb world. It also attempts to do this when it is about to Die. The Lychguard only counts as being Defeated if it uses Phase Out or dies without using it.</p>",
-          "gm": ""
+          "player": "",
+          "gm": "<p>When the Lychguard becomes Desperate, it teleports itself back to the nearest tomb world. It also attempts to do this when it is about to Die. The Lychguard only counts as being Defeated if it uses Phase Out or dies without using it.</p>"
         },
         "attack": {
           "enabled": false,
@@ -427,8 +427,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>As long as the Lord the Lychguard has been assigned to protect is not Defeated, the Lychguard can never become Desperate. The Lychguard may spend their Reaction to immediately move to Defend this charge as long as it is within Long Range.</p>",
-          "gm": ""
+          "player": "",
+          "gm": "<p>As long as the Lord the Lychguard has been assigned to protect is not Defeated, the Lychguard can never become Desperate. The Lychguard may spend their Reaction to immediately move to Defend this charge as long as it is within Long Range.</p>"
         },
         "attack": {
           "enabled": false,

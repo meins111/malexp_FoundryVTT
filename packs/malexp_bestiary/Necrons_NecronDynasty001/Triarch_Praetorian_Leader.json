@@ -317,8 +317,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>When the Triarch Praetorian becomes Desperate, it teleports itself back to the nearest tomb world. It also attempts to do this when it is about to Die. The Triarch Praetorian only counts as being Defeated if it uses Phase Out or dies without using it.</p>",
-          "gm": ""
+          "player": "",
+          "gm": "<p>When the Triarch Praetorian becomes Desperate, it teleports itself back to the nearest tomb world. It also attempts to do this when it is about to Die. The Triarch Praetorian only counts as being Defeated if it uses Phase Out or dies without using it.</p>"
         },
         "attack": {
           "enabled": false,
@@ -439,8 +439,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Triarch Praetorian may re-roll one Attack Test per Round, and can move through one additional zone when they Charge. If the Triarch Praetorian Charges while in Flight, they add +2 SL to the Attack Test. When making Lore tests regarding the Necron Codes of Honor or Presence tests upholding the will of the Triarchs, they do so with Advantage.</p>",
-          "gm": ""
+          "player": "",
+          "gm": "<p>The Triarch Praetorian may re-roll one Attack Test per Round, and can move through one additional zone when they Charge. If the Triarch Praetorian Charges while in Flight, they add +2 SL to the Attack Test. When making Lore tests regarding the Necron Codes of Honor or Presence tests upholding the will of the Triarchs, they do so with Advantage.<p/>"
         },
         "attack": {
           "enabled": false,

@@ -317,8 +317,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>When the Plasmancer becomes Desperate, it teleports itself back to the nearest tomb world. It also attempts to do this when it is about to Die. The Plasmancer only counts as being Defeated if it uses Phase Out or dies without using it.</p>",
-          "gm": ""
+          "player": "",
+          "gm": "<p>When the Plasmancer becomes Desperate, it teleports itself back to the nearest tomb world. It also attempts to do this when it is about to Die. The Plasmancer only counts as being Defeated if it uses Phase Out or dies without using it.</p>"
         },
         "attack": {
           "enabled": false,
@@ -439,8 +439,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Once per Encounter as an Action, the Plasmancer may choose a creature within Medium Range. The target and creatures within Immediate Range suffer 12 Damage. A creature Damaged by this must also pass a Hard (-20) Fortitude (Endurance) Test or be Stunned until the beginning of the Plasmancer's next turn. If all Characters become Stunned, they lose 1 Superiority.</p>",
-          "gm": ""
+          "player": "",
+          "gm": "<p>Once per Encounter as an Action, the Plasmancer may choose a creature within Medium Range. The target and creatures within Immediate Range suffer 12 Damage. A creature Damaged by this must also pass a Hard (-20) Fortitude (Endurance) Test or be Stunned until the beginning of the Plasmancer's next turn. If all Characters become Stunned, they lose 1 Superiority.</p>"
         },
         "attack": {
           "enabled": false,

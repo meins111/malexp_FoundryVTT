@@ -317,8 +317,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>When the Apprentek becomes Desperate, it teleports itself back to the nearest tomb world. It also attempts to do this when it is about to Die. The Apprentek only counts as being Defeated if it uses Phase Out or dies without using it.</p>",
-          "gm": ""
+          "player": "",
+          "gm": "<p>When the Apprentek becomes Desperate, it teleports itself back to the nearest tomb world. It also attempts to do this when it is about to Die. The Apprentek only counts as being Defeated if it uses Phase Out or dies without using it.</p>"
         },
         "attack": {
           "enabled": false,

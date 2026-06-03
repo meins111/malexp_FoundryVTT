@@ -305,8 +305,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>When the Deathmark becomes Desperate, it teleports itself back to the nearest tomb world. It also attempts to do this when it is about to Die. The Deathmark only counts as being Defeated if it uses Phase Out or dies without using it.</p>",
-          "gm": ""
+          "player": "",
+          "gm": "<p>When the Deathmark becomes Desperate, it teleports itself back to the nearest tomb world. It also attempts to do this when it is about to Die. The Deathmark only counts as being Defeated if it uses Phase Out or dies without using it.</p>"
         },
         "attack": {
           "enabled": false,
@@ -427,8 +427,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>As a Free Action, a Deathmark can open a portal to a pocket dimension within Short Range. Any creature that enters is subject to suffocation, vacuum effects, and a -3SL penalty to all Tests relying on sensory perception.</p>",
-          "gm": ""
+          "player": "",
+          "gm": "<p>As a Free Action, a Deathmark can open a portal to a pocket dimension within Short Range. Any creature that enters is subject to suffocation, vacuum effects, and a -3SL penalty to all Tests relying on sensory perception.</p>"
         },
         "attack": {
           "enabled": false,
@@ -488,8 +488,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>At the cost of an action, a Deathmark may Mark any enemy for death. Deathmarks suffer no penalties to hit a marked target due to range, darkness, fog, or even complete concealment. They can only have one marked target at a time.</p>",
-          "gm": ""
+          "player": "",
+          "gm": "<p>At the cost of an action, a Deathmark may Mark any enemy for death. Deathmarks suffer no penalties to hit a marked target due to range, darkness, fog, or even complete concealment. They can only have one marked target at a time.</p>"
         },
         "attack": {
           "enabled": false,

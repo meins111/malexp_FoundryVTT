@@ -305,8 +305,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>When the Flayed One becomes Desperate, it teleports itself back to the nearest tomb world. It also attempts to do this when it is about to Die. The Flayed One only counts as being Defeated if it uses Phase Out or dies without using it.</p>",
-          "gm": ""
+          "player": "",
+          "gm": "<p>When the Flayed One becomes Desperate, it teleports itself back to the nearest tomb world. It also attempts to do this when it is about to Die. The Flayed One only counts as being Defeated if it uses Phase Out or dies without using it.</p>"
         },
         "attack": {
           "enabled": false,
@@ -427,8 +427,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Flayed One may make its Flayer Claws attack twice, once with each claw. Should it lose the use of an arm, it cannot use this trait.</p>",
-          "gm": ""
+          "player": "",
+          "gm": "<p>The Flayed One may make its Flayer Claws attack twice, once with each claw. Should it lose the use of an arm, it cannot use this trait.</p>"
         },
         "attack": {
           "enabled": false,

@@ -305,8 +305,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>When the Necron Lord becomes Desperate, it teleports itself back to the nearest tomb world. It also attempts to do this when it is about to Die. The Necron Lord only counts as being Defeated if it uses Phase Out or dies without using it.</p>",
-          "gm": ""
+          "player": "",
+          "gm": "<p>When the Necron Lord becomes Desperate, it teleports itself back to the nearest tomb world. It also attempts to do this when it is about to Die. The Necron Lord only counts as being Defeated if it uses Phase Out or dies without using it.</p>"
         },
         "attack": {
           "enabled": false,
@@ -427,8 +427,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Necron Lord may select one Necron ally of the same Dynasty within Short Range. Until the start of the Lord's next turn, this ally may re-roll failed Attack Tests once.</p>",
-          "gm": ""
+          "player": "",
+          "gm": "<p>The Necron Lord may select one Necron ally of the same Dynasty within Short Range. Until the start of the Lord's next turn, this ally may re-roll failed Attack Tests once.</p>"
         },
         "attack": {
           "enabled": false,
@@ -488,8 +488,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>While a Necron ally of the same Dynasty is within Short Range of the Necron Lord, it may Move and Charge as if it had Normal Speed instead of Slow.</p>",
-          "gm": ""
+          "player":"",
+          "gm": "<p>While a Necron ally of the same Dynasty is within Short Range of the Necron Lord, it may Move and Charge as if it had Normal Speed instead of Slow.</p>"
         },
         "attack": {
           "enabled": false,

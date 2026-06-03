@@ -305,8 +305,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>When the Necron Pariah becomes Desperate, it teleports itself back to the nearest tomb world. It also attempts to do this when it is about to Die. The Necron Pariah only counts as being Defeated if it uses Phase Out or dies without using it.</p>",
-          "gm": ""
+          "player": "",
+          "gm": "<p>When the Necron Pariah becomes Desperate, it teleports itself back to the nearest tomb world. It also attempts to do this when it is about to Die. The Necron Pariah only counts as being Defeated if it uses Phase Out or dies without using it.</p>"
         },
         "attack": {
           "enabled": false,

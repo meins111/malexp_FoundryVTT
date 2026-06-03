@@ -305,8 +305,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>When the Royal Warden becomes Desperate, it teleports itself back to the nearest tomb world. It also attempts to do this when it is about to Die. The Royal Warden only counts as being Defeated if it uses Phase Out or dies without using it.</p>",
-          "gm": ""
+          "player": "",
+          "gm": "<p>When the Royal Warden becomes Desperate, it teleports itself back to the nearest tomb world. It also attempts to do this when it is about to Die. The Royal Warden only counts as being Defeated if it uses Phase Out or dies without using it.</p>"
         },
         "attack": {
           "enabled": false,
@@ -427,8 +427,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Once per Encounter, as long as the Royal Warden is not Engaged, they may use an Action to make a Challenging (+0) Presence (Leadership) Test. If they succeed, a number of Necrons equal to the SL within Long Range may immediately take an Action.</p>",
-          "gm": ""
+          "player": "",
+          "gm": "<p>Once per Encounter, as long as the Royal Warden is not Engaged, they may use an Action to make a Challenging (+0) Presence (Leadership) Test. If they succeed, a number of Necrons equal to the SL within Long Range may immediately take an Action.</p>"
         },
         "attack": {
           "enabled": false,
@@ -488,8 +488,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Once per Encounter, the Royal Warden may make an Opposed Challenging (+0) Logic Test. If they succeed, reduce the party's Superiority by 1 and may trigger an ambush with 1d5+1 Necron Warriors or create a Major Hazard in a Zone. If they fail, the party gains 1 Superiority instead.</p>",
-          "gm": ""
+          "player": "",
+          "gm": "<p>Once per Encounter, the Royal Warden may make an Opposed Challenging (+0) Logic Test. If they succeed, reduce the party's Superiority by 1 and may trigger an ambush with 1d5+1 Necron Warriors or create a Major Hazard in a Zone. If they fail, the party gains 1 Superiority instead.</p>"
         },
         "attack": {
           "enabled": false,
@@ -549,8 +549,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Some Royal Wardens are 'Varguards', sworn bodyguards to their Overlord. Increase WS, STR, TGH to 60, Per to 40, Athletics to 65, Melee to 75, Melee (Two-Handed) to 80, Fortitude to 70, Critical Wounds to 6, Wounds to 30, Initiative to 7. Equip with Warscythe instead of Relic Gauss Blaster.</p>",
-          "gm": ""
+          "player": "",
+          "gm": "<p>Some Royal Wardens are 'Varguards', sworn bodyguards to their Overlord. Increase WS, STR, TGH to 60, Per to 40, Athletics to 65, Melee to 75, Melee (Two-Handed) to 80, Fortitude to 70, Critical Wounds to 6, Wounds to 30, Initiative to 7. Equip with Warscythe instead of Relic Gauss Blaster.</p>"
         },
         "attack": {
           "enabled": false,

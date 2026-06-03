@@ -305,8 +305,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>When the Necron Immortal becomes Desperate, it teleports itself back to the nearest tomb world. It also attempts to do this when it is about to Die. The Necron Immortal only counts as being Defeated if it uses Phase Out or dies without using it.</p>",
-          "gm": ""
+          "player": "",
+          "gm": "<p>When the Necron Immortal becomes Desperate, it teleports itself back to the nearest tomb world. It also attempts to do this when it is about to Die. The Necron Immortal only counts as being Defeated if it uses Phase Out or dies without using it.</p>"
         },
         "attack": {
           "enabled": false,
@@ -427,8 +427,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Once per combat, as an Action, a Necron Immortal may attempt a Challenging (+0) Logic test. On a success, all Necron Warriors within Medium range gain +1SL to Ranged tests for one Turn. If the test is failed by -3SL or worse, they suffer -1SL to Ranged tests instead.</p>",
-          "gm": ""
+          "player": "",
+          "gm": "<p>Once per combat, as an Action, a Necron Immortal may attempt a Challenging (+0) Logic test. On a success, all Necron Warriors within Medium range gain +1SL to Ranged tests for one Turn. If the test is failed by -3SL or worse, they suffer -1SL to Ranged tests instead.</p>"
         },
         "attack": {
           "enabled": false,
