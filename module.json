@@ -1,7 +1,7 @@
 {
     "id": "impmal-malexp",
     "title": "Imperium Maledictum - Maledictum Expanded Homebrew Additions and Convertions",
-    "version": "v1.2.0",
+    "version": "v1.3.0",
     "compatibility": {
         "minimum": "12",
         "verified": "13"
