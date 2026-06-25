@@ -34,7 +34,9 @@ Contains many more item options (weapons, armor, drugs, wargear, etc) from vario
 - [x] Inject Expanded Weapon Traits to ImpMal system
 
 ### Expanded Bestiary
-- [x] Import Star Children
+- [x] Import Star Children (credits: Stexinator)
+- [ ] Import Necron (credits: Miguel)
+- [ ] Import Adeptus Mechanicus (credits: Miguel)
 
 ### Expanded Character Creation
 - [ ] Import New Species
@@ -47,6 +49,7 @@ Contains many more item options (weapons, armor, drugs, wargear, etc) from vario
 - v1.0.2: Weapon import, release script
 - v1.1.0: First Bestiary entries
 - v1.2.0: Ogryn PoC, more Bestiary
+- v1.3.0: Necrons & AdMech Bestiary
 
 # Development
 **Setup:** Make sure you have npm and nodejs (20+) installed. Run `npm install` in the repository root folder.
