@@ -94,7 +94,7 @@ Hooks.on('init', () => {
                     if (!target.actor?.applyDamage) return;
 
                     ChatMessage.create({
-                        content: `<p><i class="fa-solid fa-bolt"></i> Tesla: el rayo salta hacia ${target.name}</p>`,
+                        content: '<p><i class="fa-solid fa-bolt"></i> Tesla: el rayo salta hacia ' + target.name + '</p>',
                         speaker: ChatMessage.getSpeaker({actor: attackerTest.actor})
                     });
 
