@@ -146,55 +146,75 @@ Hooks.on('init', () => {
             }
         },
         fast: {
-        name: 'Fast',
-        system: {
-            transferData: { documentType: 'Item' },
-            scriptData: [{
-                label: 'Fast: -2 SL al intentar Parry',
-                trigger: 'dialog',
-                script: "args.fields.SL -= 2;",
-                options: {
-                    hideScript: "return !args.actor.defendingAgainst || !args.weapon;",
-                    activateScript: "return !!args.actor.defendingAgainst && !!args.weapon;"
-                }
-            }]
+            name: 'Fast',
+            system: {
+                transferData: { documentType: 'Item' },
+                scriptData: [{
+                    label: 'Fast: -2 SL al intentar Parry',
+                    trigger: 'dialog',
+                    script: "args.fields.SL -= 2;",
+                    options: {
+                        hideScript: "return !args.actor.defendingAgainst || !args.weapon;",
+                        activateScript: "return !!args.actor.defendingAgainst && !!args.weapon;"
+                    }
+                }]
+            }
         },
         phase: {
-        name: 'Phase',
-        system: {
-            transferData: { documentType: 'Item' },
-            scriptData: [
-                {
-                    label: "Phase: Ignora Armadura y Campos de Fuerza",
-                    trigger: 'preApplyDamage',
-                    script: `
-                        args.ignoreAP = true;
-                        if (args.locationData) args.locationData.field = null;
-                    `
-                },
-                {
-                    label: "Phase: Destruccion contra C'tan",
-                    trigger: 'preApplyDamage',
-                    script: `
-                        let isCtan = args.actor.items.some(i => i.name === "C'tan");
-                        if (!isCtan) return;
+            name: 'Phase',
+            system: {
+                transferData: { documentType: 'Item' },
+                scriptData: [
+                    {
+                        label: "Phase: Ignora Armadura y Campos de Fuerza",
+                        trigger: 'preApplyDamage',
+                        script: `
+                            args.ignoreAP = true;
+                            if (args.locationData) args.locationData.field = null;
+                        `
+                    },
+                    {
+                        label: "Phase: Destruccion contra C'tan",
+                        trigger: 'preApplyDamage',
+                        script: `
+                            let isCtan = args.actor.items.some(i => i.name === "C'tan");
+                            if (!isCtan) return;
 
-                        args.value = 0; // El ataque no causa dano al C'tan
+                            args.value = 0; // El ataque no causa dano al C'tan
 
-                        new Roll("2d10").roll().then(heal => {
-                            heal.toMessage({ flavor: "Phase: el C'tan se regenera", speaker: { alias: args.actor.name } });
-                            let newWounds = Math.max(0, args.actor.system.combat.wounds.value - heal.total);
-                            args.actor.update({ "system.combat.wounds.value": newWounds });
-                        });
+                            new Roll("2d10").roll().then(heal => {
+                                heal.toMessage({ flavor: "Phase: el C'tan se regenera", speaker: { alias: args.actor.name } });
+                                let newWounds = Math.max(0, args.actor.system.combat.wounds.value - heal.total);
+                                args.actor.update({ "system.combat.wounds.value": newWounds });
+                            });
 
-                        this.item.delete();
-                    `
-                }
-            ]
+                            this.item.delete();
+                        `
+                    }
+                ]
+            }
+        },
+
+        grav: {
+            name: 'Grav',
+            system: {
+                transferData: { documentType: 'Item' },
+                scriptData: [
+                    {
+                        label: "Grav: Suma el Indice de Armadura al Dano",
+                        trigger: 'preApplyDamage',
+                        script: `
+                            let armourBonus = (args.modifiers || [])
+                                .filter(m => m.armour)
+                                .reduce((sum, m) => sum - Number(m.value || 0), 0);
+                            if (armourBonus < 0) {
+                                args.woundsGained = (args.woundsGained || 0) + armourBonus;
+                            }
+                        `
+                    }
+                ]
+            }
         }
-    }
-    }
-
     });
 
 
