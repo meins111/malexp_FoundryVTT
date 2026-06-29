@@ -31,6 +31,9 @@
         {
           "key": "penetrating",
           "value": "6"
+        },
+        {
+          "key": "gauss" 
         }
       ]
     },
