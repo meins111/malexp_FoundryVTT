@@ -1,53 +1,53 @@
 {
-  "folder": "ynF8sdZ0ctNGKjgI",
-  "name": "Kelermorph",
+  "folder": "rYE4s1jknBleY1s5",
+  "name": "Krootox",
   "type": "npc",
-  "_id": "uHUNMldJXblTlOUL",
+  "_id": "1B0XLaT5TmMzauqG",
   "img": "modules/impmal-core/assets/tokens/unknown.webp",
   "system": {
     "characteristics": {
       "ws": {
-        "starting": 35,
+        "starting": 40,
         "advances": 0,
         "modifier": 0
       },
       "bs": {
-        "starting": 40,
+        "starting": 0,
         "advances": 0,
         "modifier": 0
       },
       "str": {
-        "starting": 30,
+        "starting": 55,
         "advances": 0,
         "modifier": 0
       },
       "tgh": {
-        "starting": 30,
+        "starting": 55,
         "advances": 0,
         "modifier": 0
       },
       "ag": {
-        "starting": 40,
-        "advances": 0,
-        "modifier": 0
-      },
-      "int": {
         "starting": 30,
         "advances": 0,
         "modifier": 0
       },
+      "int": {
+        "starting": 10,
+        "advances": 0,
+        "modifier": 0
+      },
       "per": {
-        "starting": 50,
+        "starting": 25,
         "advances": 0,
         "modifier": 0
       },
       "wil": {
-        "starting": 40,
+        "starting": 25,
         "advances": 0,
         "modifier": 0
       },
       "fel": {
-        "starting": 40,
+        "starting": 10,
         "advances": 0,
         "modifier": 0
       }
@@ -55,12 +55,12 @@
     "skills": {
       "athletics": {
         "characteristic": "str",
-        "advances": 2,
+        "advances": 1,
         "modifier": 0
       },
       "awareness": {
         "characteristic": "per",
-        "advances": 2,
+        "advances": 1,
         "modifier": 0
       },
       "dexterity": {
@@ -130,17 +130,17 @@
       },
       "ranged": {
         "characteristic": "bs",
-        "advances": 2,
+        "advances": 0,
         "modifier": 0
       },
       "rapport": {
         "characteristic": "fel",
-        "advances": 2,
+        "advances": 0,
         "modifier": 0
       },
       "reflexes": {
         "characteristic": "ag",
-        "advances": 2,
+        "advances": 0,
         "modifier": 0
       },
       "stealth": {
@@ -156,7 +156,7 @@
     },
     "notes": {
       "player": "",
-      "gm": "<p>Possessions: Heavy Leathers, Gang/Cult Colors, Filtration Plugs, Ornamental Cape</p>"
+      "gm": "<p>Possessions: None.</p>"
     },
     "combat": {
       "size": "medium",
@@ -171,28 +171,28 @@
           "modifier": 0
         }
       },
-      "initiative": 9,
+      "initiative": 5,
       "wounds": {
-        "max": 13,
-        "value": 13
+        "max": 17,
+        "value": 17
       },
       "criticals": {
-        "max": 1,
+        "max": 0,
         "value": 0
       },
-      "resolve": 3,
+      "resolve": 1,
       "armour": {
         "formula": "",
-        "value": 2,
+        "value": 0,
         "useItems": false
       }
     },
     "faction": {
       "id": "",
-      "name": "Star Children"
+      "name": "T'au Empire"
     },
-    "species": "Mutant (Genestealer Cults)",
-    "role": "elite",
+    "species": "Kroot (T'au Empire)",
+    "role": "troop",
     "autoCalc": {
       "wounds": false,
       "criticals": false,
@@ -200,7 +200,7 @@
     }
   },
   "prototypeToken": {
-    "name": "Kelermorph",
+    "name": "Krootox",
     "displayName": 20,
     "actorLink": false,
     "width": 1,
@@ -236,16 +236,16 @@
     "systemId": "impmal",
     "systemVersion": "3.2.1"
   },
-  "_key": "!actors!uHUNMldJXblTlOUL",
+  "_key": "!actors!1B0XLaT5TmMzauqG",
   "items": [
     {
-      "name": "Folktale Hero",
+      "name": "Kroot-Served Weapon Platform",
       "type": "trait",
-      "_id": "wFVZTcz58BnyZF5e",
+      "_id": "E3EhnffSMwfoWmXR",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Kelermorph inspires all those around it, and grants Advantage on Tests to resist or end the Frightened Condition. Additionally, as long as the Kelermorph is not Desperate, they grant +1 Resolve to all Genestealer Cult allies.</p>",
+          "player": "<p>Krootox may be accompanied by a single Kroot, operating a Kroot Gun mounted on the Krootox. This way, the Kroot may be shot at, but still counts as being part of the Krootox. This is the only way to use the Kroot Gun attack.</p>",
           "gm": ""
         },
         "attack": {
@@ -297,195 +297,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!uHUNMldJXblTlOUL.wFVZTcz58BnyZF5e"
+      "_key": "!actors.items!1B0XLaT5TmMzauqG.E3EhnffSMwfoWmXR"
     },
     {
-      "name": "Genestealer Mutation",
-      "type": "trait",
-      "_id": "eUQWcLipZzlfaK2z",
-      "img": "modules/impmal-core/assets/icons/blank.webp",
-      "system": {
-        "notes": {
-          "player": "<p>The Individual is connected to the Genestealer Broodmind, and gains advantage on Discipline Tests when within Long Range of a Genestealer Psyker.</p>",
-          "gm": ""
-        },
-        "attack": {
-          "enabled": false,
-          "type": "melee",
-          "characteristic": "",
-          "skill": {
-            "key": "",
-            "specialisation": ""
-          },
-          "damage": {
-            "SL": false,
-            "base": "",
-            "characteristic": "",
-            "ignoreAP": false
-          },
-          "range": "",
-          "traits": {
-            "list": []
-          },
-          "self": false
-        },
-        "test": {
-          "enabled": false,
-          "target": "self",
-          "difficulty": "challenging",
-          "characteristic": "",
-          "skill": {
-            "key": "",
-            "specialisation": ""
-          },
-          "self": false
-        },
-        "roll": {
-          "enabled": false,
-          "formula": "",
-          "label": ""
-        },
-        "category": "standard"
-      },
-      "effects": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "impmal",
-        "systemVersion": "3.2.1"
-      },
-      "_key": "!actors.items!uHUNMldJXblTlOUL.eUQWcLipZzlfaK2z"
-    },
-    {
-      "name": "Multi-Limbed",
-      "type": "trait",
-      "_id": "CfoiWQgKJUk1gxbp",
-      "img": "modules/impmal-core/assets/icons/blank.webp",
-      "system": {
-        "notes": {
-          "player": "<p>This character has additional limbs, and may use them to wield an additional One-Handed or Pistol weapon and use it in combat.</p>",
-          "gm": ""
-        },
-        "attack": {
-          "enabled": false,
-          "type": "melee",
-          "characteristic": "",
-          "skill": {
-            "key": "",
-            "specialisation": ""
-          },
-          "damage": {
-            "SL": false,
-            "base": "",
-            "characteristic": "",
-            "ignoreAP": false
-          },
-          "range": "",
-          "traits": {
-            "list": []
-          },
-          "self": false
-        },
-        "test": {
-          "enabled": false,
-          "target": "self",
-          "difficulty": "challenging",
-          "characteristic": "",
-          "skill": {
-            "key": "",
-            "specialisation": ""
-          },
-          "self": false
-        },
-        "roll": {
-          "enabled": false,
-          "formula": "",
-          "label": ""
-        },
-        "category": "standard"
-      },
-      "effects": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "impmal",
-        "systemVersion": "3.2.1"
-      },
-      "_key": "!actors.items!uHUNMldJXblTlOUL.CfoiWQgKJUk1gxbp"
-    },
-    {
-      "name": "Gunslinger of Legend",
-      "type": "trait",
-      "_id": "yh8ODX4b2OG6Ez6C",
-      "img": "modules/impmal-core/assets/icons/blank.webp",
-      "system": {
-        "notes": {
-          "player": "<p>The Kelermorph is capable of firing all their Liberator Autostub Pistols in one Action as per Two-Weapon Fighting and does not suffer Disadvantage when doing so. Additionally, when combat begins, the Kelermorph may attack with one of their pistols before anyone else regardless of Initiative. If they are Surprised, they must make a Hard (-20) Reflexes Test to use this effect.</p>",
-          "gm": ""
-        },
-        "attack": {
-          "enabled": false,
-          "type": "melee",
-          "characteristic": "",
-          "skill": {
-            "key": "",
-            "specialisation": ""
-          },
-          "damage": {
-            "SL": false,
-            "base": "",
-            "characteristic": "",
-            "ignoreAP": false
-          },
-          "range": "",
-          "traits": {
-            "list": []
-          },
-          "self": false
-        },
-        "test": {
-          "enabled": false,
-          "target": "self",
-          "difficulty": "challenging",
-          "characteristic": "",
-          "skill": {
-            "key": "",
-            "specialisation": ""
-          },
-          "self": false
-        },
-        "roll": {
-          "enabled": false,
-          "formula": "",
-          "label": ""
-        },
-        "category": "standard"
-      },
-      "effects": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "impmal",
-        "systemVersion": "3.2.1"
-      },
-      "_key": "!actors.items!uHUNMldJXblTlOUL.yh8ODX4b2OG6Ez6C"
-    },
-    {
-      "name": "3x Liberator Autostub Pistols",
+      "name": "Ranged Attack (Kroot Gun)",
       "type": "weapon",
-      "_id": "OUXD0UbZGmAumhfP",
+      "_id": "Pkbq5erYkZbIlgOr",
       "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
       "system": {
         "notes": {
@@ -504,7 +321,7 @@
           "force": true
         },
         "damage": {
-          "base": "10",
+          "base": "12",
           "characteristic": "",
           "SL": true,
           "ignoreAP": false
@@ -515,22 +332,18 @@
               "key": "burst"
             },
             {
-              "key": "close"
-            },
-            {
               "key": "loud"
             },
             {
-              "key": "penetrating",
-              "value": "3"
+              "key": "twoHanded"
             }
           ]
         },
         "ammoCost": 0,
         "attackType": "ranged",
         "category": "",
-        "spec": "pistol",
-        "range": "medium",
+        "spec": "ordnance",
+        "range": "extreme",
         "rangeModifier": {
           "value": 0,
           "override": ""
@@ -561,12 +374,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!uHUNMldJXblTlOUL.OUXD0UbZGmAumhfP"
+      "_key": "!actors.items!1B0XLaT5TmMzauqG.Pkbq5erYkZbIlgOr"
     },
     {
-      "name": "Knife",
+      "name": "Stomp",
       "type": "weapon",
-      "_id": "TYN9cf4vXIYwny69",
+      "_id": "JWD3ZXXXKXa5C962",
       "img": "modules/impmal-core/assets/icons/weapons/sword.webp",
       "system": {
         "notes": {
@@ -585,26 +398,18 @@
           "force": true
         },
         "damage": {
-          "base": "3",
+          "base": "5",
           "characteristic": "",
           "SL": true,
           "ignoreAP": false
         },
         "traits": {
-          "list": [
-            {
-              "key": "subtle"
-            },
-            {
-              "key": "thrown",
-              "value": "Short"
-            }
-          ]
+          "list": []
         },
         "ammoCost": 0,
         "attackType": "melee",
-        "category": "",
-        "spec": "oneHanded",
+        "category": "mundane",
+        "spec": "brawling",
         "range": "",
         "rangeModifier": {
           "value": 0,
@@ -636,37 +441,7 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!uHUNMldJXblTlOUL.TYN9cf4vXIYwny69"
-    },
-    {
-      "name": "Pistols",
-      "type": "specialisation",
-      "_id": "73GnwzwjYbm9Tkga",
-      "img": "modules/impmal-core/assets/icons/generic.webp",
-      "system": {
-        "notes": {
-          "player": "",
-          "gm": ""
-        },
-        "advances": 2,
-        "restricted": false,
-        "skill": "ranged"
-      },
-      "effects": [],
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "impmal",
-        "systemVersion": "3.2.1"
-      },
-      "_key": "!actors.items!uHUNMldJXblTlOUL.73GnwzwjYbm9Tkga"
+      "_key": "!actors.items!1B0XLaT5TmMzauqG.JWD3ZXXXKXa5C962"
     }
   ]
 }

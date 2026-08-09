@@ -1,18 +1,18 @@
 {
   "folder": "ynF8sdZ0ctNGKjgI",
-  "name": "Acolyte Hybrid",
+  "name": "Reductus Saboteur",
   "type": "npc",
-  "_id": "ddkoCdiXHCRDuEd3",
+  "_id": "KpiWMjEAoTXdCQuV",
   "img": "modules/impmal-core/assets/tokens/unknown.webp",
   "system": {
     "characteristics": {
       "ws": {
-        "starting": 40,
+        "starting": 30,
         "advances": 0,
         "modifier": 0
       },
       "bs": {
-        "starting": 30,
+        "starting": 40,
         "advances": 0,
         "modifier": 0
       },
@@ -22,17 +22,17 @@
         "modifier": 0
       },
       "tgh": {
-        "starting": 35,
+        "starting": 30,
         "advances": 0,
         "modifier": 0
       },
       "ag": {
-        "starting": 40,
+        "starting": 35,
         "advances": 0,
         "modifier": 0
       },
       "int": {
-        "starting": 20,
+        "starting": 40,
         "advances": 0,
         "modifier": 0
       },
@@ -60,7 +60,7 @@
       },
       "awareness": {
         "characteristic": "per",
-        "advances": 0,
+        "advances": 2,
         "modifier": 0
       },
       "dexterity": {
@@ -105,7 +105,7 @@
       },
       "melee": {
         "characteristic": "ws",
-        "advances": 1,
+        "advances": 0,
         "modifier": 0
       },
       "navigation": {
@@ -115,7 +115,7 @@
       },
       "presence": {
         "characteristic": "wil",
-        "advances": 2,
+        "advances": 0,
         "modifier": 0
       },
       "piloting": {
@@ -130,7 +130,7 @@
       },
       "ranged": {
         "characteristic": "bs",
-        "advances": 1,
+        "advances": 0,
         "modifier": 0
       },
       "rapport": {
@@ -150,13 +150,13 @@
       },
       "tech": {
         "characteristic": "int",
-        "advances": 0,
+        "advances": 2,
         "modifier": 0
       }
     },
     "notes": {
       "player": "",
-      "gm": "<p>Possessions: Heavy Leathers, 2d10 Solars, Cult/Gang Colors</p>"
+      "gm": "<p>Possessions: Heavy Leathers, 1d10 Solars, Gang/Cult Colors, Filtration Plugs, Remote Detonators, 2x Demolition Charges</p>"
     },
     "combat": {
       "size": "medium",
@@ -171,7 +171,7 @@
           "modifier": 0
         }
       },
-      "initiative": 8,
+      "initiative": 7,
       "wounds": {
         "max": 12,
         "value": 12
@@ -191,7 +191,7 @@
       "id": "",
       "name": "Star Children"
     },
-    "species": "Mutant (Genestealer Cults)",
+    "species": "Human (Genestealer Cult)",
     "role": "elite",
     "autoCalc": {
       "wounds": false,
@@ -200,7 +200,7 @@
     }
   },
   "prototypeToken": {
-    "name": "Acolyte Hybrid",
+    "name": "Reductus Saboteur",
     "displayName": 20,
     "actorLink": false,
     "width": 1,
@@ -236,12 +236,12 @@
     "systemId": "impmal",
     "systemVersion": "3.2.1"
   },
-  "_key": "!actors!ddkoCdiXHCRDuEd3",
+  "_key": "!actors!KpiWMjEAoTXdCQuV",
   "items": [
     {
       "name": "Genestealer Mutation",
       "type": "trait",
-      "_id": "pyipRtfK7PfdAGRF",
+      "_id": "5woEoKico7iwQgHR",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
@@ -297,73 +297,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.pyipRtfK7PfdAGRF"
-    },
-    {
-      "name": "Iconward",
-      "type": "trait",
-      "_id": "NC3hYo6LJvZjIr5e",
-      "img": "modules/impmal-core/assets/icons/blank.webp",
-      "system": {
-        "notes": {
-          "player": "<p>Some Acolyte Hybrids may be Iconwards, and carry Cult Icons into battle. Genestealer Cultists within Medium Range of an Acolyte Iconward add +1 SL to Discipline (Fear) Tests.</p>",
-          "gm": ""
-        },
-        "attack": {
-          "enabled": false,
-          "type": "melee",
-          "characteristic": "",
-          "skill": {
-            "key": "",
-            "specialisation": ""
-          },
-          "damage": {
-            "SL": false,
-            "base": "",
-            "characteristic": "",
-            "ignoreAP": false
-          },
-          "range": "",
-          "traits": {
-            "list": []
-          },
-          "self": false
-        },
-        "test": {
-          "enabled": false,
-          "target": "self",
-          "difficulty": "challenging",
-          "characteristic": "",
-          "skill": {
-            "key": "",
-            "specialisation": ""
-          },
-          "self": false
-        },
-        "roll": {
-          "enabled": false,
-          "formula": "",
-          "label": ""
-        },
-        "category": "standard"
-      },
-      "effects": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "impmal",
-        "systemVersion": "3.2.1"
-      },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.NC3hYo6LJvZjIr5e"
+      "_key": "!actors.items!KpiWMjEAoTXdCQuV.5woEoKico7iwQgHR"
     },
     {
       "name": "Multi-Limbed",
       "type": "trait",
-      "_id": "dSeTYdhZUX07a7Tp",
+      "_id": "9bEPkjbqwoLbFeMJ",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
@@ -419,16 +358,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.dSeTYdhZUX07a7Tp"
+      "_key": "!actors.items!KpiWMjEAoTXdCQuV.9bEPkjbqwoLbFeMJ"
     },
     {
-      "name": "Resurgence",
+      "name": "Primed and Ready",
       "type": "trait",
-      "_id": "NJbZMddob8BlObsU",
+      "_id": "4hn9FDzjQb4Fs7Dg",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>When in Combat, the Cultist has a pool of 3 Resurgence Points. They may spend 1 Resurgence Point to gain +1SL on an Attack Test, 2 Resurgence Points to gain Advantage on any Test, or 3 Resurgence Points to reroll any Attack Test. The Cultist cannot regain the number of Resurgence Points they have spent, and can only spend Resurgence Points once per turn. If the Cultist has not spent any Resurgence Points by the time they die or are defeated, they can all be spent to revive themselves at the start of the next Round at half Wounds in a zone within Medium Range as long as it is not occupied by enemies.</p>",
+          "player": "<p>The Reductus Saboteur seldom fights in an unprepared area and has set a number of environmental and explosive traps which can be noticed with a Hard (-20) Awareness (Sight) test. Each trap is a Feature of a zone. Once per Round, as an Action, the Reductus Saboteur can trigger environmental traps which explode as Demolition Charges, creating Major Hazards. If undetected, the activation of the first trap reduces the party's Superiority by 1.</p>",
           "gm": ""
         },
         "attack": {
@@ -480,12 +419,73 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.NJbZMddob8BlObsU"
+      "_key": "!actors.items!KpiWMjEAoTXdCQuV.4hn9FDzjQb4Fs7Dg"
+    },
+    {
+      "name": "Three Big Booms",
+      "type": "trait",
+      "_id": "zEluJkqBIPGlOgCA",
+      "img": "modules/impmal-core/assets/icons/blank.webp",
+      "system": {
+        "notes": {
+          "player": "<p>The Reductus Saboteur is an explosives expert, and can never be found without one. Once per Round, instead of a normal attack, the Reductus Saboteur can throw an explosive instead. Roll 1d10: (1-5) Frag Grenade, (6-7) Fire Bomb, (8-9) Krak Grenade, (10) Blasting Charge.</p>",
+          "gm": ""
+        },
+        "attack": {
+          "enabled": false,
+          "type": "melee",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "damage": {
+            "SL": false,
+            "base": "",
+            "characteristic": "",
+            "ignoreAP": false
+          },
+          "range": "",
+          "traits": {
+            "list": []
+          },
+          "self": false
+        },
+        "test": {
+          "enabled": false,
+          "target": "self",
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "roll": {
+          "enabled": false,
+          "formula": "",
+          "label": ""
+        },
+        "category": "standard"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!KpiWMjEAoTXdCQuV.zEluJkqBIPGlOgCA"
     },
     {
       "name": "Autopistol",
       "type": "weapon",
-      "_id": "XXBFTY8TdLUW3PTq",
+      "_id": "Hh1gpXHWDqE19e4N",
       "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
       "system": {
         "notes": {
@@ -558,12 +558,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.XXBFTY8TdLUW3PTq"
+      "_key": "!actors.items!KpiWMjEAoTXdCQuV.Hh1gpXHWDqE19e4N"
     },
     {
-      "name": "Bonesword",
+      "name": "Knife",
       "type": "weapon",
-      "_id": "vG0g2MpqzzBV3S4b",
+      "_id": "IL1hNTdoSdImBgPl",
       "img": "modules/impmal-core/assets/icons/weapons/sword.webp",
       "system": {
         "notes": {
@@ -582,13 +582,21 @@
           "force": true
         },
         "damage": {
-          "base": "5",
+          "base": "3",
           "characteristic": "",
           "SL": true,
           "ignoreAP": false
         },
         "traits": {
-          "list": []
+          "list": [
+            {
+              "key": "subtle"
+            },
+            {
+              "key": "thrown",
+              "value": "Short"
+            }
+          ]
         },
         "ammoCost": 0,
         "attackType": "melee",
@@ -625,68 +633,27 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.vG0g2MpqzzBV3S4b"
+      "_key": "!actors.items!KpiWMjEAoTXdCQuV.IL1hNTdoSdImBgPl"
     },
     {
-      "name": "Claws",
-      "type": "weapon",
-      "_id": "zhkWvI5wcGN1kKZa",
-      "img": "modules/impmal-core/assets/icons/weapons/sword.webp",
+      "name": "Defusing",
+      "type": "specialisation",
+      "_id": "ujRgKzQdb7hocjRk",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
       "system": {
         "notes": {
           "player": "",
           "gm": ""
         },
-        "encumbrance": {
-          "value": 0
-        },
-        "cost": 0,
-        "availability": "",
-        "quantity": 1,
-        "equipped": {
-          "value": true,
-          "hand": "",
-          "force": true
-        },
-        "damage": {
-          "base": "3",
-          "characteristic": "",
-          "SL": true,
-          "ignoreAP": false
-        },
-        "traits": {
-          "list": [
-            {
-              "key": "ineffective"
-            }
-          ]
-        },
-        "ammoCost": 0,
-        "attackType": "melee",
-        "category": "mundane",
-        "spec": "brawling",
-        "range": "",
-        "rangeModifier": {
-          "value": 0,
-          "override": ""
-        },
-        "mag": {
-          "value": 1,
-          "current": 1
-        },
-        "ammo": {
-          "id": ""
-        },
-        "mods": {
-          "list": []
-        },
-        "slots": {
-          "list": [],
-          "value": 0
-        }
+        "advances": 4,
+        "restricted": false,
+        "skill": "dexterity"
       },
       "effects": [],
       "sort": 0,
+      "ownership": {
+        "default": 0
+      },
       "flags": {},
       "_stats": {
         "compendiumSource": null,
@@ -696,7 +663,97 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.zhkWvI5wcGN1kKZa"
+      "_key": "!actors.items!KpiWMjEAoTXdCQuV.ujRgKzQdb7hocjRk"
+    },
+    {
+      "name": "Conceal",
+      "type": "specialisation",
+      "_id": "cRZucGI6zZ2ZuP3m",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 2,
+        "restricted": false,
+        "skill": "stealth"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!KpiWMjEAoTXdCQuV.cRZucGI6zZ2ZuP3m"
+    },
+    {
+      "name": "Engineering",
+      "type": "specialisation",
+      "_id": "MtR61ctXYgpkfyku",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 2,
+        "restricted": false,
+        "skill": "tech"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!KpiWMjEAoTXdCQuV.MtR61ctXYgpkfyku"
+    },
+    {
+      "name": "Security",
+      "type": "specialisation",
+      "_id": "besrdMg0tzto1NsB",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 1,
+        "restricted": false,
+        "skill": "tech"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!KpiWMjEAoTXdCQuV.besrdMg0tzto1NsB"
     }
   ]
 }

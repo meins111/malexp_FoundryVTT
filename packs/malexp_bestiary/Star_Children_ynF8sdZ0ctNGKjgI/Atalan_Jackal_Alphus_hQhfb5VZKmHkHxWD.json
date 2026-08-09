@@ -1,8 +1,8 @@
 {
   "folder": "ynF8sdZ0ctNGKjgI",
-  "name": "Acolyte Hybrid",
+  "name": "Atalan Jackal Alphus",
   "type": "npc",
-  "_id": "ddkoCdiXHCRDuEd3",
+  "_id": "hQhfb5VZKmHkHxWD",
   "img": "modules/impmal-core/assets/tokens/unknown.webp",
   "system": {
     "characteristics": {
@@ -12,7 +12,7 @@
         "modifier": 0
       },
       "bs": {
-        "starting": 30,
+        "starting": 40,
         "advances": 0,
         "modifier": 0
       },
@@ -22,17 +22,17 @@
         "modifier": 0
       },
       "tgh": {
-        "starting": 35,
+        "starting": 30,
         "advances": 0,
         "modifier": 0
       },
       "ag": {
-        "starting": 40,
+        "starting": 50,
         "advances": 0,
         "modifier": 0
       },
       "int": {
-        "starting": 20,
+        "starting": 25,
         "advances": 0,
         "modifier": 0
       },
@@ -42,12 +42,12 @@
         "modifier": 0
       },
       "wil": {
-        "starting": 30,
+        "starting": 40,
         "advances": 0,
         "modifier": 0
       },
       "fel": {
-        "starting": 20,
+        "starting": 30,
         "advances": 0,
         "modifier": 0
       }
@@ -55,12 +55,12 @@
     "skills": {
       "athletics": {
         "characteristic": "str",
-        "advances": 2,
+        "advances": 0,
         "modifier": 0
       },
       "awareness": {
         "characteristic": "per",
-        "advances": 0,
+        "advances": 1,
         "modifier": 0
       },
       "dexterity": {
@@ -105,7 +105,7 @@
       },
       "melee": {
         "characteristic": "ws",
-        "advances": 1,
+        "advances": 0,
         "modifier": 0
       },
       "navigation": {
@@ -120,7 +120,7 @@
       },
       "piloting": {
         "characteristic": "ag",
-        "advances": 0,
+        "advances": 1,
         "modifier": 0
       },
       "psychic": {
@@ -130,7 +130,7 @@
       },
       "ranged": {
         "characteristic": "bs",
-        "advances": 1,
+        "advances": 0,
         "modifier": 0
       },
       "rapport": {
@@ -145,7 +145,7 @@
       },
       "stealth": {
         "characteristic": "ag",
-        "advances": 2,
+        "advances": 1,
         "modifier": 0
       },
       "tech": {
@@ -156,7 +156,7 @@
     },
     "notes": {
       "player": "",
-      "gm": "<p>Possessions: Heavy Leathers, 2d10 Solars, Cult/Gang Colors</p>"
+      "gm": "<p>Possessions: Heavy Leathers, 1d10 Solars, Gang/Cult Colors, Filtration Plugs, Motorbike (IM CRB pg. 226) or Combat Bike (Vehicles of the Imperium pg. 18) or Quadbike (MRG pg. 85)</p>"
     },
     "combat": {
       "size": "medium",
@@ -171,16 +171,16 @@
           "modifier": 0
         }
       },
-      "initiative": 8,
+      "initiative": 9,
       "wounds": {
-        "max": 12,
-        "value": 12
+        "max": 13,
+        "value": 13
       },
       "criticals": {
-        "max": 1,
+        "max": 0,
         "value": 0
       },
-      "resolve": 3,
+      "resolve": 4,
       "armour": {
         "formula": "",
         "value": 2,
@@ -191,7 +191,7 @@
       "id": "",
       "name": "Star Children"
     },
-    "species": "Mutant (Genestealer Cults)",
+    "species": "Human (Genestealer Cults)",
     "role": "elite",
     "autoCalc": {
       "wounds": false,
@@ -200,7 +200,7 @@
     }
   },
   "prototypeToken": {
-    "name": "Acolyte Hybrid",
+    "name": "Atalan Jackal Alphus",
     "displayName": 20,
     "actorLink": false,
     "width": 1,
@@ -236,12 +236,12 @@
     "systemId": "impmal",
     "systemVersion": "3.2.1"
   },
-  "_key": "!actors!ddkoCdiXHCRDuEd3",
+  "_key": "!actors!hQhfb5VZKmHkHxWD",
   "items": [
     {
       "name": "Genestealer Mutation",
       "type": "trait",
-      "_id": "pyipRtfK7PfdAGRF",
+      "_id": "troh8OnyWP6OlBid",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
@@ -297,16 +297,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.pyipRtfK7PfdAGRF"
+      "_key": "!actors.items!hQhfb5VZKmHkHxWD.troh8OnyWP6OlBid"
     },
     {
-      "name": "Iconward",
+      "name": "Hunting Pack",
       "type": "trait",
-      "_id": "NC3hYo6LJvZjIr5e",
+      "_id": "7dhrsDURbTSNRn1y",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Some Acolyte Hybrids may be Iconwards, and carry Cult Icons into battle. Genestealer Cultists within Medium Range of an Acolyte Iconward add +1 SL to Discipline (Fear) Tests.</p>",
+          "player": "<p>The Atalan Jackal Alphus has +1SL to Piloting (Civilian) Control Tests (IM CRB pg. 226 / MRG pg. 68).</p>",
           "gm": ""
         },
         "attack": {
@@ -358,16 +358,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.NC3hYo6LJvZjIr5e"
+      "_key": "!actors.items!hQhfb5VZKmHkHxWD.7dhrsDURbTSNRn1y"
     },
     {
-      "name": "Multi-Limbed",
+      "name": "Priority Target",
       "type": "trait",
-      "_id": "dSeTYdhZUX07a7Tp",
+      "_id": "pcCr6Ml7sxPphxgi",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>This character has additional limbs, and may use them to wield an additional One-Handed or Pistol weapon and use it in combat.</p>",
+          "player": "<p>Once per Encounter, the Atalan Jackal Alphus may indicate an enemy Elite or Leader (or a Player Character). If the Jackal Alphus successfully Defeats the nominated enemy, they may make a Challenging (+0) Presence Test, and allow a number of Genestealer Cult Allies equal to the SL to immediately take their turn, even if their initiative has already passed.</p>",
           "gm": ""
         },
         "attack": {
@@ -419,16 +419,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.dSeTYdhZUX07a7Tp"
+      "_key": "!actors.items!hQhfb5VZKmHkHxWD.pcCr6Ml7sxPphxgi"
     },
     {
-      "name": "Resurgence",
+      "name": "We Ride At Dawn",
       "type": "trait",
-      "_id": "NJbZMddob8BlObsU",
+      "_id": "2TqoejagWt7MYRvz",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>When in Combat, the Cultist has a pool of 3 Resurgence Points. They may spend 1 Resurgence Point to gain +1SL on an Attack Test, 2 Resurgence Points to gain Advantage on any Test, or 3 Resurgence Points to reroll any Attack Test. The Cultist cannot regain the number of Resurgence Points they have spent, and can only spend Resurgence Points once per turn. If the Cultist has not spent any Resurgence Points by the time they die or are defeated, they can all be spent to revive themselves at the start of the next Round at half Wounds in a zone within Medium Range as long as it is not occupied by enemies.</p>",
+          "player": "<p>Once per Encounter, the Atalan Jackal Alphus may summon reinforcements of 1d5+2 Atalan Jackals which can be noticed with a Hard (-20) Awareness (Sight) or (Hearing) Test. If the reinforcements go unnoticed, the party's Superiority is reduced by 1.</p>",
           "gm": ""
         },
         "attack": {
@@ -480,12 +480,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.NJbZMddob8BlObsU"
+      "_key": "!actors.items!hQhfb5VZKmHkHxWD.2TqoejagWt7MYRvz"
     },
     {
-      "name": "Autopistol",
+      "name": "Stub Pistol",
       "type": "weapon",
-      "_id": "XXBFTY8TdLUW3PTq",
+      "_id": "QgQE6Lw9nU8LFwyz",
       "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
       "system": {
         "notes": {
@@ -504,7 +504,7 @@
           "force": true
         },
         "damage": {
-          "base": "5",
+          "base": "6",
           "characteristic": "",
           "SL": true,
           "ignoreAP": false
@@ -512,14 +512,13 @@
         "traits": {
           "list": [
             {
+              "key": "burst"
+            },
+            {
               "key": "close"
             },
             {
               "key": "loud"
-            },
-            {
-              "key": "rapidFire",
-              "value": "3"
             }
           ]
         },
@@ -558,12 +557,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.XXBFTY8TdLUW3PTq"
+      "_key": "!actors.items!hQhfb5VZKmHkHxWD.QgQE6Lw9nU8LFwyz"
     },
     {
-      "name": "Bonesword",
+      "name": "Knife",
       "type": "weapon",
-      "_id": "vG0g2MpqzzBV3S4b",
+      "_id": "m3WZfcbqF40zVyyu",
       "img": "modules/impmal-core/assets/icons/weapons/sword.webp",
       "system": {
         "notes": {
@@ -582,13 +581,21 @@
           "force": true
         },
         "damage": {
-          "base": "5",
+          "base": "3",
           "characteristic": "",
           "SL": true,
           "ignoreAP": false
         },
         "traits": {
-          "list": []
+          "list": [
+            {
+              "key": "subtle"
+            },
+            {
+              "key": "thrown",
+              "value": "Short"
+            }
+          ]
         },
         "ammoCost": 0,
         "attackType": "melee",
@@ -625,68 +632,27 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.vG0g2MpqzzBV3S4b"
+      "_key": "!actors.items!hQhfb5VZKmHkHxWD.m3WZfcbqF40zVyyu"
     },
     {
-      "name": "Claws",
-      "type": "weapon",
-      "_id": "zhkWvI5wcGN1kKZa",
-      "img": "modules/impmal-core/assets/icons/weapons/sword.webp",
+      "name": "Might",
+      "type": "specialisation",
+      "_id": "l8GPpjPzuox1PP9L",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
       "system": {
         "notes": {
           "player": "",
           "gm": ""
         },
-        "encumbrance": {
-          "value": 0
-        },
-        "cost": 0,
-        "availability": "",
-        "quantity": 1,
-        "equipped": {
-          "value": true,
-          "hand": "",
-          "force": true
-        },
-        "damage": {
-          "base": "3",
-          "characteristic": "",
-          "SL": true,
-          "ignoreAP": false
-        },
-        "traits": {
-          "list": [
-            {
-              "key": "ineffective"
-            }
-          ]
-        },
-        "ammoCost": 0,
-        "attackType": "melee",
-        "category": "mundane",
-        "spec": "brawling",
-        "range": "",
-        "rangeModifier": {
-          "value": 0,
-          "override": ""
-        },
-        "mag": {
-          "value": 1,
-          "current": 1
-        },
-        "ammo": {
-          "id": ""
-        },
-        "mods": {
-          "list": []
-        },
-        "slots": {
-          "list": [],
-          "value": 0
-        }
+        "advances": 2,
+        "restricted": false,
+        "skill": "athletics"
       },
       "effects": [],
       "sort": 0,
+      "ownership": {
+        "default": 0
+      },
       "flags": {},
       "_stats": {
         "compendiumSource": null,
@@ -696,7 +662,67 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.zhkWvI5wcGN1kKZa"
+      "_key": "!actors.items!hQhfb5VZKmHkHxWD.l8GPpjPzuox1PP9L"
+    },
+    {
+      "name": "Civilian",
+      "type": "specialisation",
+      "_id": "JtYsvUb0sHvuX8S1",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 1,
+        "restricted": false,
+        "skill": "piloting"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!hQhfb5VZKmHkHxWD.JtYsvUb0sHvuX8S1"
+    },
+    {
+      "name": "Long Guns",
+      "type": "specialisation",
+      "_id": "GfoB1zoz9dmqbAMb",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 2,
+        "restricted": false,
+        "skill": "ranged"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!hQhfb5VZKmHkHxWD.GfoB1zoz9dmqbAMb"
     }
   ]
 }

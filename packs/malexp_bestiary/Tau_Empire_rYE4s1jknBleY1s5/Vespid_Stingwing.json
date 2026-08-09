@@ -1,8 +1,8 @@
 {
-  "folder": "ynF8sdZ0ctNGKjgI",
-  "name": "Kelermorph",
+  "folder": "rYE4s1jknBleY1s5",
+  "name": "Vespid Stingwing",
   "type": "npc",
-  "_id": "uHUNMldJXblTlOUL",
+  "_id": "lQ2JK6z4dKZrHlzQ",
   "img": "modules/impmal-core/assets/tokens/unknown.webp",
   "system": {
     "characteristics": {
@@ -12,7 +12,7 @@
         "modifier": 0
       },
       "bs": {
-        "starting": 40,
+        "starting": 45,
         "advances": 0,
         "modifier": 0
       },
@@ -22,32 +22,32 @@
         "modifier": 0
       },
       "tgh": {
-        "starting": 30,
+        "starting": 45,
         "advances": 0,
         "modifier": 0
       },
       "ag": {
-        "starting": 40,
-        "advances": 0,
-        "modifier": 0
-      },
-      "int": {
-        "starting": 30,
-        "advances": 0,
-        "modifier": 0
-      },
-      "per": {
         "starting": 50,
         "advances": 0,
         "modifier": 0
       },
+      "int": {
+        "starting": 25,
+        "advances": 0,
+        "modifier": 0
+      },
+      "per": {
+        "starting": 30,
+        "advances": 0,
+        "modifier": 0
+      },
       "wil": {
-        "starting": 40,
+        "starting": 30,
         "advances": 0,
         "modifier": 0
       },
       "fel": {
-        "starting": 40,
+        "starting": 15,
         "advances": 0,
         "modifier": 0
       }
@@ -55,12 +55,12 @@
     "skills": {
       "athletics": {
         "characteristic": "str",
-        "advances": 2,
+        "advances": 0,
         "modifier": 0
       },
       "awareness": {
         "characteristic": "per",
-        "advances": 2,
+        "advances": 1,
         "modifier": 0
       },
       "dexterity": {
@@ -130,17 +130,17 @@
       },
       "ranged": {
         "characteristic": "bs",
-        "advances": 2,
+        "advances": 0,
         "modifier": 0
       },
       "rapport": {
         "characteristic": "fel",
-        "advances": 2,
+        "advances": 0,
         "modifier": 0
       },
       "reflexes": {
         "characteristic": "ag",
-        "advances": 2,
+        "advances": 1,
         "modifier": 0
       },
       "stealth": {
@@ -156,43 +156,43 @@
     },
     "notes": {
       "player": "",
-      "gm": "<p>Possessions: Heavy Leathers, Gang/Cult Colors, Filtration Plugs, Ornamental Cape</p>"
+      "gm": "<p>Possessions: Stingwing Armor</p>"
     },
     "combat": {
       "size": "medium",
       "armourModifier": 0,
       "speed": {
         "land": {
-          "value": "normal",
+          "value": "fast",
           "modifier": 0
         },
         "fly": {
-          "value": "none",
+          "value": "fast",
           "modifier": 0
         }
       },
-      "initiative": 9,
+      "initiative": 8,
       "wounds": {
-        "max": 13,
-        "value": 13
+        "max": 14,
+        "value": 14
       },
       "criticals": {
-        "max": 1,
+        "max": 0,
         "value": 0
       },
-      "resolve": 3,
+      "resolve": 1,
       "armour": {
         "formula": "",
-        "value": 2,
+        "value": 4,
         "useItems": false
       }
     },
     "faction": {
       "id": "",
-      "name": "Star Children"
+      "name": "T'au Empire"
     },
-    "species": "Mutant (Genestealer Cults)",
-    "role": "elite",
+    "species": "Vespid (T'au Empire)",
+    "role": "troop",
     "autoCalc": {
       "wounds": false,
       "criticals": false,
@@ -200,7 +200,7 @@
     }
   },
   "prototypeToken": {
-    "name": "Kelermorph",
+    "name": "Vespid Stingwing",
     "displayName": 20,
     "actorLink": false,
     "width": 1,
@@ -236,16 +236,16 @@
     "systemId": "impmal",
     "systemVersion": "3.2.1"
   },
-  "_key": "!actors!uHUNMldJXblTlOUL",
+  "_key": "!actors!lQ2JK6z4dKZrHlzQ",
   "items": [
     {
-      "name": "Folktale Hero",
+      "name": "For the Greater Good",
       "type": "trait",
-      "_id": "wFVZTcz58BnyZF5e",
+      "_id": "5CF3xEjvOJ8aomW6",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Kelermorph inspires all those around it, and grants Advantage on Tests to resist or end the Frightened Condition. Additionally, as long as the Kelermorph is not Desperate, they grant +1 Resolve to all Genestealer Cult allies.</p>",
+          "player": "<p>If the target of a Ranged Attack by this character is being spotted by a Pathfinder, Drone, or any unit capable of spotting for friendly forces, the character gains +1SL on Ranged Attack tests against the target.</p>",
           "gm": ""
         },
         "attack": {
@@ -297,16 +297,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!uHUNMldJXblTlOUL.wFVZTcz58BnyZF5e"
+      "_key": "!actors.items!lQ2JK6z4dKZrHlzQ.5CF3xEjvOJ8aomW6"
     },
     {
-      "name": "Genestealer Mutation",
+      "name": "Winged Flight",
       "type": "trait",
-      "_id": "eUQWcLipZzlfaK2z",
+      "_id": "zIvxBj1dRVEYfoSM",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Individual is connected to the Genestealer Broodmind, and gains advantage on Discipline Tests when within Long Range of a Genestealer Psyker.</p>",
+          "player": "<p>The Vespid Stingwing can fly.</p>",
           "gm": ""
         },
         "attack": {
@@ -358,134 +358,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!uHUNMldJXblTlOUL.eUQWcLipZzlfaK2z"
+      "_key": "!actors.items!lQ2JK6z4dKZrHlzQ.zIvxBj1dRVEYfoSM"
     },
     {
-      "name": "Multi-Limbed",
-      "type": "trait",
-      "_id": "CfoiWQgKJUk1gxbp",
-      "img": "modules/impmal-core/assets/icons/blank.webp",
-      "system": {
-        "notes": {
-          "player": "<p>This character has additional limbs, and may use them to wield an additional One-Handed or Pistol weapon and use it in combat.</p>",
-          "gm": ""
-        },
-        "attack": {
-          "enabled": false,
-          "type": "melee",
-          "characteristic": "",
-          "skill": {
-            "key": "",
-            "specialisation": ""
-          },
-          "damage": {
-            "SL": false,
-            "base": "",
-            "characteristic": "",
-            "ignoreAP": false
-          },
-          "range": "",
-          "traits": {
-            "list": []
-          },
-          "self": false
-        },
-        "test": {
-          "enabled": false,
-          "target": "self",
-          "difficulty": "challenging",
-          "characteristic": "",
-          "skill": {
-            "key": "",
-            "specialisation": ""
-          },
-          "self": false
-        },
-        "roll": {
-          "enabled": false,
-          "formula": "",
-          "label": ""
-        },
-        "category": "standard"
-      },
-      "effects": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "impmal",
-        "systemVersion": "3.2.1"
-      },
-      "_key": "!actors.items!uHUNMldJXblTlOUL.CfoiWQgKJUk1gxbp"
-    },
-    {
-      "name": "Gunslinger of Legend",
-      "type": "trait",
-      "_id": "yh8ODX4b2OG6Ez6C",
-      "img": "modules/impmal-core/assets/icons/blank.webp",
-      "system": {
-        "notes": {
-          "player": "<p>The Kelermorph is capable of firing all their Liberator Autostub Pistols in one Action as per Two-Weapon Fighting and does not suffer Disadvantage when doing so. Additionally, when combat begins, the Kelermorph may attack with one of their pistols before anyone else regardless of Initiative. If they are Surprised, they must make a Hard (-20) Reflexes Test to use this effect.</p>",
-          "gm": ""
-        },
-        "attack": {
-          "enabled": false,
-          "type": "melee",
-          "characteristic": "",
-          "skill": {
-            "key": "",
-            "specialisation": ""
-          },
-          "damage": {
-            "SL": false,
-            "base": "",
-            "characteristic": "",
-            "ignoreAP": false
-          },
-          "range": "",
-          "traits": {
-            "list": []
-          },
-          "self": false
-        },
-        "test": {
-          "enabled": false,
-          "target": "self",
-          "difficulty": "challenging",
-          "characteristic": "",
-          "skill": {
-            "key": "",
-            "specialisation": ""
-          },
-          "self": false
-        },
-        "roll": {
-          "enabled": false,
-          "formula": "",
-          "label": ""
-        },
-        "category": "standard"
-      },
-      "effects": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "impmal",
-        "systemVersion": "3.2.1"
-      },
-      "_key": "!actors.items!uHUNMldJXblTlOUL.yh8ODX4b2OG6Ez6C"
-    },
-    {
-      "name": "3x Liberator Autostub Pistols",
+      "name": "Neutron Blaster",
       "type": "weapon",
-      "_id": "OUXD0UbZGmAumhfP",
+      "_id": "ymcXN61U9seLktDm",
       "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
       "system": {
         "notes": {
@@ -515,21 +393,31 @@
               "key": "burst"
             },
             {
-              "key": "close"
+              "key": "inflict",
+              "value": "Poisoned"
             },
             {
               "key": "loud"
             },
             {
               "key": "penetrating",
-              "value": "3"
+              "value": "4"
+            },
+            {
+              "key": "twoHanded"
+            },
+            {
+              "key": "unstable"
+            },
+            {
+              "key": "vespid"
             }
           ]
         },
         "ammoCost": 0,
         "attackType": "ranged",
         "category": "",
-        "spec": "pistol",
+        "spec": "longGun",
         "range": "medium",
         "rangeModifier": {
           "value": 0,
@@ -561,112 +449,7 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!uHUNMldJXblTlOUL.OUXD0UbZGmAumhfP"
-    },
-    {
-      "name": "Knife",
-      "type": "weapon",
-      "_id": "TYN9cf4vXIYwny69",
-      "img": "modules/impmal-core/assets/icons/weapons/sword.webp",
-      "system": {
-        "notes": {
-          "player": "",
-          "gm": ""
-        },
-        "encumbrance": {
-          "value": 0
-        },
-        "cost": 0,
-        "availability": "",
-        "quantity": 1,
-        "equipped": {
-          "value": true,
-          "hand": "",
-          "force": true
-        },
-        "damage": {
-          "base": "3",
-          "characteristic": "",
-          "SL": true,
-          "ignoreAP": false
-        },
-        "traits": {
-          "list": [
-            {
-              "key": "subtle"
-            },
-            {
-              "key": "thrown",
-              "value": "Short"
-            }
-          ]
-        },
-        "ammoCost": 0,
-        "attackType": "melee",
-        "category": "",
-        "spec": "oneHanded",
-        "range": "",
-        "rangeModifier": {
-          "value": 0,
-          "override": ""
-        },
-        "mag": {
-          "value": 1,
-          "current": 1
-        },
-        "ammo": {
-          "id": ""
-        },
-        "mods": {
-          "list": []
-        },
-        "slots": {
-          "list": [],
-          "value": 0
-        }
-      },
-      "effects": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "impmal",
-        "systemVersion": "3.2.1"
-      },
-      "_key": "!actors.items!uHUNMldJXblTlOUL.TYN9cf4vXIYwny69"
-    },
-    {
-      "name": "Pistols",
-      "type": "specialisation",
-      "_id": "73GnwzwjYbm9Tkga",
-      "img": "modules/impmal-core/assets/icons/generic.webp",
-      "system": {
-        "notes": {
-          "player": "",
-          "gm": ""
-        },
-        "advances": 2,
-        "restricted": false,
-        "skill": "ranged"
-      },
-      "effects": [],
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "impmal",
-        "systemVersion": "3.2.1"
-      },
-      "_key": "!actors.items!uHUNMldJXblTlOUL.73GnwzwjYbm9Tkga"
+      "_key": "!actors.items!lQ2JK6z4dKZrHlzQ.ymcXN61U9seLktDm"
     }
   ]
 }

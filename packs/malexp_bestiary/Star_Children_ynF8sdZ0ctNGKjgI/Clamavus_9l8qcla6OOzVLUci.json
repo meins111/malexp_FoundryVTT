@@ -1,8 +1,8 @@
 {
   "folder": "ynF8sdZ0ctNGKjgI",
-  "name": "Acolyte Hybrid",
+  "name": "Clamavus",
   "type": "npc",
-  "_id": "ddkoCdiXHCRDuEd3",
+  "_id": "9l8qcla6OOzVLUci",
   "img": "modules/impmal-core/assets/tokens/unknown.webp",
   "system": {
     "characteristics": {
@@ -22,17 +22,17 @@
         "modifier": 0
       },
       "tgh": {
-        "starting": 35,
+        "starting": 30,
         "advances": 0,
         "modifier": 0
       },
       "ag": {
-        "starting": 40,
+        "starting": 35,
         "advances": 0,
         "modifier": 0
       },
       "int": {
-        "starting": 20,
+        "starting": 40,
         "advances": 0,
         "modifier": 0
       },
@@ -42,12 +42,12 @@
         "modifier": 0
       },
       "wil": {
-        "starting": 30,
+        "starting": 35,
         "advances": 0,
         "modifier": 0
       },
       "fel": {
-        "starting": 20,
+        "starting": 45,
         "advances": 0,
         "modifier": 0
       }
@@ -60,7 +60,7 @@
       },
       "awareness": {
         "characteristic": "per",
-        "advances": 0,
+        "advances": 1,
         "modifier": 0
       },
       "dexterity": {
@@ -105,7 +105,7 @@
       },
       "melee": {
         "characteristic": "ws",
-        "advances": 1,
+        "advances": 0,
         "modifier": 0
       },
       "navigation": {
@@ -115,7 +115,7 @@
       },
       "presence": {
         "characteristic": "wil",
-        "advances": 2,
+        "advances": 0,
         "modifier": 0
       },
       "piloting": {
@@ -130,12 +130,12 @@
       },
       "ranged": {
         "characteristic": "bs",
-        "advances": 1,
+        "advances": 0,
         "modifier": 0
       },
       "rapport": {
         "characteristic": "fel",
-        "advances": 0,
+        "advances": 1,
         "modifier": 0
       },
       "reflexes": {
@@ -145,18 +145,18 @@
       },
       "stealth": {
         "characteristic": "ag",
-        "advances": 2,
+        "advances": 3,
         "modifier": 0
       },
       "tech": {
         "characteristic": "int",
-        "advances": 0,
+        "advances": 2,
         "modifier": 0
       }
     },
     "notes": {
       "player": "",
-      "gm": "<p>Possessions: Heavy Leathers, 2d10 Solars, Cult/Gang Colors</p>"
+      "gm": "<p>Possessions: Heavy Leathers, 1d10 Solars, Gang Colors, Filtration Plugs, Vox Interceptor Array (counts as Vox Caster, Leech, and Signal Jammer), Laud Hailer</p>"
     },
     "combat": {
       "size": "medium",
@@ -171,16 +171,16 @@
           "modifier": 0
         }
       },
-      "initiative": 8,
+      "initiative": 7,
       "wounds": {
         "max": 12,
         "value": 12
       },
       "criticals": {
-        "max": 1,
+        "max": 3,
         "value": 0
       },
-      "resolve": 3,
+      "resolve": 4,
       "armour": {
         "formula": "",
         "value": 2,
@@ -191,8 +191,8 @@
       "id": "",
       "name": "Star Children"
     },
-    "species": "Mutant (Genestealer Cults)",
-    "role": "elite",
+    "species": "Human (Genestealer Cults)",
+    "role": "leader",
     "autoCalc": {
       "wounds": false,
       "criticals": false,
@@ -200,7 +200,7 @@
     }
   },
   "prototypeToken": {
-    "name": "Acolyte Hybrid",
+    "name": "Clamavus",
     "displayName": 20,
     "actorLink": false,
     "width": 1,
@@ -236,12 +236,12 @@
     "systemId": "impmal",
     "systemVersion": "3.2.1"
   },
-  "_key": "!actors!ddkoCdiXHCRDuEd3",
+  "_key": "!actors!9l8qcla6OOzVLUci",
   "items": [
     {
       "name": "Genestealer Mutation",
       "type": "trait",
-      "_id": "pyipRtfK7PfdAGRF",
+      "_id": "RdZxTcJwYYcJnls8",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
@@ -297,16 +297,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.pyipRtfK7PfdAGRF"
+      "_key": "!actors.items!9l8qcla6OOzVLUci.RdZxTcJwYYcJnls8"
     },
     {
-      "name": "Iconward",
+      "name": "Scrambler Vox Array",
       "type": "trait",
-      "_id": "NC3hYo6LJvZjIr5e",
+      "_id": "z9Po8GdbFjv1JJD8",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Some Acolyte Hybrids may be Iconwards, and carry Cult Icons into battle. Genestealer Cultists within Medium Range of an Acolyte Iconward add +1 SL to Discipline (Fear) Tests.</p>",
+          "player": "<p>Once per Encounter, as an Action, the Clamavus may use their Vox Interceptor Array to attempt a Hard (-20) Tech (Security) Test to hack into the communications of their enemy. If they succeed, the party's Superiority is reduced by 1 as litanies hailing the Star Children are burst through. Due to this, the enemy may not benefit from their long-distance communication devices until they are able to purge the hack attempt with the same test.</p>",
           "gm": ""
         },
         "attack": {
@@ -358,16 +358,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.NC3hYo6LJvZjIr5e"
+      "_key": "!actors.items!9l8qcla6OOzVLUci.z9Po8GdbFjv1JJD8"
     },
     {
-      "name": "Multi-Limbed",
+      "name": "The Shadow Calls",
       "type": "trait",
-      "_id": "dSeTYdhZUX07a7Tp",
+      "_id": "6Re64TQLdKz3QXaY",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>This character has additional limbs, and may use them to wield an additional One-Handed or Pistol weapon and use it in combat.</p>",
+          "player": "<p>The Clamavus is capable of wielding the Shadow in the Warp as a blunt instrument. Psykers and Daemons treat the zone they are in as a Minor Hazard (page 206), and enemies within hearing distance (in a scene or through vox signal) suffer the Fatigued (Minor) and Stunned (Minor) conditions.</p>",
           "gm": ""
         },
         "attack": {
@@ -419,16 +419,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.dSeTYdhZUX07a7Tp"
+      "_key": "!actors.items!9l8qcla6OOzVLUci.6Re64TQLdKz3QXaY"
     },
     {
-      "name": "Resurgence",
+      "name": "The Voice of Truth",
       "type": "trait",
-      "_id": "NJbZMddob8BlObsU",
+      "_id": "wviJ8QwW4afev14x",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>When in Combat, the Cultist has a pool of 3 Resurgence Points. They may spend 1 Resurgence Point to gain +1SL on an Attack Test, 2 Resurgence Points to gain Advantage on any Test, or 3 Resurgence Points to reroll any Attack Test. The Cultist cannot regain the number of Resurgence Points they have spent, and can only spend Resurgence Points once per turn. If the Cultist has not spent any Resurgence Points by the time they die or are defeated, they can all be spent to revive themselves at the start of the next Round at half Wounds in a zone within Medium Range as long as it is not occupied by enemies.</p>",
+          "player": "<p>The Clamavus gains +2SL on Rapport tests, and grants +1SL on Discipline tests to any nearby Genestealer Cults creatures within Long Range. Additionally, once per Encounter, the Clamavus may spend an Action to make a Challenging (+0) Presence Test. If they succeed, a number of Genestealer Cult allies equal to their Resolve gain Advantage on their next Attack Test.</p>",
           "gm": ""
         },
         "attack": {
@@ -480,12 +480,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.NJbZMddob8BlObsU"
+      "_key": "!actors.items!9l8qcla6OOzVLUci.wviJ8QwW4afev14x"
     },
     {
-      "name": "Autopistol",
+      "name": "Stub Pistol",
       "type": "weapon",
-      "_id": "XXBFTY8TdLUW3PTq",
+      "_id": "CmzjWWpZUiNcyTYq",
       "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
       "system": {
         "notes": {
@@ -504,7 +504,7 @@
           "force": true
         },
         "damage": {
-          "base": "5",
+          "base": "6",
           "characteristic": "",
           "SL": true,
           "ignoreAP": false
@@ -512,14 +512,13 @@
         "traits": {
           "list": [
             {
+              "key": "burst"
+            },
+            {
               "key": "close"
             },
             {
               "key": "loud"
-            },
-            {
-              "key": "rapidFire",
-              "value": "3"
             }
           ]
         },
@@ -558,12 +557,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.XXBFTY8TdLUW3PTq"
+      "_key": "!actors.items!9l8qcla6OOzVLUci.CmzjWWpZUiNcyTYq"
     },
     {
-      "name": "Bonesword",
+      "name": "Knife",
       "type": "weapon",
-      "_id": "vG0g2MpqzzBV3S4b",
+      "_id": "cQiBdInYBiSjHTET",
       "img": "modules/impmal-core/assets/icons/weapons/sword.webp",
       "system": {
         "notes": {
@@ -582,13 +581,21 @@
           "force": true
         },
         "damage": {
-          "base": "5",
+          "base": "3",
           "characteristic": "",
           "SL": true,
           "ignoreAP": false
         },
         "traits": {
-          "list": []
+          "list": [
+            {
+              "key": "subtle"
+            },
+            {
+              "key": "thrown",
+              "value": "Short"
+            }
+          ]
         },
         "ammoCost": 0,
         "attackType": "melee",
@@ -625,68 +632,27 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.vG0g2MpqzzBV3S4b"
+      "_key": "!actors.items!9l8qcla6OOzVLUci.cQiBdInYBiSjHTET"
     },
     {
-      "name": "Claws",
-      "type": "weapon",
-      "_id": "zhkWvI5wcGN1kKZa",
-      "img": "modules/impmal-core/assets/icons/weapons/sword.webp",
+      "name": "Charm",
+      "type": "specialisation",
+      "_id": "Wqjdknt5SZJwpluq",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
       "system": {
         "notes": {
           "player": "",
           "gm": ""
         },
-        "encumbrance": {
-          "value": 0
-        },
-        "cost": 0,
-        "availability": "",
-        "quantity": 1,
-        "equipped": {
-          "value": true,
-          "hand": "",
-          "force": true
-        },
-        "damage": {
-          "base": "3",
-          "characteristic": "",
-          "SL": true,
-          "ignoreAP": false
-        },
-        "traits": {
-          "list": [
-            {
-              "key": "ineffective"
-            }
-          ]
-        },
-        "ammoCost": 0,
-        "attackType": "melee",
-        "category": "mundane",
-        "spec": "brawling",
-        "range": "",
-        "rangeModifier": {
-          "value": 0,
-          "override": ""
-        },
-        "mag": {
-          "value": 1,
-          "current": 1
-        },
-        "ammo": {
-          "id": ""
-        },
-        "mods": {
-          "list": []
-        },
-        "slots": {
-          "list": [],
-          "value": 0
-        }
+        "advances": 1,
+        "restricted": false,
+        "skill": "rapport"
       },
       "effects": [],
       "sort": 0,
+      "ownership": {
+        "default": 0
+      },
       "flags": {},
       "_stats": {
         "compendiumSource": null,
@@ -696,7 +662,7 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.zhkWvI5wcGN1kKZa"
+      "_key": "!actors.items!9l8qcla6OOzVLUci.Wqjdknt5SZJwpluq"
     }
   ]
 }

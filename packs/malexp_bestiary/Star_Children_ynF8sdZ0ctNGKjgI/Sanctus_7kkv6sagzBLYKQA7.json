@@ -1,18 +1,18 @@
 {
   "folder": "ynF8sdZ0ctNGKjgI",
-  "name": "Acolyte Hybrid",
+  "name": "Sanctus",
   "type": "npc",
-  "_id": "ddkoCdiXHCRDuEd3",
+  "_id": "7kkv6sagzBLYKQA7",
   "img": "modules/impmal-core/assets/tokens/unknown.webp",
   "system": {
     "characteristics": {
       "ws": {
-        "starting": 40,
+        "starting": 55,
         "advances": 0,
         "modifier": 0
       },
       "bs": {
-        "starting": 30,
+        "starting": 45,
         "advances": 0,
         "modifier": 0
       },
@@ -22,17 +22,17 @@
         "modifier": 0
       },
       "tgh": {
-        "starting": 35,
+        "starting": 30,
         "advances": 0,
         "modifier": 0
       },
       "ag": {
-        "starting": 40,
+        "starting": 45,
         "advances": 0,
         "modifier": 0
       },
       "int": {
-        "starting": 20,
+        "starting": 30,
         "advances": 0,
         "modifier": 0
       },
@@ -42,12 +42,12 @@
         "modifier": 0
       },
       "wil": {
-        "starting": 30,
+        "starting": 25,
         "advances": 0,
         "modifier": 0
       },
       "fel": {
-        "starting": 20,
+        "starting": 30,
         "advances": 0,
         "modifier": 0
       }
@@ -60,7 +60,7 @@
       },
       "awareness": {
         "characteristic": "per",
-        "advances": 0,
+        "advances": 1,
         "modifier": 0
       },
       "dexterity": {
@@ -115,7 +115,7 @@
       },
       "presence": {
         "characteristic": "wil",
-        "advances": 2,
+        "advances": 0,
         "modifier": 0
       },
       "piloting": {
@@ -130,7 +130,7 @@
       },
       "ranged": {
         "characteristic": "bs",
-        "advances": 1,
+        "advances": 2,
         "modifier": 0
       },
       "rapport": {
@@ -140,12 +140,12 @@
       },
       "reflexes": {
         "characteristic": "ag",
-        "advances": 0,
+        "advances": 2,
         "modifier": 0
       },
       "stealth": {
         "characteristic": "ag",
-        "advances": 2,
+        "advances": 3,
         "modifier": 0
       },
       "tech": {
@@ -156,7 +156,7 @@
     },
     "notes": {
       "player": "",
-      "gm": "<p>Possessions: Heavy Leathers, 2d10 Solars, Cult/Gang Colors</p>"
+      "gm": "<p>Possessions: Armored Bodyglove, 1d10 Solars, Gang Colors, Filtration Plugs, Cameleoline Cloak, Auto-Sense Goggles</p>"
     },
     "combat": {
       "size": "medium",
@@ -173,14 +173,14 @@
       },
       "initiative": 8,
       "wounds": {
-        "max": 12,
-        "value": 12
+        "max": 11,
+        "value": 11
       },
       "criticals": {
         "max": 1,
         "value": 0
       },
-      "resolve": 3,
+      "resolve": 4,
       "armour": {
         "formula": "",
         "value": 2,
@@ -200,7 +200,7 @@
     }
   },
   "prototypeToken": {
-    "name": "Acolyte Hybrid",
+    "name": "Sanctus",
     "displayName": 20,
     "actorLink": false,
     "width": 1,
@@ -236,12 +236,12 @@
     "systemId": "impmal",
     "systemVersion": "3.2.1"
   },
-  "_key": "!actors!ddkoCdiXHCRDuEd3",
+  "_key": "!actors!7kkv6sagzBLYKQA7",
   "items": [
     {
       "name": "Genestealer Mutation",
       "type": "trait",
-      "_id": "pyipRtfK7PfdAGRF",
+      "_id": "mvPCItF0RMCDK4H9",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
@@ -297,16 +297,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.pyipRtfK7PfdAGRF"
+      "_key": "!actors.items!7kkv6sagzBLYKQA7.mvPCItF0RMCDK4H9"
     },
     {
-      "name": "Iconward",
+      "name": "The Shadows Strike",
       "type": "trait",
-      "_id": "NC3hYo6LJvZjIr5e",
+      "_id": "y4ECTVs0QtXSrpsY",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Some Acolyte Hybrids may be Iconwards, and carry Cult Icons into battle. Genestealer Cultists within Medium Range of an Acolyte Iconward add +1 SL to Discipline (Fear) Tests.</p>",
+          "player": "<p>The Sanctus does not need to test Stealth when following a group or person using Navigation (Tracking). They are also capable of Disengaging and moving to an adjacent Zone as a Free Action if they deal more than one Wound or any Critical Wounds.</p>",
           "gm": ""
         },
         "attack": {
@@ -358,16 +358,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.NC3hYo6LJvZjIr5e"
+      "_key": "!actors.items!7kkv6sagzBLYKQA7.y4ECTVs0QtXSrpsY"
     },
     {
-      "name": "Multi-Limbed",
+      "name": "Soulsight Familiar",
       "type": "trait",
-      "_id": "dSeTYdhZUX07a7Tp",
+      "_id": "OWLrzFX9GTaRaodq",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>This character has additional limbs, and may use them to wield an additional One-Handed or Pistol weapon and use it in combat.</p>",
+          "player": "<p>The Sanctus is accompanied on their missions by a Soulsight Familiar and gains +1 Resolve on account that it feels the Patriarch's ever-watchful gaze upon them (already included in this profile). The Sanctus can also never be Surprised.</p>",
           "gm": ""
         },
         "attack": {
@@ -419,73 +419,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.dSeTYdhZUX07a7Tp"
+      "_key": "!actors.items!7kkv6sagzBLYKQA7.OWLrzFX9GTaRaodq"
     },
     {
-      "name": "Resurgence",
-      "type": "trait",
-      "_id": "NJbZMddob8BlObsU",
-      "img": "modules/impmal-core/assets/icons/blank.webp",
-      "system": {
-        "notes": {
-          "player": "<p>When in Combat, the Cultist has a pool of 3 Resurgence Points. They may spend 1 Resurgence Point to gain +1SL on an Attack Test, 2 Resurgence Points to gain Advantage on any Test, or 3 Resurgence Points to reroll any Attack Test. The Cultist cannot regain the number of Resurgence Points they have spent, and can only spend Resurgence Points once per turn. If the Cultist has not spent any Resurgence Points by the time they die or are defeated, they can all be spent to revive themselves at the start of the next Round at half Wounds in a zone within Medium Range as long as it is not occupied by enemies.</p>",
-          "gm": ""
-        },
-        "attack": {
-          "enabled": false,
-          "type": "melee",
-          "characteristic": "",
-          "skill": {
-            "key": "",
-            "specialisation": ""
-          },
-          "damage": {
-            "SL": false,
-            "base": "",
-            "characteristic": "",
-            "ignoreAP": false
-          },
-          "range": "",
-          "traits": {
-            "list": []
-          },
-          "self": false
-        },
-        "test": {
-          "enabled": false,
-          "target": "self",
-          "difficulty": "challenging",
-          "characteristic": "",
-          "skill": {
-            "key": "",
-            "specialisation": ""
-          },
-          "self": false
-        },
-        "roll": {
-          "enabled": false,
-          "formula": "",
-          "label": ""
-        },
-        "category": "standard"
-      },
-      "effects": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "impmal",
-        "systemVersion": "3.2.1"
-      },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.NJbZMddob8BlObsU"
-    },
-    {
-      "name": "Autopistol",
+      "name": "Silenced Needle Rifle",
       "type": "weapon",
-      "_id": "XXBFTY8TdLUW3PTq",
+      "_id": "mWXYIR0Lg5CzRL6t",
       "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
       "system": {
         "notes": {
@@ -504,7 +443,7 @@
           "force": true
         },
         "damage": {
-          "base": "5",
+          "base": "1",
           "characteristic": "",
           "SL": true,
           "ignoreAP": false
@@ -512,22 +451,26 @@
         "traits": {
           "list": [
             {
-              "key": "close"
+              "key": "inflict",
+              "value": "Poisoned"
             },
             {
-              "key": "loud"
+              "key": "penetrating",
+              "value": "6"
             },
             {
-              "key": "rapidFire",
-              "value": "3"
+              "key": "subtle"
+            },
+            {
+              "key": "twoHanded"
             }
           ]
         },
         "ammoCost": 0,
         "attackType": "ranged",
         "category": "",
-        "spec": "pistol",
-        "range": "medium",
+        "spec": "longGun",
+        "range": "long",
         "rangeModifier": {
           "value": 0,
           "override": ""
@@ -558,12 +501,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.XXBFTY8TdLUW3PTq"
+      "_key": "!actors.items!7kkv6sagzBLYKQA7.mWXYIR0Lg5CzRL6t"
     },
     {
-      "name": "Bonesword",
+      "name": "Sanctus Biodagger",
       "type": "weapon",
-      "_id": "vG0g2MpqzzBV3S4b",
+      "_id": "CTFwcI5bLAlKqSr3",
       "img": "modules/impmal-core/assets/icons/weapons/sword.webp",
       "system": {
         "notes": {
@@ -582,13 +525,25 @@
           "force": true
         },
         "damage": {
-          "base": "5",
+          "base": "6",
           "characteristic": "",
           "SL": true,
           "ignoreAP": false
         },
         "traits": {
-          "list": []
+          "list": [
+            {
+              "key": "inflict",
+              "value": "Poisoned"
+            },
+            {
+              "key": "penetrating",
+              "value": "4"
+            },
+            {
+              "key": "subtle"
+            }
+          ]
         },
         "ammoCost": 0,
         "attackType": "melee",
@@ -625,68 +580,27 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.vG0g2MpqzzBV3S4b"
+      "_key": "!actors.items!7kkv6sagzBLYKQA7.CTFwcI5bLAlKqSr3"
     },
     {
-      "name": "Claws",
-      "type": "weapon",
-      "_id": "zhkWvI5wcGN1kKZa",
-      "img": "modules/impmal-core/assets/icons/weapons/sword.webp",
+      "name": "Might",
+      "type": "specialisation",
+      "_id": "xwUUB9sGVPmz6WTQ",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
       "system": {
         "notes": {
           "player": "",
           "gm": ""
         },
-        "encumbrance": {
-          "value": 0
-        },
-        "cost": 0,
-        "availability": "",
-        "quantity": 1,
-        "equipped": {
-          "value": true,
-          "hand": "",
-          "force": true
-        },
-        "damage": {
-          "base": "3",
-          "characteristic": "",
-          "SL": true,
-          "ignoreAP": false
-        },
-        "traits": {
-          "list": [
-            {
-              "key": "ineffective"
-            }
-          ]
-        },
-        "ammoCost": 0,
-        "attackType": "melee",
-        "category": "mundane",
-        "spec": "brawling",
-        "range": "",
-        "rangeModifier": {
-          "value": 0,
-          "override": ""
-        },
-        "mag": {
-          "value": 1,
-          "current": 1
-        },
-        "ammo": {
-          "id": ""
-        },
-        "mods": {
-          "list": []
-        },
-        "slots": {
-          "list": [],
-          "value": 0
-        }
+        "advances": 2,
+        "restricted": false,
+        "skill": "athletics"
       },
       "effects": [],
       "sort": 0,
+      "ownership": {
+        "default": 0
+      },
       "flags": {},
       "_stats": {
         "compendiumSource": null,
@@ -696,7 +610,157 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.zhkWvI5wcGN1kKZa"
+      "_key": "!actors.items!7kkv6sagzBLYKQA7.xwUUB9sGVPmz6WTQ"
+    },
+    {
+      "name": "Smell",
+      "type": "specialisation",
+      "_id": "kFfbDMw4qLVsjRJ5",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 3,
+        "restricted": false,
+        "skill": "awareness"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!7kkv6sagzBLYKQA7.kFfbDMw4qLVsjRJ5"
+    },
+    {
+      "name": "One-Handed",
+      "type": "specialisation",
+      "_id": "oiwJQWT2Jdbm1GOC",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 1,
+        "restricted": false,
+        "skill": "melee"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!7kkv6sagzBLYKQA7.oiwJQWT2Jdbm1GOC"
+    },
+    {
+      "name": "Long Guns",
+      "type": "specialisation",
+      "_id": "WLaGBC7o637bQ3Ic",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 1,
+        "restricted": false,
+        "skill": "ranged"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!7kkv6sagzBLYKQA7.WLaGBC7o637bQ3Ic"
+    },
+    {
+      "name": "Acrobatics",
+      "type": "specialisation",
+      "_id": "GyZA7D4D0O5GrivF",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 1,
+        "restricted": false,
+        "skill": "reflexes"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!7kkv6sagzBLYKQA7.GyZA7D4D0O5GrivF"
+    },
+    {
+      "name": "Hide",
+      "type": "specialisation",
+      "_id": "YVClo6sFt4guJA6x",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 2,
+        "restricted": false,
+        "skill": "stealth"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!7kkv6sagzBLYKQA7.YVClo6sFt4guJA6x"
     }
   ]
 }

@@ -1,18 +1,18 @@
 {
-  "folder": "ynF8sdZ0ctNGKjgI",
-  "name": "Acolyte Hybrid",
+  "folder": "rYE4s1jknBleY1s5",
+  "name": "Fire Warrior",
   "type": "npc",
-  "_id": "ddkoCdiXHCRDuEd3",
+  "_id": "lRKYz7A1zWSaw9Yx",
   "img": "modules/impmal-core/assets/tokens/unknown.webp",
   "system": {
     "characteristics": {
       "ws": {
-        "starting": 40,
+        "starting": 25,
         "advances": 0,
         "modifier": 0
       },
       "bs": {
-        "starting": 30,
+        "starting": 40,
         "advances": 0,
         "modifier": 0
       },
@@ -22,22 +22,22 @@
         "modifier": 0
       },
       "tgh": {
-        "starting": 35,
+        "starting": 30,
         "advances": 0,
         "modifier": 0
       },
       "ag": {
-        "starting": 40,
+        "starting": 35,
         "advances": 0,
         "modifier": 0
       },
       "int": {
-        "starting": 20,
+        "starting": 30,
         "advances": 0,
         "modifier": 0
       },
       "per": {
-        "starting": 40,
+        "starting": 20,
         "advances": 0,
         "modifier": 0
       },
@@ -47,7 +47,7 @@
         "modifier": 0
       },
       "fel": {
-        "starting": 20,
+        "starting": 30,
         "advances": 0,
         "modifier": 0
       }
@@ -55,12 +55,12 @@
     "skills": {
       "athletics": {
         "characteristic": "str",
-        "advances": 2,
+        "advances": 1,
         "modifier": 0
       },
       "awareness": {
         "characteristic": "per",
-        "advances": 0,
+        "advances": 2,
         "modifier": 0
       },
       "dexterity": {
@@ -105,7 +105,7 @@
       },
       "melee": {
         "characteristic": "ws",
-        "advances": 1,
+        "advances": 0,
         "modifier": 0
       },
       "navigation": {
@@ -115,7 +115,7 @@
       },
       "presence": {
         "characteristic": "wil",
-        "advances": 2,
+        "advances": 0,
         "modifier": 0
       },
       "piloting": {
@@ -145,7 +145,7 @@
       },
       "stealth": {
         "characteristic": "ag",
-        "advances": 2,
+        "advances": 0,
         "modifier": 0
       },
       "tech": {
@@ -156,7 +156,7 @@
     },
     "notes": {
       "player": "",
-      "gm": "<p>Possessions: Heavy Leathers, 2d10 Solars, Cult/Gang Colors</p>"
+      "gm": "<p>Possessions: Fire Warrior Combat Armor, Replace Pulse Rifle with Pulse Carbine and EMP Grenade with Photon Flash Grenade if part of a Breacher Team.</p>"
     },
     "combat": {
       "size": "medium",
@@ -171,28 +171,28 @@
           "modifier": 0
         }
       },
-      "initiative": 8,
+      "initiative": 5,
       "wounds": {
         "max": 12,
         "value": 12
       },
       "criticals": {
-        "max": 1,
+        "max": 0,
         "value": 0
       },
-      "resolve": 3,
+      "resolve": 1,
       "armour": {
         "formula": "",
-        "value": 2,
+        "value": 6,
         "useItems": false
       }
     },
     "faction": {
       "id": "",
-      "name": "Star Children"
+      "name": "T'au Empire"
     },
-    "species": "Mutant (Genestealer Cults)",
-    "role": "elite",
+    "species": "T'au (T'au Empire)",
+    "role": "troop",
     "autoCalc": {
       "wounds": false,
       "criticals": false,
@@ -200,7 +200,7 @@
     }
   },
   "prototypeToken": {
-    "name": "Acolyte Hybrid",
+    "name": "Fire Warrior",
     "displayName": 20,
     "actorLink": false,
     "width": 1,
@@ -236,16 +236,16 @@
     "systemId": "impmal",
     "systemVersion": "3.2.1"
   },
-  "_key": "!actors!ddkoCdiXHCRDuEd3",
+  "_key": "!actors!lRKYz7A1zWSaw9Yx",
   "items": [
     {
-      "name": "Genestealer Mutation",
+      "name": "Breachers",
       "type": "trait",
-      "_id": "pyipRtfK7PfdAGRF",
+      "_id": "U1h2uNAPKmGEIZ0f",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Individual is connected to the Genestealer Broodmind, and gains advantage on Discipline Tests when within Long Range of a Genestealer Psyker.</p>",
+          "player": "<p>If the Fire Warrior is part of a Breacher Team, and within Close Range of the enemy they are targeting with a Ranged Attack, they gain advantage on their attack.</p>",
           "gm": ""
         },
         "attack": {
@@ -297,16 +297,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.pyipRtfK7PfdAGRF"
+      "_key": "!actors.items!lRKYz7A1zWSaw9Yx.U1h2uNAPKmGEIZ0f"
     },
     {
-      "name": "Iconward",
+      "name": "For the Greater Good",
       "type": "trait",
-      "_id": "NC3hYo6LJvZjIr5e",
+      "_id": "667blNsawEFDvwC2",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Some Acolyte Hybrids may be Iconwards, and carry Cult Icons into battle. Genestealer Cultists within Medium Range of an Acolyte Iconward add +1 SL to Discipline (Fear) Tests.</p>",
+          "player": "<p>If the target of a Ranged Attack by this character is being spotted by a Pathfinder, Drone, or any unit capable of spotting for friendly forces, the character gains +1SL on Ranged Attack tests against the target.</p>",
           "gm": ""
         },
         "attack": {
@@ -358,16 +358,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.NC3hYo6LJvZjIr5e"
+      "_key": "!actors.items!lRKYz7A1zWSaw9Yx.667blNsawEFDvwC2"
     },
     {
-      "name": "Multi-Limbed",
+      "name": "Strikers",
       "type": "trait",
-      "_id": "dSeTYdhZUX07a7Tp",
+      "_id": "5ZoVGHsfvrRDCMVR",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>This character has additional limbs, and may use them to wield an additional One-Handed or Pistol weapon and use it in combat.</p>",
+          "player": "<p>If the Fire Warrior is part of a Striker Team, and uses the Overwatch action and the trigger does not occur, they will go to the top of the Initiative order at the start of the next round as long as they do not take another action.</p>",
           "gm": ""
         },
         "attack": {
@@ -419,73 +419,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.dSeTYdhZUX07a7Tp"
+      "_key": "!actors.items!lRKYz7A1zWSaw9Yx.5ZoVGHsfvrRDCMVR"
     },
     {
-      "name": "Resurgence",
-      "type": "trait",
-      "_id": "NJbZMddob8BlObsU",
-      "img": "modules/impmal-core/assets/icons/blank.webp",
-      "system": {
-        "notes": {
-          "player": "<p>When in Combat, the Cultist has a pool of 3 Resurgence Points. They may spend 1 Resurgence Point to gain +1SL on an Attack Test, 2 Resurgence Points to gain Advantage on any Test, or 3 Resurgence Points to reroll any Attack Test. The Cultist cannot regain the number of Resurgence Points they have spent, and can only spend Resurgence Points once per turn. If the Cultist has not spent any Resurgence Points by the time they die or are defeated, they can all be spent to revive themselves at the start of the next Round at half Wounds in a zone within Medium Range as long as it is not occupied by enemies.</p>",
-          "gm": ""
-        },
-        "attack": {
-          "enabled": false,
-          "type": "melee",
-          "characteristic": "",
-          "skill": {
-            "key": "",
-            "specialisation": ""
-          },
-          "damage": {
-            "SL": false,
-            "base": "",
-            "characteristic": "",
-            "ignoreAP": false
-          },
-          "range": "",
-          "traits": {
-            "list": []
-          },
-          "self": false
-        },
-        "test": {
-          "enabled": false,
-          "target": "self",
-          "difficulty": "challenging",
-          "characteristic": "",
-          "skill": {
-            "key": "",
-            "specialisation": ""
-          },
-          "self": false
-        },
-        "roll": {
-          "enabled": false,
-          "formula": "",
-          "label": ""
-        },
-        "category": "standard"
-      },
-      "effects": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "impmal",
-        "systemVersion": "3.2.1"
-      },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.NJbZMddob8BlObsU"
-    },
-    {
-      "name": "Autopistol",
+      "name": "Pulse Rifle",
       "type": "weapon",
-      "_id": "XXBFTY8TdLUW3PTq",
+      "_id": "7r76Z9JdleAq1DdJ",
       "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
       "system": {
         "notes": {
@@ -504,7 +443,7 @@
           "force": true
         },
         "damage": {
-          "base": "5",
+          "base": "10",
           "characteristic": "",
           "SL": true,
           "ignoreAP": false
@@ -512,22 +451,22 @@
         "traits": {
           "list": [
             {
-              "key": "close"
-            },
-            {
-              "key": "loud"
+              "key": "gyroStabilized"
             },
             {
               "key": "rapidFire",
-              "value": "3"
+              "value": "2"
+            },
+            {
+              "key": "twoHanded"
             }
           ]
         },
         "ammoCost": 0,
         "attackType": "ranged",
         "category": "",
-        "spec": "pistol",
-        "range": "medium",
+        "spec": "longGun",
+        "range": "long",
         "rangeModifier": {
           "value": 0,
           "override": ""
@@ -558,13 +497,13 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.XXBFTY8TdLUW3PTq"
+      "_key": "!actors.items!lRKYz7A1zWSaw9Yx.7r76Z9JdleAq1DdJ"
     },
     {
-      "name": "Bonesword",
+      "name": "EMP Grenade",
       "type": "weapon",
-      "_id": "vG0g2MpqzzBV3S4b",
-      "img": "modules/impmal-core/assets/icons/weapons/sword.webp",
+      "_id": "THK1PBQ3HB8mY7G4",
+      "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
       "system": {
         "notes": {
           "player": "",
@@ -582,74 +521,7 @@
           "force": true
         },
         "damage": {
-          "base": "5",
-          "characteristic": "",
-          "SL": true,
-          "ignoreAP": false
-        },
-        "traits": {
-          "list": []
-        },
-        "ammoCost": 0,
-        "attackType": "melee",
-        "category": "",
-        "spec": "oneHanded",
-        "range": "",
-        "rangeModifier": {
-          "value": 0,
-          "override": ""
-        },
-        "mag": {
-          "value": 1,
-          "current": 1
-        },
-        "ammo": {
-          "id": ""
-        },
-        "mods": {
-          "list": []
-        },
-        "slots": {
-          "list": [],
-          "value": 0
-        }
-      },
-      "effects": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "impmal",
-        "systemVersion": "3.2.1"
-      },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.vG0g2MpqzzBV3S4b"
-    },
-    {
-      "name": "Claws",
-      "type": "weapon",
-      "_id": "zhkWvI5wcGN1kKZa",
-      "img": "modules/impmal-core/assets/icons/weapons/sword.webp",
-      "system": {
-        "notes": {
-          "player": "",
-          "gm": ""
-        },
-        "encumbrance": {
-          "value": 0
-        },
-        "cost": 0,
-        "availability": "",
-        "quantity": 1,
-        "equipped": {
-          "value": true,
-          "hand": "",
-          "force": true
-        },
-        "damage": {
-          "base": "3",
+          "base": "0",
           "characteristic": "",
           "SL": true,
           "ignoreAP": false
@@ -657,14 +529,24 @@
         "traits": {
           "list": [
             {
-              "key": "ineffective"
+              "key": "blast"
+            },
+            {
+              "key": "loud"
+            },
+            {
+              "key": "haywire",
+              "value": "3"
+            },
+            {
+              "key": "unstable"
             }
           ]
         },
         "ammoCost": 0,
-        "attackType": "melee",
-        "category": "mundane",
-        "spec": "brawling",
+        "attackType": "ranged",
+        "category": "",
+        "spec": "thrown",
         "range": "",
         "rangeModifier": {
           "value": 0,
@@ -696,7 +578,37 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.zhkWvI5wcGN1kKZa"
+      "_key": "!actors.items!lRKYz7A1zWSaw9Yx.THK1PBQ3HB8mY7G4"
+    },
+    {
+      "name": "Long Gun",
+      "type": "specialisation",
+      "_id": "tX5l971prfLAjVUD",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 1,
+        "restricted": false,
+        "skill": "ranged"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!lRKYz7A1zWSaw9Yx.tX5l971prfLAjVUD"
     }
   ]
 }

@@ -1,38 +1,38 @@
 {
-  "folder": "ynF8sdZ0ctNGKjgI",
-  "name": "Acolyte Hybrid",
+  "folder": "rYE4s1jknBleY1s5",
+  "name": "XV8 Crisis Battlesuit Commander",
   "type": "npc",
-  "_id": "ddkoCdiXHCRDuEd3",
+  "_id": "NHk6Q7g6XDEPdx5e",
   "img": "modules/impmal-core/assets/tokens/unknown.webp",
   "system": {
     "characteristics": {
       "ws": {
-        "starting": 40,
+        "starting": 25,
         "advances": 0,
         "modifier": 0
       },
       "bs": {
-        "starting": 30,
+        "starting": 50,
         "advances": 0,
         "modifier": 0
       },
       "str": {
-        "starting": 30,
+        "starting": 55,
         "advances": 0,
         "modifier": 0
       },
       "tgh": {
-        "starting": 35,
+        "starting": 55,
         "advances": 0,
         "modifier": 0
       },
       "ag": {
-        "starting": 40,
+        "starting": 50,
         "advances": 0,
         "modifier": 0
       },
       "int": {
-        "starting": 20,
+        "starting": 40,
         "advances": 0,
         "modifier": 0
       },
@@ -42,12 +42,12 @@
         "modifier": 0
       },
       "wil": {
-        "starting": 30,
+        "starting": 50,
         "advances": 0,
         "modifier": 0
       },
       "fel": {
-        "starting": 20,
+        "starting": 45,
         "advances": 0,
         "modifier": 0
       }
@@ -55,13 +55,13 @@
     "skills": {
       "athletics": {
         "characteristic": "str",
-        "advances": 2,
+        "advances": 1,
         "modifier": 0
       },
       "awareness": {
         "characteristic": "per",
         "advances": 0,
-        "modifier": 0
+        "modifier": -5
       },
       "dexterity": {
         "characteristic": "ag",
@@ -90,7 +90,7 @@
       },
       "logic": {
         "characteristic": "int",
-        "advances": 0,
+        "advances": 1,
         "modifier": 0
       },
       "lore": {
@@ -105,7 +105,7 @@
       },
       "melee": {
         "characteristic": "ws",
-        "advances": 1,
+        "advances": 0,
         "modifier": 0
       },
       "navigation": {
@@ -115,12 +115,12 @@
       },
       "presence": {
         "characteristic": "wil",
-        "advances": 2,
+        "advances": 0,
         "modifier": 0
       },
       "piloting": {
         "characteristic": "ag",
-        "advances": 0,
+        "advances": 1,
         "modifier": 0
       },
       "psychic": {
@@ -130,12 +130,12 @@
       },
       "ranged": {
         "characteristic": "bs",
-        "advances": 1,
+        "advances": 0,
         "modifier": 0
       },
       "rapport": {
         "characteristic": "fel",
-        "advances": 0,
+        "advances": 1,
         "modifier": 0
       },
       "reflexes": {
@@ -145,7 +145,7 @@
       },
       "stealth": {
         "characteristic": "ag",
-        "advances": 2,
+        "advances": 0,
         "modifier": 0
       },
       "tech": {
@@ -156,10 +156,10 @@
     },
     "notes": {
       "player": "",
-      "gm": "<p>Possessions: Heavy Leathers, 2d10 Solars, Cult/Gang Colors</p>"
+      "gm": "<p>Possessions: Crisis Battlesuit, 4x Support Systems</p>"
     },
     "combat": {
-      "size": "medium",
+      "size": "large",
       "armourModifier": 0,
       "speed": {
         "land": {
@@ -171,28 +171,28 @@
           "modifier": 0
         }
       },
-      "initiative": 8,
+      "initiative": 9,
       "wounds": {
-        "max": 12,
-        "value": 12
+        "max": 25,
+        "value": 25
       },
       "criticals": {
-        "max": 1,
+        "max": 5,
         "value": 0
       },
       "resolve": 3,
       "armour": {
-        "formula": "",
-        "value": 2,
+        "formula": "10 + 1d10",
+        "value": 10,
         "useItems": false
       }
     },
     "faction": {
       "id": "",
-      "name": "Star Children"
+      "name": "T'au Empire"
     },
-    "species": "Mutant (Genestealer Cults)",
-    "role": "elite",
+    "species": "Battlesuit (T'au Empire)",
+    "role": "leader",
     "autoCalc": {
       "wounds": false,
       "criticals": false,
@@ -200,7 +200,7 @@
     }
   },
   "prototypeToken": {
-    "name": "Acolyte Hybrid",
+    "name": "XV8 Crisis Battlesuit Commander",
     "displayName": 20,
     "actorLink": false,
     "width": 1,
@@ -236,16 +236,16 @@
     "systemId": "impmal",
     "systemVersion": "3.2.1"
   },
-  "_key": "!actors!ddkoCdiXHCRDuEd3",
+  "_key": "!actors!NHk6Q7g6XDEPdx5e",
   "items": [
     {
-      "name": "Genestealer Mutation",
+      "name": "Battlesuit Jump Pack",
       "type": "trait",
-      "_id": "pyipRtfK7PfdAGRF",
+      "_id": "IsB1HOGR5nUxvnlS",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Individual is connected to the Genestealer Broodmind, and gains advantage on Discipline Tests when within Long Range of a Genestealer Psyker.</p>",
+          "player": "<p>A Battlesuit Jump Pack allows for a safe, guided fall from any height and allows the Battlesuit to make an unlimited series of short jumps, enabling them to consider their Speed as one higher, avoiding any ground obstacles and landing at the end of each round's movement, or they may move to any zone within Long range.</p>",
           "gm": ""
         },
         "attack": {
@@ -297,16 +297,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.pyipRtfK7PfdAGRF"
+      "_key": "!actors.items!NHk6Q7g6XDEPdx5e.IsB1HOGR5nUxvnlS"
     },
     {
-      "name": "Iconward",
+      "name": "For the Greater Good",
       "type": "trait",
-      "_id": "NC3hYo6LJvZjIr5e",
+      "_id": "yYkBj1TDK4YHmp7B",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Some Acolyte Hybrids may be Iconwards, and carry Cult Icons into battle. Genestealer Cultists within Medium Range of an Acolyte Iconward add +1 SL to Discipline (Fear) Tests.</p>",
+          "player": "<p>If the target of a Ranged Attack by this character is being spotted by a Pathfinder, Drone, or any unit capable of spotting for friendly forces, the character gains +1SL on Ranged Attack tests against the target.</p>",
           "gm": ""
         },
         "attack": {
@@ -358,16 +358,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.NC3hYo6LJvZjIr5e"
+      "_key": "!actors.items!NHk6Q7g6XDEPdx5e.yYkBj1TDK4YHmp7B"
     },
     {
-      "name": "Multi-Limbed",
+      "name": "Mont'Ka",
       "type": "trait",
-      "_id": "dSeTYdhZUX07a7Tp",
+      "_id": "FBEYLSHu8Uiay7uV",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>This character has additional limbs, and may use them to wield an additional One-Handed or Pistol weapon and use it in combat.</p>",
+          "player": "<p>Whenever an allied Battlesuit fails a Ranged test and can hear or see the Battlesuit Commander, the Commander can use their Reaction to allow the ally to re-roll the failed test.</p>",
           "gm": ""
         },
         "attack": {
@@ -419,73 +419,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.dSeTYdhZUX07a7Tp"
+      "_key": "!actors.items!NHk6Q7g6XDEPdx5e.FBEYLSHu8Uiay7uV"
     },
     {
-      "name": "Resurgence",
-      "type": "trait",
-      "_id": "NJbZMddob8BlObsU",
-      "img": "modules/impmal-core/assets/icons/blank.webp",
-      "system": {
-        "notes": {
-          "player": "<p>When in Combat, the Cultist has a pool of 3 Resurgence Points. They may spend 1 Resurgence Point to gain +1SL on an Attack Test, 2 Resurgence Points to gain Advantage on any Test, or 3 Resurgence Points to reroll any Attack Test. The Cultist cannot regain the number of Resurgence Points they have spent, and can only spend Resurgence Points once per turn. If the Cultist has not spent any Resurgence Points by the time they die or are defeated, they can all be spent to revive themselves at the start of the next Round at half Wounds in a zone within Medium Range as long as it is not occupied by enemies.</p>",
-          "gm": ""
-        },
-        "attack": {
-          "enabled": false,
-          "type": "melee",
-          "characteristic": "",
-          "skill": {
-            "key": "",
-            "specialisation": ""
-          },
-          "damage": {
-            "SL": false,
-            "base": "",
-            "characteristic": "",
-            "ignoreAP": false
-          },
-          "range": "",
-          "traits": {
-            "list": []
-          },
-          "self": false
-        },
-        "test": {
-          "enabled": false,
-          "target": "self",
-          "difficulty": "challenging",
-          "characteristic": "",
-          "skill": {
-            "key": "",
-            "specialisation": ""
-          },
-          "self": false
-        },
-        "roll": {
-          "enabled": false,
-          "formula": "",
-          "label": ""
-        },
-        "category": "standard"
-      },
-      "effects": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "impmal",
-        "systemVersion": "3.2.1"
-      },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.NJbZMddob8BlObsU"
-    },
-    {
-      "name": "Autopistol",
+      "name": "Cyclic Ion Blaster",
       "type": "weapon",
-      "_id": "XXBFTY8TdLUW3PTq",
+      "_id": "F4qz3cYF6nChSbuB",
       "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
       "system": {
         "notes": {
@@ -504,7 +443,7 @@
           "force": true
         },
         "damage": {
-          "base": "5",
+          "base": "10",
           "characteristic": "",
           "SL": true,
           "ignoreAP": false
@@ -512,22 +451,103 @@
         "traits": {
           "list": [
             {
-              "key": "close"
+              "key": "loud"
+            },
+            {
+              "key": "penetrating",
+              "value": "2"
+            },
+            {
+              "key": "rapidFire",
+              "value": "4"
+            },
+            {
+              "key": "spread"
+            }
+          ]
+        },
+        "ammoCost": 0,
+        "attackType": "ranged",
+        "category": "power",
+        "spec": "longGun",
+        "range": "long",
+        "rangeModifier": {
+          "value": 0,
+          "override": ""
+        },
+        "mag": {
+          "value": 1,
+          "current": 1
+        },
+        "ammo": {
+          "id": ""
+        },
+        "mods": {
+          "list": []
+        },
+        "slots": {
+          "list": [],
+          "value": 0
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!NHk6Q7g6XDEPdx5e.F4qz3cYF6nChSbuB"
+    },
+    {
+      "name": "Missile Pods w/ Frag Missiles",
+      "type": "weapon",
+      "_id": "MoFefBUxMyBXIyIa",
+      "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 0,
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": true,
+          "hand": "",
+          "force": true
+        },
+        "damage": {
+          "base": "10",
+          "characteristic": "",
+          "SL": true,
+          "ignoreAP": false
+        },
+        "traits": {
+          "list": [
+            {
+              "key": "blast"
             },
             {
               "key": "loud"
             },
             {
-              "key": "rapidFire",
-              "value": "3"
+              "key": "unstable"
             }
           ]
         },
         "ammoCost": 0,
         "attackType": "ranged",
         "category": "",
-        "spec": "pistol",
-        "range": "medium",
+        "spec": "ordnance",
+        "range": "extreme",
         "rangeModifier": {
           "value": 0,
           "override": ""
@@ -558,13 +578,13 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.XXBFTY8TdLUW3PTq"
+      "_key": "!actors.items!NHk6Q7g6XDEPdx5e.MoFefBUxMyBXIyIa"
     },
     {
-      "name": "Bonesword",
+      "name": "Fusion Blaster",
       "type": "weapon",
-      "_id": "vG0g2MpqzzBV3S4b",
-      "img": "modules/impmal-core/assets/icons/weapons/sword.webp",
+      "_id": "VJ1VJWIN7LiqfMt9",
+      "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
       "system": {
         "notes": {
           "player": "",
@@ -582,74 +602,7 @@
           "force": true
         },
         "damage": {
-          "base": "5",
-          "characteristic": "",
-          "SL": true,
-          "ignoreAP": false
-        },
-        "traits": {
-          "list": []
-        },
-        "ammoCost": 0,
-        "attackType": "melee",
-        "category": "",
-        "spec": "oneHanded",
-        "range": "",
-        "rangeModifier": {
-          "value": 0,
-          "override": ""
-        },
-        "mag": {
-          "value": 1,
-          "current": 1
-        },
-        "ammo": {
-          "id": ""
-        },
-        "mods": {
-          "list": []
-        },
-        "slots": {
-          "list": [],
-          "value": 0
-        }
-      },
-      "effects": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "impmal",
-        "systemVersion": "3.2.1"
-      },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.vG0g2MpqzzBV3S4b"
-    },
-    {
-      "name": "Claws",
-      "type": "weapon",
-      "_id": "zhkWvI5wcGN1kKZa",
-      "img": "modules/impmal-core/assets/icons/weapons/sword.webp",
-      "system": {
-        "notes": {
-          "player": "",
-          "gm": ""
-        },
-        "encumbrance": {
-          "value": 0
-        },
-        "cost": 0,
-        "availability": "",
-        "quantity": 1,
-        "equipped": {
-          "value": true,
-          "hand": "",
-          "force": true
-        },
-        "damage": {
-          "base": "3",
+          "base": "12",
           "characteristic": "",
           "SL": true,
           "ignoreAP": false
@@ -657,15 +610,23 @@
         "traits": {
           "list": [
             {
-              "key": "ineffective"
+              "key": "loud"
+            },
+            {
+              "key": "penetrating",
+              "value": "6"
+            },
+            {
+              "key": "supercharge",
+              "value": "4"
             }
           ]
         },
         "ammoCost": 0,
-        "attackType": "melee",
-        "category": "mundane",
-        "spec": "brawling",
-        "range": "",
+        "attackType": "ranged",
+        "category": "",
+        "spec": "ordnance",
+        "range": "long",
         "rangeModifier": {
           "value": 0,
           "override": ""
@@ -696,7 +657,67 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.zhkWvI5wcGN1kKZa"
+      "_key": "!actors.items!NHk6Q7g6XDEPdx5e.VJ1VJWIN7LiqfMt9"
+    },
+    {
+      "name": "Leadership",
+      "type": "specialisation",
+      "_id": "rNl0lyqtwvrzfrhk",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 1,
+        "restricted": false,
+        "skill": "presence"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!NHk6Q7g6XDEPdx5e.rNl0lyqtwvrzfrhk"
+    },
+    {
+      "name": "Ordnance",
+      "type": "specialisation",
+      "_id": "H4udrHQM4vZZT2yh",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 1,
+        "restricted": false,
+        "skill": "ranged"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!NHk6Q7g6XDEPdx5e.H4udrHQM4vZZT2yh"
     }
   ]
 }

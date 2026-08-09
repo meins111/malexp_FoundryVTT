@@ -1,53 +1,53 @@
 {
   "folder": "ynF8sdZ0ctNGKjgI",
-  "name": "Acolyte Hybrid",
+  "name": "Abominant",
   "type": "npc",
-  "_id": "ddkoCdiXHCRDuEd3",
+  "_id": "vsIpwrPBvZDXUBth",
   "img": "modules/impmal-core/assets/tokens/unknown.webp",
   "system": {
     "characteristics": {
       "ws": {
-        "starting": 40,
+        "starting": 55,
         "advances": 0,
         "modifier": 0
       },
       "bs": {
-        "starting": 30,
+        "starting": 10,
         "advances": 0,
         "modifier": 0
       },
       "str": {
-        "starting": 30,
+        "starting": 60,
         "advances": 0,
         "modifier": 0
       },
       "tgh": {
-        "starting": 35,
+        "starting": 70,
         "advances": 0,
         "modifier": 0
       },
       "ag": {
-        "starting": 40,
+        "starting": 20,
         "advances": 0,
         "modifier": 0
       },
       "int": {
-        "starting": 20,
+        "starting": 10,
         "advances": 0,
         "modifier": 0
       },
       "per": {
-        "starting": 40,
-        "advances": 0,
-        "modifier": 0
-      },
-      "wil": {
         "starting": 30,
         "advances": 0,
         "modifier": 0
       },
+      "wil": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      },
       "fel": {
-        "starting": 20,
+        "starting": 10,
         "advances": 0,
         "modifier": 0
       }
@@ -75,7 +75,7 @@
       },
       "fortitude": {
         "characteristic": "tgh",
-        "advances": 0,
+        "advances": 2,
         "modifier": 0
       },
       "intuition": {
@@ -115,7 +115,7 @@
       },
       "presence": {
         "characteristic": "wil",
-        "advances": 2,
+        "advances": 0,
         "modifier": 0
       },
       "piloting": {
@@ -130,7 +130,7 @@
       },
       "ranged": {
         "characteristic": "bs",
-        "advances": 1,
+        "advances": 0,
         "modifier": 0
       },
       "rapport": {
@@ -145,7 +145,7 @@
       },
       "stealth": {
         "characteristic": "ag",
-        "advances": 2,
+        "advances": 0,
         "modifier": 0
       },
       "tech": {
@@ -156,10 +156,10 @@
     },
     "notes": {
       "player": "",
-      "gm": "<p>Possessions: Heavy Leathers, 2d10 Solars, Cult/Gang Colors</p>"
+      "gm": "<p>Possessions: None. Resolve is listed as 'Special' in the source (protected by Mindwyrm Familiar) and is set to 0 here for lack of an automatable value.</p>"
     },
     "combat": {
-      "size": "medium",
+      "size": "enormous",
       "armourModifier": 0,
       "speed": {
         "land": {
@@ -171,19 +171,19 @@
           "modifier": 0
         }
       },
-      "initiative": 8,
+      "initiative": 5,
       "wounds": {
-        "max": 12,
-        "value": 12
+        "max": 37,
+        "value": 37
       },
       "criticals": {
-        "max": 1,
+        "max": 7,
         "value": 0
       },
-      "resolve": 3,
+      "resolve": 0,
       "armour": {
         "formula": "",
-        "value": 2,
+        "value": 0,
         "useItems": false
       }
     },
@@ -192,7 +192,7 @@
       "name": "Star Children"
     },
     "species": "Mutant (Genestealer Cults)",
-    "role": "elite",
+    "role": "leader",
     "autoCalc": {
       "wounds": false,
       "criticals": false,
@@ -200,7 +200,7 @@
     }
   },
   "prototypeToken": {
-    "name": "Acolyte Hybrid",
+    "name": "Abominant",
     "displayName": 20,
     "actorLink": false,
     "width": 1,
@@ -236,12 +236,12 @@
     "systemId": "impmal",
     "systemVersion": "3.2.1"
   },
-  "_key": "!actors!ddkoCdiXHCRDuEd3",
+  "_key": "!actors!vsIpwrPBvZDXUBth",
   "items": [
     {
       "name": "Genestealer Mutation",
       "type": "trait",
-      "_id": "pyipRtfK7PfdAGRF",
+      "_id": "uEpajM9sD81WuR4n",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
@@ -297,16 +297,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.pyipRtfK7PfdAGRF"
+      "_key": "!actors.items!vsIpwrPBvZDXUBth.uEpajM9sD81WuR4n"
     },
     {
-      "name": "Iconward",
+      "name": "Mindwyrm Familiar",
       "type": "trait",
-      "_id": "NC3hYo6LJvZjIr5e",
+      "_id": "dDqPMKuBISVOcDBh",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Some Acolyte Hybrids may be Iconwards, and carry Cult Icons into battle. Genestealer Cultists within Medium Range of an Acolyte Iconward add +1 SL to Discipline (Fear) Tests.</p>",
+          "player": "<p>The Abominant is accompanied by a Mindwyrm Familiar that prevents it from ever going Desperate (IM CRB pg. 197). The Mindwyrm Familiar has 5 Wounds, and if it is killed, the Abominant immediately becomes Desperate and charges the nearest enemies.</p>",
           "gm": ""
         },
         "attack": {
@@ -358,12 +358,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.NC3hYo6LJvZjIr5e"
+      "_key": "!actors.items!vsIpwrPBvZDXUBth.dDqPMKuBISVOcDBh"
     },
     {
       "name": "Multi-Limbed",
       "type": "trait",
-      "_id": "dSeTYdhZUX07a7Tp",
+      "_id": "a26f0bEcJhvgEvJw",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
@@ -419,16 +419,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.dSeTYdhZUX07a7Tp"
+      "_key": "!actors.items!vsIpwrPBvZDXUBth.a26f0bEcJhvgEvJw"
     },
     {
-      "name": "Resurgence",
+      "name": "Regenerating Genemass",
       "type": "trait",
-      "_id": "NJbZMddob8BlObsU",
+      "_id": "zT0BozsbJHf0nejV",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>When in Combat, the Cultist has a pool of 3 Resurgence Points. They may spend 1 Resurgence Point to gain +1SL on an Attack Test, 2 Resurgence Points to gain Advantage on any Test, or 3 Resurgence Points to reroll any Attack Test. The Cultist cannot regain the number of Resurgence Points they have spent, and can only spend Resurgence Points once per turn. If the Cultist has not spent any Resurgence Points by the time they die or are defeated, they can all be spent to revive themselves at the start of the next Round at half Wounds in a zone within Medium Range as long as it is not occupied by enemies.</p>",
+          "player": "<p>Whenever the Abominant would suffer one or more Wounds, they may make a Challenging (+0) Fortitude Test. If they succeed, they reduce the amount of Wounds suffered by SL. The first time the Abominant would be Defeated, they may make a Very Hard (-30) Fortitude Test. If they succeed, they are not defeated and have 18 Wounds remaining but with all Critical Wounds spent.</p>",
           "gm": ""
         },
         "attack": {
@@ -480,16 +480,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.NJbZMddob8BlObsU"
+      "_key": "!actors.items!vsIpwrPBvZDXUBth.zT0BozsbJHf0nejV"
     },
     {
-      "name": "Autopistol",
+      "name": "Power Sledgehammer",
       "type": "weapon",
-      "_id": "XXBFTY8TdLUW3PTq",
-      "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
+      "_id": "RWhPQuEpcKnnhLJl",
+      "img": "modules/impmal-core/assets/icons/weapons/sword.webp",
       "system": {
         "notes": {
-          "player": "",
+          "player": "<p>The Abominant may choose to halve the damage dealt to a Target to force them to make a Hard (-20) Reflexes (Balance) Test or fall Prone.</p>",
           "gm": ""
         },
         "encumbrance": {
@@ -504,7 +504,7 @@
           "force": true
         },
         "damage": {
-          "base": "5",
+          "base": "13",
           "characteristic": "",
           "SL": true,
           "ignoreAP": false
@@ -512,88 +512,21 @@
         "traits": {
           "list": [
             {
-              "key": "close"
+              "key": "penetrating",
+              "value": "6"
             },
             {
-              "key": "loud"
+              "key": "spread"
             },
             {
-              "key": "rapidFire",
-              "value": "3"
+              "key": "twoHanded"
             }
           ]
         },
         "ammoCost": 0,
-        "attackType": "ranged",
-        "category": "",
-        "spec": "pistol",
-        "range": "medium",
-        "rangeModifier": {
-          "value": 0,
-          "override": ""
-        },
-        "mag": {
-          "value": 1,
-          "current": 1
-        },
-        "ammo": {
-          "id": ""
-        },
-        "mods": {
-          "list": []
-        },
-        "slots": {
-          "list": [],
-          "value": 0
-        }
-      },
-      "effects": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "impmal",
-        "systemVersion": "3.2.1"
-      },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.XXBFTY8TdLUW3PTq"
-    },
-    {
-      "name": "Bonesword",
-      "type": "weapon",
-      "_id": "vG0g2MpqzzBV3S4b",
-      "img": "modules/impmal-core/assets/icons/weapons/sword.webp",
-      "system": {
-        "notes": {
-          "player": "",
-          "gm": ""
-        },
-        "encumbrance": {
-          "value": 0
-        },
-        "cost": 0,
-        "availability": "",
-        "quantity": 1,
-        "equipped": {
-          "value": true,
-          "hand": "",
-          "force": true
-        },
-        "damage": {
-          "base": "5",
-          "characteristic": "",
-          "SL": true,
-          "ignoreAP": false
-        },
-        "traits": {
-          "list": []
-        },
-        "ammoCost": 0,
         "attackType": "melee",
         "category": "",
-        "spec": "oneHanded",
+        "spec": "twoHanded",
         "range": "",
         "rangeModifier": {
           "value": 0,
@@ -625,68 +558,27 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.vG0g2MpqzzBV3S4b"
+      "_key": "!actors.items!vsIpwrPBvZDXUBth.RWhPQuEpcKnnhLJl"
     },
     {
-      "name": "Claws",
-      "type": "weapon",
-      "_id": "zhkWvI5wcGN1kKZa",
-      "img": "modules/impmal-core/assets/icons/weapons/sword.webp",
+      "name": "Two-Handed",
+      "type": "specialisation",
+      "_id": "8eK6lJRdEGTLGjPe",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
       "system": {
         "notes": {
           "player": "",
           "gm": ""
         },
-        "encumbrance": {
-          "value": 0
-        },
-        "cost": 0,
-        "availability": "",
-        "quantity": 1,
-        "equipped": {
-          "value": true,
-          "hand": "",
-          "force": true
-        },
-        "damage": {
-          "base": "3",
-          "characteristic": "",
-          "SL": true,
-          "ignoreAP": false
-        },
-        "traits": {
-          "list": [
-            {
-              "key": "ineffective"
-            }
-          ]
-        },
-        "ammoCost": 0,
-        "attackType": "melee",
-        "category": "mundane",
-        "spec": "brawling",
-        "range": "",
-        "rangeModifier": {
-          "value": 0,
-          "override": ""
-        },
-        "mag": {
-          "value": 1,
-          "current": 1
-        },
-        "ammo": {
-          "id": ""
-        },
-        "mods": {
-          "list": []
-        },
-        "slots": {
-          "list": [],
-          "value": 0
-        }
+        "advances": 2,
+        "restricted": false,
+        "skill": "melee"
       },
       "effects": [],
       "sort": 0,
+      "ownership": {
+        "default": 0
+      },
       "flags": {},
       "_stats": {
         "compendiumSource": null,
@@ -696,7 +588,37 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.zhkWvI5wcGN1kKZa"
+      "_key": "!actors.items!vsIpwrPBvZDXUBth.8eK6lJRdEGTLGjPe"
+    },
+    {
+      "name": "Intimidation",
+      "type": "specialisation",
+      "_id": "27eVfhWecfk7tjXU",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 2,
+        "restricted": false,
+        "skill": "presence"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!vsIpwrPBvZDXUBth.27eVfhWecfk7tjXU"
     }
   ]
 }

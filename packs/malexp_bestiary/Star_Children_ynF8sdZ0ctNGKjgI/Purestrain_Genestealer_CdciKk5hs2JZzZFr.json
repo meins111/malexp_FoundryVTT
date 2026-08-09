@@ -1,43 +1,43 @@
 {
   "folder": "ynF8sdZ0ctNGKjgI",
-  "name": "Acolyte Hybrid",
+  "name": "Purestrain Genestealer",
   "type": "npc",
-  "_id": "ddkoCdiXHCRDuEd3",
+  "_id": "CdciKk5hs2JZzZFr",
   "img": "modules/impmal-core/assets/tokens/unknown.webp",
   "system": {
     "characteristics": {
       "ws": {
-        "starting": 40,
+        "starting": 60,
         "advances": 0,
         "modifier": 0
       },
       "bs": {
-        "starting": 30,
+        "starting": 10,
         "advances": 0,
         "modifier": 0
       },
       "str": {
-        "starting": 30,
+        "starting": 50,
         "advances": 0,
         "modifier": 0
       },
       "tgh": {
-        "starting": 35,
+        "starting": 60,
         "advances": 0,
         "modifier": 0
       },
       "ag": {
-        "starting": 40,
+        "starting": 60,
         "advances": 0,
         "modifier": 0
       },
       "int": {
-        "starting": 20,
+        "starting": 30,
         "advances": 0,
         "modifier": 0
       },
       "per": {
-        "starting": 40,
+        "starting": 30,
         "advances": 0,
         "modifier": 0
       },
@@ -47,7 +47,7 @@
         "modifier": 0
       },
       "fel": {
-        "starting": 20,
+        "starting": 10,
         "advances": 0,
         "modifier": 0
       }
@@ -60,7 +60,7 @@
       },
       "awareness": {
         "characteristic": "per",
-        "advances": 0,
+        "advances": 4,
         "modifier": 0
       },
       "dexterity": {
@@ -70,7 +70,7 @@
       },
       "discipline": {
         "characteristic": "wil",
-        "advances": 0,
+        "advances": 4,
         "modifier": 0
       },
       "fortitude": {
@@ -80,7 +80,7 @@
       },
       "intuition": {
         "characteristic": "per",
-        "advances": 0,
+        "advances": 4,
         "modifier": 0
       },
       "linguistics": {
@@ -105,7 +105,7 @@
       },
       "melee": {
         "characteristic": "ws",
-        "advances": 1,
+        "advances": 2,
         "modifier": 0
       },
       "navigation": {
@@ -115,7 +115,7 @@
       },
       "presence": {
         "characteristic": "wil",
-        "advances": 2,
+        "advances": 0,
         "modifier": 0
       },
       "piloting": {
@@ -130,7 +130,7 @@
       },
       "ranged": {
         "characteristic": "bs",
-        "advances": 1,
+        "advances": 0,
         "modifier": 0
       },
       "rapport": {
@@ -140,12 +140,12 @@
       },
       "reflexes": {
         "characteristic": "ag",
-        "advances": 0,
+        "advances": 2,
         "modifier": 0
       },
       "stealth": {
         "characteristic": "ag",
-        "advances": 2,
+        "advances": 0,
         "modifier": 0
       },
       "tech": {
@@ -156,14 +156,14 @@
     },
     "notes": {
       "player": "",
-      "gm": "<p>Possessions: Heavy Leathers, 2d10 Solars, Cult/Gang Colors</p>"
+      "gm": "<p>Possessions: None.</p>"
     },
     "combat": {
       "size": "medium",
       "armourModifier": 0,
       "speed": {
         "land": {
-          "value": "normal",
+          "value": "fast",
           "modifier": 0
         },
         "fly": {
@@ -171,13 +171,13 @@
           "modifier": 0
         }
       },
-      "initiative": 8,
+      "initiative": 9,
       "wounds": {
-        "max": 12,
-        "value": 12
+        "max": 20,
+        "value": 20
       },
       "criticals": {
-        "max": 1,
+        "max": 2,
         "value": 0
       },
       "resolve": 3,
@@ -191,7 +191,7 @@
       "id": "",
       "name": "Star Children"
     },
-    "species": "Mutant (Genestealer Cults)",
+    "species": "Genestealer (Genestealer Cult)",
     "role": "elite",
     "autoCalc": {
       "wounds": false,
@@ -200,7 +200,7 @@
     }
   },
   "prototypeToken": {
-    "name": "Acolyte Hybrid",
+    "name": "Purestrain Genestealer",
     "displayName": 20,
     "actorLink": false,
     "width": 1,
@@ -236,16 +236,16 @@
     "systemId": "impmal",
     "systemVersion": "3.2.1"
   },
-  "_key": "!actors!ddkoCdiXHCRDuEd3",
+  "_key": "!actors!CdciKk5hs2JZzZFr",
   "items": [
     {
-      "name": "Genestealer Mutation",
+      "name": "Ambush Predator",
       "type": "trait",
-      "_id": "pyipRtfK7PfdAGRF",
+      "_id": "urrTpSCBhM5coEix",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Individual is connected to the Genestealer Broodmind, and gains advantage on Discipline Tests when within Long Range of a Genestealer Psyker.</p>",
+          "player": "<p>During a Surprise Round, if the Purestrain Genestealer managed to Surprise the enemy, they may attack twice with their Claws and Talons against a single target.</p>",
           "gm": ""
         },
         "attack": {
@@ -297,16 +297,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.pyipRtfK7PfdAGRF"
+      "_key": "!actors.items!CdciKk5hs2JZzZFr.urrTpSCBhM5coEix"
     },
     {
-      "name": "Iconward",
+      "name": "Genestealer Kiss",
       "type": "trait",
-      "_id": "NC3hYo6LJvZjIr5e",
+      "_id": "N5ecRHoeTAR7W0S2",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Some Acolyte Hybrids may be Iconwards, and carry Cult Icons into battle. Genestealer Cultists within Medium Range of an Acolyte Iconward add +1 SL to Discipline (Fear) Tests.</p>",
+          "player": "<p>If the Purestrain Genestealer has Grappled an enemy, they may make an Opposed Challenging (+0) Discipline Test against the victim. If the Genestealer succeeds, the victim swaps their faction to Genestealer Cults. If the victim has any Discipline or Psychic Mastery Advances, the Genestealer makes the test at Hard (-20) instead.</p>",
           "gm": ""
         },
         "attack": {
@@ -358,16 +358,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.NC3hYo6LJvZjIr5e"
+      "_key": "!actors.items!CdciKk5hs2JZzZFr.N5ecRHoeTAR7W0S2"
     },
     {
-      "name": "Multi-Limbed",
+      "name": "Hive Mind",
       "type": "trait",
-      "_id": "dSeTYdhZUX07a7Tp",
+      "_id": "sYnTte9qnLcathr9",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>This character has additional limbs, and may use them to wield an additional One-Handed or Pistol weapon and use it in combat.</p>",
+          "player": "<p>The Purestrain Genestealer has +1 Resolve when connected to the Tyranid Hive Mind.</p>",
           "gm": ""
         },
         "attack": {
@@ -419,12 +419,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.dSeTYdhZUX07a7Tp"
+      "_key": "!actors.items!CdciKk5hs2JZzZFr.sYnTte9qnLcathr9"
     },
     {
       "name": "Resurgence",
       "type": "trait",
-      "_id": "NJbZMddob8BlObsU",
+      "_id": "6MrGVRKU1i4i97Q8",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
@@ -480,90 +480,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.NJbZMddob8BlObsU"
+      "_key": "!actors.items!CdciKk5hs2JZzZFr.6MrGVRKU1i4i97Q8"
     },
     {
-      "name": "Autopistol",
+      "name": "Claws and Talons",
       "type": "weapon",
-      "_id": "XXBFTY8TdLUW3PTq",
-      "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
-      "system": {
-        "notes": {
-          "player": "",
-          "gm": ""
-        },
-        "encumbrance": {
-          "value": 0
-        },
-        "cost": 0,
-        "availability": "",
-        "quantity": 1,
-        "equipped": {
-          "value": true,
-          "hand": "",
-          "force": true
-        },
-        "damage": {
-          "base": "5",
-          "characteristic": "",
-          "SL": true,
-          "ignoreAP": false
-        },
-        "traits": {
-          "list": [
-            {
-              "key": "close"
-            },
-            {
-              "key": "loud"
-            },
-            {
-              "key": "rapidFire",
-              "value": "3"
-            }
-          ]
-        },
-        "ammoCost": 0,
-        "attackType": "ranged",
-        "category": "",
-        "spec": "pistol",
-        "range": "medium",
-        "rangeModifier": {
-          "value": 0,
-          "override": ""
-        },
-        "mag": {
-          "value": 1,
-          "current": 1
-        },
-        "ammo": {
-          "id": ""
-        },
-        "mods": {
-          "list": []
-        },
-        "slots": {
-          "list": [],
-          "value": 0
-        }
-      },
-      "effects": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "impmal",
-        "systemVersion": "3.2.1"
-      },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.XXBFTY8TdLUW3PTq"
-    },
-    {
-      "name": "Bonesword",
-      "type": "weapon",
-      "_id": "vG0g2MpqzzBV3S4b",
+      "_id": "phoitvbsTuWNTgS8",
       "img": "modules/impmal-core/assets/icons/weapons/sword.webp",
       "system": {
         "notes": {
@@ -582,74 +504,7 @@
           "force": true
         },
         "damage": {
-          "base": "5",
-          "characteristic": "",
-          "SL": true,
-          "ignoreAP": false
-        },
-        "traits": {
-          "list": []
-        },
-        "ammoCost": 0,
-        "attackType": "melee",
-        "category": "",
-        "spec": "oneHanded",
-        "range": "",
-        "rangeModifier": {
-          "value": 0,
-          "override": ""
-        },
-        "mag": {
-          "value": 1,
-          "current": 1
-        },
-        "ammo": {
-          "id": ""
-        },
-        "mods": {
-          "list": []
-        },
-        "slots": {
-          "list": [],
-          "value": 0
-        }
-      },
-      "effects": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "impmal",
-        "systemVersion": "3.2.1"
-      },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.vG0g2MpqzzBV3S4b"
-    },
-    {
-      "name": "Claws",
-      "type": "weapon",
-      "_id": "zhkWvI5wcGN1kKZa",
-      "img": "modules/impmal-core/assets/icons/weapons/sword.webp",
-      "system": {
-        "notes": {
-          "player": "",
-          "gm": ""
-        },
-        "encumbrance": {
-          "value": 0
-        },
-        "cost": 0,
-        "availability": "",
-        "quantity": 1,
-        "equipped": {
-          "value": true,
-          "hand": "",
-          "force": true
-        },
-        "damage": {
-          "base": "3",
+          "base": "7",
           "characteristic": "",
           "SL": true,
           "ignoreAP": false
@@ -657,7 +512,12 @@
         "traits": {
           "list": [
             {
-              "key": "ineffective"
+              "key": "penetrating",
+              "value": "5"
+            },
+            {
+              "key": "rend",
+              "value": "6"
             }
           ]
         },
@@ -696,7 +556,7 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.zhkWvI5wcGN1kKZa"
+      "_key": "!actors.items!CdciKk5hs2JZzZFr.phoitvbsTuWNTgS8"
     }
   ]
 }

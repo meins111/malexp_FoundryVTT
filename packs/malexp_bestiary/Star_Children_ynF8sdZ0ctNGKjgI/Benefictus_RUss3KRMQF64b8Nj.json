@@ -1,8 +1,8 @@
 {
   "folder": "ynF8sdZ0ctNGKjgI",
-  "name": "Acolyte Hybrid",
+  "name": "Benefictus",
   "type": "npc",
-  "_id": "ddkoCdiXHCRDuEd3",
+  "_id": "RUss3KRMQF64b8Nj",
   "img": "modules/impmal-core/assets/tokens/unknown.webp",
   "system": {
     "characteristics": {
@@ -12,7 +12,7 @@
         "modifier": 0
       },
       "bs": {
-        "starting": 30,
+        "starting": 25,
         "advances": 0,
         "modifier": 0
       },
@@ -22,32 +22,32 @@
         "modifier": 0
       },
       "tgh": {
-        "starting": 35,
-        "advances": 0,
-        "modifier": 0
-      },
-      "ag": {
-        "starting": 40,
-        "advances": 0,
-        "modifier": 0
-      },
-      "int": {
-        "starting": 20,
-        "advances": 0,
-        "modifier": 0
-      },
-      "per": {
-        "starting": 40,
-        "advances": 0,
-        "modifier": 0
-      },
-      "wil": {
         "starting": 30,
         "advances": 0,
         "modifier": 0
       },
+      "ag": {
+        "starting": 30,
+        "advances": 0,
+        "modifier": 0
+      },
+      "int": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      },
+      "per": {
+        "starting": 50,
+        "advances": 0,
+        "modifier": 0
+      },
+      "wil": {
+        "starting": 60,
+        "advances": 0,
+        "modifier": 0
+      },
       "fel": {
-        "starting": 20,
+        "starting": 25,
         "advances": 0,
         "modifier": 0
       }
@@ -55,7 +55,7 @@
     "skills": {
       "athletics": {
         "characteristic": "str",
-        "advances": 2,
+        "advances": 0,
         "modifier": 0
       },
       "awareness": {
@@ -105,17 +105,17 @@
       },
       "melee": {
         "characteristic": "ws",
-        "advances": 1,
+        "advances": 0,
         "modifier": 0
       },
       "navigation": {
         "characteristic": "int",
-        "advances": 0,
+        "advances": 2,
         "modifier": 0
       },
       "presence": {
         "characteristic": "wil",
-        "advances": 2,
+        "advances": 0,
         "modifier": 0
       },
       "piloting": {
@@ -125,12 +125,12 @@
       },
       "psychic": {
         "characteristic": "wil",
-        "advances": 0,
+        "advances": 2,
         "modifier": 0
       },
       "ranged": {
         "characteristic": "bs",
-        "advances": 1,
+        "advances": 0,
         "modifier": 0
       },
       "rapport": {
@@ -145,7 +145,7 @@
       },
       "stealth": {
         "characteristic": "ag",
-        "advances": 2,
+        "advances": 0,
         "modifier": 0
       },
       "tech": {
@@ -156,7 +156,7 @@
     },
     "notes": {
       "player": "",
-      "gm": "<p>Possessions: Heavy Leathers, 2d10 Solars, Cult/Gang Colors</p>"
+      "gm": "<p>Possessions: Xenos Mesh, Cult/Gang Colors, Filtration Plugs, Cult Icon</p>"
     },
     "combat": {
       "size": "medium",
@@ -173,8 +173,8 @@
       },
       "initiative": 8,
       "wounds": {
-        "max": 12,
-        "value": 12
+        "max": 15,
+        "value": 15
       },
       "criticals": {
         "max": 1,
@@ -183,7 +183,7 @@
       "resolve": 3,
       "armour": {
         "formula": "",
-        "value": 2,
+        "value": 4,
         "useItems": false
       }
     },
@@ -200,7 +200,7 @@
     }
   },
   "prototypeToken": {
-    "name": "Acolyte Hybrid",
+    "name": "Benefictus",
     "displayName": 20,
     "actorLink": false,
     "width": 1,
@@ -236,12 +236,12 @@
     "systemId": "impmal",
     "systemVersion": "3.2.1"
   },
-  "_key": "!actors!ddkoCdiXHCRDuEd3",
+  "_key": "!actors!RUss3KRMQF64b8Nj",
   "items": [
     {
       "name": "Genestealer Mutation",
       "type": "trait",
-      "_id": "pyipRtfK7PfdAGRF",
+      "_id": "RQnCJaKtneIevIUJ",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
@@ -297,16 +297,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.pyipRtfK7PfdAGRF"
+      "_key": "!actors.items!RUss3KRMQF64b8Nj.RQnCJaKtneIevIUJ"
     },
     {
-      "name": "Iconward",
+      "name": "Hunt the Hunters",
       "type": "trait",
-      "_id": "NC3hYo6LJvZjIr5e",
+      "_id": "9zG8eTazmyPHEd7A",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Some Acolyte Hybrids may be Iconwards, and carry Cult Icons into battle. Genestealer Cultists within Medium Range of an Acolyte Iconward add +1 SL to Discipline (Fear) Tests.</p>",
+          "player": "<p>When hunting enemies belonging to the Inquisition or the local Enforcer Corps, the Benefictus gains Advantage on Navigation (Tracking) Tests. Once the Benefictus finds a member of either Faction, their first Attack on that Target is considered to be an automatic Critical Hit.</p>",
           "gm": ""
         },
         "attack": {
@@ -358,16 +358,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.NC3hYo6LJvZjIr5e"
+      "_key": "!actors.items!RUss3KRMQF64b8Nj.9zG8eTazmyPHEd7A"
     },
     {
-      "name": "Multi-Limbed",
+      "name": "Smite (Power)",
       "type": "trait",
-      "_id": "dSeTYdhZUX07a7Tp",
+      "_id": "ECDLHDH5RsuUKK9m",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>This character has additional limbs, and may use them to wield an additional One-Handed or Pistol weapon and use it in combat.</p>",
+          "player": "<p>Psychic Mastery (Telepathy) Test, Warp Rating 2, Medium Range, 8 + SL Damage. Ignores Armor.</p>",
           "gm": ""
         },
         "attack": {
@@ -419,16 +419,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.dSeTYdhZUX07a7Tp"
+      "_key": "!actors.items!RUss3KRMQF64b8Nj.ECDLHDH5RsuUKK9m"
     },
     {
-      "name": "Resurgence",
+      "name": "Psychic Powers",
       "type": "trait",
-      "_id": "NJbZMddob8BlObsU",
+      "_id": "QRDFgzKzvnvZK1dv",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>When in Combat, the Cultist has a pool of 3 Resurgence Points. They may spend 1 Resurgence Point to gain +1SL on an Attack Test, 2 Resurgence Points to gain Advantage on any Test, or 3 Resurgence Points to reroll any Attack Test. The Cultist cannot regain the number of Resurgence Points they have spent, and can only spend Resurgence Points once per turn. If the Cultist has not spent any Resurgence Points by the time they die or are defeated, they can all be spent to revive themselves at the start of the next Round at half Wounds in a zone within Medium Range as long as it is not occupied by enemies.</p>",
+          "player": "<p>The Benefictus knows the following Minor Powers: Dread Presence, Float, Lull, Psychic Static, Smite, Soulsight, Spectral Hands.</p>",
           "gm": ""
         },
         "attack": {
@@ -480,16 +480,138 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.NJbZMddob8BlObsU"
+      "_key": "!actors.items!RUss3KRMQF64b8Nj.QRDFgzKzvnvZK1dv"
     },
     {
-      "name": "Autopistol",
+      "name": "Telekine",
+      "type": "trait",
+      "_id": "xHgyW9n9QCl1lP7u",
+      "img": "modules/impmal-core/assets/icons/blank.webp",
+      "system": {
+        "notes": {
+          "player": "<p>The Benefictus knows the following Telepathy Powers: Abjuration Mechanicum, Crush, Deflection, Psychic Barrier, Psychic Blade, and Psychic Maelstrom.</p>",
+          "gm": ""
+        },
+        "attack": {
+          "enabled": false,
+          "type": "melee",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "damage": {
+            "SL": false,
+            "base": "",
+            "characteristic": "",
+            "ignoreAP": false
+          },
+          "range": "",
+          "traits": {
+            "list": []
+          },
+          "self": false
+        },
+        "test": {
+          "enabled": false,
+          "target": "self",
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "roll": {
+          "enabled": false,
+          "formula": "",
+          "label": ""
+        },
+        "category": "standard"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!RUss3KRMQF64b8Nj.xHgyW9n9QCl1lP7u"
+    },
+    {
+      "name": "Warp Threshold",
+      "type": "trait",
+      "_id": "AydWbin7sdpcwObi",
+      "img": "modules/impmal-core/assets/icons/blank.webp",
+      "system": {
+        "notes": {
+          "player": "<p>The Benefictus has a Warp Threshold of 6.</p>",
+          "gm": ""
+        },
+        "attack": {
+          "enabled": false,
+          "type": "melee",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "damage": {
+            "SL": false,
+            "base": "",
+            "characteristic": "",
+            "ignoreAP": false
+          },
+          "range": "",
+          "traits": {
+            "list": []
+          },
+          "self": false
+        },
+        "test": {
+          "enabled": false,
+          "target": "self",
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "roll": {
+          "enabled": false,
+          "formula": "",
+          "label": ""
+        },
+        "category": "standard"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!RUss3KRMQF64b8Nj.AydWbin7sdpcwObi"
+    },
+    {
+      "name": "Force Blade",
       "type": "weapon",
-      "_id": "XXBFTY8TdLUW3PTq",
-      "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
+      "_id": "DpXb50WfSvprrq7C",
+      "img": "modules/impmal-core/assets/icons/weapons/sword.webp",
       "system": {
         "notes": {
-          "player": "",
+          "player": "<p>Penetrating value (X) equals the SL achieved on the Psychic Mastery Manifest Test.</p>",
           "gm": ""
         },
         "encumbrance": {
@@ -504,7 +626,7 @@
           "force": true
         },
         "damage": {
-          "base": "5",
+          "base": "9",
           "characteristic": "",
           "SL": true,
           "ignoreAP": false
@@ -512,83 +634,10 @@
         "traits": {
           "list": [
             {
-              "key": "close"
-            },
-            {
-              "key": "loud"
-            },
-            {
-              "key": "rapidFire",
-              "value": "3"
+              "key": "penetrating",
+              "value": "X"
             }
           ]
-        },
-        "ammoCost": 0,
-        "attackType": "ranged",
-        "category": "",
-        "spec": "pistol",
-        "range": "medium",
-        "rangeModifier": {
-          "value": 0,
-          "override": ""
-        },
-        "mag": {
-          "value": 1,
-          "current": 1
-        },
-        "ammo": {
-          "id": ""
-        },
-        "mods": {
-          "list": []
-        },
-        "slots": {
-          "list": [],
-          "value": 0
-        }
-      },
-      "effects": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "impmal",
-        "systemVersion": "3.2.1"
-      },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.XXBFTY8TdLUW3PTq"
-    },
-    {
-      "name": "Bonesword",
-      "type": "weapon",
-      "_id": "vG0g2MpqzzBV3S4b",
-      "img": "modules/impmal-core/assets/icons/weapons/sword.webp",
-      "system": {
-        "notes": {
-          "player": "",
-          "gm": ""
-        },
-        "encumbrance": {
-          "value": 0
-        },
-        "cost": 0,
-        "availability": "",
-        "quantity": 1,
-        "equipped": {
-          "value": true,
-          "hand": "",
-          "force": true
-        },
-        "damage": {
-          "base": "5",
-          "characteristic": "",
-          "SL": true,
-          "ignoreAP": false
-        },
-        "traits": {
-          "list": []
         },
         "ammoCost": 0,
         "attackType": "melee",
@@ -625,12 +674,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.vG0g2MpqzzBV3S4b"
+      "_key": "!actors.items!RUss3KRMQF64b8Nj.DpXb50WfSvprrq7C"
     },
     {
-      "name": "Claws",
+      "name": "Force Staff",
       "type": "weapon",
-      "_id": "zhkWvI5wcGN1kKZa",
+      "_id": "exAkUtr3Q4TesIo9",
       "img": "modules/impmal-core/assets/icons/weapons/sword.webp",
       "system": {
         "notes": {
@@ -649,7 +698,7 @@
           "force": true
         },
         "damage": {
-          "base": "3",
+          "base": "5",
           "characteristic": "",
           "SL": true,
           "ignoreAP": false
@@ -657,14 +706,17 @@
         "traits": {
           "list": [
             {
-              "key": "ineffective"
+              "key": "defensive"
+            },
+            {
+              "key": "twoHanded"
             }
           ]
         },
         "ammoCost": 0,
         "attackType": "melee",
-        "category": "mundane",
-        "spec": "brawling",
+        "category": "",
+        "spec": "twoHanded",
         "range": "",
         "rangeModifier": {
           "value": 0,
@@ -696,7 +748,127 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!ddkoCdiXHCRDuEd3.zhkWvI5wcGN1kKZa"
+      "_key": "!actors.items!RUss3KRMQF64b8Nj.exAkUtr3Q4TesIo9"
+    },
+    {
+      "name": "Psyniscience",
+      "type": "specialisation",
+      "_id": "vNppEkXSyl4hh661",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 2,
+        "restricted": false,
+        "skill": "awareness"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!RUss3KRMQF64b8Nj.vNppEkXSyl4hh661"
+    },
+    {
+      "name": "Psychic",
+      "type": "specialisation",
+      "_id": "kaPbp2dG9j7lxZ3M",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 2,
+        "restricted": false,
+        "skill": "discipline"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!RUss3KRMQF64b8Nj.kaPbp2dG9j7lxZ3M"
+    },
+    {
+      "name": "Tracking",
+      "type": "specialisation",
+      "_id": "lXNmGFEQQwszNMQa",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 2,
+        "restricted": false,
+        "skill": "navigation"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!RUss3KRMQF64b8Nj.lXNmGFEQQwszNMQa"
+    },
+    {
+      "name": "Telekinesis",
+      "type": "specialisation",
+      "_id": "iSJuQhSSYvKzFlmX",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 2,
+        "restricted": false,
+        "skill": "psychic"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!RUss3KRMQF64b8Nj.iSJuQhSSYvKzFlmX"
     }
   ]
 }

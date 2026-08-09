@@ -1,53 +1,53 @@
 {
-  "folder": "ynF8sdZ0ctNGKjgI",
-  "name": "Kelermorph",
+  "folder": "rYE4s1jknBleY1s5",
+  "name": "Knarloc",
   "type": "npc",
-  "_id": "uHUNMldJXblTlOUL",
+  "_id": "fSf7TWF7N5XIBziq",
   "img": "modules/impmal-core/assets/tokens/unknown.webp",
   "system": {
     "characteristics": {
       "ws": {
-        "starting": 35,
+        "starting": 40,
         "advances": 0,
         "modifier": 0
       },
       "bs": {
-        "starting": 40,
+        "starting": 0,
         "advances": 0,
         "modifier": 0
       },
       "str": {
-        "starting": 30,
-        "advances": 0,
-        "modifier": 0
-      },
-      "tgh": {
-        "starting": 30,
-        "advances": 0,
-        "modifier": 0
-      },
-      "ag": {
-        "starting": 40,
-        "advances": 0,
-        "modifier": 0
-      },
-      "int": {
-        "starting": 30,
-        "advances": 0,
-        "modifier": 0
-      },
-      "per": {
         "starting": 50,
         "advances": 0,
         "modifier": 0
       },
+      "tgh": {
+        "starting": 45,
+        "advances": 0,
+        "modifier": 0
+      },
+      "ag": {
+        "starting": 50,
+        "advances": 0,
+        "modifier": 0
+      },
+      "int": {
+        "starting": 10,
+        "advances": 0,
+        "modifier": 0
+      },
+      "per": {
+        "starting": 35,
+        "advances": 0,
+        "modifier": 0
+      },
       "wil": {
-        "starting": 40,
+        "starting": 10,
         "advances": 0,
         "modifier": 0
       },
       "fel": {
-        "starting": 40,
+        "starting": 10,
         "advances": 0,
         "modifier": 0
       }
@@ -55,12 +55,12 @@
     "skills": {
       "athletics": {
         "characteristic": "str",
-        "advances": 2,
+        "advances": 1,
         "modifier": 0
       },
       "awareness": {
         "characteristic": "per",
-        "advances": 2,
+        "advances": 0,
         "modifier": 0
       },
       "dexterity": {
@@ -105,7 +105,7 @@
       },
       "melee": {
         "characteristic": "ws",
-        "advances": 0,
+        "advances": 1,
         "modifier": 0
       },
       "navigation": {
@@ -130,17 +130,17 @@
       },
       "ranged": {
         "characteristic": "bs",
-        "advances": 2,
+        "advances": 0,
         "modifier": 0
       },
       "rapport": {
         "characteristic": "fel",
-        "advances": 2,
+        "advances": 0,
         "modifier": 0
       },
       "reflexes": {
         "characteristic": "ag",
-        "advances": 2,
+        "advances": 0,
         "modifier": 0
       },
       "stealth": {
@@ -156,10 +156,10 @@
     },
     "notes": {
       "player": "",
-      "gm": "<p>Possessions: Heavy Leathers, Gang/Cult Colors, Filtration Plugs, Ornamental Cape</p>"
+      "gm": "<p>Possessions: None.</p>"
     },
     "combat": {
-      "size": "medium",
+      "size": "large",
       "armourModifier": 0,
       "speed": {
         "land": {
@@ -171,28 +171,28 @@
           "modifier": 0
         }
       },
-      "initiative": 9,
+      "initiative": 8,
       "wounds": {
-        "max": 13,
-        "value": 13
+        "max": 19,
+        "value": 19
       },
       "criticals": {
-        "max": 1,
+        "max": 0,
         "value": 0
       },
-      "resolve": 3,
+      "resolve": 1,
       "armour": {
         "formula": "",
-        "value": 2,
+        "value": 0,
         "useItems": false
       }
     },
     "faction": {
       "id": "",
-      "name": "Star Children"
+      "name": "T'au Empire"
     },
-    "species": "Mutant (Genestealer Cults)",
-    "role": "elite",
+    "species": "Kroot (T'au Empire)",
+    "role": "troop",
     "autoCalc": {
       "wounds": false,
       "criticals": false,
@@ -200,7 +200,7 @@
     }
   },
   "prototypeToken": {
-    "name": "Kelermorph",
+    "name": "Knarloc",
     "displayName": 20,
     "actorLink": false,
     "width": 1,
@@ -236,16 +236,16 @@
     "systemId": "impmal",
     "systemVersion": "3.2.1"
   },
-  "_key": "!actors!uHUNMldJXblTlOUL",
+  "_key": "!actors!fSf7TWF7N5XIBziq",
   "items": [
     {
-      "name": "Folktale Hero",
+      "name": "Mountable",
       "type": "trait",
-      "_id": "wFVZTcz58BnyZF5e",
+      "_id": "cmhmiga7NwQpZb9B",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Kelermorph inspires all those around it, and grants Advantage on Tests to resist or end the Frightened Condition. Additionally, as long as the Kelermorph is not Desperate, they grant +1 Resolve to all Genestealer Cult allies.</p>",
+          "player": "<p>This profile is just for a regular Knarloc. If it is mounted by a Kroot ally, the Kroot uses the Knarloc's initiative for movement, but may still make Ranged Attacks on its own. The Kroot can be targeted individually regardless.</p>",
           "gm": ""
         },
         "attack": {
@@ -297,16 +297,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!uHUNMldJXblTlOUL.wFVZTcz58BnyZF5e"
+      "_key": "!actors.items!fSf7TWF7N5XIBziq.cmhmiga7NwQpZb9B"
     },
     {
-      "name": "Genestealer Mutation",
+      "name": "Multiple Varieties",
       "type": "trait",
-      "_id": "eUQWcLipZzlfaK2z",
+      "_id": "BXhN5tZbaBigW1ts",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Individual is connected to the Genestealer Broodmind, and gains advantage on Discipline Tests when within Long Range of a Genestealer Psyker.</p>",
+          "player": "<p>There are many highly prized varieties of Knarloc within Kroot cadres. If you wish to display these different varieties, you may choose to add +10 to one of the following Characteristics: Strength, Toughness, Agility.</p>",
           "gm": ""
         },
         "attack": {
@@ -358,215 +358,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!uHUNMldJXblTlOUL.eUQWcLipZzlfaK2z"
+      "_key": "!actors.items!fSf7TWF7N5XIBziq.BXhN5tZbaBigW1ts"
     },
     {
-      "name": "Multi-Limbed",
-      "type": "trait",
-      "_id": "CfoiWQgKJUk1gxbp",
-      "img": "modules/impmal-core/assets/icons/blank.webp",
-      "system": {
-        "notes": {
-          "player": "<p>This character has additional limbs, and may use them to wield an additional One-Handed or Pistol weapon and use it in combat.</p>",
-          "gm": ""
-        },
-        "attack": {
-          "enabled": false,
-          "type": "melee",
-          "characteristic": "",
-          "skill": {
-            "key": "",
-            "specialisation": ""
-          },
-          "damage": {
-            "SL": false,
-            "base": "",
-            "characteristic": "",
-            "ignoreAP": false
-          },
-          "range": "",
-          "traits": {
-            "list": []
-          },
-          "self": false
-        },
-        "test": {
-          "enabled": false,
-          "target": "self",
-          "difficulty": "challenging",
-          "characteristic": "",
-          "skill": {
-            "key": "",
-            "specialisation": ""
-          },
-          "self": false
-        },
-        "roll": {
-          "enabled": false,
-          "formula": "",
-          "label": ""
-        },
-        "category": "standard"
-      },
-      "effects": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "impmal",
-        "systemVersion": "3.2.1"
-      },
-      "_key": "!actors.items!uHUNMldJXblTlOUL.CfoiWQgKJUk1gxbp"
-    },
-    {
-      "name": "Gunslinger of Legend",
-      "type": "trait",
-      "_id": "yh8ODX4b2OG6Ez6C",
-      "img": "modules/impmal-core/assets/icons/blank.webp",
-      "system": {
-        "notes": {
-          "player": "<p>The Kelermorph is capable of firing all their Liberator Autostub Pistols in one Action as per Two-Weapon Fighting and does not suffer Disadvantage when doing so. Additionally, when combat begins, the Kelermorph may attack with one of their pistols before anyone else regardless of Initiative. If they are Surprised, they must make a Hard (-20) Reflexes Test to use this effect.</p>",
-          "gm": ""
-        },
-        "attack": {
-          "enabled": false,
-          "type": "melee",
-          "characteristic": "",
-          "skill": {
-            "key": "",
-            "specialisation": ""
-          },
-          "damage": {
-            "SL": false,
-            "base": "",
-            "characteristic": "",
-            "ignoreAP": false
-          },
-          "range": "",
-          "traits": {
-            "list": []
-          },
-          "self": false
-        },
-        "test": {
-          "enabled": false,
-          "target": "self",
-          "difficulty": "challenging",
-          "characteristic": "",
-          "skill": {
-            "key": "",
-            "specialisation": ""
-          },
-          "self": false
-        },
-        "roll": {
-          "enabled": false,
-          "formula": "",
-          "label": ""
-        },
-        "category": "standard"
-      },
-      "effects": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "impmal",
-        "systemVersion": "3.2.1"
-      },
-      "_key": "!actors.items!uHUNMldJXblTlOUL.yh8ODX4b2OG6Ez6C"
-    },
-    {
-      "name": "3x Liberator Autostub Pistols",
+      "name": "Beak and Claw",
       "type": "weapon",
-      "_id": "OUXD0UbZGmAumhfP",
-      "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
-      "system": {
-        "notes": {
-          "player": "",
-          "gm": ""
-        },
-        "encumbrance": {
-          "value": 0
-        },
-        "cost": 0,
-        "availability": "",
-        "quantity": 1,
-        "equipped": {
-          "value": true,
-          "hand": "",
-          "force": true
-        },
-        "damage": {
-          "base": "10",
-          "characteristic": "",
-          "SL": true,
-          "ignoreAP": false
-        },
-        "traits": {
-          "list": [
-            {
-              "key": "burst"
-            },
-            {
-              "key": "close"
-            },
-            {
-              "key": "loud"
-            },
-            {
-              "key": "penetrating",
-              "value": "3"
-            }
-          ]
-        },
-        "ammoCost": 0,
-        "attackType": "ranged",
-        "category": "",
-        "spec": "pistol",
-        "range": "medium",
-        "rangeModifier": {
-          "value": 0,
-          "override": ""
-        },
-        "mag": {
-          "value": 1,
-          "current": 1
-        },
-        "ammo": {
-          "id": ""
-        },
-        "mods": {
-          "list": []
-        },
-        "slots": {
-          "list": [],
-          "value": 0
-        }
-      },
-      "effects": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "impmal",
-        "systemVersion": "3.2.1"
-      },
-      "_key": "!actors.items!uHUNMldJXblTlOUL.OUXD0UbZGmAumhfP"
-    },
-    {
-      "name": "Knife",
-      "type": "weapon",
-      "_id": "TYN9cf4vXIYwny69",
+      "_id": "w2cTGQwShH47cbQK",
       "img": "modules/impmal-core/assets/icons/weapons/sword.webp",
       "system": {
         "notes": {
@@ -585,7 +382,7 @@
           "force": true
         },
         "damage": {
-          "base": "3",
+          "base": "5",
           "characteristic": "",
           "SL": true,
           "ignoreAP": false
@@ -593,18 +390,15 @@
         "traits": {
           "list": [
             {
-              "key": "subtle"
-            },
-            {
-              "key": "thrown",
-              "value": "Short"
+              "key": "penetrating",
+              "value": "1"
             }
           ]
         },
         "ammoCost": 0,
         "attackType": "melee",
-        "category": "",
-        "spec": "oneHanded",
+        "category": "mundane",
+        "spec": "brawling",
         "range": "",
         "rangeModifier": {
           "value": 0,
@@ -636,37 +430,7 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!uHUNMldJXblTlOUL.TYN9cf4vXIYwny69"
-    },
-    {
-      "name": "Pistols",
-      "type": "specialisation",
-      "_id": "73GnwzwjYbm9Tkga",
-      "img": "modules/impmal-core/assets/icons/generic.webp",
-      "system": {
-        "notes": {
-          "player": "",
-          "gm": ""
-        },
-        "advances": 2,
-        "restricted": false,
-        "skill": "ranged"
-      },
-      "effects": [],
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "impmal",
-        "systemVersion": "3.2.1"
-      },
-      "_key": "!actors.items!uHUNMldJXblTlOUL.73GnwzwjYbm9Tkga"
+      "_key": "!actors.items!fSf7TWF7N5XIBziq.w2cTGQwShH47cbQK"
     }
   ]
 }
