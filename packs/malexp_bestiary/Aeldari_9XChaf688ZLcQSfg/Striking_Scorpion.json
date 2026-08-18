@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Striking Scorpion has built in Mandi-Blasters.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Striking Scorpion has built in Mandi-Blasters.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>When fighting against Surprised targets, the Striking Scorpion inflicts 1 additional damage for every +2SL on their Attack Tests beyond the first.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>When fighting against Surprised targets, the Striking Scorpion inflicts 1 additional damage for every +2SL on their Attack Tests beyond the first.</p>"
         },
         "attack": {
           "enabled": false,
@@ -367,8 +367,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Aeldari may use Psyniscience. The Aeldari has Disadvantage on any Tests made to resist Psychic Powers.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Aeldari may use Psyniscience. The Aeldari has Disadvantage on any Tests made to resist Psychic Powers.</p>"
         },
         "attack": {
           "enabled": false,
@@ -428,8 +428,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>A Striking Scorpion may fire their Mandiblasters once per round as a Free Action as an attack with the profile detailed in their weapons.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>A Striking Scorpion may fire their Mandiblasters once per round as a Free Action as an attack with the profile detailed in their weapons.</p>"
         },
         "attack": {
           "enabled": false,
@@ -570,8 +570,8 @@
       "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
       "system": {
         "notes": {
-          "player": "<p>May be fired once per round as a Free Action.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>May be fired once per round as a Free Action.</p>"
         },
         "encumbrance": {
           "value": 0

@@ -244,8 +244,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>At the start of the Necron Lord's turn, it regains 4 Wounds. It is immune to the Bleeding, Fatigued, Frightened, and Poisoned Conditions. Additionally, it has no soul and cannot be detected by abilities such as Soulsight.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>At the start of the Necron Lord's turn, it regains 4 Wounds. It is immune to the Bleeding, Fatigued, Frightened, and Poisoned Conditions. Additionally, it has no soul and cannot be detected by abilities such as Soulsight.</p>"
         },
         "attack": {
           "enabled": false,
@@ -374,8 +374,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>When the Necron Lord would die or be rendered Unconscious, roll 1d10. On a 7 or higher, it does not die or become Unconscious and gains wounds equal to the result.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>When the Necron Lord would die or be rendered Unconscious, roll 1d10. On a 7 or higher, it does not die or become Unconscious and gains wounds equal to the result.</p>"
         },
         "attack": {
           "enabled": false,
@@ -565,8 +565,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Once per Encounter, as a Reaction, the Necron Lord may cause a Necron ally within Long Range that has failed their Reanimation Protocol Test to pass it instead, healing half that ally's Wounds.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Once per Encounter, as a Reaction, the Necron Lord may cause a Necron ally within Long Range that has failed their Reanimation Protocol Test to pass it instead, healing half that ally's Wounds.</p>"
         },
         "attack": {
           "enabled": false,

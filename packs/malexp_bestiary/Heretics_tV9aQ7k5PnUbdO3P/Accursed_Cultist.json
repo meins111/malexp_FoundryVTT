@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Accursed Cultist has an eye on the end of its Lashing Tentacle. When the Accursed Cultist looks through this eye, it counts as having Photo-Visors (page 144).</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Accursed Cultist has an eye on the end of its Lashing Tentacle. When the Accursed Cultist looks through this eye, it counts as having Photo-Visors (page 144).</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Accursed Cultist has a Lashing Tentacle on its Body in addition to its other limbs. Unarmed attacks made with the Tentacle gain the Reach and Inflict (Restrained) Traits.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Accursed Cultist has a Lashing Tentacle on its Body in addition to its other limbs. Unarmed attacks made with the Tentacle gain the Reach and Inflict (Restrained) Traits.</p>"
         },
         "attack": {
           "enabled": false,
@@ -367,8 +367,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Accursed Cultist's unarmed attacks lose the Ineffective Trait and gain Rend (1).</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Accursed Cultist's unarmed attacks lose the Ineffective Trait and gain Rend (1).</p>"
         },
         "attack": {
           "enabled": false,
@@ -506,8 +506,8 @@
       "img": "modules/impmal-core/assets/icons/weapons/sword.webp",
       "system": {
         "notes": {
-          "player": "<p>Damage is 3 + the difference between attacker and defender SL (not full SL), per the Ineffective-less Warp Claws trait.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Damage is 3 + the difference between attacker and defender SL (not full SL), per the Ineffective-less Warp Claws trait.</p>"
         },
         "encumbrance": {
           "value": 0
@@ -578,8 +578,8 @@
       "img": "modules/impmal-core/assets/icons/weapons/sword.webp",
       "system": {
         "notes": {
-          "player": "<p>Damage is 3 + the difference between attacker and defender SL (not full SL).</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Damage is 3 + the difference between attacker and defender SL (not full SL).</p>"
         },
         "encumbrance": {
           "value": 0

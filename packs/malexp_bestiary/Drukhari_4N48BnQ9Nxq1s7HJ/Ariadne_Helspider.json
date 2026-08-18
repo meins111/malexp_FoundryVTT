@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>An Ariadne Helspider counts as having a number of rerolls to its Attack and Dodge rolls equal to its Willpower bonus (as if it had Prescience Points). After encountering a Helspider that uses these rerolls, characters must pass an Ordinary (+10) Discipline (Composure) Test to not be confused by conflicting memories due to the time-altering effects of the Helspider.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>An Ariadne Helspider counts as having a number of rerolls to its Attack and Dodge rolls equal to its Willpower bonus (as if it had Prescience Points). After encountering a Helspider that uses these rerolls, characters must pass an Ordinary (+10) Discipline (Composure) Test to not be confused by conflicting memories due to the time-altering effects of the Helspider.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/weapons/sword.webp",
       "system": {
         "notes": {
-          "player": "<p>A creature that suffers at least one wound from this attack must make a Fortitude (Poisons) Test. If they fail, instead of suffering the effects of the Poisoned Condition, the victim is instead considered frozen in time, incapable of acting or being harmed for 1d5 minus their Toughness Bonus rounds, to a minimum of one round.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>A creature that suffers at least one wound from this attack must make a Fortitude (Poisons) Test. If they fail, instead of suffering the effects of the Poisoned Condition, the victim is instead considered frozen in time, incapable of acting or being harmed for 1d5 minus their Toughness Bonus rounds, to a minimum of one round.</p>"
         },
         "encumbrance": {
           "value": 0

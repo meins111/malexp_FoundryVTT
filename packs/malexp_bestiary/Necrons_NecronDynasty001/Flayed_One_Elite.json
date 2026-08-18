@@ -244,8 +244,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>At the start of the Flayed One's turn, it regains 3 Wounds. It is immune to the Bleeding, Fatigued, Frightened, and Poisoned Conditions. Additionally, it has no soul and cannot be detected by abilities such as Soulsight.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>At the start of the Flayed One's turn, it regains 3 Wounds. It is immune to the Bleeding, Fatigued, Frightened, and Poisoned Conditions. Additionally, it has no soul and cannot be detected by abilities such as Soulsight.</p>"
         },
         "attack": {
           "enabled": false,
@@ -374,8 +374,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>When the Flayed One would die or be rendered Unconscious, roll 1d10. On a 7 or higher, it does not die or become Unconscious and gains wounds equal to the result.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>When the Flayed One would die or be rendered Unconscious, roll 1d10. On a 7 or higher, it does not die or become Unconscious and gains wounds equal to the result.</p>"
         },
         "attack": {
           "enabled": false,
@@ -504,8 +504,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The first time a creature suffers wounds from an attack by the Flayed One, they must make a Difficult (-10) Discipline (Fear) Test or become Frightened. If all members of the party become Frightened this way, they lose 1 Superiority.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The first time a creature suffers wounds from an attack by the Flayed One, they must make a Difficult (-10) Discipline (Fear) Test or become Frightened. If all members of the party become Frightened this way, they lose 1 Superiority.</p>"
         },
         "attack": {
           "enabled": false,

@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>A Battlesuit Jump Pack allows for a safe, guided fall from any height and allows the Battlesuit to make an unlimited series of short jumps, enabling them to consider their Speed as one higher, avoiding any ground obstacles and landing at the end of each round's movement, or they may move to any zone within Long range.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>A Battlesuit Jump Pack allows for a safe, guided fall from any height and allows the Battlesuit to make an unlimited series of short jumps, enabling them to consider their Speed as one higher, avoiding any ground obstacles and landing at the end of each round's movement, or they may move to any zone within Long range.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>If the target of a Ranged Attack by this character is being spotted by a Pathfinder, Drone, or any unit capable of spotting for friendly forces, the character gains +1SL on Ranged Attack tests against the target.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>If the target of a Ranged Attack by this character is being spotted by a Pathfinder, Drone, or any unit capable of spotting for friendly forces, the character gains +1SL on Ranged Attack tests against the target.</p>"
         },
         "attack": {
           "enabled": false,

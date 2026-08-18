@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Guardian Defender has +1 Resolve and Advantage on Discipline Tests if they are on their Craftworld or engaging in actions to defend their Craftworld.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Guardian Defender has +1 Resolve and Advantage on Discipline Tests if they are on their Craftworld or engaging in actions to defend their Craftworld.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Aeldari may use Psyniscience. The Aeldari has Disadvantage on any Tests made to resist Psychic Powers.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Aeldari may use Psyniscience. The Aeldari has Disadvantage on any Tests made to resist Psychic Powers.</p>"
         },
         "attack": {
           "enabled": false,

@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Horse has been trained to withstand the rigors of combat and gains +2 SL to Discipline (Fear) & (Composure) tests during a combat encounter.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Horse has been trained to withstand the rigors of combat and gains +2 SL to Discipline (Fear) & (Composure) tests during a combat encounter.</p>"
         },
         "attack": {
           "enabled": false,

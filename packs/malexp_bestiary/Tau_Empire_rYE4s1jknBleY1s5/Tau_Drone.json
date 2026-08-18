@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>For every T'au Drone within a zone, each drone increases its BS, INT, and PER skills by +5 (to a max of 6 drones, +30), which is recalculated immediately should any drones be destroyed.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>For every T'au Drone within a zone, each drone increases its BS, INT, and PER skills by +5 (to a max of 6 drones, +30), which is recalculated immediately should any drones be destroyed.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>There are multiple drone variants used by the T'au Empire. Select a variant for this drone: MV-1 Gun Drone (Pulse Carbines, Twin-Linked); MV-4 Shield Drone (grants one ally in its zone a Force Field with 1d10 Protection, overload 10); MV-7 Marker Drone (counts as having a Markerlight and as a spotter for For the Greater Good); MV-8 Missile Drone (Missile Pods with an appropriate load of missiles); DX-11 Exploratory Drone (counts as having an Auspex); MV-33 Grav-Inhibitor Drone (Action: enemies within Close Range make a Challenging (+0) Athletics test or are pushed to a different zone; failing by 3+SL causes Prone); MV-36 Guardian Drone (grants one ally within Medium Range a Force Field with 1d5 Protection, overload 5); MV-5 Stealth Drone (grants the effects of a Stummer to all characters in its zone); MV-31 Pulse Accelerator Drone (increases the Range of all Pulse Weapons in its zone by one step); DX-4 Technical Drone (grants +1SL to one ally in its zone for Tech tests); Shielded Missile Drone (combines MV-8 and MV-4, but only affecting itself); Sniper Drone (Longshot Pulse Rifle or Rail Rifle, plus the effects of a Stummer and Targeting Array).</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>There are multiple drone variants used by the T'au Empire. Select a variant for this drone: MV-1 Gun Drone (Pulse Carbines, Twin-Linked); MV-4 Shield Drone (grants one ally in its zone a Force Field with 1d10 Protection, overload 10); MV-7 Marker Drone (counts as having a Markerlight and as a spotter for For the Greater Good); MV-8 Missile Drone (Missile Pods with an appropriate load of missiles); DX-11 Exploratory Drone (counts as having an Auspex); MV-33 Grav-Inhibitor Drone (Action: enemies within Close Range make a Challenging (+0) Athletics test or are pushed to a different zone; failing by 3+SL causes Prone); MV-36 Guardian Drone (grants one ally within Medium Range a Force Field with 1d5 Protection, overload 5); MV-5 Stealth Drone (grants the effects of a Stummer to all characters in its zone); MV-31 Pulse Accelerator Drone (increases the Range of all Pulse Weapons in its zone by one step); DX-4 Technical Drone (grants +1SL to one ally in its zone for Tech tests); Shielded Missile Drone (combines MV-8 and MV-4, but only affecting itself); Sniper Drone (Longshot Pulse Rifle or Rail Rifle, plus the effects of a Stummer and Targeting Array).</p>"
         },
         "attack": {
           "enabled": false,
@@ -367,8 +367,8 @@
       "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
       "system": {
         "notes": {
-          "player": "<p>Default variant loadout. Swap for another Variant listed in the Variants trait as needed.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Default variant loadout. Swap for another Variant listed in the Variants trait as needed.</p>"
         },
         "encumbrance": {
           "value": 0

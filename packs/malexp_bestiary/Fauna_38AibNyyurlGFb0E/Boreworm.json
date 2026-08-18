@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>If a Boreworm successfully hits its prey with a melee attack, it latches on and starts to burrow into exposed flesh. It can easily burrow through Mundane armor with an AP of 2 or less. Once it burrows, it automatically does 1 point of damage per hour, ignoring armor. It can be removed from a victim by winning an Opposed Strength test within 3 rounds of it burrowing.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>If a Boreworm successfully hits its prey with a melee attack, it latches on and starts to burrow into exposed flesh. It can easily burrow through Mundane armor with an AP of 2 or less. Once it burrows, it automatically does 1 point of damage per hour, ignoring armor. It can be removed from a victim by winning an Opposed Strength test within 3 rounds of it burrowing.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Once inside a victim, the boreworm starts to break apart, with each segment becoming a new boreworm roughly once every hour (an average worm has 8-12 segments), which start eating on its own after five minutes. Each segment comes with Burrowing Teeth and causes damage on its own. Victims are usually dead by the time new boreworms are large enough to split into segments themselves. Removing these boreworms can be done with a successful Hard (-10) Medicae (Human) Test, which takes one hour.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Once inside a victim, the boreworm starts to break apart, with each segment becoming a new boreworm roughly once every hour (an average worm has 8-12 segments), which start eating on its own after five minutes. Each segment comes with Burrowing Teeth and causes damage on its own. Victims are usually dead by the time new boreworms are large enough to split into segments themselves. Removing these boreworms can be done with a successful Hard (-10) Medicae (Human) Test, which takes one hour.</p>"
         },
         "attack": {
           "enabled": false,

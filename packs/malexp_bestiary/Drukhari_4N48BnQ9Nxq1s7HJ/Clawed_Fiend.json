@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>To face down a Clawed Fiend is to face down fear; any creature in combat against a Clawed Fiend must make a Challenging (+0) Discipline (Fear) Test to avoid the Frightened Condition.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>To face down a Clawed Fiend is to face down fear; any creature in combat against a Clawed Fiend must make a Challenging (+0) Discipline (Fear) Test to avoid the Frightened Condition.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Clawed Fiend may enter into a Frenzy as a Free Action, which increases its Strength Bonus by +1 and makes it immune to being Frightened. The Clawed Fiend will prioritize targeting whichever creatures are fighting against its Beastmaster until all enemies are defeated, it is Stunned, or Unconscious.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Clawed Fiend may enter into a Frenzy as a Free Action, which increases its Strength Bonus by +1 and makes it immune to being Frightened. The Clawed Fiend will prioritize targeting whichever creatures are fighting against its Beastmaster until all enemies are defeated, it is Stunned, or Unconscious.</p>"
         },
         "attack": {
           "enabled": false,

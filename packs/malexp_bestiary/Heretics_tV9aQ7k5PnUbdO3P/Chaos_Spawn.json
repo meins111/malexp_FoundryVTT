@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The first time a Character sees the Chaos Spawn, they must make a Hard (-20) Discipline (Fear) Test or become Frightened. If all Characters are Frightened in this way, they lose -1 Superiority.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The first time a Character sees the Chaos Spawn, they must make a Hard (-20) Discipline (Fear) Test or become Frightened. If all Characters are Frightened in this way, they lose -1 Superiority.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Chaos Spawn may have any number of Mutations (page 222).</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Chaos Spawn may have any number of Mutations (page 222).</p>"
         },
         "attack": {
           "enabled": false,
@@ -367,8 +367,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>At the start of each of the Chaos Spawn's turns, roll 1d10 to determine its Speed: 1-4 Slow, 5-7 Normal, 8-0 Fast.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>At the start of each of the Chaos Spawn's turns, roll 1d10 to determine its Speed: 1-4 Slow, 5-7 Normal, 8-0 Fast.</p>"
         },
         "attack": {
           "enabled": false,
@@ -428,8 +428,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Witnessing the Chaos Spawn is Minor Exposure. Make a Challenging (+0) Discipline (Psychic) Test to resist 1 Corruption Point (every SL reduces the Corruption gained by 1). Physical contact with the Chaos Spawn is Moderate Exposure. Make a Challenging (+0) Fortitude Test to resist 2 Corruption Points (every SL reduces the Corruption gained by 1).</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Witnessing the Chaos Spawn is Minor Exposure. Make a Challenging (+0) Discipline (Psychic) Test to resist 1 Corruption Point (every SL reduces the Corruption gained by 1). Physical contact with the Chaos Spawn is Moderate Exposure. Make a Challenging (+0) Fortitude Test to resist 2 Corruption Points (every SL reduces the Corruption gained by 1).</p>"
         },
         "attack": {
           "enabled": false,
@@ -489,8 +489,8 @@
       "img": "modules/impmal-core/assets/icons/weapons/sword.webp",
       "system": {
         "notes": {
-          "player": "<p>When the Chaos Spawn makes a Hideous Mutation attack, roll 1d10 and apply the result: 1-2 Razor Claw (Penetrating 5); 3-4 Grasping Pseudopods (target is Grappled); 5-6 Toxic Hemorrhage (Inflict Poisoned); 7-8 Wretched Maw (Inflict Bleeding); 9-0 Thrashing Tentacles (make a second Hideous Mutations attack).</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>When the Chaos Spawn makes a Hideous Mutation attack, roll 1d10 and apply the result: 1-2 Razor Claw (Penetrating 5); 3-4 Grasping Pseudopods (target is Grappled); 5-6 Toxic Hemorrhage (Inflict Poisoned); 7-8 Wretched Maw (Inflict Bleeding); 9-0 Thrashing Tentacles (make a second Hideous Mutations attack).</p>"
         },
         "encumbrance": {
           "value": 0

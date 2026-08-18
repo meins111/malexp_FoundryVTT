@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Mutant Rats are always in a swarm. They reduce damage from non-Ordnance, Blast, Flame, or Spread weapons by half. They cannot be knocked down or grappled, and are unable to jump.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Mutant Rats are always in a swarm. They reduce damage from non-Ordnance, Blast, Flame, or Spread weapons by half. They cannot be knocked down or grappled, and are unable to jump.</p>"
         },
         "attack": {
           "enabled": false,

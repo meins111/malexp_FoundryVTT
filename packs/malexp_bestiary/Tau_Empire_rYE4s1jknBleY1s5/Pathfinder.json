@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>If the target of a Ranged Attack by this character is being spotted by a Pathfinder, Drone, or any unit capable of spotting for friendly forces, the character gains +1SL on Ranged Attack tests against the target.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>If the target of a Ranged Attack by this character is being spotted by a Pathfinder, Drone, or any unit capable of spotting for friendly forces, the character gains +1SL on Ranged Attack tests against the target.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Pathfinder may use their Markerlight to select a target for other T'au Empire allies, granting them +1 SL on Ranged Attacks against the Target. This trait does not stack with the For the Greater Good trait.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Pathfinder may use their Markerlight to select a target for other T'au Empire allies, granting them +1 SL on Ranged Attacks against the Target. This trait does not stack with the For the Greater Good trait.</p>"
         },
         "attack": {
           "enabled": false,

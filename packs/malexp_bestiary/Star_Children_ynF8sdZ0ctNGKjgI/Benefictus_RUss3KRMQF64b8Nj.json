@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Individual is connected to the Genestealer Broodmind, and gains advantage on Discipline Tests when within Long Range of a Genestealer Psyker.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Individual is connected to the Genestealer Broodmind, and gains advantage on Discipline Tests when within Long Range of a Genestealer Psyker.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>When hunting enemies belonging to the Inquisition or the local Enforcer Corps, the Benefictus gains Advantage on Navigation (Tracking) Tests. Once the Benefictus finds a member of either Faction, their first Attack on that Target is considered to be an automatic Critical Hit.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>When hunting enemies belonging to the Inquisition or the local Enforcer Corps, the Benefictus gains Advantage on Navigation (Tracking) Tests. Once the Benefictus finds a member of either Faction, their first Attack on that Target is considered to be an automatic Critical Hit.</p>"
         },
         "attack": {
           "enabled": false,
@@ -367,8 +367,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Psychic Mastery (Telepathy) Test, Warp Rating 2, Medium Range, 8 + SL Damage. Ignores Armor.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Psychic Mastery (Telepathy) Test, Warp Rating 2, Medium Range, 8 + SL Damage. Ignores Armor.</p>"
         },
         "attack": {
           "enabled": false,
@@ -428,8 +428,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Benefictus knows the following Minor Powers: Dread Presence, Float, Lull, Psychic Static, Smite, Soulsight, Spectral Hands.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Benefictus knows the following Minor Powers: Dread Presence, Float, Lull, Psychic Static, Smite, Soulsight, Spectral Hands.</p>"
         },
         "attack": {
           "enabled": false,
@@ -489,8 +489,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Benefictus knows the following Telepathy Powers: Abjuration Mechanicum, Crush, Deflection, Psychic Barrier, Psychic Blade, and Psychic Maelstrom.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Benefictus knows the following Telepathy Powers: Abjuration Mechanicum, Crush, Deflection, Psychic Barrier, Psychic Blade, and Psychic Maelstrom.</p>"
         },
         "attack": {
           "enabled": false,
@@ -550,8 +550,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Benefictus has a Warp Threshold of 6.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Benefictus has a Warp Threshold of 6.</p>"
         },
         "attack": {
           "enabled": false,
@@ -611,8 +611,8 @@
       "img": "modules/impmal-core/assets/icons/weapons/sword.webp",
       "system": {
         "notes": {
-          "player": "<p>Penetrating value (X) equals the SL achieved on the Psychic Mastery Manifest Test.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Penetrating value (X) equals the SL achieved on the Psychic Mastery Manifest Test.</p>"
         },
         "encumbrance": {
           "value": 0

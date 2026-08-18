@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Howling Banshee can re-roll one Weapons Skill-based test per round, and may move one additional zone than usual when making a Charge Action.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Howling Banshee can re-roll one Weapons Skill-based test per round, and may move one additional zone than usual when making a Charge Action.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>When a Howling Banshee makes a Charge Action, she may choose to activate her mask as part of that action. The object of the Banshee's charge must pass a Difficult (-10) Discipline (Fear) Test or suffer from the Frightened Condition. This Test must be done before any other Action or Reaction.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>When a Howling Banshee makes a Charge Action, she may choose to activate her mask as part of that action. The object of the Banshee's charge must pass a Difficult (-10) Discipline (Fear) Test or suffer from the Frightened Condition. This Test must be done before any other Action or Reaction.</p>"
         },
         "attack": {
           "enabled": false,
@@ -367,8 +367,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Aeldari may use Psyniscience. The Aeldari has Disadvantage on any Tests made to resist Psychic Powers.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Aeldari may use Psyniscience. The Aeldari has Disadvantage on any Tests made to resist Psychic Powers.</p>"
         },
         "attack": {
           "enabled": false,

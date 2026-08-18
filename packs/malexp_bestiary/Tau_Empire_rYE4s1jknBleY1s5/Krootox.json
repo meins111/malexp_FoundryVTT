@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Krootox may be accompanied by a single Kroot, operating a Kroot Gun mounted on the Krootox. This way, the Kroot may be shot at, but still counts as being part of the Krootox. This is the only way to use the Kroot Gun attack.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Krootox may be accompanied by a single Kroot, operating a Kroot Gun mounted on the Krootox. This way, the Kroot may be shot at, but still counts as being part of the Krootox. This is the only way to use the Kroot Gun attack.</p>"
         },
         "attack": {
           "enabled": false,

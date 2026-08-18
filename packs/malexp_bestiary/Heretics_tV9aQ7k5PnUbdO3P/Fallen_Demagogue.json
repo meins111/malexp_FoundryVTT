@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Fallen Demagogue has 1 point of Fate.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Fallen Demagogue has 1 point of Fate.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Whenever the Fallen Demagogue is targeted by a ranged attack, they may make a Challenging (+0) Fellowship test. On a success, one ally within Short Range moves to intercept the attack and becomes the target instead.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Whenever the Fallen Demagogue is targeted by a ranged attack, they may make a Challenging (+0) Fellowship test. On a success, one ally within Short Range moves to intercept the attack and becomes the target instead.</p>"
         },
         "attack": {
           "enabled": false,
@@ -367,8 +367,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Fallen Demagogue is always accompanied by 1d10 + 10 Mutants or equivalent troops, as well as a number of Cultists equal to twice the number of players.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Fallen Demagogue is always accompanied by 1d10 + 10 Mutants or equivalent troops, as well as a number of Cultists equal to twice the number of players.</p>"
         },
         "attack": {
           "enabled": false,
@@ -428,8 +428,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Fallen Demagogue may gently rebuke those under their command with but a word, causing 1 wound to each. Those rebuked are immune to the Frightened condition.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Fallen Demagogue may gently rebuke those under their command with but a word, causing 1 wound to each. Those rebuked are immune to the Frightened condition.</p>"
         },
         "attack": {
           "enabled": false,
@@ -489,8 +489,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Whenever this character fails a Discipline Test, they may choose to suffer 1d10 damage that ignores Armour to automatically pass the Test.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Whenever this character fails a Discipline Test, they may choose to suffer 1d10 damage that ignores Armour to automatically pass the Test.</p>"
         },
         "attack": {
           "enabled": false,
@@ -550,8 +550,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Fallen Demagogue has a Witch-mark, as described on page 344 of the Core Rulebook.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Fallen Demagogue has a Witch-mark, as described on page 344 of the Core Rulebook.</p>"
         },
         "attack": {
           "enabled": false,

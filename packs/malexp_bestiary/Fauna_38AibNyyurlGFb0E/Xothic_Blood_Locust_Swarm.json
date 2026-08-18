@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Whenever a target takes damage from a Blood Locust swarm, during the target's next turn they suffer 5 damage (ignoring armor) as the Locusts drain them. To avoid this, the target may take an Action to crush and brush away the insects, requiring a Challenging (+0) Agility test.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Whenever a target takes damage from a Blood Locust swarm, during the target's next turn they suffer 5 damage (ignoring armor) as the Locusts drain them. To avoid this, the target may take an Action to crush and brush away the insects, requiring a Challenging (+0) Agility test.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Blood Locust swarms are made up of thousands, if not millions, of individual insects. Swarms count as having 20 Wounds while swarming, and suffer half damage unless targeted by an Ordnance, Blast, Flame, or Spread weapon. They cannot be Grappled or knocked down. There is always more than one swarm in a scene, up to the number of players.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Blood Locust swarms are made up of thousands, if not millions, of individual insects. Swarms count as having 20 Wounds while swarming, and suffer half damage unless targeted by an Ordnance, Blast, Flame, or Spread weapon. They cannot be Grappled or knocked down. There is always more than one swarm in a scene, up to the number of players.</p>"
         },
         "attack": {
           "enabled": false,

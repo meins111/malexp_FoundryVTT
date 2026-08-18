@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Warp Spider has a Built-In Warp Jump Generator.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Warp Spider has a Built-In Warp Jump Generator.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Aeldari may use Psyniscience. The Aeldari has Disadvantage on any Tests made to resist Psychic Powers.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Aeldari may use Psyniscience. The Aeldari has Disadvantage on any Tests made to resist Psychic Powers.</p>"
         },
         "attack": {
           "enabled": false,
@@ -367,8 +367,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Warp Spider may use their Warp Jump Generator to instantly move up to Long Range as a Move Action, allowing them to ignore obstacles. They may choose to move up to Extreme Range, but if they roll doubles, they must pass a Hard (-20) Discipline Test or disappear for a round. If they pass the test, they act as normal, having moved the distance.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Warp Spider may use their Warp Jump Generator to instantly move up to Long Range as a Move Action, allowing them to ignore obstacles. They may choose to move up to Extreme Range, but if they roll doubles, they must pass a Hard (-20) Discipline Test or disappear for a round. If they pass the test, they act as normal, having moved the distance.</p>"
         },
         "attack": {
           "enabled": false,
@@ -428,8 +428,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>If the Warp Spider initiates combat with other Warp Spiders by using their Warp Jump Generator to Ambush the enemy, the players immediately lose 1 Superiority.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>If the Warp Spider initiates combat with other Warp Spiders by using their Warp Jump Generator to Ambush the enemy, the players immediately lose 1 Superiority.</p>"
         },
         "attack": {
           "enabled": false,

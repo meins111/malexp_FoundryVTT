@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>As an Action, the Legionnaire makes a Ranged Attack at Immediate Range, with no penalties for being engaged, which deals 2 + SL Damage and inflicts the Blinded Condition.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>As an Action, the Legionnaire makes a Ranged Attack at Immediate Range, with no penalties for being engaged, which deals 2 + SL Damage and inflicts the Blinded Condition.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Legionnaire suffers no penalties to Perception-based Tests when awake for long periods of time.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Legionnaire suffers no penalties to Perception-based Tests when awake for long periods of time.</p>"
         },
         "attack": {
           "enabled": false,
@@ -367,8 +367,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Legionnaire gains Advantage to any Toughness-based tests against ingested poisons, and may re-roll any failed Fortitude (Endurance) tests due to Exposure to Cold or Heat.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Legionnaire gains Advantage to any Toughness-based tests against ingested poisons, and may re-roll any failed Fortitude (Endurance) tests due to Exposure to Cold or Heat.</p>"
         },
         "attack": {
           "enabled": false,
@@ -428,8 +428,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>As a Free Action, the Legionnaire makes a Challenging (+0) Fortitude Test. If successful, they remove a Bleeding Condition from themself.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>As a Free Action, the Legionnaire makes a Challenging (+0) Fortitude Test. If successful, they remove a Bleeding Condition from themself.</p>"
         },
         "attack": {
           "enabled": false,
@@ -489,8 +489,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Legionnaire gains Advantage on Tests to resist effects that cause the Deafened Condition and gain +1SL on Awareness (Hearing) tests.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Legionnaire gains Advantage on Tests to resist effects that cause the Deafened Condition and gain +1SL on Awareness (Hearing) tests.</p>"
         },
         "attack": {
           "enabled": false,
@@ -550,8 +550,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Legionnaire triples their Toughness Bonus when determining how long they can hold their breath.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Legionnaire triples their Toughness Bonus when determining how long they can hold their breath.</p>"
         },
         "attack": {
           "enabled": false,
@@ -611,8 +611,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Legionnaire gains Advantage on Perception Tests made to track enemies by scent. They may detect poison or toxins by taste with a successful Challenging (+0) Awareness (Taste) Test, or by smell with a successful Hard (-20) Awareness (Smell) Test.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Legionnaire gains Advantage on Perception Tests made to track enemies by scent. They may detect poison or toxins by taste with a successful Challenging (+0) Awareness (Taste) Test, or by smell with a successful Hard (-20) Awareness (Smell) Test.</p>"
         },
         "attack": {
           "enabled": false,
@@ -672,8 +672,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Legionnaire ignores penalties from Zones with the Poorly Lit Environmental Trait.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Legionnaire ignores penalties from Zones with the Poorly Lit Environmental Trait.</p>"
         },
         "attack": {
           "enabled": false,
@@ -733,8 +733,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>As a Free Action, the Legionnaire makes a Challenging (+0) Fortitude Test. If successful, they remove a Poisoned Condition from themself.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>As a Free Action, the Legionnaire makes a Challenging (+0) Fortitude Test. If successful, they remove a Poisoned Condition from themself.</p>"
         },
         "attack": {
           "enabled": false,
@@ -794,8 +794,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>If the Legionnaire is knocked unconscious by Critical Damage, they enter a state of suspended animation in which wounds do not deteriorate or heal. A successful Hard (-20) Medicae (Forbidden - Astartes) Test is required to revive them.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>If the Legionnaire is knocked unconscious by Critical Damage, they enter a state of suspended animation in which wounds do not deteriorate or heal. A successful Hard (-20) Medicae (Forbidden - Astartes) Test is required to revive them.</p>"
         },
         "attack": {
           "enabled": false,
@@ -855,8 +855,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Traitor Legionnaire has 1 point of Fate.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Traitor Legionnaire has 1 point of Fate.</p>"
         },
         "attack": {
           "enabled": false,
@@ -916,8 +916,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Witnessing the Traitor Astartes is Minor Exposure. Make a Challenging (+0) Discipline (Psychic) Test to resist 1 Corruption Point; every SL reduces the Corruption gained by 1. Physical contact is Moderate Exposure, resisted by a Challenging (+0) Fortitude Test for 2 Corruption Points.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Witnessing the Traitor Astartes is Minor Exposure. Make a Challenging (+0) Discipline (Psychic) Test to resist 1 Corruption Point; every SL reduces the Corruption gained by 1. Physical contact is Moderate Exposure, resisted by a Challenging (+0) Fortitude Test for 2 Corruption Points.</p>"
         },
         "attack": {
           "enabled": false,
@@ -977,8 +977,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The first time a Character sees the Legionnaire, they must make a Hard (-20) Discipline (Fear) Test or become Frightened. If all Characters are Frightened in this way, they lose -1 Superiority.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The first time a Character sees the Legionnaire, they must make a Hard (-20) Discipline (Fear) Test or become Frightened. If all Characters are Frightened in this way, they lose -1 Superiority.</p>"
         },
         "attack": {
           "enabled": false,

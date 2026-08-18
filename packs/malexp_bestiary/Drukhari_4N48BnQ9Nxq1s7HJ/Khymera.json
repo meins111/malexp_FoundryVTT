@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Whenever the Khymera is attacked, roll 1d5 to determine its Armor for that attack.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Whenever the Khymera is attacked, roll 1d5 to determine its Armor for that attack.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Khymerae never hunt alone, and whether brought into combat by a Drukhari Beastmaster or a warp manifestation, it will always be accompanied by at least one other Khymera.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Khymerae never hunt alone, and whether brought into combat by a Drukhari Beastmaster or a warp manifestation, it will always be accompanied by at least one other Khymera.</p>"
         },
         "attack": {
           "enabled": false,

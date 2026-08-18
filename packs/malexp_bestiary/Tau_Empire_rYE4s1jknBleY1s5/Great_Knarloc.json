@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>This profile is just for a regular Great Knarloc. If it is mounted by a Kroot ally, the Kroot uses the Great Knarloc's initiative for movement, but may still make Ranged Attacks on its own. The Kroot can be targeted individually regardless.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>This profile is just for a regular Great Knarloc. If it is mounted by a Kroot ally, the Kroot uses the Great Knarloc's initiative for movement, but may still make Ranged Attacks on its own. The Kroot can be targeted individually regardless.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Great Knarloc understands when it is being attacked but will fight even harder when its handlers are endangered. When its Kroot rider or nearby Kroot assigned to handle the Knarloc are wounded, the Great Knarloc becomes Frenzied (pg. 111 CRB) and will attack nearby non-Kroot creatures.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Great Knarloc understands when it is being attacked but will fight even harder when its handlers are endangered. When its Kroot rider or nearby Kroot assigned to handle the Knarloc are wounded, the Great Knarloc becomes Frenzied (pg. 111 CRB) and will attack nearby non-Kroot creatures.</p>"
         },
         "attack": {
           "enabled": false,

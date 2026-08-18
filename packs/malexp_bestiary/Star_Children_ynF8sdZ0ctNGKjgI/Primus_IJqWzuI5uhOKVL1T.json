@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Primus arranges reinforcements, which can be noticed with a Hard (-20) Awareness (Sight) Test. As an Action, the Primus can summon the reinforcements, consisting of 1d5+4 Neophyte Hybrids, reducing the Party's Superiority by 1 if they were not detected. The Neophytes immediately attack.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Primus arranges reinforcements, which can be noticed with a Hard (-20) Awareness (Sight) Test. As an Action, the Primus can summon the reinforcements, consisting of 1d5+4 Neophyte Hybrids, reducing the Party's Superiority by 1 if they were not detected. The Neophytes immediately attack.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Individual is connected to the Genestealer Broodmind, and gains advantage on Discipline Tests when within Long Range of a Genestealer Psyker.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Individual is connected to the Genestealer Broodmind, and gains advantage on Discipline Tests when within Long Range of a Genestealer Psyker.</p>"
         },
         "attack": {
           "enabled": false,
@@ -367,8 +367,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>This character has additional limbs, and may use them to wield an additional One-Handed or Pistol weapon and use it in combat.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>This character has additional limbs, and may use them to wield an additional One-Handed or Pistol weapon and use it in combat.</p>"
         },
         "attack": {
           "enabled": false,
@@ -428,8 +428,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Primus can use their Action to give orders to allies. Choosing a number of allies equal to their Resolve, each ally can immediately move or take an Action. Additionally, all Genestealer Cults creatures that can see the Primus gain Advantage on Discipline tests. Finally, the Primus may make a Challenging (+0) Leadership test to aid an ally or subordinate, allowing them to use their Skill instead of their own for the next Test they make.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Primus can use their Action to give orders to allies. Choosing a number of allies equal to their Resolve, each ally can immediately move or take an Action. Additionally, all Genestealer Cults creatures that can see the Primus gain Advantage on Discipline tests. Finally, the Primus may make a Challenging (+0) Leadership test to aid an ally or subordinate, allowing them to use their Skill instead of their own for the next Test they make.</p>"
         },
         "attack": {
           "enabled": false,

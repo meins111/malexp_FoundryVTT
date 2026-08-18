@@ -256,8 +256,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>At the start of the Apprentek's turn, it regains 3 Wounds. It is immune to the Bleeding, Fatigued, Frightened, and Poisoned Conditions. Additionally, it has no soul and cannot be detected by abilities such as Soulsight.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>At the start of the Apprentek's turn, it regains 3 Wounds. It is immune to the Bleeding, Fatigued, Frightened, and Poisoned Conditions. Additionally, it has no soul and cannot be detected by abilities such as Soulsight.</p>"
         },
         "attack": {
           "enabled": false,
@@ -386,8 +386,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>When the Apprentek would die or be rendered Unconscious, roll 1d10. On a 7 or higher, it does not die or become Unconscious and gains wounds equal to the result.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>When the Apprentek would die or be rendered Unconscious, roll 1d10. On a 7 or higher, it does not die or become Unconscious and gains wounds equal to the result.</p>"
         },
         "attack": {
           "enabled": false,
@@ -455,8 +455,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>If the Apprentek is within Short Range to a Cryptek, it counts as always giving Help to them. Additionally, it gives the Cryptek Advantage to any Tests related to their powers.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>If the Apprentek is within Short Range to a Cryptek, it counts as always giving Help to them. Additionally, it gives the Cryptek Advantage to any Tests related to their powers.</p>"
         },
         "attack": {
           "enabled": false,

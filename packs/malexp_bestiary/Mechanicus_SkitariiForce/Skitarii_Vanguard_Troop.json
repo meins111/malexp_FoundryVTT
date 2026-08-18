@@ -244,8 +244,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Skitarii has Augmetic Arms, Augmetic Legs, an Augmetic Heart, an Augmetic Respiratory System, and Augmetic Sensory Organs. The benefits of these augmetics are already included.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Skitarii has Augmetic Arms, Augmetic Legs, an Augmetic Heart, an Augmetic Respiratory System, and Augmetic Sensory Organs. The benefits of these augmetics are already included.</p>"
         },
         "attack": {
           "enabled": false,
@@ -305,8 +305,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>As an Action, the Skitarii makes a Challenging (+0) Fortitude Test. If they are successful, they remove a Bleeding Condition from themself.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>As an Action, the Skitarii makes a Challenging (+0) Fortitude Test. If they are successful, they remove a Bleeding Condition from themself.</p>"
         },
         "attack": {
           "enabled": false,
@@ -366,8 +366,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Skitarii gains +2 SL to Fortitude Tests to resist the effects of airborne toxins and poisonous gases.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Skitarii gains +2 SL to Fortitude Tests to resist the effects of airborne toxins and poisonous gases.</p>"
         },
         "attack": {
           "enabled": false,
@@ -427,8 +427,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Upon successfully killing a target with a Rad weapon, all creatures within immediate range of the target must make a Challenging (+0) Fortitude Test or suffer the effects of the Irradiated condition.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Upon successfully killing a target with a Rad weapon, all creatures within immediate range of the target must make a Challenging (+0) Fortitude Test or suffer the effects of the Irradiated condition.</p>"
         },
         "attack": {
           "enabled": false,

@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Biophagus counts as benefiting from the Help action (page 208 CRB) as long as the Familiar lives.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Biophagus counts as benefiting from the Help action (page 208 CRB) as long as the Familiar lives.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Individual is connected to the Genestealer Broodmind, and gains advantage on Discipline Tests when within Long Range of a Genestealer Psyker.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Individual is connected to the Genestealer Broodmind, and gains advantage on Discipline Tests when within Long Range of a Genestealer Psyker.</p>"
         },
         "attack": {
           "enabled": false,
@@ -367,8 +367,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Biophagus counts as having the Chirurgeon Talent, and gains +2SL whenever concocting new poisons or healing Genestealer Cults creatures. Additionally, as an Action on their turn, the Biophagus can use their Injector Goad on a Genestealer Cult ally within Immediate Range, dosing them with a gene-brew that enhances their abilities. Roll 1d10: 1-2 Heightened Senses (Advantage to Awareness, Intuition, Reflexes); 3-4 Regenerating Mass (heal Toughness Bonus Wounds at start of turn); 5-6 Hulking Frame (+Toughness Bonus Wounds, +Strength Bonus SL to Strength Tests and Melee Damage); 7-8 Carapaced Flesh (+2 Armour); 9-0 Combat Instincts (Advantage to Discipline, Melee, Ranged, Stealth). Each character can only be affected by this Trait once per encounter.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Biophagus counts as having the Chirurgeon Talent, and gains +2SL whenever concocting new poisons or healing Genestealer Cults creatures. Additionally, as an Action on their turn, the Biophagus can use their Injector Goad on a Genestealer Cult ally within Immediate Range, dosing them with a gene-brew that enhances their abilities. Roll 1d10: 1-2 Heightened Senses (Advantage to Awareness, Intuition, Reflexes); 3-4 Regenerating Mass (heal Toughness Bonus Wounds at start of turn); 5-6 Hulking Frame (+Toughness Bonus Wounds, +Strength Bonus SL to Strength Tests and Melee Damage); 7-8 Carapaced Flesh (+2 Armour); 9-0 Combat Instincts (Advantage to Discipline, Melee, Ranged, Stealth). Each character can only be affected by this Trait once per encounter.</p>"
         },
         "attack": {
           "enabled": false,

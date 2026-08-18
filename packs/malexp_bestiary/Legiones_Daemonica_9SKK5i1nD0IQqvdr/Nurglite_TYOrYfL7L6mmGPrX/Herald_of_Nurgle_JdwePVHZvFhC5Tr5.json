@@ -358,8 +358,8 @@
       "img": "modules/impmal-core/assets/icons/generic.webp",
       "system": {
         "notes": {
-          "player": "<p>@UUID[JournalEntry.J8NVn5iNgM57cKmw.JournalEntryPage.NrJuy93Put0XCYq9#presence-(wil)]{Presence}</p><p>Trained to inspire others to put in their best efforts to achieve a desired goal. This can range anywhere from motivating a few clerks to finish a long survey in record time, to giving a group of desperate soldiers the courage to charge a fortified enemy bunker. </p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>@UUID[JournalEntry.J8NVn5iNgM57cKmw.JournalEntryPage.NrJuy93Put0XCYq9#presence-(wil)]{Presence}</p><p>Trained to inspire others to put in their best efforts to achieve a desired goal. This can range anywhere from motivating a few clerks to finish a long survey in record time, to giving a group of desperate soldiers the courage to charge a fortified enemy bunker. </p>"
         },
         "advances": 2,
         "restricted": false,
@@ -391,8 +391,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Whenever the Herald of Nurgle is attacked, roll 1d10 + 3 to determine its Armour.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Whenever the Herald of Nurgle is attacked, roll 1d10 + 3 to determine its Armour.</p>"
         },
         "attack": {
           "enabled": false,
@@ -460,8 +460,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Herald of Nurgle knows the <em>Smite minor power, the Affliction, and Life Leech Biomancy powers, and the Choir of Poxes, and Nurgle’s Rot Nurglite </em>psychic powers. As a Daemon, they have no Warp Threshold.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Herald of Nurgle knows the <em>Smite minor power, the Affliction, and Life Leech Biomancy powers, and the Choir of Poxes, and Nurgle’s Rot Nurglite </em>psychic powers. As a Daemon, they have no Warp Threshold.</p>"
         },
         "attack": {
           "enabled": false,
@@ -527,8 +527,8 @@
       "type": "trait",
       "system": {
         "notes": {
-          "player": "<p>Witnessing the Bloodletter is @Corruption[minor]{Minor Exposure}. Make a <strong>Challenging (+0) Discipline (Psychic)</strong> Test to resist 1 Corruption Point. Every SL reduces the number of Corruption Points gained by 1. Additionally, physical contact with the Daemon is @Corruption[moderate]{Moderate Exposure}. Make a <strong>Challenging (+0) Fortitude</strong> Test to resist 2 Corruption Points. Every SL reduces the number of Corruption Points gained by 1.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Witnessing the Bloodletter is @Corruption[minor]{Minor Exposure}. Make a <strong>Challenging (+0) Discipline (Psychic)</strong> Test to resist 1 Corruption Point. Every SL reduces the number of Corruption Points gained by 1. Additionally, physical contact with the Daemon is @Corruption[moderate]{Moderate Exposure}. Make a <strong>Challenging (+0) Fortitude</strong> Test to resist 2 Corruption Points. Every SL reduces the number of Corruption Points gained by 1.</p>"
         },
         "attack": {
           "enabled": false,
@@ -599,8 +599,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Unless determined otherwise, the Herald of Nurgle should be accompanied by a number of Plaguebearers equal to the number of players or a number of Nurglings equal to double the number of players. All Nurglite Daemons that can see the Herald of Nurgle can re-roll one Disgustingly Resilient test per round, including the Herald of Nurgle.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Unless determined otherwise, the Herald of Nurgle should be accompanied by a number of Plaguebearers equal to the number of players or a number of Nurglings equal to double the number of players. All Nurglite Daemons that can see the Herald of Nurgle can re-roll one Disgustingly Resilient test per round, including the Herald of Nurgle.</p>"
         },
         "attack": {
           "enabled": false,
@@ -666,8 +666,8 @@
       "type": "trait",
       "system": {
         "notes": {
-          "player": "<p>Whenever the Nurgling Swarm would suffer one or more Wounds, they may make a <strong>Challenging (+0) Fortitude</strong> Test. If they succeed, they reduce the amount of Wounds suffered by the SL.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Whenever the Nurgling Swarm would suffer one or more Wounds, they may make a <strong>Challenging (+0) Fortitude</strong> Test. If they succeed, they reduce the amount of Wounds suffered by the SL.</p>"
         },
         "attack": {
           "enabled": false,
@@ -845,8 +845,8 @@
       "name": "Smite",
       "system": {
         "notes": {
-          "player": "<p><strong>Cognomens</strong>: Blast, Empyric Screech, Eldritch Undoing </p><p>You unleash a corruscating blast of raw psychic power against a foe, rending flesh and spirit. Choose a Creature within Medium Range. The target suffers Damage equal to 2 + your Willpower Bonus + the SL from your Manifest Test, which ignores Armour.</p><p>Specialisation in Telepathy applies to this power's Manifest Test.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p><strong>Cognomens</strong>: Blast, Empyric Screech, Eldritch Undoing </p><p>You unleash a corruscating blast of raw psychic power against a foe, rending flesh and spirit. Choose a Creature within Medium Range. The target suffers Damage equal to 2 + your Willpower Bonus + the SL from your Manifest Test, which ignores Armour.</p><p>Specialisation in Telepathy applies to this power's Manifest Test.</p>"
         },
         "damage": {
           "base": "2",

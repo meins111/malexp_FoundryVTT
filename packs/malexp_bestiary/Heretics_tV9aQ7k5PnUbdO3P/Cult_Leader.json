@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>As an Action, the Cult Leader can command all Cultists in their Zone to immediately Charge with an additional +1 SL.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>As an Action, the Cult Leader can command all Cultists in their Zone to immediately Charge with an additional +1 SL.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>If the party has 3 or more Superiority during a combat encounter with the Cult Leader, they may make a doomed plea to the dark gods for power as a Free Action. They immediately transform into a Chaos Spawn and take their turn.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>If the party has 3 or more Superiority during a combat encounter with the Cult Leader, they may make a doomed plea to the dark gods for power as a Free Action. They immediately transform into a Chaos Spawn and take their turn.</p>"
         },
         "attack": {
           "enabled": false,
@@ -367,8 +367,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Whenever this character fails a Discipline Test, they may choose to suffer 1d10 damage that ignores Armour to automatically pass the Test.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Whenever this character fails a Discipline Test, they may choose to suffer 1d10 damage that ignores Armour to automatically pass the Test.</p>"
         },
         "attack": {
           "enabled": false,
@@ -428,8 +428,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Cult Leader has a Witch-mark, as described on page 344.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Cult Leader has a Witch-mark, as described on page 344.</p>"
         },
         "attack": {
           "enabled": false,

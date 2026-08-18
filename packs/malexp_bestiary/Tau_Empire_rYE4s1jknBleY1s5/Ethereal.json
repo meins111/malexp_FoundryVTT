@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>All allies of the Ethereal that can see them gain +1 SL to Discipline (Fear) Tests. Additionally, the Ethereal has 1 point of Fate.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>All allies of the Ethereal that can see them gain +1 SL to Discipline (Fear) Tests. Additionally, the Ethereal has 1 point of Fate.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>All allies of the Ethereal that can see them have Advantage on Tests to resist or end the Frightened Condition, however, should the Ethereal be defeated, all allies immediately become Desperate.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>All allies of the Ethereal that can see them have Advantage on Tests to resist or end the Frightened Condition, however, should the Ethereal be defeated, all allies immediately become Desperate.</p>"
         },
         "attack": {
           "enabled": false,
@@ -367,8 +367,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Ethereal should never be alone and should be accompanied by 1d5+2 bodyguards belonging to the Fire Caste, such as Fire Warriors or Battlesuits. Additionally, the Ethereal is always accompanied by at least one Shield Drone.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Ethereal should never be alone and should be accompanied by 1d5+2 bodyguards belonging to the Fire Caste, such as Fire Warriors or Battlesuits. Additionally, the Ethereal is always accompanied by at least one Shield Drone.</p>"
         },
         "attack": {
           "enabled": false,

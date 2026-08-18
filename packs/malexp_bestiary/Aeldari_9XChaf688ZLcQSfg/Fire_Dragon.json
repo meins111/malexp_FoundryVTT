@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Aeldari may use Psyniscience. The Aeldari has Disadvantage on any Tests made to resist Psychic Powers.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Aeldari may use Psyniscience. The Aeldari has Disadvantage on any Tests made to resist Psychic Powers.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>When making a Ranged Attack against a Vehicle with a weapon with the Penetrating quality, the Fire Dragon adds their Ballistic Skill bonus to the Penetrating value of the weapon (included).</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>When making a Ranged Attack against a Vehicle with a weapon with the Penetrating quality, the Fire Dragon adds their Ballistic Skill bonus to the Penetrating value of the weapon (included).</p>"
         },
         "attack": {
           "enabled": false,

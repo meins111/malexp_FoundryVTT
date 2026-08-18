@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Dybuks are lesser daemonhosts, created as alternatives to risky and unmastered rituals. This profile uses the Cult Fanatic profile as a base: add 1d10+10 to WS, Str, Tgh, and 1d10 to Ag and Wil; add +2d5 Wounds; reduce Int by 1d10 and halve the previous being's Fellowship. Lose all Int-based skill advances, grant two advances in Awareness, one in Reflexes (Dodge), and one in Stealth (Move Silently). Grant a +1d5 bonus to Armor as a Force Field akin to Daemons; unarmed attacks lose the Ineffective trait. Dybuks gain the Tenacious and Frenzy Talents if they don't already have them, plus a 50% chance of 1d5 Mutations (rerolling inappropriate results), and may take results from the Daemonhost Unholy Changes table.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Dybuks are lesser daemonhosts, created as alternatives to risky and unmastered rituals. This profile uses the Cult Fanatic profile as a base: add 1d10+10 to WS, Str, Tgh, and 1d10 to Ag and Wil; add +2d5 Wounds; reduce Int by 1d10 and halve the previous being's Fellowship. Lose all Int-based skill advances, grant two advances in Awareness, one in Reflexes (Dodge), and one in Stealth (Move Silently). Grant a +1d5 bonus to Armor as a Force Field akin to Daemons; unarmed attacks lose the Ineffective trait. Dybuks gain the Tenacious and Frenzy Talents if they don't already have them, plus a 50% chance of 1d5 Mutations (rerolling inappropriate results), and may take results from the Daemonhost Unholy Changes table.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>As a Free Action, the Dybuk can make a Challenging (+0) Willpower Test to enter a frenzied state. While frenzied, their Strength Bonus increases by +1, and they are immune to the Frightened Condition. On their turn, they must attempt to engage the nearest enemy in melee combat. They must remain in this state until all enemies they can currently see have been defeated, or until affected by the Stunned or Unconscious Condition.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>As a Free Action, the Dybuk can make a Challenging (+0) Willpower Test to enter a frenzied state. While frenzied, their Strength Bonus increases by +1, and they are immune to the Frightened Condition. On their turn, they must attempt to engage the nearest enemy in melee combat. They must remain in this state until all enemies they can currently see have been defeated, or until affected by the Stunned or Unconscious Condition.</p>"
         },
         "attack": {
           "enabled": false,
@@ -367,8 +367,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Whenever the Dybuk suffers the Stunned Condition, they may immediately make a Challenging (+0) Fortitude (Endurance) Test to recover from it.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Whenever the Dybuk suffers the Stunned Condition, they may immediately make a Challenging (+0) Fortitude (Endurance) Test to recover from it.</p>"
         },
         "attack": {
           "enabled": false,
@@ -428,8 +428,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Dybuk gains +2 Armor on all locations and reduces their Agility permanently by 10 (already included above).</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Dybuk gains +2 Armor on all locations and reduces their Agility permanently by 10 (already included above).</p>"
         },
         "attack": {
           "enabled": false,
@@ -489,8 +489,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Dybuk has a Witch-mark, as described on page 344.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Dybuk has a Witch-mark, as described on page 344.</p>"
         },
         "attack": {
           "enabled": false,

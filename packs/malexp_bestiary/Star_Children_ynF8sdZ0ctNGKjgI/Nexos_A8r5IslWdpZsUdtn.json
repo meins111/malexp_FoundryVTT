@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Nexos has Advantage on Tests made to find or retrieve information from a document or archive (whether analog or digital). The Nexos may also absorb the genetic memory of a creature, granting them Advantage on their next Lore or Presence Test. If the Nexos absorbs the genetic memory of a party member, the party's Superiority decreases by 1. Whenever the Nexos absorbs the genetic memory of a creature, both the Nexos and the creature immediately gain the Fatigued condition for 1d5 Rounds.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Nexos has Advantage on Tests made to find or retrieve information from a document or archive (whether analog or digital). The Nexos may also absorb the genetic memory of a creature, granting them Advantage on their next Lore or Presence Test. If the Nexos absorbs the genetic memory of a party member, the party's Superiority decreases by 1. Whenever the Nexos absorbs the genetic memory of a creature, both the Nexos and the creature immediately gain the Fatigued condition for 1d5 Rounds.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Individual is connected to the Genestealer Broodmind, and gains advantage on Discipline Tests when within Long Range of a Genestealer Psyker.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Individual is connected to the Genestealer Broodmind, and gains advantage on Discipline Tests when within Long Range of a Genestealer Psyker.</p>"
         },
         "attack": {
           "enabled": false,
@@ -367,8 +367,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Once per Encounter, the Nexos may spend an Action to attempt a Challenging (+0) Presence (Leadership) Test. If they succeed, a number of Neophyte Hybrids equal to the Player Characters, or half the number of Hybrid Metamorphs, emerge from nearby to aid the Nexos, reducing the Party's Superiority by 1. The Cultists immediately attack.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Once per Encounter, the Nexos may spend an Action to attempt a Challenging (+0) Presence (Leadership) Test. If they succeed, a number of Neophyte Hybrids equal to the Player Characters, or half the number of Hybrid Metamorphs, emerge from nearby to aid the Nexos, reducing the Party's Superiority by 1. The Cultists immediately attack.</p>"
         },
         "attack": {
           "enabled": false,

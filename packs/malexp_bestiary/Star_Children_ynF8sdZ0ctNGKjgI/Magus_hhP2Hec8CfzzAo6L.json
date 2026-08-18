@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Individual is connected to the Genestealer Broodmind, and gains advantage on Discipline Tests when within Long Range of a Genestealer Psyker.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Individual is connected to the Genestealer Broodmind, and gains advantage on Discipline Tests when within Long Range of a Genestealer Psyker.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Psychic Mastery (Telepathy) Test, Warp Rating 2, Medium Range, 8 + SL Damage. Ignores Armor.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Psychic Mastery (Telepathy) Test, Warp Rating 2, Medium Range, 8 + SL Damage. Ignores Armor.</p>"
         },
         "attack": {
           "enabled": false,
@@ -367,8 +367,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Psychic Mastery (Telepathy) Test, Warp Rating 3, Medium Range, 6 + SL Damage. Ignores Armor. Daemons and Psykers suffer double damage.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Psychic Mastery (Telepathy) Test, Warp Rating 3, Medium Range, 6 + SL Damage. Ignores Armor. Daemons and Psykers suffer double damage.</p>"
         },
         "attack": {
           "enabled": false,
@@ -428,8 +428,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Magus knows the following Minor Powers: Dread Presence, Float, Lull, Psychic Static, Smite, Soulsight, Spectral Hands.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Magus knows the following Minor Powers: Dread Presence, Float, Lull, Psychic Static, Smite, Soulsight, Spectral Hands.</p>"
         },
         "attack": {
           "enabled": false,
@@ -489,8 +489,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Magus knows the following Telepathy Powers: Compel, Dominate, Erasure, Hallucinate, Insinuate, Mental Interrogation, Nightshroud, Pacify, Psychic Fortitude, Psychic Shriek, Telepathic Link, Terrifying Visions.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Magus knows the following Telepathy Powers: Compel, Dominate, Erasure, Hallucinate, Insinuate, Mental Interrogation, Nightshroud, Pacify, Psychic Fortitude, Psychic Shriek, Telepathic Link, Terrifying Visions.</p>"
         },
         "attack": {
           "enabled": false,
@@ -550,8 +550,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Magus has a Warp Threshold of 6.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Magus has a Warp Threshold of 6.</p>"
         },
         "attack": {
           "enabled": false,

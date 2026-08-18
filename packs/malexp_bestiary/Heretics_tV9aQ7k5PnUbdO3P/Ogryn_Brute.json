@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>When within Medium Range of a Heretic Leader (or higher) character, the Ogryn Brute may spend their Reaction to immediately move to Defend (IM CRB pg. 207) the Leader. If doing so were to cause the Ogryn Brute to break Engagement (IM CRB pg. 212), their opponents have Disadvantage on their melee attack.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>When within Medium Range of a Heretic Leader (or higher) character, the Ogryn Brute may spend their Reaction to immediately move to Defend (IM CRB pg. 207) the Leader. If doing so were to cause the Ogryn Brute to break Engagement (IM CRB pg. 212), their opponents have Disadvantage on their melee attack.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Whenever this character fails a Discipline Test, they may choose to suffer 1d10 damage that ignores Armour to automatically pass the Test.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Whenever this character fails a Discipline Test, they may choose to suffer 1d10 damage that ignores Armour to automatically pass the Test.</p>"
         },
         "attack": {
           "enabled": false,
@@ -367,8 +367,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>This character bears a Witch-mark, a physical sign of corruption by the Ruinous Powers (see Core Rulebook, Witch-marks, pg. 344).</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>This character bears a Witch-mark, a physical sign of corruption by the Ruinous Powers (see Core Rulebook, Witch-marks, pg. 344).</p>"
         },
         "attack": {
           "enabled": false,

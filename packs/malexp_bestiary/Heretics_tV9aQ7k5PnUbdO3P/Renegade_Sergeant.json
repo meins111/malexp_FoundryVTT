@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Whenever a Renegade Sergeant fails a Discipline Test, they may choose to suffer 1d10 damage that ignores Armour to automatically pass the Test.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Whenever a Renegade Sergeant fails a Discipline Test, they may choose to suffer 1d10 damage that ignores Armour to automatically pass the Test.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Renegade Sergeant has a Witch-mark, as described in the Core Rulebook.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Renegade Sergeant has a Witch-mark, as described in the Core Rulebook.</p>"
         },
         "attack": {
           "enabled": false,

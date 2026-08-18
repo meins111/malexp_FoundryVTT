@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Individual is connected to the Genestealer Broodmind, and gains advantage on Discipline Tests when within Long Range of a Genestealer Psyker.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Individual is connected to the Genestealer Broodmind, and gains advantage on Discipline Tests when within Long Range of a Genestealer Psyker.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Once per Encounter, as an Action, the Clamavus may use their Vox Interceptor Array to attempt a Hard (-20) Tech (Security) Test to hack into the communications of their enemy. If they succeed, the party's Superiority is reduced by 1 as litanies hailing the Star Children are burst through. Due to this, the enemy may not benefit from their long-distance communication devices until they are able to purge the hack attempt with the same test.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Once per Encounter, as an Action, the Clamavus may use their Vox Interceptor Array to attempt a Hard (-20) Tech (Security) Test to hack into the communications of their enemy. If they succeed, the party's Superiority is reduced by 1 as litanies hailing the Star Children are burst through. Due to this, the enemy may not benefit from their long-distance communication devices until they are able to purge the hack attempt with the same test.</p>"
         },
         "attack": {
           "enabled": false,
@@ -367,8 +367,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Clamavus is capable of wielding the Shadow in the Warp as a blunt instrument. Psykers and Daemons treat the zone they are in as a Minor Hazard (page 206), and enemies within hearing distance (in a scene or through vox signal) suffer the Fatigued (Minor) and Stunned (Minor) conditions.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Clamavus is capable of wielding the Shadow in the Warp as a blunt instrument. Psykers and Daemons treat the zone they are in as a Minor Hazard (page 206), and enemies within hearing distance (in a scene or through vox signal) suffer the Fatigued (Minor) and Stunned (Minor) conditions.</p>"
         },
         "attack": {
           "enabled": false,
@@ -428,8 +428,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Clamavus gains +2SL on Rapport tests, and grants +1SL on Discipline tests to any nearby Genestealer Cults creatures within Long Range. Additionally, once per Encounter, the Clamavus may spend an Action to make a Challenging (+0) Presence Test. If they succeed, a number of Genestealer Cult allies equal to their Resolve gain Advantage on their next Attack Test.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Clamavus gains +2SL on Rapport tests, and grants +1SL on Discipline tests to any nearby Genestealer Cults creatures within Long Range. Additionally, once per Encounter, the Clamavus may spend an Action to make a Challenging (+0) Presence Test. If they succeed, a number of Genestealer Cult allies equal to their Resolve gain Advantage on their next Attack Test.</p>"
         },
         "attack": {
           "enabled": false,

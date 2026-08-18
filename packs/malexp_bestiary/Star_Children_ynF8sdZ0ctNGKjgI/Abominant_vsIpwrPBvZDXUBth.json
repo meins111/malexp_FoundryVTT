@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Individual is connected to the Genestealer Broodmind, and gains advantage on Discipline Tests when within Long Range of a Genestealer Psyker.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Individual is connected to the Genestealer Broodmind, and gains advantage on Discipline Tests when within Long Range of a Genestealer Psyker.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Abominant is accompanied by a Mindwyrm Familiar that prevents it from ever going Desperate (IM CRB pg. 197). The Mindwyrm Familiar has 5 Wounds, and if it is killed, the Abominant immediately becomes Desperate and charges the nearest enemies.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Abominant is accompanied by a Mindwyrm Familiar that prevents it from ever going Desperate (IM CRB pg. 197). The Mindwyrm Familiar has 5 Wounds, and if it is killed, the Abominant immediately becomes Desperate and charges the nearest enemies.</p>"
         },
         "attack": {
           "enabled": false,
@@ -367,8 +367,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>This character has additional limbs, and may use them to wield an additional One-Handed or Pistol weapon and use it in combat.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>This character has additional limbs, and may use them to wield an additional One-Handed or Pistol weapon and use it in combat.</p>"
         },
         "attack": {
           "enabled": false,
@@ -428,8 +428,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Whenever the Abominant would suffer one or more Wounds, they may make a Challenging (+0) Fortitude Test. If they succeed, they reduce the amount of Wounds suffered by SL. The first time the Abominant would be Defeated, they may make a Very Hard (-30) Fortitude Test. If they succeed, they are not defeated and have 18 Wounds remaining but with all Critical Wounds spent.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Whenever the Abominant would suffer one or more Wounds, they may make a Challenging (+0) Fortitude Test. If they succeed, they reduce the amount of Wounds suffered by SL. The first time the Abominant would be Defeated, they may make a Very Hard (-30) Fortitude Test. If they succeed, they are not defeated and have 18 Wounds remaining but with all Critical Wounds spent.</p>"
         },
         "attack": {
           "enabled": false,
@@ -489,8 +489,8 @@
       "img": "modules/impmal-core/assets/icons/weapons/sword.webp",
       "system": {
         "notes": {
-          "player": "<p>The Abominant may choose to halve the damage dealt to a Target to force them to make a Hard (-20) Reflexes (Balance) Test or fall Prone.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Abominant may choose to halve the damage dealt to a Target to force them to make a Hard (-20) Reflexes (Balance) Test or fall Prone.</p>"
         },
         "encumbrance": {
           "value": 0

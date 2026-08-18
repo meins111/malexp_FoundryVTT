@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>If a Renegade Veteran deals a Wound to a target with a Ranged Attack, until the beginning of the Renegade Veteran's next turn, any other Renegade Veterans who make a Ranged Attack against the same target gain +1 SL to their Attack Test.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>If a Renegade Veteran deals a Wound to a target with a Ranged Attack, until the beginning of the Renegade Veteran's next turn, any other Renegade Veterans who make a Ranged Attack against the same target gain +1 SL to their Attack Test.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>If the Renegade Veteran attacks and their target is surprised, the target must make a Challenging (+0) Discipline (Fear) Test or be Frightened. If all party members are Frightened their Superiority is reduced to 0.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>If the Renegade Veteran attacks and their target is surprised, the target must make a Challenging (+0) Discipline (Fear) Test or be Frightened. If all party members are Frightened their Superiority is reduced to 0.</p>"
         },
         "attack": {
           "enabled": false,
@@ -367,8 +367,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Renegade Veteran has Advantage on Tests to resist or end the Frightened Condition.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Renegade Veteran has Advantage on Tests to resist or end the Frightened Condition.</p>"
         },
         "attack": {
           "enabled": false,
@@ -594,8 +594,8 @@
       "img": "modules/impmal-core/assets/icons/weapons/sword.webp",
       "system": {
         "notes": {
-          "player": "<p>Damage is 5 + the difference between attacker and defender SL.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Damage is 5 + the difference between attacker and defender SL.</p>"
         },
         "encumbrance": {
           "value": 0

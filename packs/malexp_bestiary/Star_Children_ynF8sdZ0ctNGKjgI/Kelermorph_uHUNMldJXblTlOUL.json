@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Kelermorph inspires all those around it, and grants Advantage on Tests to resist or end the Frightened Condition. Additionally, as long as the Kelermorph is not Desperate, they grant +1 Resolve to all Genestealer Cult allies.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Kelermorph inspires all those around it, and grants Advantage on Tests to resist or end the Frightened Condition. Additionally, as long as the Kelermorph is not Desperate, they grant +1 Resolve to all Genestealer Cult allies.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Individual is connected to the Genestealer Broodmind, and gains advantage on Discipline Tests when within Long Range of a Genestealer Psyker.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Individual is connected to the Genestealer Broodmind, and gains advantage on Discipline Tests when within Long Range of a Genestealer Psyker.</p>"
         },
         "attack": {
           "enabled": false,
@@ -367,8 +367,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>This character has additional limbs, and may use them to wield an additional One-Handed or Pistol weapon and use it in combat.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>This character has additional limbs, and may use them to wield an additional One-Handed or Pistol weapon and use it in combat.</p>"
         },
         "attack": {
           "enabled": false,
@@ -428,8 +428,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Kelermorph is capable of firing all their Liberator Autostub Pistols in one Action as per Two-Weapon Fighting and does not suffer Disadvantage when doing so. Additionally, when combat begins, the Kelermorph may attack with one of their pistols before anyone else regardless of Initiative. If they are Surprised, they must make a Hard (-20) Reflexes Test to use this effect.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Kelermorph is capable of firing all their Liberator Autostub Pistols in one Action as per Two-Weapon Fighting and does not suffer Disadvantage when doing so. Additionally, when combat begins, the Kelermorph may attack with one of their pistols before anyone else regardless of Initiative. If they are Surprised, they must make a Hard (-20) Reflexes Test to use this effect.</p>"
         },
         "attack": {
           "enabled": false,

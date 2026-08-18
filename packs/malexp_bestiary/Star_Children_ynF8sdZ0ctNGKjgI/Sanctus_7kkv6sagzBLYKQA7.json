@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Individual is connected to the Genestealer Broodmind, and gains advantage on Discipline Tests when within Long Range of a Genestealer Psyker.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Individual is connected to the Genestealer Broodmind, and gains advantage on Discipline Tests when within Long Range of a Genestealer Psyker.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Sanctus does not need to test Stealth when following a group or person using Navigation (Tracking). They are also capable of Disengaging and moving to an adjacent Zone as a Free Action if they deal more than one Wound or any Critical Wounds.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Sanctus does not need to test Stealth when following a group or person using Navigation (Tracking). They are also capable of Disengaging and moving to an adjacent Zone as a Free Action if they deal more than one Wound or any Critical Wounds.</p>"
         },
         "attack": {
           "enabled": false,
@@ -367,8 +367,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Sanctus is accompanied on their missions by a Soulsight Familiar and gains +1 Resolve on account that it feels the Patriarch's ever-watchful gaze upon them (already included in this profile). The Sanctus can also never be Surprised.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Sanctus is accompanied on their missions by a Soulsight Familiar and gains +1 Resolve on account that it feels the Patriarch's ever-watchful gaze upon them (already included in this profile). The Sanctus can also never be Surprised.</p>"
         },
         "attack": {
           "enabled": false,

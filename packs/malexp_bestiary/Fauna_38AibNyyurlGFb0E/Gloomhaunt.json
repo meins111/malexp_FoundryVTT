@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>If the target is unaware of the Gloomhaunt's presence, the Gloomhaunt may use this as part of a Charge Attack. It must make an opposed Stealth test against the target's Awareness. If it fails, it may attempt to grapple as normal. If it succeeds, it only needs to hit the target with a melee test (with Advantage as per the Charge attack) to initiate a grapple, which cannot be avoided.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>If the target is unaware of the Gloomhaunt's presence, the Gloomhaunt may use this as part of a Charge Attack. It must make an opposed Stealth test against the target's Awareness. If it fails, it may attempt to grapple as normal. If it succeeds, it only needs to hit the target with a melee test (with Advantage as per the Charge attack) to initiate a grapple, which cannot be avoided.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Gloomhaunt will always attempt to Grapple its opponent, targeting the target's Head location. The Gloomhaunt counts as having a Strength Bonus of 6 during a Grapple, and the target counts as Suffocating. Someone not involved in the grapple may attack the Gloomhaunt by instead attacking the grappled target; damage is divided equally between the Gloomhaunt and the target (the Gloomhaunt's share is rounded up).</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Gloomhaunt will always attempt to Grapple its opponent, targeting the target's Head location. The Gloomhaunt counts as having a Strength Bonus of 6 during a Grapple, and the target counts as Suffocating. Someone not involved in the grapple may attack the Gloomhaunt by instead attacking the grappled target; damage is divided equally between the Gloomhaunt and the target (the Gloomhaunt's share is rounded up).</p>"
         },
         "attack": {
           "enabled": false,

@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Ambull has an instinct to tunnel to avoid any amount of light. Whenever it chooses, it may take an action to tunnel into the ground below. At the start of their next turn, they may appear anywhere within Long range and count as charging any enemy it chooses in that zone.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Ambull has an instinct to tunnel to avoid any amount of light. Whenever it chooses, it may take an action to tunnel into the ground below. At the start of their next turn, they may appear anywhere within Long range and count as charging any enemy it chooses in that zone.</p>"
         },
         "attack": {
           "enabled": false,

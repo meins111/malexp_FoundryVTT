@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>If the Fire Warrior is part of a Breacher Team, and within Close Range of the enemy they are targeting with a Ranged Attack, they gain advantage on their attack.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>If the Fire Warrior is part of a Breacher Team, and within Close Range of the enemy they are targeting with a Ranged Attack, they gain advantage on their attack.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>If the target of a Ranged Attack by this character is being spotted by a Pathfinder, Drone, or any unit capable of spotting for friendly forces, the character gains +1SL on Ranged Attack tests against the target.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>If the target of a Ranged Attack by this character is being spotted by a Pathfinder, Drone, or any unit capable of spotting for friendly forces, the character gains +1SL on Ranged Attack tests against the target.</p>"
         },
         "attack": {
           "enabled": false,
@@ -367,8 +367,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>If the Fire Warrior is part of a Striker Team, and uses the Overwatch action and the trigger does not occur, they will go to the top of the Initiative order at the start of the next round as long as they do not take another action.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>If the Fire Warrior is part of a Striker Team, and uses the Overwatch action and the trigger does not occur, they will go to the top of the Initiative order at the start of the next round as long as they do not take another action.</p>"
         },
         "attack": {
           "enabled": false,

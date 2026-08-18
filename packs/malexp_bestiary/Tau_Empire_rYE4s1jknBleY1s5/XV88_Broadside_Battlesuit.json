@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>If the target of a Ranged Attack by this character is being spotted by a Pathfinder, Drone, or any unit capable of spotting for friendly forces, the character gains +1SL on Ranged Attack tests against the target.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>If the target of a Ranged Attack by this character is being spotted by a Pathfinder, Drone, or any unit capable of spotting for friendly forces, the character gains +1SL on Ranged Attack tests against the target.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>As a Reaction, the Battlesuit may attempt to fire its Smart Missile Systems in order to intercept hostile missile attacks against itself.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>As a Reaction, the Battlesuit may attempt to fire its Smart Missile Systems in order to intercept hostile missile attacks against itself.</p>"
         },
         "attack": {
           "enabled": false,

@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Individual is connected to the Genestealer Broodmind, and gains advantage on Discipline Tests when within Long Range of a Genestealer Psyker.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Individual is connected to the Genestealer Broodmind, and gains advantage on Discipline Tests when within Long Range of a Genestealer Psyker.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>This character has additional limbs, and may use them to wield an additional One-Handed or Pistol weapon and use it in combat.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>This character has additional limbs, and may use them to wield an additional One-Handed or Pistol weapon and use it in combat.</p>"
         },
         "attack": {
           "enabled": false,
@@ -367,8 +367,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Reductus Saboteur seldom fights in an unprepared area and has set a number of environmental and explosive traps which can be noticed with a Hard (-20) Awareness (Sight) test. Each trap is a Feature of a zone. Once per Round, as an Action, the Reductus Saboteur can trigger environmental traps which explode as Demolition Charges, creating Major Hazards. If undetected, the activation of the first trap reduces the party's Superiority by 1.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Reductus Saboteur seldom fights in an unprepared area and has set a number of environmental and explosive traps which can be noticed with a Hard (-20) Awareness (Sight) test. Each trap is a Feature of a zone. Once per Round, as an Action, the Reductus Saboteur can trigger environmental traps which explode as Demolition Charges, creating Major Hazards. If undetected, the activation of the first trap reduces the party's Superiority by 1.</p>"
         },
         "attack": {
           "enabled": false,
@@ -428,8 +428,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Reductus Saboteur is an explosives expert, and can never be found without one. Once per Round, instead of a normal attack, the Reductus Saboteur can throw an explosive instead. Roll 1d10: (1-5) Frag Grenade, (6-7) Fire Bomb, (8-9) Krak Grenade, (10) Blasting Charge.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Reductus Saboteur is an explosives expert, and can never be found without one. Once per Round, instead of a normal attack, the Reductus Saboteur can throw an explosive instead. Roll 1d10: (1-5) Frag Grenade, (6-7) Fire Bomb, (8-9) Krak Grenade, (10) Blasting Charge.</p>"
         },
         "attack": {
           "enabled": false,

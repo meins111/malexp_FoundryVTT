@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>An Iconarch has 1 Fate Point.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>An Iconarch has 1 Fate Point.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Iconarch may make Challenging (+0) Psychic Mastery Tests to use Invigorate (choose an Allied Heretic within Medium Range and heal SL Wounds or 1 Critical Wound; gain 2 Warp Charge) or Deteriorate (choose an Enemy within Medium Range and inflict 2+SL Damage; gain 1 Warp Charge). Additionally, the Iconarch grants Heretic allies within Medium Range Advantage on Discipline Tests.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Iconarch may make Challenging (+0) Psychic Mastery Tests to use Invigorate (choose an Allied Heretic within Medium Range and heal SL Wounds or 1 Critical Wound; gain 2 Warp Charge) or Deteriorate (choose an Enemy within Medium Range and inflict 2+SL Damage; gain 1 Warp Charge). Additionally, the Iconarch grants Heretic allies within Medium Range Advantage on Discipline Tests.</p>"
         },
         "attack": {
           "enabled": false,
@@ -367,8 +367,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Physical contact with the Iconarch is Minor Exposure. Make a Challenging (+0) Fortitude Test to resist 1 Corruption Point; every SL reduces the Corruption gained by 1.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Physical contact with the Iconarch is Minor Exposure. Make a Challenging (+0) Fortitude Test to resist 1 Corruption Point; every SL reduces the Corruption gained by 1.</p>"
         },
         "attack": {
           "enabled": false,
@@ -428,8 +428,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Iconarch can choose to have Advantage on any Psychic Mastery Test. If they do so, they must double the Warp Charge gained.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Iconarch can choose to have Advantage on any Psychic Mastery Test. If they do so, they must double the Warp Charge gained.</p>"
         },
         "attack": {
           "enabled": false,
@@ -489,8 +489,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Iconarch has a Warp Threshold of 4.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Iconarch has a Warp Threshold of 4.</p>"
         },
         "attack": {
           "enabled": false,
@@ -630,8 +630,8 @@
       "img": "modules/impmal-core/assets/icons/weapons/sword.webp",
       "system": {
         "notes": {
-          "player": "<p>Damage is 5 + current Warp Charge + SL.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Damage is 5 + current Warp Charge + SL.</p>"
         },
         "encumbrance": {
           "value": 0

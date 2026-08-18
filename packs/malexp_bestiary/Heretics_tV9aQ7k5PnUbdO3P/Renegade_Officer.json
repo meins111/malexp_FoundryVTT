@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>As an Action, the Renegade Officer can command all Cultists in their Zone to immediately Charge with an additional +1 SL.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>As an Action, the Renegade Officer can command all Cultists in their Zone to immediately Charge with an additional +1 SL.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>If the party has 3 or more Superiority during a combat encounter with the Renegade Officer, they may make a doomed plea to the dark gods for power as a Free Action. They immediately transform into a Chaos Spawn and take their turn.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>If the party has 3 or more Superiority during a combat encounter with the Renegade Officer, they may make a doomed plea to the dark gods for power as a Free Action. They immediately transform into a Chaos Spawn and take their turn.</p>"
         },
         "attack": {
           "enabled": false,
@@ -367,8 +367,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Whenever a Renegade Officer fails a Discipline Test, they may choose to suffer 1d10 damage that ignores Armour to automatically pass the Test.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Whenever a Renegade Officer fails a Discipline Test, they may choose to suffer 1d10 damage that ignores Armour to automatically pass the Test.</p>"
         },
         "attack": {
           "enabled": false,
@@ -428,8 +428,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Renegade Officer has a Witch-mark, as described in the Core Rulebook.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Renegade Officer has a Witch-mark, as described in the Core Rulebook.</p>"
         },
         "attack": {
           "enabled": false,

@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Individual is connected to the Genestealer Broodmind, and gains advantage on Discipline Tests when within Long Range of a Genestealer Psyker.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Individual is connected to the Genestealer Broodmind, and gains advantage on Discipline Tests when within Long Range of a Genestealer Psyker.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>This character has additional limbs, and may use them to wield an additional One-Handed or Pistol weapon and use it in combat.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>This character has additional limbs, and may use them to wield an additional One-Handed or Pistol weapon and use it in combat.</p>"
         },
         "attack": {
           "enabled": false,
@@ -367,8 +367,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>When in Combat, the Cultist has a pool of 3 Resurgence Points. They may spend 1 Resurgence Point to gain +1SL on an Attack Test, 2 Resurgence Points to gain Advantage on any Test, or 3 Resurgence Points to reroll any Attack Test. The Cultist cannot regain the number of Resurgence Points they have spent, and can only spend Resurgence Points once per turn. If the Cultist has not spent any Resurgence Points by the time they die or are defeated, they can all be spent to revive themselves at the start of the next Round at half Wounds in a zone within Medium Range as long as it is not occupied by enemies.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>When in Combat, the Cultist has a pool of 3 Resurgence Points. They may spend 1 Resurgence Point to gain +1SL on an Attack Test, 2 Resurgence Points to gain Advantage on any Test, or 3 Resurgence Points to reroll any Attack Test. The Cultist cannot regain the number of Resurgence Points they have spent, and can only spend Resurgence Points once per turn. If the Cultist has not spent any Resurgence Points by the time they die or are defeated, they can all be spent to revive themselves at the start of the next Round at half Wounds in a zone within Medium Range as long as it is not occupied by enemies.</p>"
         },
         "attack": {
           "enabled": false,
@@ -428,8 +428,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Hybrid Metamorph has at least one other mutation, but may have any other reasonable mutation from the Tyranid genome. Roll 1d10: 1-2 Metamorph Whip (unarmed attacks gain Reach and Inflict (Restrained)); 3-4 Metamorph Talon (unarmed attacks gain Rend (1) and lose Ineffective); 5-6 Metamorph Claw (unarmed attacks gain Penetrating (2)); 7-8 Metamorph Acid (Ranged attack, 3 + SL Difference Damage, Medium Range, Close, Inflict (Poisoned), Penetrating (2)); 9-10 Tyranid Caricature (Advantage on Presence (Intimidation) tests).</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Hybrid Metamorph has at least one other mutation, but may have any other reasonable mutation from the Tyranid genome. Roll 1d10: 1-2 Metamorph Whip (unarmed attacks gain Reach and Inflict (Restrained)); 3-4 Metamorph Talon (unarmed attacks gain Rend (1) and lose Ineffective); 5-6 Metamorph Claw (unarmed attacks gain Penetrating (2)); 7-8 Metamorph Acid (Ranged attack, 3 + SL Difference Damage, Medium Range, Close, Inflict (Poisoned), Penetrating (2)); 9-10 Tyranid Caricature (Advantage on Presence (Intimidation) tests).</p>"
         },
         "attack": {
           "enabled": false,

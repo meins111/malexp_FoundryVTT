@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Grox are naturally aggressive and like their privacy, and will refuse to be herded together. Whenever it is being surrounded, the Grox gains +1SL to Charge actions on whoever is infringing on their space.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Grox are naturally aggressive and like their privacy, and will refuse to be herded together. Whenever it is being surrounded, the Grox gains +1SL to Charge actions on whoever is infringing on their space.</p>"
         },
         "attack": {
           "enabled": false,

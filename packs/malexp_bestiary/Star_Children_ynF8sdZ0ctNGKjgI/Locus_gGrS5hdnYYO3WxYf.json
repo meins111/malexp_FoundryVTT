@@ -245,8 +245,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>If the Locus is the target of a Melee attack and wins the Opposed Melee Test (page 211 CRB), they can choose to deal damage to the opponent as if they made the attack.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>If the Locus is the target of a Melee attack and wins the Opposed Melee Test (page 211 CRB), they can choose to deal damage to the opponent as if they made the attack.</p>"
         },
         "attack": {
           "enabled": false,
@@ -306,8 +306,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Locus gains +1 SL to Tests to detect hidden enemies. Additionally, as a Free Action at the start of combat, the Locus may choose one allied Genestealer Cults Leader within Medium Range and become their guardian, and are considered to be defending them for the duration of the combat (IM CRB pg. 207). If the target is attacked and the Locus is within Medium Range, they can immediately move to Defend them. If doing so causes the Locus to break Engagement, their opponents have Disadvantage on their Melee Attack.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Locus gains +1 SL to Tests to detect hidden enemies. Additionally, as a Free Action at the start of combat, the Locus may choose one allied Genestealer Cults Leader within Medium Range and become their guardian, and are considered to be defending them for the duration of the combat (IM CRB pg. 207). If the target is attacked and the Locus is within Medium Range, they can immediately move to Defend them. If doing so causes the Locus to break Engagement, their opponents have Disadvantage on their Melee Attack.</p>"
         },
         "attack": {
           "enabled": false,
@@ -367,8 +367,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Individual is connected to the Genestealer Broodmind, and gains advantage on Discipline Tests when within Long Range of a Genestealer Psyker.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Individual is connected to the Genestealer Broodmind, and gains advantage on Discipline Tests when within Long Range of a Genestealer Psyker.</p>"
         },
         "attack": {
           "enabled": false,
@@ -428,8 +428,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Once per Round, as an Action, the Locus may make a Sudden Assault Attack instead of a normal Melee Attack. When they do so, they gain Advantage on their Melee Attack, but suffer Disadvantage when defending in Melee Attacks until their next turn.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Once per Round, as an Action, the Locus may make a Sudden Assault Attack instead of a normal Melee Attack. When they do so, they gain Advantage on their Melee Attack, but suffer Disadvantage when defending in Melee Attacks until their next turn.</p>"
         },
         "attack": {
           "enabled": false,
@@ -489,8 +489,8 @@
       "img": "modules/impmal-core/assets/icons/weapons/sword.webp",
       "system": {
         "notes": {
-          "player": "<p>Also carries the (non-standard) Fast quality, granting an extra Reaction usable only to attack when targeted in melee, at the GM's discretion.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Also carries the (non-standard) Fast quality, granting an extra Reaction usable only to attack when targeted in melee, at the GM's discretion.</p>"
         },
         "encumbrance": {
           "value": 0
@@ -633,8 +633,8 @@
       "img": "modules/impmal-core/assets/icons/weapons/sword.webp",
       "system": {
         "notes": {
-          "player": "<p>Grants +2SL to Presence and Rapport tests to nearby Magus or Clamavus.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Grants +2SL to Presence and Rapport tests to nearby Magus or Clamavus.</p>"
         },
         "encumbrance": {
           "value": 0
