@@ -35,8 +35,15 @@ Contains many more item options (weapons, armor, drugs, wargear, etc) from vario
 
 ### Expanded Bestiary
 - [x] Import Star Children (credits: Stexinator)
-- [ ] Import Necron (credits: Miguel)
-- [ ] Import Adeptus Mechanicus (credits: Miguel)
+- [x] Import Necron (credits: Miguel)
+- [x] Import Adeptus Mechanicus (credits: Miguel)
+- [ ] Import Aeldari (credits: Miguel)
+- [ ] Import Drukhari (credits: Miguel)
+- [ ] Import Hostile Fauna (credits: Miguel)
+- [ ] Import Heretics (credits: Miguel)
+- [ ] Import Legiones Daemonica (credits: Miguel)
+- [ ] Import Star Children (credits: Miguel)
+- [ ] Import Tau Empire (credits: Miguel)
 
 ### Expanded Character Creation
 - [ ] Import New Species
@@ -50,6 +57,7 @@ Contains many more item options (weapons, armor, drugs, wargear, etc) from vario
 - v1.1.0: First Bestiary entries
 - v1.2.0: Ogryn PoC, more Bestiary
 - v1.3.0: Necrons & AdMech Bestiary
+- v1.4.0: Improved Weapon Traits, Bestiary imports: Necrons, Tau, Drukhari, Aeldari, Heretics, Daemons, Star Children, Hostile Fauna
 
 # Development
 **Setup:** Make sure you have npm and nodejs (20+) installed. Run `npm install` in the repository root folder.
