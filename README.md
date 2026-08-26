@@ -37,13 +37,13 @@ Contains many more item options (weapons, armor, drugs, wargear, etc) from vario
 - [x] Import Star Children (credits: Stexinator)
 - [x] Import Necron (credits: Miguel)
 - [x] Import Adeptus Mechanicus (credits: Miguel)
-- [ ] Import Aeldari (credits: Miguel)
-- [ ] Import Drukhari (credits: Miguel)
-- [ ] Import Hostile Fauna (credits: Miguel)
-- [ ] Import Heretics (credits: Miguel)
-- [ ] Import Legiones Daemonica (credits: Miguel)
-- [ ] Import Star Children (credits: Miguel)
-- [ ] Import Tau Empire (credits: Miguel)
+- [x] Import Aeldari (credits: Miguel)
+- [x] Import Drukhari (credits: Miguel)
+- [x] Import Hostile Fauna (credits: Miguel)
+- [x] Import Heretics (credits: Miguel)
+- [x] Import Legiones Daemonica (credits: Miguel)
+- [x] Import Star Children (credits: Miguel)
+- [x] Import Tau Empire (credits: Miguel)
 
 ### Expanded Character Creation
 - [ ] Import New Species
