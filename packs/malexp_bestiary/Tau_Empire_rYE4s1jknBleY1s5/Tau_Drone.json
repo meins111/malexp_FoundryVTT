@@ -1,0 +1,435 @@
+{
+  "folder": "rYE4s1jknBleY1s5",
+  "name": "T'au Drone",
+  "type": "npc",
+  "_id": "rXdL5kycjxZybMda",
+  "img": "modules/impmal-core/assets/tokens/unknown.webp",
+  "system": {
+    "characteristics": {
+      "ws": {
+        "starting": 20,
+        "advances": 0,
+        "modifier": 0
+      },
+      "bs": {
+        "starting": 25,
+        "advances": 0,
+        "modifier": 0
+      },
+      "str": {
+        "starting": 20,
+        "advances": 0,
+        "modifier": 0
+      },
+      "tgh": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      },
+      "ag": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      },
+      "int": {
+        "starting": 15,
+        "advances": 0,
+        "modifier": 0
+      },
+      "per": {
+        "starting": 25,
+        "advances": 0,
+        "modifier": 0
+      },
+      "wil": {
+        "starting": 20,
+        "advances": 0,
+        "modifier": 0
+      },
+      "fel": {
+        "starting": 0,
+        "advances": 0,
+        "modifier": 0
+      }
+    },
+    "skills": {
+      "athletics": {
+        "characteristic": "str",
+        "advances": 0,
+        "modifier": 0
+      },
+      "awareness": {
+        "characteristic": "per",
+        "advances": 0,
+        "modifier": 0
+      },
+      "dexterity": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "discipline": {
+        "characteristic": "wil",
+        "advances": 0,
+        "modifier": 0
+      },
+      "fortitude": {
+        "characteristic": "tgh",
+        "advances": 0,
+        "modifier": 0
+      },
+      "intuition": {
+        "characteristic": "per",
+        "advances": 0,
+        "modifier": 0
+      },
+      "linguistics": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "logic": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "lore": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "medicae": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "melee": {
+        "characteristic": "ws",
+        "advances": 0,
+        "modifier": 0
+      },
+      "navigation": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "presence": {
+        "characteristic": "wil",
+        "advances": 0,
+        "modifier": 0
+      },
+      "piloting": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "psychic": {
+        "characteristic": "wil",
+        "advances": 0,
+        "modifier": 0
+      },
+      "ranged": {
+        "characteristic": "bs",
+        "advances": 0,
+        "modifier": 0
+      },
+      "rapport": {
+        "characteristic": "fel",
+        "advances": 0,
+        "modifier": 0
+      },
+      "reflexes": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "stealth": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "tech": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      }
+    },
+    "notes": {
+      "player": "",
+      "gm": "<p>Possessions: None. Resolve is listed as 'Special' in the source (tied to Machine Intelligence) and is set to 0 here for lack of an automatable value.</p>"
+    },
+    "combat": {
+      "size": "small",
+      "armourModifier": 0,
+      "speed": {
+        "land": {
+          "value": "normal",
+          "modifier": 0
+        },
+        "fly": {
+          "value": "none",
+          "modifier": 0
+        }
+      },
+      "initiative": 6,
+      "wounds": {
+        "max": 12,
+        "value": 12
+      },
+      "criticals": {
+        "max": 0,
+        "value": 0
+      },
+      "resolve": 0,
+      "armour": {
+        "formula": "",
+        "value": 3,
+        "useItems": false
+      }
+    },
+    "faction": {
+      "id": "",
+      "name": "T'au Empire"
+    },
+    "species": "Drone (T'au Empire)",
+    "role": "troop",
+    "autoCalc": {
+      "wounds": false,
+      "criticals": false,
+      "initiative": false
+    }
+  },
+  "prototypeToken": {
+    "name": "T'au Drone",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/impmal-core/assets/tokens/unknown.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "flags": {}
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "impmal",
+    "systemVersion": "3.2.1"
+  },
+  "_key": "!actors!rXdL5kycjxZybMda",
+  "items": [
+    {
+      "name": "Machine Intelligence",
+      "type": "trait",
+      "_id": "CsSsXCDktNNNJQdL",
+      "img": "modules/impmal-core/assets/icons/blank.webp",
+      "system": {
+        "notes": {
+         "player": "",
+          "gm": "<p>For every T'au Drone within a zone, each drone increases its BS, INT, and PER skills by +5 (to a max of 6 drones, +30), which is recalculated immediately should any drones be destroyed.</p>"
+        },
+        "attack": {
+          "enabled": false,
+          "type": "melee",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "damage": {
+            "SL": false,
+            "base": "",
+            "characteristic": "",
+            "ignoreAP": false
+          },
+          "range": "",
+          "traits": {
+            "list": []
+          },
+          "self": false
+        },
+        "test": {
+          "enabled": false,
+          "target": "self",
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "roll": {
+          "enabled": false,
+          "formula": "",
+          "label": ""
+        },
+        "category": "standard"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!rXdL5kycjxZybMda.CsSsXCDktNNNJQdL"
+    },
+    {
+      "name": "Variants",
+      "type": "trait",
+      "_id": "LWJYRAWwrQRk2eeH",
+      "img": "modules/impmal-core/assets/icons/blank.webp",
+      "system": {
+        "notes": {
+         "player": "",
+          "gm": "<p>There are multiple drone variants used by the T'au Empire. Select a variant for this drone: MV-1 Gun Drone (Pulse Carbines, Twin-Linked); MV-4 Shield Drone (grants one ally in its zone a Force Field with 1d10 Protection, overload 10); MV-7 Marker Drone (counts as having a Markerlight and as a spotter for For the Greater Good); MV-8 Missile Drone (Missile Pods with an appropriate load of missiles); DX-11 Exploratory Drone (counts as having an Auspex); MV-33 Grav-Inhibitor Drone (Action: enemies within Close Range make a Challenging (+0) Athletics test or are pushed to a different zone; failing by 3+SL causes Prone); MV-36 Guardian Drone (grants one ally within Medium Range a Force Field with 1d5 Protection, overload 5); MV-5 Stealth Drone (grants the effects of a Stummer to all characters in its zone); MV-31 Pulse Accelerator Drone (increases the Range of all Pulse Weapons in its zone by one step); DX-4 Technical Drone (grants +1SL to one ally in its zone for Tech tests); Shielded Missile Drone (combines MV-8 and MV-4, but only affecting itself); Sniper Drone (Longshot Pulse Rifle or Rail Rifle, plus the effects of a Stummer and Targeting Array).</p>"
+        },
+        "attack": {
+          "enabled": false,
+          "type": "melee",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "damage": {
+            "SL": false,
+            "base": "",
+            "characteristic": "",
+            "ignoreAP": false
+          },
+          "range": "",
+          "traits": {
+            "list": []
+          },
+          "self": false
+        },
+        "test": {
+          "enabled": false,
+          "target": "self",
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "roll": {
+          "enabled": false,
+          "formula": "",
+          "label": ""
+        },
+        "category": "standard"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!rXdL5kycjxZybMda.LWJYRAWwrQRk2eeH"
+    },
+    {
+      "name": "Twin Pulse Carbines (MV-1 Gun Drone)",
+      "type": "weapon",
+      "_id": "HG0YLYffXcQ22zpH",
+      "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
+      "system": {
+        "notes": {
+         "player": "",
+          "gm": "<p>Default variant loadout. Swap for another Variant listed in the Variants trait as needed.</p>"
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 0,
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": true,
+          "hand": "",
+          "force": true
+        },
+        "damage": {
+          "base": "7",
+          "characteristic": "",
+          "SL": true,
+          "ignoreAP": false
+        },
+        "traits": {
+          "list": [
+            {
+              "key": "twinLinked"
+            }
+          ]
+        },
+        "ammoCost": 0,
+        "attackType": "ranged",
+        "category": "",
+        "spec": "pistol",
+        "range": "medium",
+        "rangeModifier": {
+          "value": 0,
+          "override": ""
+        },
+        "mag": {
+          "value": 1,
+          "current": 1
+        },
+        "ammo": {
+          "id": ""
+        },
+        "mods": {
+          "list": []
+        },
+        "slots": {
+          "list": [],
+          "value": 0
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!rXdL5kycjxZybMda.HG0YLYffXcQ22zpH"
+    }
+  ]
+}

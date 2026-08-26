@@ -356,8 +356,8 @@
       "img": "modules/impmal-core/assets/icons/generic.webp",
       "system": {
         "notes": {
-          "player": "<p>@UUID[JournalEntry.J8NVn5iNgM57cKmw.JournalEntryPage.NrJuy93Put0XCYq9#reflexes-(ag)]{Reflexes}</p><p>Capacity for avoiding injury or accident through quick movements designed to sidestep the danger. Can be used to defend yourself in combat against melee and ranged attacks. While the unaugmented cannot directly dodge bullets, they can avoid being shot by swiftly removing themselves from the line of fire. </p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>@UUID[JournalEntry.J8NVn5iNgM57cKmw.JournalEntryPage.NrJuy93Put0XCYq9#reflexes-(ag)]{Reflexes}</p><p>Capacity for avoiding injury or accident through quick movements designed to sidestep the danger. Can be used to defend yourself in combat against melee and ranged attacks. While the unaugmented cannot directly dodge bullets, they can avoid being shot by swiftly removing themselves from the line of fire. </p>"
         },
         "advances": 2,
         "restricted": false,
@@ -463,8 +463,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Whenever a Chaos Hound were to Charge (IM CRB pg. 207), they may move an additional zone. Additionally, if the Charge is successful, the Target becomes Restrained.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Whenever a Chaos Hound were to Charge (IM CRB pg. 207), they may move an additional zone. Additionally, if the Charge is successful, the Target becomes Restrained.</p>"
         },
         "attack": {
           "enabled": false,

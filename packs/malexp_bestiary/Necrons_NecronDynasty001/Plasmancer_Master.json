@@ -256,8 +256,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>At the start of the Plasmancer's turn, it regains 4 Wounds. It is immune to the Bleeding, Fatigued, Frightened, and Poisoned Conditions. Additionally, it has no soul and cannot be detected by abilities such as Soulsight.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>At the start of the Plasmancer's turn, it regains 4 Wounds. It is immune to the Bleeding, Fatigued, Frightened, and Poisoned Conditions. Additionally, it has no soul and cannot be detected by abilities such as Soulsight.</p>"
         },
         "attack": {
           "enabled": false,
@@ -386,8 +386,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>When the Plasmancer would die or be rendered Unconscious, roll 1d10. On a 7 or higher, it does not die or become Unconscious and gains wounds equal to the result.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>When the Plasmancer would die or be rendered Unconscious, roll 1d10. On a 7 or higher, it does not die or become Unconscious and gains wounds equal to the result.</p>"
         },
         "attack": {
           "enabled": false,
@@ -516,8 +516,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Once per Round, the first time the Plasmancer enters into Immediate Range with a hostile creature (or vice versa), they may spend a Reaction to immediately inflict 8 Damage to the target.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Once per Round, the first time the Plasmancer enters into Immediate Range with a hostile creature (or vice versa), they may spend a Reaction to immediately inflict 8 Damage to the target.</p>"
         },
         "attack": {
           "enabled": false,
@@ -577,8 +577,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>As an Action, the Plasmancer may ignite the Solar Pulse, forcing all non-Necron Characters within 1km to pass a Very Hard (-30) Fortitude (Endurance) Test or be Blinded for 1d5+1 rounds. Using it a second time requires a Very Hard (-30) Tech (Engineering) Test with Disadvantage to avoid draining the weapon. A third use drains the Eldritch Lance entirely.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>As an Action, the Plasmancer may ignite the Solar Pulse, forcing all non-Necron Characters within 1km to pass a Very Hard (-30) Fortitude (Endurance) Test or be Blinded for 1d5+1 rounds. Using it a second time requires a Very Hard (-30) Tech (Engineering) Test with Disadvantage to avoid draining the weapon. A third use drains the Eldritch Lance entirely.</p>"
         },
         "attack": {
           "enabled": false,

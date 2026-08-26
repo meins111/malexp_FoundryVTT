@@ -31,7 +31,11 @@
         {
           "key": "penetrating",
           "value": "6"
+        },
+        {
+          "key": "gauss"
         }
+
       ]
     },
     "ammoCost": 0,

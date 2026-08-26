@@ -229,8 +229,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>At the start of the Necron Warrior's turn, it regains 2 Wounds. It is immune to the Bleeding, Fatigued, Frightened, and Poisoned Conditions. Additionally, it has no soul and cannot be detected by abilities such as Soulsight.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>At the start of the Necron Warrior's turn, it regains 2 Wounds. It is immune to the Bleeding, Fatigued, Frightened, and Poisoned Conditions. Additionally, it has no soul and cannot be detected by abilities such as Soulsight.</p>"
         },
         "attack": {
           "enabled": false,
@@ -298,8 +298,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>When the Necron Warrior becomes Desperate, it teleports itself back to the nearest tomb world. It also attempts to do this when it is about to Die. The Necron Warrior only counts as being Defeated if it uses Phase Out or dies without using it.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>When the Necron Warrior becomes Desperate, it teleports itself back to the nearest tomb world. It also attempts to do this when it is about to Die. The Necron Warrior only counts as being Defeated if it uses Phase Out or dies without using it.</p>"
         },
         "attack": {
           "enabled": false,
@@ -359,8 +359,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>When the Necron Warrior would die or be rendered Unconscious, roll 1d10. On a 7 or higher, it does not die or become Unconscious and gains wounds equal to the result.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>When the Necron Warrior would die or be rendered Unconscious, roll 1d10. On a 7 or higher, it does not die or become Unconscious and gains wounds equal to the result.</p>"
         },
         "attack": {
           "enabled": false,
@@ -428,8 +428,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>As long as the Necron Warrior is in the same zone of at least one other Necron Warrior, they may re-roll their Reanimation Protocols test once per Round.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>As long as the Necron Warrior is in the same zone of at least one other Necron Warrior, they may re-roll their Reanimation Protocols test once per Round.</p>"
         },
         "attack": {
           "enabled": false,

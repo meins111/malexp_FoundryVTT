@@ -1,0 +1,20 @@
+{
+  "type": "Actor",
+  "folder": null,
+  "name": "Aeldari",
+  "color": null,
+  "sorting": "a",
+  "_id": "9XChaf688ZLcQSfg",
+  "description": "",
+  "sort": 250000,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "impmal",
+    "systemVersion": "3.2.1"
+  },
+  "_key": "!folders!9XChaf688ZLcQSfg"
+}

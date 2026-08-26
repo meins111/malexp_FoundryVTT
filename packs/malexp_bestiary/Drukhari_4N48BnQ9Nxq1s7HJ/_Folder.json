@@ -1,0 +1,20 @@
+{
+  "type": "Actor",
+  "folder": null,
+  "name": "Drukhari",
+  "color": null,
+  "sorting": "a",
+  "_id": "4N48BnQ9Nxq1s7HJ",
+  "description": "",
+  "sort": 350000,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "impmal",
+    "systemVersion": "3.2.1"
+  },
+  "_key": "!folders!4N48BnQ9Nxq1s7HJ"
+}

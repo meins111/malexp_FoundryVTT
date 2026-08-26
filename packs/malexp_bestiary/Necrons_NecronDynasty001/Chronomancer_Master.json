@@ -256,8 +256,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>At the start of the Chronomancer's turn, it regains 4 Wounds. It is immune to the Bleeding, Fatigued, Frightened, and Poisoned Conditions. Additionally, it has no soul and cannot be detected by abilities such as Soulsight.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>At the start of the Chronomancer's turn, it regains 4 Wounds. It is immune to the Bleeding, Fatigued, Frightened, and Poisoned Conditions. Additionally, it has no soul and cannot be detected by abilities such as Soulsight.</p>"
         },
         "attack": {
           "enabled": false,
@@ -386,8 +386,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>When the Chronomancer would die or be rendered Unconscious, roll 1d10. On a 7 or higher, it does not die or become Unconscious and gains wounds equal to the result.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>When the Chronomancer would die or be rendered Unconscious, roll 1d10. On a 7 or higher, it does not die or become Unconscious and gains wounds equal to the result.</p>"
         },
         "attack": {
           "enabled": false,
@@ -455,8 +455,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Attacks targeting a Chronomancer are made at a minimum difficulty of Difficult (-10). An Attacker may never benefit from Advantage from the Chronomancer not Opposing a Melee Attack, and the Chronomancer may never suffer Disadvantage on Opposed Melee Tests due to not wielding a melee weapon. The Chronomancer's Initiative is determined as IntB + PerB rather than AgiB + PerB.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Attacks targeting a Chronomancer are made at a minimum difficulty of Difficult (-10). An Attacker may never benefit from Advantage from the Chronomancer not Opposing a Melee Attack, and the Chronomancer may never suffer Disadvantage on Opposed Melee Tests due to not wielding a melee weapon. The Chronomancer's Initiative is determined as IntB + PerB rather than AgiB + PerB.</p>"
         },
         "attack": {
           "enabled": false,
@@ -516,8 +516,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>The Chronomancer has Advantage on Opposed Melee Tests and Reflexes Tests to avoid being hit while Defending, and gains Advantage on Reflexes (Dodge) Tests to avoid being hit by Ranged Attacks.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>The Chronomancer has Advantage on Opposed Melee Tests and Reflexes Tests to avoid being hit while Defending, and gains Advantage on Reflexes (Dodge) Tests to avoid being hit by Ranged Attacks.</p>"
         },
         "attack": {
           "enabled": false,
@@ -577,8 +577,8 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-          "player": "<p>Functions as a Force Field with 2d10 Rating and an Overload of 20. Whenever it successfully stops a Melee Attack, the Attacker must make a Challenging (+0) Reflexes (Dodge) or become disarmed. If the test results in worse than -5SL, the weapon cannot be retrieved for 1d5 Rounds.</p>",
-          "gm": ""
+         "player": "",
+          "gm": "<p>Functions as a Force Field with 2d10 Rating and an Overload of 20. Whenever it successfully stops a Melee Attack, the Attacker must make a Challenging (+0) Reflexes (Dodge) or become disarmed. If the test results in worse than -5SL, the weapon cannot be retrieved for 1d5 Rounds.</p>"
         },
         "attack": {
           "enabled": false,
