@@ -1,0 +1,65 @@
+{
+  "folder": "lWjke9bJb59710xJ",
+  "name": "Blighted Schola",
+  "type": "origin",
+  "_id": "ADwxsrnXWBFViy5k",
+  "img": "",
+  "system": {
+    "notes": {
+      "player": "<p>Wherever you were born, you don`t remember it. You are Progena, an orphan whose parents died in service to the Imperium. However, instead of being taken to a Schola Progenium, you were instead taken to a Blighted Schola. These places do not exist within Imperial record, but take carefully selected orphans and school them to create individuals of iron will, profane knowledge, and terrible potential. Most of these scholas are beholden to Radical Inquisitors within any given sector, using psychic, surgical, and noetic methods to create highly capable progena reared to excel in the service of their Radical masters.</p><ul><li><p>You gain +5 Willpower and +5 to either Weapon Skill, Ballistic Skill, or Toughness.</p></li><li><li></p></li><li><p>You gain a gain access to Lore (Forbidden) specialization with the GM's discretion.</p></li></ul>",
+      "gm": ""
+    },
+    "equipment": {
+      "list": [
+        {
+        }
+      ]
+    },
+    "characteristics": {
+      "base": "wil",
+      "choices": [
+        "bs",
+        "ws",
+        "tgh"
+      ]
+    },
+    "factionTable": {
+    },
+    "talents": {     
+        "structure": {
+          "type": "or",
+          "id": "root",
+          "options": [
+            {
+              "id": "7TIZq42JPi5BftXs",
+              "type": "option"
+            }
+          ]
+        },
+        "options": [
+          {
+            "type": "item",
+            "name": "Forbidden Knowledge",
+            "id": "7TIZq42JPi5BftXs",
+            "idType": "id",
+            "documentId": "Lbm6mRMiqSGHq9GD",
+            "diff": {},
+            "filters": []
+          }
+        ]
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "impmal",
+    "systemVersion": "3.1.0"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

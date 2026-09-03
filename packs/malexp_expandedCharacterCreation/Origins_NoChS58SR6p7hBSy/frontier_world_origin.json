@@ -1,0 +1,60 @@
+{
+  "folder": "lWjke9bJb59710xJ",
+  "name": "Frontier World",
+  "type": "origin",
+  "_id": "ADwxsrnXWBFViy5k",
+  "img": "",
+  "system": {
+    "notes": {
+      "player": "<p>You hail from a frontier world, a planet in the desperate, lawless fringes of the Imperium. Inhabitants learn selfreliance as a necessity, knowing they cannot expect outside aid against marauding humans or ravenous aliens. As always, where there is little Imperial attention, heresy and mutation fester unchecked. Whereas life on any Imperial world is harsh and unrelenting, frontier worlds stand apart. Frequently, there is no Adeptus Arbites presence on their planets, and planetary governors rule from orbit or from another system altogether. These worlds are often newlydiscovered, distant from regular traffic or trade routes, and settled with incomplete or poor analysis of the planet`s dangers.</p><ul><li><p>You gain +5 Intelligence and +5 to either Ballistic Skill, Perception, or Toughness.</p></li><li></p></li><li><p>You gain a <em>Shoddy</em> @UUID[Compendium.impmal-core.items.Item.AdB3ZzAOrnREfdsv]{Multi Compass}.</p></li></ul>",
+      "gm": ""
+    },
+    "equipment": {
+      "list": [
+        {
+          "uuid": "Compendium.impmal-core.items.Item.AdB3ZzAOrnREfdsv",
+          "diff": {
+            "name": "Shoddy Multicompass",
+            "flags": {},
+            "system": {
+              "traits": {
+                "list": [
+                  {
+                    "key": "shoddy"
+                  }
+                ]
+              }
+            }
+          },
+          "name": "Shoddy Multicompass"
+        }
+      ]
+    },
+    "characteristics": {
+      "base": "int",
+      "choices": [
+        "tgh",
+        "bs",
+        "wil"
+      ]
+    },
+    "factionTable": {
+    },
+    "talents": {
+      "list": []
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "impmal",
+    "systemVersion": "3.1.0"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

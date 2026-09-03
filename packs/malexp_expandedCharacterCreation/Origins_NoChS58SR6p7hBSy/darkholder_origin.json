@@ -1,0 +1,60 @@
+{
+  "folder": "lWjke9bJb59710xJ",
+  "name": "Darkholder",
+  "type": "origin",
+  "_id": "ADwxsrnXWBFViy5k",
+  "img": "",
+  "system": {
+    "notes": {
+      "player": "<p>You were born in the void; either aboard an Imperial spacefaring vessel such as a colossal warp-capable Voidship, traversing the stars, or one of the many system-bound vessels that never leave the system they were constructed in, or even one of the countless stations around the sector. Regardless, you were born to one that was surrounded by ill-omens, bleak fortunes, baleful massacres, and worse. These voidships and stations are called Darkholds by the Voidborn, and those that hail from them or can find a berth nowhere else have an equally shadowed reputation, shunned and considered to be unlucky and ill-fated by their eccentric kind.</p><ul><li><p>You gain +5 Perception and +5 to either Agility, Willpower, or Toughness.</p></li><li></p></li><li><p>You gain a <em>Shoddy</em> @UUID[Compendium.impmal-core.items.Item.lYL4lXBggaVoxsNP]{Inhaler/Injector} with a single dose of a drug with an availability of not rarer than Scarce at the GMs discretion.</p></li></ul>",
+      "gm": ""
+    },
+    "equipment": {
+      "list": [
+        {
+          "uuid": "Compendium.impmal-core.items.Item.lYL4lXBggaVoxsNP",
+          "diff": {
+            "name": "Shoddy Inhaler/Injector",
+            "flags": {},
+            "system": {
+              "traits": {
+                "list": [
+                  {
+                    "key": "shoddy"
+                  }
+                ]
+              }
+            }
+          },
+          "name": "Shoddy Inhaler/Injector"
+        }
+      ]
+    },
+    "characteristics": {
+      "base": "per",
+      "choices": [
+        "tgh",
+        "agi",
+        "wil"
+      ]
+    },
+    "factionTable": {
+    },
+    "talents": {
+      "list": []
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "impmal",
+    "systemVersion": "3.1.0"
+  },
+  "ownership": {
+    "default": 0
+  }
+}
