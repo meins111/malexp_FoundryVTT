@@ -1,0 +1,42 @@
+{
+  "folder": "lWjke9bJb59710xJ",
+  "name": "Quarantine World",
+  "type": "origin",
+  "_id": "ADwxsrnXWBFViy5k",
+  "img": "",
+  "system": {
+    "notes": {
+      "player": "<p>You hail from a forbidden world. Some may appear benign, verdant spheres and others may appear incredibly foreboding, but the Imperium has determined that something within your world was so terrible that its potential usefulness is negligible. Once the edict is given, the planet is cordoned off by the Imperial Navy, with message buoys and naval patrols constantly monitoring the surrounding space, destroying any intruders without attempting to hail them. Escaping from such a world is incredibly difficult, as leaving under your own power may have you killed by interceptor pilots. Sometimes, stationed forces dispatch a shuttle for reconnaissance to see if anything has changed, at which point you may have stowed away and disappeared into the crew with a one-way ticket to anywhere else but there.</p><ul><li><p>You gain +5 Perception and +5 to either Toughness, Intelligence, or Willpower.</p></li><li><li></p></li><li><p>You gain an <em>ugly</em> Salvation Augur (Tools, Equipment, Consumables Expanded).</p></li></ul>",
+      "gm": ""
+    },
+    "equipment": {
+      "list": []
+    },
+    "characteristics": {
+      "base": "per",
+      "choices": [
+        "tgh",
+        "int",
+        "wil"
+      ]
+    },
+    "factionTable": {
+    },
+    "talents": {
+      "list": []
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "impmal",
+    "systemVersion": "3.1.0"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

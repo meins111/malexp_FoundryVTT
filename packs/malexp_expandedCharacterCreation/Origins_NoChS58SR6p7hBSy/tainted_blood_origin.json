@@ -1,0 +1,62 @@
+{
+  "folder": "lWjke9bJb59710xJ",
+  "name": "Tainted Blood",
+  "type": "origin",
+  "_id": "ADwxsrnXWBFViy5k",
+  "img": "",
+  "system": {
+    "notes": {
+      "player": "<p>You hail not from any particular world, but from a palace either on or above it. You are amongst the elite of the Imperial worlds, the nobles, princes, and other equally privileged scions. However, your specific bloodline is twisted and tainted so that they spawn generation upon generation of monsters. What the source is of this tainted blood is a mystery, perhaps an ancestor had meddled in affairs they should not have, or a Dark Pact was concocted in order to allow for a previous Patriarch to have children, whatever the cost. Regardless, you are an offspring of one such lineage, and you must live with the consequences of your ancestors.</p><ul><li><p>You gain +5 Fellowship and +5 to either Perception, Willpower, or Toughness.</p></li><li></p></li><li><p>You gain the @UUID[Item.malExpTal0000063]{Resistance (Fear)} talent and a single malignancy (that is not Psychic Awakening or Warp Patron) as determined by you and your GM that does not count towards your Limits of the Soul.</p></li></ul>",
+      "gm": ""
+    },
+    "equipment": {
+      "list": []
+    },
+    "characteristics": {
+      "base": "fel",
+      "choices": [
+        "tgh",
+        "per",
+        "wil"
+      ]
+    },
+    "factionTable": {
+    },
+    "talents": {
+        "structure": {
+          "type": "or",
+          "id": "root",
+          "options": [
+            {
+              "id": "7TIZq42JPi5BftXs",
+              "type": "option"
+            }
+          ]
+        },
+        "options": [
+          {
+            "type": "item",
+            "name": "Resistance (Fear)",
+            "id": "7TIZq42JPi5BftXs",
+            "idType": "id",
+            "documentId": "malExpTal0000063",
+            "diff": {},
+            "filters": []
+          }
+        ]
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "impmal",
+    "systemVersion": "3.1.0"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

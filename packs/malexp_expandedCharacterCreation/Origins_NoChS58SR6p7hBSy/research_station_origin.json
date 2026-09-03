@@ -1,0 +1,56 @@
+{
+  "folder": "lWjke9bJb59710xJ",
+  "name": "Research Station",
+  "type": "origin",
+  "_id": "ADwxsrnXWBFViy5k",
+  "img": "",
+  "system": {
+    "notes": {
+      "player": "<p>You hail from a research station, one of many across the stars dedicated to collecting data in an often vain attempt to better control Mankind`s surroundings. Planetary storm patterns, dissecting captured xenos corpses, charting the stability of Warp entry locations, or probing the remains of ancient civilizations are amongst some of the tasks conducted in here. Once committed to a station, few ever leave, and their tasks are passed on through the generations without end. Useful results may never occur, or be lost in the depths of Imperial bureaucracy.</p><ul><li><p>You gain +5 Intelligence and +5 to either Agility, Perception, or Willpower.</p></li><li><li></p></li><li><p>You gain an @UUID[Compendium.impmal-core.items.Item.dO7XoDXD9QYTy6zZ]{Auspex}.</p></li></ul>",
+      "gm": ""
+    },
+    "equipment": {
+      "list": [
+        {
+          "uuid": "Compendium.impmal-core.items.Item.dO7XoDXD9QYTy6zZ",
+          "diff": {
+            "name": "Auspex",
+            "flags": {},
+            "system": {
+              "traits": {
+                "list": []
+              }
+            }
+          },
+          "name": "Auspex"
+        }
+      ]
+    },
+    "characteristics": {
+      "base": "int",
+      "choices": [
+        "agi",
+        "per",
+        "wil"
+      ]
+    },
+    "factionTable": {
+    },
+    "talents": {
+      "list": []
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "impmal",
+    "systemVersion": "3.1.0"
+  },
+  "ownership": {
+    "default": 0
+  }
+}
