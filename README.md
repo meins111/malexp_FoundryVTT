@@ -13,14 +13,32 @@ FoundryVTT module, bringing in the community currated Maledictum Expanded homebr
 
 ## Status
 ### Expanded Talents
-Contains many more talents, mostly imported from the older FFG 40k titles, expecially from Only War, Rogue Trader and Dark Heresy 1&2.
+Contains many more talents, mostly imported from the older FFG 40k titles, especially from Only War, Rogue Trader and Dark Heresy 1&2.
 - [x] Import Data
 - [x] Create prerequisite rules
-- [ ] Import Expanded Talents
-  - [x] Raw Data Import
-- [ ] Create automations for talents
-  - [x] Sound Constitution
-  - [x] Superior Chirurgeon / Nerves of Steel (+x SL type talents)
+- [x] Import Expanded Talents
+
+<details>
+  <summary>List of automated talents:</summary>
+  
+- Sound Constitution
+- Superior Chirurgeon / Nerves of Steel (+x SL type talents)
+- Talented (x)
+- Death or Glory
+- Die Hard
+- Formidable
+- Hardened Soul
+- Last Man Standing
+- Resistance (x)
+- Shield Wall
+- Bulwark of Faith
+- Unshakeable Faith
+- Urge the Penitent
+- Decadence
+- Potentia Coil Induction
+- Skilled Rider
+- Warp Shield
+</details>
 
 ### Expanded Armouries
 Contains many more item options (weapons, armor, drugs, wargear, etc) from various sources.
@@ -32,6 +50,19 @@ Contains many more item options (weapons, armor, drugs, wargear, etc) from vario
   - [ ] Consumables
 - [ ] Automate complex items, like cybernetic and drugs which may require writing effects
 - [x] Inject Expanded Weapon Traits to ImpMal system
+- [ ] Add automation rules for new traits
+  - [x] Inflict (x)
+  - [x] Twin-Linked, Triple-Linked, Quad-Linked
+  - [x] Gyro-Stabilized
+  - [x] Transonic
+  - [x] Sanctified
+  - [x] Vespid
+  - [x] Haywire
+  - [x] Luminagen
+  - [x] Phase
+  - [x] Grav
+  - [x] Accurate
+  - [x] Fast
 
 ### Expanded Bestiary
 - [x] Import Star Children (credits: Stexinator)
@@ -44,6 +75,19 @@ Contains many more item options (weapons, armor, drugs, wargear, etc) from vario
 - [x] Import Legiones Daemonica (credits: Miguel)
 - [x] Import Star Children (credits: Miguel)
 - [x] Import Tau Empire (credits: Miguel)
+- [x] Import Adeptus Administratum (credits: Miguel)
+- [x] Import Adeptus Arbites (credits: Miguel)
+- [x] Import Adeptus Ministorum (credits: Miguel)
+- [x] Import Adeptus Astra Militarum (credits: Miguel)
+- [x] Import Infractionists (credits: Miguel)
+- [x] Import Inquisition (credits: Miguel)
+- [x] Import Logos Historica Veritus (credits: Miguel)
+- [x] Import Magistratum Imperialis (credits: Miguel)
+- [x] Import Logos Historica Veritus (credits: Miguel)
+- [x] Import Navis Imperialis (credits: Miguel)
+- [x] Import Naviagor Houses (credits: Miguel)
+- [x] Import Planetary Government (credits: Miguel)
+- [x] Import Orks (credits: Miguel)
 
 ### Expanded Character Creation
 - [ ] Import New Species
@@ -58,6 +102,7 @@ Contains many more item options (weapons, armor, drugs, wargear, etc) from vario
 - v1.2.0: Ogryn PoC, more Bestiary
 - v1.3.0: Necrons & AdMech Bestiary
 - v1.4.0: Improved Weapon Traits, Bestiary imports: Necrons, Tau, Drukhari, Aeldari, Heretics, Daemons, Star Children, Hostile Fauna
+- v1.5.0: Automation for more weapon traits and talents, Bestairy imports for: Administratum, Arbites, Ministorum, Nobility, Naviagor, Astra Militarum, Infractionsis, Orks, Planetary Government, Magistratum (and more)
 
 # Development
 **Setup:** Make sure you have npm and nodejs (20+) installed. Run `npm install` in the repository root folder.
