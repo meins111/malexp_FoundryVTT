@@ -1,0 +1,570 @@
+{
+  "folder": "inqInquisition00",
+  "name": "Banisher",
+  "type": "npc",
+  "_id": "inqActor01000000",
+  "img": "modules/impmal-core/assets/tokens/unknown.webp",
+  "system": {
+    "characteristics": {
+      "ws": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      },
+      "bs": {
+        "starting": 30,
+        "advances": 0,
+        "modifier": 0
+      },
+      "str": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      },
+      "tgh": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      },
+      "ag": {
+        "starting": 30,
+        "advances": 0,
+        "modifier": 0
+      },
+      "int": {
+        "starting": 50,
+        "advances": 0,
+        "modifier": 0
+      },
+      "per": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      },
+      "wil": {
+        "starting": 60,
+        "advances": 0,
+        "modifier": 0
+      },
+      "fel": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      }
+    },
+    "skills": {
+      "athletics": {
+        "characteristic": "str",
+        "advances": 0,
+        "modifier": 0
+      },
+      "awareness": {
+        "characteristic": "per",
+        "advances": 1,
+        "modifier": 0
+      },
+      "dexterity": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "discipline": {
+        "characteristic": "wil",
+        "advances": 1,
+        "modifier": 0
+      },
+      "fortitude": {
+        "characteristic": "tgh",
+        "advances": 0,
+        "modifier": 0
+      },
+      "intuition": {
+        "characteristic": "per",
+        "advances": 2,
+        "modifier": 0
+      },
+      "linguistics": {
+        "characteristic": "int",
+        "advances": 2,
+        "modifier": 0
+      },
+      "logic": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "lore": {
+        "characteristic": "int",
+        "advances": 1,
+        "modifier": 0
+      },
+      "medicae": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "melee": {
+        "characteristic": "ws",
+        "advances": 0,
+        "modifier": 0
+      },
+      "navigation": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "presence": {
+        "characteristic": "wil",
+        "advances": 1,
+        "modifier": 0
+      },
+      "piloting": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "psychic": {
+        "characteristic": "wil",
+        "advances": 0,
+        "modifier": 0
+      },
+      "ranged": {
+        "characteristic": "bs",
+        "advances": 0,
+        "modifier": 0
+      },
+      "rapport": {
+        "characteristic": "fel",
+        "advances": 2,
+        "modifier": 0
+      },
+      "reflexes": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "stealth": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "tech": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      }
+    },
+    "notes": {
+      "player": "",
+      "gm": "<p>Possessions: A Ministorum Priest's robe, a Holy Icon, a Laud Hailer, a Rosarius, 50 solars.</p>"
+    },
+    "combat": {
+      "size": "medium",
+      "armourModifier": 0,
+      "speed": {
+        "land": {
+          "value": "normal",
+          "modifier": 0
+        },
+        "fly": {
+          "value": "none",
+          "modifier": 0
+        }
+      },
+      "initiative": 7,
+      "wounds": {
+        "max": 18,
+        "value": 18
+      },
+      "criticals": {
+        "max": 1,
+        "value": 0
+      },
+      "resolve": 2,
+      "armour": {
+        "formula": "",
+        "value": 0,
+        "useItems": false
+      }
+    },
+    "faction": {
+      "id": "",
+      "name": "Inquisition"
+    },
+    "species": "Human (Inquisition)",
+    "role": "elite",
+    "autoCalc": {
+      "wounds": false,
+      "criticals": false,
+      "initiative": false
+    }
+  },
+  "prototypeToken": {
+    "name": "Banisher",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/impmal-core/assets/tokens/unknown.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "flags": {}
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "impmal",
+    "systemVersion": "3.2.1"
+  },
+  "_key": "!actors!inqActor01000000",
+  "items": [
+    {
+      "name": "Litany of Purity",
+      "type": "trait",
+      "_id": "inqActor01Trait0",
+      "img": "modules/impmal-core/assets/icons/blank.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": "<p>The Banisher can select a Daemon target and make a Challenging (+0) Presence (Intimidation) or Lore (Theology) Test to spend a Fate Point. This will cause that Daemon to suffer from the Frightened Condition and suffer 3 + SL Damage.</p>"
+        },
+        "attack": {
+          "enabled": false,
+          "type": "melee",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "damage": {
+            "SL": false,
+            "base": "",
+            "characteristic": "",
+            "ignoreAP": false
+          },
+          "range": "",
+          "traits": {
+            "list": []
+          },
+          "self": false
+        },
+        "test": {
+          "enabled": false,
+          "target": "self",
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "roll": {
+          "enabled": false,
+          "formula": "",
+          "label": ""
+        },
+        "category": "standard"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!inqActor01000000.inqActor01Trait0"
+    },
+    {
+      "name": "Ordo",
+      "type": "trait",
+      "_id": "inqActor01Trait1",
+      "img": "modules/impmal-core/assets/icons/blank.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": "<p>The Banisher is a member of an Ordo. See Ordo Bonuses on page 334 for more information.   True Faith: The Banisher has 2 points of Fate.   War Hymn: The Ministorum Priest makes a Presence (Leadership) Test as an Action to intone a Hymn of Battle. If they succeed, they may choose an ally that can hear them from the Ecclesiarchy Faction. The next time that ally makes a melee attack, they may make a second melee attack.</p>"
+        },
+        "attack": {
+          "enabled": false,
+          "type": "melee",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "damage": {
+            "SL": false,
+            "base": "",
+            "characteristic": "",
+            "ignoreAP": false
+          },
+          "range": "",
+          "traits": {
+            "list": []
+          },
+          "self": false
+        },
+        "test": {
+          "enabled": false,
+          "target": "self",
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "roll": {
+          "enabled": false,
+          "formula": "",
+          "label": ""
+        },
+        "category": "standard"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!inqActor01000000.inqActor01Trait1"
+    },
+    {
+      "name": "Sanctified Flamer",
+      "type": "weapon",
+      "_id": "inqActor01Weapon",
+      "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 0,
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": true,
+          "hand": "",
+          "force": true
+        },
+        "damage": {
+          "base": "8",
+          "characteristic": "",
+          "SL": true,
+          "ignoreAP": false
+        },
+        "traits": {
+          "list": [
+            {
+              "key": "loud"
+            },
+            {
+              "key": "flamer"
+            },
+            {
+              "key": "inflict"
+            },
+            {
+              "key": "sanctified"
+            },
+            {
+              "key": "two-handed"
+            },
+            {
+              "key": "rend"
+            }
+          ]
+        },
+        "ammoCost": 0,
+        "attackType": "ranged",
+        "category": "long_gun",
+        "spec": "longGun",
+        "range": "medium",
+        "rangeModifier": {
+          "value": 0,
+          "override": ""
+        },
+        "mag": {
+          "value": 1,
+          "current": 1
+        },
+        "ammo": {
+          "id": ""
+        },
+        "mods": {
+          "list": []
+        },
+        "slots": {
+          "list": [],
+          "value": 0
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!inqActor01000000.inqActor01Weapon"
+    },
+    {
+      "name": "Human",
+      "type": "specialisation",
+      "_id": "inqActor01Spec04",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 1,
+        "restricted": false,
+        "skill": "intuition"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!inqActor01000000.inqActor01Spec04"
+    },
+    {
+      "name": "High Gothic",
+      "type": "specialisation",
+      "_id": "inqActor01Spec05",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 0,
+        "restricted": false,
+        "skill": "linguistics"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!inqActor01000000.inqActor01Spec05"
+    },
+    {
+      "name": "Theology",
+      "type": "specialisation",
+      "_id": "inqActor01Spec06",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 2,
+        "restricted": false,
+        "skill": "lore"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!inqActor01000000.inqActor01Spec06"
+    },
+    {
+      "name": "Leadership",
+      "type": "specialisation",
+      "_id": "inqActor01Spec07",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 2,
+        "restricted": false,
+        "skill": "presence"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!inqActor01000000.inqActor01Spec07"
+    }
+  ]
+}

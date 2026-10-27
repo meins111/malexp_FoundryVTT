@@ -35,7 +35,116 @@
       "value": 0
     }
   },
-  "effects": [],
+  "effects": [
+    {
+      "name": "Bulwark of the Faith",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "_id": "malExpTal0000164Effect",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "skill": {}
+          },
+          "testIndependent": false,
+          "equipTransfer": false,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": false
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {
+              "barrier": false,
+              "difficult": false,
+              "warpTouched": false
+            },
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "label": "Bulwark of the Faith: damage Daemon on resisted Fear",
+            "trigger": "rollSkillTest",
+            "script": "\n    let context = JSON.stringify(args.context || {}).toLowerCase();\n    if (args.result?.outcome !== 'success' || !context.includes('fear') || !context.includes('daemon')) return;\n    let damage = Math.max(0, args.result.SL || 0);\n    let target = args.context.sourceActor || args.context.source?.actor || args.context.opposed?.attackerTest?.actor;\n    if (target?.applyDamage) {\n        target.applyDamage(damage, {ignoreAP: true, message: true});\n    } else {\n        ChatMessage.create({content: '<p>Bulwark of the Faith: resisted Daemon Fear; damage to source: ' + damage + '.</p>'});\n    }\n  ",
+            "options": {
+              "targeter": false,
+              "defending": false,
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "deleteEffect": false
+            },
+            "async": true
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "computed": false
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "impmal": {
+          "manualEffectKeys": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "impmal",
+        "systemVersion": "3.2.0"
+      },
+      "_key": "!items.effects!malExpTal0000164.malExpTal0000164Effect"
+    }
+  ],
   "flags": {},
   "_stats": {
     "compendiumSource": null,

@@ -1,0 +1,503 @@
+{
+  "folder": "inqInquisition00",
+  "name": "Jokaero",
+  "type": "npc",
+  "_id": "inqActor14000000",
+  "img": "modules/impmal-core/assets/tokens/unknown.webp",
+  "system": {
+    "characteristics": {
+      "ws": {
+        "starting": 30,
+        "advances": 0,
+        "modifier": 0
+      },
+      "bs": {
+        "starting": 50,
+        "advances": 0,
+        "modifier": 0
+      },
+      "str": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      },
+      "tgh": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      },
+      "ag": {
+        "starting": 30,
+        "advances": 0,
+        "modifier": 0
+      },
+      "int": {
+        "starting": 60,
+        "advances": 0,
+        "modifier": 0
+      },
+      "per": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      },
+      "wil": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      },
+      "fel": {
+        "starting": 20,
+        "advances": 0,
+        "modifier": 0
+      }
+    },
+    "skills": {
+      "athletics": {
+        "characteristic": "str",
+        "advances": 1,
+        "modifier": 0
+      },
+      "awareness": {
+        "characteristic": "per",
+        "advances": 0,
+        "modifier": 0
+      },
+      "dexterity": {
+        "characteristic": "ag",
+        "advances": 1,
+        "modifier": 0
+      },
+      "discipline": {
+        "characteristic": "wil",
+        "advances": 1,
+        "modifier": 0
+      },
+      "fortitude": {
+        "characteristic": "tgh",
+        "advances": 1,
+        "modifier": 0
+      },
+      "intuition": {
+        "characteristic": "per",
+        "advances": 2,
+        "modifier": 0
+      },
+      "linguistics": {
+        "characteristic": "int",
+        "advances": 2,
+        "modifier": 0
+      },
+      "logic": {
+        "characteristic": "int",
+        "advances": 1,
+        "modifier": 0
+      },
+      "lore": {
+        "characteristic": "int",
+        "advances": 1,
+        "modifier": 0
+      },
+      "medicae": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "melee": {
+        "characteristic": "ws",
+        "advances": 0,
+        "modifier": 0
+      },
+      "navigation": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "presence": {
+        "characteristic": "wil",
+        "advances": 2,
+        "modifier": 0
+      },
+      "piloting": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "psychic": {
+        "characteristic": "wil",
+        "advances": 0,
+        "modifier": 0
+      },
+      "ranged": {
+        "characteristic": "bs",
+        "advances": 0,
+        "modifier": 0
+      },
+      "rapport": {
+        "characteristic": "fel",
+        "advances": 2,
+        "modifier": 0
+      },
+      "reflexes": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "stealth": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "tech": {
+        "characteristic": "int",
+        "advances": 1,
+        "modifier": 0
+      }
+    },
+    "notes": {
+      "player": "",
+      "gm": "<p>Possessions: Jokaerian Force Field, various Jokaero Digi-Weapon rings (Las, Melta, Flame, Grav, etc.)</p>"
+    },
+    "combat": {
+      "size": "medium",
+      "armourModifier": 0,
+      "speed": {
+        "land": {
+          "value": "normal",
+          "modifier": 0
+        },
+        "fly": {
+          "value": "none",
+          "modifier": 0
+        }
+      },
+      "initiative": 7,
+      "wounds": {
+        "max": 16,
+        "value": 16
+      },
+      "criticals": {
+        "max": 2,
+        "value": 0
+      },
+      "resolve": 3,
+      "armour": {
+        "formula": "",
+        "value": 0,
+        "useItems": false
+      }
+    },
+    "faction": {
+      "id": "",
+      "name": "Inquisition"
+    },
+    "species": "Jokaero (Inquisition)",
+    "role": "elite",
+    "autoCalc": {
+      "wounds": false,
+      "criticals": false,
+      "initiative": false
+    }
+  },
+  "prototypeToken": {
+    "name": "Jokaero",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/impmal-core/assets/tokens/unknown.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "flags": {}
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "impmal",
+    "systemVersion": "3.2.1"
+  },
+  "_key": "!actors!inqActor14000000",
+  "items": [
+    {
+      "name": "Tech Modifications",
+      "type": "trait",
+      "_id": "inqActor14Trait0",
+      "img": "modules/impmal-core/assets/icons/blank.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": "<p>If a Jokaero is given a piece of technology or weaponry and left unattended - or attended - for long enough, it will begin to modify it. Roll 1d10 to see example weapon modifications below.  1. Aesthetic Alteration 2. Gain Mono-Edge modification (CRB pg. 138) 3. Gain Fire Selector modification (CRB pg. 137) 4. Gain a Laser Sight modification (CRB pg. 138) 5. Gain the Reliable trait. (CRB pg. 125) 6. Gain the Twin-Linked Trait (Weapons of the Imperium pg. 3) 7. Gain the Lightweight quality. (CRB pg. 121) 8. Gain the Accurate trait (Weapons of the Imperium pg. 1) 9. Gain the Custom Grip modification (Weapon Modifications pg. 1) 10. Gain the Durable quality (CRB pg. 122)  Tech Mimicry: Whenever the Jokaero is mimicking the technology of other species, or modifying something to serve it, it gains Advantage on all Tech tests.</p>"
+        },
+        "attack": {
+          "enabled": false,
+          "type": "melee",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "damage": {
+            "SL": false,
+            "base": "",
+            "characteristic": "",
+            "ignoreAP": false
+          },
+          "range": "",
+          "traits": {
+            "list": []
+          },
+          "self": false
+        },
+        "test": {
+          "enabled": false,
+          "target": "self",
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "roll": {
+          "enabled": false,
+          "formula": "",
+          "label": ""
+        },
+        "category": "standard"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!inqActor14000000.inqActor14Trait0"
+    },
+    {
+      "name": "Jokaero Digi-Las",
+      "type": "weapon",
+      "_id": "inqActor14Weapon",
+      "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 0,
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": true,
+          "hand": "",
+          "force": true
+        },
+        "damage": {
+          "base": "6",
+          "characteristic": "",
+          "SL": true,
+          "ignoreAP": false
+        },
+        "traits": {
+          "list": [
+            {
+              "key": "burst"
+            },
+            {
+              "key": "close"
+            },
+            {
+              "key": "loud"
+            },
+            {
+              "key": "reliable"
+            }
+          ]
+        },
+        "ammoCost": 0,
+        "attackType": "ranged",
+        "category": "pistol",
+        "spec": "pistol",
+        "range": "long",
+        "rangeModifier": {
+          "value": 0,
+          "override": ""
+        },
+        "mag": {
+          "value": 1,
+          "current": 1
+        },
+        "ammo": {
+          "id": ""
+        },
+        "mods": {
+          "list": []
+        },
+        "slots": {
+          "list": [],
+          "value": 0
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!inqActor14000000.inqActor14Weapon"
+    },
+    {
+      "name": "Might",
+      "type": "specialisation",
+      "_id": "inqActor14Spec03",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 2,
+        "restricted": false,
+        "skill": "athletics"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!inqActor14000000.inqActor14Spec03"
+    },
+    {
+      "name": "Forbidden",
+      "type": "specialisation",
+      "_id": "inqActor14Spec04",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 2,
+        "restricted": false,
+        "skill": "lore"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!inqActor14000000.inqActor14Spec04"
+    },
+    {
+      "name": "Engineering",
+      "type": "specialisation",
+      "_id": "inqActor14Spec05",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 2,
+        "restricted": false,
+        "skill": "tech"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!inqActor14000000.inqActor14Spec05"
+    },
+    {
+      "name": "Augmetics",
+      "type": "specialisation",
+      "_id": "inqActor14Spec06",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 2,
+        "restricted": false,
+        "skill": "tech"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!inqActor14000000.inqActor14Spec06"
+    }
+  ]
+}

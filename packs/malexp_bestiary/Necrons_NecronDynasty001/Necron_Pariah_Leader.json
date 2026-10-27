@@ -2,7 +2,7 @@
   "folder": "NecronDynasty001",
   "name": "Necron Pariah",
   "type": "npc",
-  "_id": "NecronPariahLeadr1",
+  "_id": "NecronPariahLead",
   "img": "modules/impmal-core/assets/tokens/unknown.webp",
   "system": {
     "characteristics": {
@@ -235,16 +235,16 @@
     "systemId": "impmal",
     "systemVersion": "3.2.1"
   },
-  "_key": "!actors!NecronPariahLeadr1",
+  "_key": "!actors!NecronPariahLead",
   "items": [
     {
       "name": "Living Metal (4)",
       "type": "trait",
-      "_id": "NPTrait1",
+      "_id": "NPTrait100000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>At the start of the Necron Pariah's turn, it regains 4 Wounds. It is immune to the Bleeding, Fatigued, Frightened, and Poisoned Conditions. Additionally, it has no soul and cannot be detected by abilities such as Soulsight.</p>"
         },
         "attack": {
@@ -304,12 +304,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!NecronPariahLeadr1.NPTrait1"
+      "_key": "!actors.items!NecronPariahLead.NPTrait100000000"
     },
     {
       "name": "Phase Out",
       "type": "trait",
-      "_id": "NPTrait2",
+      "_id": "NPTrait200000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
@@ -365,16 +365,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!NecronPariahLeadr1.NPTrait2"
+      "_key": "!actors.items!NecronPariahLead.NPTrait200000000"
     },
     {
       "name": "Reanimation Protocols (7+)",
       "type": "trait",
-      "_id": "NPTrait3",
+      "_id": "NPTrait300000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>When the Necron Pariah would die or be rendered Unconscious, roll 1d10. On a 7 or higher, it does not die or become Unconscious and gains wounds equal to the result.</p>"
         },
         "attack": {
@@ -434,16 +434,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!NecronPariahLeadr1.NPTrait3"
+      "_key": "!actors.items!NecronPariahLead.NPTrait300000000"
     },
     {
       "name": "Blank",
       "type": "trait",
-      "_id": "NPTrait4",
+      "_id": "NPTrait400000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Necron Pariah has no connection to the warp. They win any Opposed Tests to resist Psychic Power, are immune to Daemonic Possession, and cannot be detected through Psyniscience alone. Tests to Manifest a Psychic Power targeting their Zone or made within Short Range are made with Disadvantage. Daemons treat their Zone as a Major Hazard.</p>"
         },
         "attack": {
@@ -495,16 +495,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!NecronPariahLeadr1.NPTrait4"
+      "_key": "!actors.items!NecronPariahLead.NPTrait400000000"
     },
     {
       "name": "Soulless Nightmare",
       "type": "trait",
-      "_id": "NPTrait5",
+      "_id": "NPTrait500000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The first time a Character sees the Necron Pariah, they must make a Hard (-20) Discipline (Fear) Test or become Frightened. If the Character is aware of what a Necron Pariah is, it becomes a Very Hard (-30) Test instead. If all Characters are Frightened in this way, they lose 1 Superiority.</p>"
         },
         "attack": {
@@ -556,12 +556,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!NecronPariahLeadr1.NPTrait5"
+      "_key": "!actors.items!NecronPariahLead.NPTrait500000000"
     },
     {
       "name": "Warscythe",
       "type": "weapon",
-      "_id": "NPWeapon1",
+      "_id": "NPWeapon10000000",
       "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
       "system": {
         "notes": {
@@ -630,7 +630,7 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!NecronPariahLeadr1.NPWeapon1"
+      "_key": "!actors.items!NecronPariahLead.NPWeapon10000000"
     }
   ]
 }

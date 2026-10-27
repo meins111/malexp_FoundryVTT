@@ -1,0 +1,374 @@
+{
+  "folder": "cithangersonbrut",
+  "name": "Lutheran Excavation Automata",
+  "type": "npc",
+  "_id": "citActor30000000",
+  "img": "modules/impmal-core/assets/tokens/unknown.webp",
+  "system": {
+    "characteristics": {
+      "ws": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      },
+      "bs": {
+        "starting": 25,
+        "advances": 0,
+        "modifier": 0
+      },
+      "str": {
+        "starting": 70,
+        "advances": 0,
+        "modifier": 0
+      },
+      "tgh": {
+        "starting": 70,
+        "advances": 0,
+        "modifier": 0
+      },
+      "ag": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      },
+      "int": {
+        "starting": 10,
+        "advances": 0,
+        "modifier": 0
+      },
+      "per": {
+        "starting": 30,
+        "advances": 0,
+        "modifier": 0
+      },
+      "wil": {
+        "starting": 10,
+        "advances": 0,
+        "modifier": 0
+      },
+      "fel": {
+        "starting": 10,
+        "advances": 0,
+        "modifier": 0
+      }
+    },
+    "skills": {
+      "athletics": {
+        "characteristic": "str",
+        "advances": 0,
+        "modifier": 0
+      },
+      "awareness": {
+        "characteristic": "per",
+        "advances": 0,
+        "modifier": 0
+      },
+      "dexterity": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "discipline": {
+        "characteristic": "wil",
+        "advances": 0,
+        "modifier": 0
+      },
+      "fortitude": {
+        "characteristic": "tgh",
+        "advances": 0,
+        "modifier": 0
+      },
+      "intuition": {
+        "characteristic": "per",
+        "advances": 2,
+        "modifier": 0
+      },
+      "linguistics": {
+        "characteristic": "int",
+        "advances": 2,
+        "modifier": 0
+      },
+      "logic": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "lore": {
+        "characteristic": "int",
+        "advances": 2,
+        "modifier": 0
+      },
+      "medicae": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "melee": {
+        "characteristic": "ws",
+        "advances": 0,
+        "modifier": 0
+      },
+      "navigation": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "presence": {
+        "characteristic": "wil",
+        "advances": 2,
+        "modifier": 0
+      },
+      "piloting": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "psychic": {
+        "characteristic": "wil",
+        "advances": 0,
+        "modifier": 0
+      },
+      "ranged": {
+        "characteristic": "bs",
+        "advances": 0,
+        "modifier": 0
+      },
+      "rapport": {
+        "characteristic": "fel",
+        "advances": 2,
+        "modifier": 0
+      },
+      "reflexes": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "stealth": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "tech": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      }
+    },
+    "notes": {
+      "player": "",
+      "gm": "<p>Possessions: None</p>"
+    },
+    "combat": {
+      "size": "medium",
+      "armourModifier": 0,
+      "speed": {
+        "land": {
+          "value": "normal",
+          "modifier": 0
+        },
+        "fly": {
+          "value": "none",
+          "modifier": 0
+        }
+      },
+      "initiative": 7,
+      "wounds": {
+        "max": 2,
+        "value": 2
+      },
+      "criticals": {
+        "max": 2,
+        "value": 0
+      },
+      "resolve": 2,
+      "armour": {
+        "formula": "",
+        "value": 4,
+        "useItems": false
+      }
+    },
+    "faction": {
+      "id": "",
+      "name": "Imperium"
+    },
+    "species": "Servitor (Imperium)",
+    "role": "elite",
+    "autoCalc": {
+      "wounds": false,
+      "criticals": false,
+      "initiative": false
+    }
+  },
+  "prototypeToken": {
+    "name": "Lutheran Excavation Automata",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/impmal-core/assets/tokens/unknown.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "flags": {}
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "impmal",
+    "systemVersion": "3.2.1"
+  },
+  "_key": "!actors!citActor30000000",
+  "items": [
+    {
+      "name": "Cranial Governors",
+      "type": "trait",
+      "_id": "citActor30Item10",
+      "img": "modules/impmal-core/assets/icons/blank.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": "<p>When an Ambot is operating in Safe Mode, it follows the rules and profile here. Should the controller wish, Safe Mode may be switched off. When Safe Mode is off, the Ambot gains the Combat Master talent, counts as being in a Frenzy (pg. 111), and increases its speed to Fast. However, when Standing and Engaged, the Ambot must divide its attacks amongst all fighters it is engaged with, including friendly fighters. Once Safe Mode is off, it cannot be reinitiated until the end of the encounter.  Programmed to Serve: Every Servitor has a pre-programed task to perform. They will continue to operate on their programmed functions until re-programmed with a Hard (−20) Tech (Augmetics) Test. The individual that programmed (or re-programmed) the Servitor can give it simple orders.</p>"
+        },
+        "attack": {
+          "enabled": false,
+          "type": "melee",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "damage": {
+            "SL": false,
+            "base": "",
+            "characteristic": "",
+            "ignoreAP": false
+          },
+          "range": "",
+          "traits": {
+            "list": []
+          },
+          "self": false
+        },
+        "test": {
+          "enabled": false,
+          "target": "self",
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "roll": {
+          "enabled": false,
+          "formula": "",
+          "label": ""
+        },
+        "category": "standard"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!citActor30000000.citActor30Item10"
+    },
+    {
+      "name": "Tunneling Claws",
+      "type": "weapon",
+      "_id": "citActor30Item20",
+      "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 0,
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": true,
+          "hand": "",
+          "force": true
+        },
+        "damage": {
+          "base": "9",
+          "characteristic": "",
+          "SL": true,
+          "ignoreAP": false
+        },
+        "traits": {
+          "list": [
+            {
+              "key": "penetrating"
+            }
+          ]
+        },
+        "ammoCost": 0,
+        "attackType": "melee",
+        "category": "brawling",
+        "spec": "",
+        "range": "",
+        "rangeModifier": {
+          "value": 0,
+          "override": ""
+        },
+        "mag": {
+          "value": 1,
+          "current": 1
+        },
+        "ammo": {
+          "id": ""
+        },
+        "mods": {
+          "list": []
+        },
+        "slots": {
+          "list": [],
+          "value": 0
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!citActor30000000.citActor30Item20"
+    }
+  ]
+}

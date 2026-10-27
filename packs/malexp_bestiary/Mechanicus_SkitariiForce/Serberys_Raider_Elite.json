@@ -2,7 +2,7 @@
   "folder": "SkitariiForce001",
   "name": "Serberys Raider",
   "type": "npc",
-  "_id": "SerberysRaiderElt1",
+  "_id": "SerberysRaiderEl",
   "img": "modules/impmal-core/assets/tokens/unknown.webp",
   "system": {
     "characteristics": {
@@ -235,16 +235,16 @@
     "systemId": "impmal",
     "systemVersion": "3.2.1"
   },
-  "_key": "!actors!SerberysRaiderElt1",
+  "_key": "!actors!SerberysRaiderEl",
   "items": [
     {
       "name": "Heavily Augmented",
       "type": "trait",
-      "_id": "SRaT1",
+      "_id": "SRaT100000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Skitarii has Augmetic Arms, Augmetic Legs, an Augmetic Heart, an Augmetic Respiratory System, and Augmetic Sensory Organs. The benefits of these augmetics are already included.</p>"
         },
         "attack": {
@@ -296,16 +296,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SerberysRaiderElt1.SRaT1"
+      "_key": "!actors.items!SerberysRaiderEl.SRaT100000000000"
     },
     {
       "name": "Augmetic Heart",
       "type": "trait",
-      "_id": "SRaT2",
+      "_id": "SRaT200000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>As an Action, the Skitarii makes a Challenging (+0) Fortitude Test. If they are successful, they remove a Bleeding Condition from themself.</p>"
         },
         "attack": {
@@ -357,16 +357,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SerberysRaiderElt1.SRaT2"
+      "_key": "!actors.items!SerberysRaiderEl.SRaT200000000000"
     },
     {
       "name": "Augmetic Respiratory System",
       "type": "trait",
-      "_id": "SRaT3",
+      "_id": "SRaT300000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Skitarii gains +2 SL to Fortitude Tests to resist the effects of airborne toxins and poisonous gases.</p>"
         },
         "attack": {
@@ -418,16 +418,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SerberysRaiderElt1.SRaT3"
+      "_key": "!actors.items!SerberysRaiderEl.SRaT300000000000"
     },
     {
       "name": "Mounted Warrior",
       "type": "trait",
-      "_id": "SRaT4",
+      "_id": "SRaT400000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>Whenever the Serberys makes a Ranged Attack while mounted, the difficulty can never be harder than Difficult (-10). If mounted on a Serberys mount, it gains +1SL on all Tests made to interact with it.</p>"
         },
         "attack": {
@@ -479,12 +479,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SerberysRaiderElt1.SRaT4"
+      "_key": "!actors.items!SerberysRaiderEl.SRaT400000000000"
     },
     {
       "name": "Galvanic Carbine",
       "type": "weapon",
-      "_id": "SRaW1",
+      "_id": "SRaW100000000000",
       "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
       "system": {
         "notes": {
@@ -557,12 +557,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SerberysRaiderElt1.SRaW1"
+      "_key": "!actors.items!SerberysRaiderEl.SRaW100000000000"
     },
     {
       "name": "Power Saber",
       "type": "weapon",
-      "_id": "SRaW2",
+      "_id": "SRaW200000000000",
       "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
       "system": {
         "notes": {
@@ -629,7 +629,7 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SerberysRaiderElt1.SRaW2"
+      "_key": "!actors.items!SerberysRaiderEl.SRaW200000000000"
     }
   ]
 }

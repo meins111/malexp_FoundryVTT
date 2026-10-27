@@ -2,7 +2,7 @@
   "folder": "SkitariiForce001",
   "name": "Pteraxii Sterylizor",
   "type": "npc",
-  "_id": "PteraxiiSterylzT1",
+  "_id": "PteraxiiSterylzT",
   "img": "modules/impmal-core/assets/tokens/unknown.webp",
   "system": {
     "characteristics": {
@@ -235,16 +235,16 @@
     "systemId": "impmal",
     "systemVersion": "3.2.1"
   },
-  "_key": "!actors!PteraxiiSterylzT1",
+  "_key": "!actors!PteraxiiSterylzT",
   "items": [
     {
       "name": "Heavily Augmented",
       "type": "trait",
-      "_id": "PSzT1",
+      "_id": "PSzT100000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Skitarii has Augmetic Arms, Augmetic Legs, an Augmetic Heart, an Augmetic Respiratory System, and Augmetic Sensory Organs. The benefits of these augmetics are already included.</p>"
         },
         "attack": {
@@ -296,16 +296,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!PteraxiiSterylzT1.PSzT1"
+      "_key": "!actors.items!PteraxiiSterylzT.PSzT100000000000"
     },
     {
       "name": "Augmetic Heart",
       "type": "trait",
-      "_id": "PSzT2",
+      "_id": "PSzT200000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>As an Action, the Skitarii makes a Challenging (+0) Fortitude Test. If they are successful, they remove a Bleeding Condition from themself.</p>"
         },
         "attack": {
@@ -357,16 +357,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!PteraxiiSterylzT1.PSzT2"
+      "_key": "!actors.items!PteraxiiSterylzT.PSzT200000000000"
     },
     {
       "name": "Augmetic Respiratory System",
       "type": "trait",
-      "_id": "PSzT3",
+      "_id": "PSzT300000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Skitarii gains +2 SL to Fortitude Tests to resist the effects of airborne toxins and poisonous gases.</p>"
         },
         "attack": {
@@ -418,16 +418,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!PteraxiiSterylzT1.PSzT3"
+      "_key": "!actors.items!PteraxiiSterylzT.PSzT300000000000"
     },
     {
       "name": "Pteraxii Flight Pack",
       "type": "trait",
-      "_id": "PSzT4",
+      "_id": "PSzT400000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Pteraxius is capable of Flight. It may use its action to act as if it was Fast speed.</p>"
         },
         "attack": {
@@ -479,16 +479,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!PteraxiiSterylzT1.PSzT4"
+      "_key": "!actors.items!PteraxiiSterylzT.PSzT400000000000"
     },
     {
       "name": "Riding the Thermals",
       "type": "trait",
-      "_id": "PSzT5",
+      "_id": "PSzT500000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>After making a Ranged Attack, as long as the Pteraxii is not Engaged, it may immediately move one zone away.</p>"
         },
         "attack": {
@@ -540,12 +540,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!PteraxiiSterylzT1.PSzT5"
+      "_key": "!actors.items!PteraxiiSterylzT.PSzT500000000000"
     },
     {
       "name": "Phosphor Torch",
       "type": "weapon",
-      "_id": "PSzW1",
+      "_id": "PSzW100000000000",
       "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
       "system": {
         "notes": {
@@ -621,7 +621,7 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!PteraxiiSterylzT1.PSzW1"
+      "_key": "!actors.items!PteraxiiSterylzT.PSzW100000000000"
     }
   ]
 }

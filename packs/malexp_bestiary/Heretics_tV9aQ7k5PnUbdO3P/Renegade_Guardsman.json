@@ -245,7 +245,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>Whenever a Renegade Guardsman fails a Discipline Test, they may choose to suffer 1d10 damage that ignores Armour to automatically pass the Test.</p>"
         },
         "attack": {
@@ -306,7 +306,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Renegade Guardsman has a Witch-mark, as described in the Core Rulebook.</p>"
         },
         "attack": {

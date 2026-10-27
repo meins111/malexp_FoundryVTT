@@ -35,7 +35,116 @@
       "value": 0
     }
   },
-  "effects": [],
+  "effects": [
+    {
+      "name": "Hardened Soul",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "_id": "malExpTal0000058Effect",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "skill": {}
+          },
+          "testIndependent": false,
+          "equipTransfer": false,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": false
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {
+              "barrier": false,
+              "difficult": false,
+              "warpTouched": false
+            },
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "label": "Hardened Soul: +1 SL against Corruption",
+            "trigger": "preRollSkillTest",
+            "script": "if (args.context.corruption) args.fields.SL += 1;",
+            "options": {
+              "targeter": false,
+              "defending": false,
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "deleteEffect": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "computed": false
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "impmal": {
+          "manualEffectKeys": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "impmal",
+        "systemVersion": "3.2.0"
+      },
+      "_key": "!items.effects!malExpTal0000058.malExpTal0000058Effect"
+    }
+  ],
   "flags": {},
   "_stats": {
     "compendiumSource": null,

@@ -1,0 +1,788 @@
+{
+  "folder": "Je041z9T7Zyz0GhC",
+  "name": "Novator",
+  "type": "npc",
+  "_id": "v5Xtw6T7dASiu4Qu",
+  "img": "modules/impmal-core/assets/tokens/unknown.webp",
+  "system": {
+    "characteristics": {
+      "ws": {
+        "starting": 50,
+        "advances": 0,
+        "modifier": 0
+      },
+      "bs": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      },
+      "str": {
+        "starting": 50,
+        "advances": 0,
+        "modifier": 0
+      },
+      "tgh": {
+        "starting": 50,
+        "advances": 0,
+        "modifier": 0
+      },
+      "ag": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      },
+      "int": {
+        "starting": 60,
+        "advances": 0,
+        "modifier": 0
+      },
+      "per": {
+        "starting": 60,
+        "advances": 0,
+        "modifier": 0
+      },
+      "wil": {
+        "starting": 70,
+        "advances": 0,
+        "modifier": 0
+      },
+      "fel": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      }
+    },
+    "skills": {
+      "athletics": {
+        "characteristic": "str",
+        "advances": 0,
+        "modifier": 0
+      },
+      "awareness": {
+        "characteristic": "per",
+        "advances": 2,
+        "modifier": 0
+      },
+      "dexterity": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "discipline": {
+        "characteristic": "wil",
+        "advances": 0,
+        "modifier": 0
+      },
+      "fortitude": {
+        "characteristic": "tgh",
+        "advances": 0,
+        "modifier": 0
+      },
+      "intuition": {
+        "characteristic": "per",
+        "advances": 2,
+        "modifier": 0
+      },
+      "linguistics": {
+        "characteristic": "int",
+        "advances": 2,
+        "modifier": 0
+      },
+      "logic": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "lore": {
+        "characteristic": "int",
+        "advances": 2,
+        "modifier": 0
+      },
+      "medicae": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "melee": {
+        "characteristic": "ws",
+        "advances": 2,
+        "modifier": 0
+      },
+      "navigation": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "presence": {
+        "characteristic": "wil",
+        "advances": 0,
+        "modifier": 0
+      },
+      "piloting": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "psychic": {
+        "characteristic": "wil",
+        "advances": 2,
+        "modifier": 0
+      },
+      "ranged": {
+        "characteristic": "bs",
+        "advances": 2,
+        "modifier": 0
+      },
+      "rapport": {
+        "characteristic": "fel",
+        "advances": 0,
+        "modifier": 0
+      },
+      "reflexes": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "stealth": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "tech": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      }
+    },
+    "notes": {
+      "player": "",
+      "gm": "<p>Possessions: Ornamental Robes, Mesh Armor, Chrono, Dataslate with 5d10x100 Solars, stylish and expensive clothing and jewelry.</p>"
+    },
+    "combat": {
+      "size": "medium",
+      "armourModifier": 0,
+      "speed": {
+        "land": {
+          "value": "normal",
+          "modifier": 0
+        },
+        "fly": {
+          "value": "none",
+          "modifier": 0
+        }
+      },
+      "initiative": 10,
+      "wounds": {
+        "max": 22,
+        "value": 22
+      },
+      "criticals": {
+        "max": 5,
+        "value": 0
+      },
+      "resolve": 4,
+      "armour": {
+        "formula": "",
+        "value": 4,
+        "useItems": false
+      }
+    },
+    "faction": {
+      "id": "",
+      "name": "Nobility Imperialis"
+    },
+    "species": "Human (Navis Nobilite)",
+    "role": "master",
+    "autoCalc": {
+      "wounds": false,
+      "criticals": false,
+      "initiative": false
+    }
+  },
+  "prototypeToken": {
+    "name": "Novator",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/impmal-core/assets/tokens/unknown.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "flags": {}
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "impmal",
+    "systemVersion": "3.2.1"
+  },
+  "_key": "!actors!v5Xtw6T7dASiu4Qu",
+  "items": [
+    {
+      "name": "Navigator Powers",
+      "type": "trait",
+      "_id": "Iqj4vlJIRFwM0jgG",
+      "img": "modules/impmal-core/assets/icons/blank.webp",
+      "system": {
+        "notes": {
+          "player": "<p>The Navigator has the following Psychic Powers: Lidless Stare (Master), Gaze into the Abyss (Master), Held in my Gaze (Adept), Tides of Time and Space (Adept). The Navigator may improve one power by foregoing another, at the GM's discretion.</p>",
+          "gm": ""
+        },
+        "attack": {
+          "enabled": false,
+          "type": "melee",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "damage": {
+            "SL": false,
+            "base": "",
+            "characteristic": "",
+            "ignoreAP": false
+          },
+          "range": "",
+          "traits": {
+            "list": []
+          },
+          "self": false
+        },
+        "test": {
+          "enabled": false,
+          "target": "self",
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "roll": {
+          "enabled": false,
+          "formula": "",
+          "label": ""
+        },
+        "category": "standard"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!v5Xtw6T7dASiu4Qu.Iqj4vlJIRFwM0jgG"
+    },
+    {
+      "name": "Raised in Gilded Halls",
+      "type": "trait",
+      "_id": "hVkVC1fSutJ20zLa",
+      "img": "modules/impmal-core/assets/icons/blank.webp",
+      "system": {
+        "notes": {
+          "player": "<p>This character increases their Resolve by 1 whenever in noble environments.</p>",
+          "gm": ""
+        },
+        "attack": {
+          "enabled": false,
+          "type": "melee",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "damage": {
+            "SL": false,
+            "base": "",
+            "characteristic": "",
+            "ignoreAP": false
+          },
+          "range": "",
+          "traits": {
+            "list": []
+          },
+          "self": false
+        },
+        "test": {
+          "enabled": false,
+          "target": "self",
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "roll": {
+          "enabled": false,
+          "formula": "",
+          "label": ""
+        },
+        "category": "standard"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!v5Xtw6T7dASiu4Qu.hVkVC1fSutJ20zLa"
+    },
+    {
+      "name": "Practiced Politick",
+      "type": "trait",
+      "_id": "eCJGMgoUKpX9nwif",
+      "img": "modules/impmal-core/assets/icons/blank.webp",
+      "system": {
+        "notes": {
+          "player": "<p>Intuition Tests targeting this character are made with Disadvantage.</p>",
+          "gm": ""
+        },
+        "attack": {
+          "enabled": false,
+          "type": "melee",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "damage": {
+            "SL": false,
+            "base": "",
+            "characteristic": "",
+            "ignoreAP": false
+          },
+          "range": "",
+          "traits": {
+            "list": []
+          },
+          "self": false
+        },
+        "test": {
+          "enabled": false,
+          "target": "self",
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "roll": {
+          "enabled": false,
+          "formula": "",
+          "label": ""
+        },
+        "category": "standard"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!v5Xtw6T7dASiu4Qu.eCJGMgoUKpX9nwif"
+    },
+    {
+      "name": "Master of the Immaterium",
+      "type": "trait",
+      "_id": "VQtCe6PxARR6gSvA",
+      "img": "modules/impmal-core/assets/icons/blank.webp",
+      "system": {
+        "notes": {
+          "player": "<p>This character gains +1 SL on all Navigation through the Warp Tests.</p>",
+          "gm": ""
+        },
+        "attack": {
+          "enabled": false,
+          "type": "melee",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "damage": {
+            "SL": false,
+            "base": "",
+            "characteristic": "",
+            "ignoreAP": false
+          },
+          "range": "",
+          "traits": {
+            "list": []
+          },
+          "self": false
+        },
+        "test": {
+          "enabled": false,
+          "target": "self",
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "roll": {
+          "enabled": false,
+          "formula": "",
+          "label": ""
+        },
+        "category": "standard"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!v5Xtw6T7dASiu4Qu.VQtCe6PxARR6gSvA"
+    },
+    {
+      "name": "Inferno Pistol",
+      "type": "weapon",
+      "_id": "72O2p379v1UygOKB",
+      "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 0,
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": true,
+          "hand": "",
+          "force": true
+        },
+        "damage": {
+          "base": "16",
+          "characteristic": "",
+          "SL": true,
+          "ignoreAP": false
+        },
+        "traits": {
+          "list": [
+            {
+              "key": "close"
+            },
+            {
+              "key": "loud"
+            },
+            {
+              "key": "rend",
+              "value": "5"
+            }
+          ]
+        },
+        "ammoCost": 0,
+        "attackType": "ranged",
+        "category": "",
+        "spec": "pistol",
+        "range": "short",
+        "rangeModifier": {
+          "value": 0,
+          "override": ""
+        },
+        "mag": {
+          "value": 1,
+          "current": 1
+        },
+        "ammo": {
+          "id": ""
+        },
+        "mods": {
+          "list": []
+        },
+        "slots": {
+          "list": [],
+          "value": 0
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!v5Xtw6T7dASiu4Qu.72O2p379v1UygOKB"
+    },
+    {
+      "name": "Ornamental Staff",
+      "type": "weapon",
+      "_id": "9GDEYxhBxg63vFIs",
+      "img": "modules/impmal-core/assets/icons/weapons/sword.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 0,
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": true,
+          "hand": "",
+          "force": true
+        },
+        "damage": {
+          "base": "5",
+          "characteristic": "",
+          "SL": true,
+          "ignoreAP": false
+        },
+        "traits": {
+          "list": [
+            {
+              "key": "defensive"
+            },
+            {
+              "key": "twoHanded"
+            }
+          ]
+        },
+        "ammoCost": 0,
+        "attackType": "melee",
+        "category": "",
+        "spec": "twoHanded",
+        "range": "",
+        "rangeModifier": {
+          "value": 0,
+          "override": ""
+        },
+        "mag": {
+          "value": 1,
+          "current": 1
+        },
+        "ammo": {
+          "id": ""
+        },
+        "mods": {
+          "list": []
+        },
+        "slots": {
+          "list": [],
+          "value": 0
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!v5Xtw6T7dASiu4Qu.9GDEYxhBxg63vFIs"
+    },
+    {
+      "name": "Psyniscience",
+      "type": "specialisation",
+      "_id": "zFHJwHGFKKzygOU5",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 2,
+        "restricted": false,
+        "skill": "awareness"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!v5Xtw6T7dASiu4Qu.zFHJwHGFKKzygOU5"
+    },
+    {
+      "name": "High Gothic",
+      "type": "specialisation",
+      "_id": "sA6lu26d3YI7hIkj",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 0,
+        "restricted": false,
+        "skill": "linguistics"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!v5Xtw6T7dASiu4Qu.sA6lu26d3YI7hIkj"
+    },
+    {
+      "name": "Astrography",
+      "type": "specialisation",
+      "_id": "eGdYE4acQXyNnWvj",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 2,
+        "restricted": false,
+        "skill": "lore"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!v5Xtw6T7dASiu4Qu.eGdYE4acQXyNnWvj"
+    },
+    {
+      "name": "Warp",
+      "type": "specialisation",
+      "_id": "yLnFqCHc7uY5p3y7",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 4,
+        "restricted": false,
+        "skill": "navigation"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!v5Xtw6T7dASiu4Qu.yLnFqCHc7uY5p3y7"
+    },
+    {
+      "name": "Pistols",
+      "type": "specialisation",
+      "_id": "9W47Iio0KNtMoM4w",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 2,
+        "restricted": false,
+        "skill": "ranged"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!v5Xtw6T7dASiu4Qu.9W47Iio0KNtMoM4w"
+    }
+  ]
+}

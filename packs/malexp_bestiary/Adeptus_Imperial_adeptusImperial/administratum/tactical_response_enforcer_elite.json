@@ -1,0 +1,776 @@
+{
+  "folder": "adeptusFolder010",
+  "name": "Tactical Response Enforcer",
+  "type": "npc",
+  "_id": "adeptusActor0800",
+  "img": "modules/impmal-core/assets/tokens/unknown.webp",
+  "system": {
+    "characteristics": {
+      "ws": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      },
+      "bs": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      },
+      "str": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      },
+      "tgh": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      },
+      "ag": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      },
+      "int": {
+        "starting": 30,
+        "advances": 0,
+        "modifier": 0
+      },
+      "per": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      },
+      "wil": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      },
+      "fel": {
+        "starting": 25,
+        "advances": 0,
+        "modifier": 0
+      }
+    },
+    "skills": {
+      "athletics": {
+        "characteristic": "str",
+        "advances": 1,
+        "modifier": 0
+      },
+      "awareness": {
+        "characteristic": "per",
+        "advances": 1,
+        "modifier": 0
+      },
+      "dexterity": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "discipline": {
+        "characteristic": "wil",
+        "advances": 1,
+        "modifier": 0
+      },
+      "fortitude": {
+        "characteristic": "tgh",
+        "advances": 1,
+        "modifier": 0
+      },
+      "intuition": {
+        "characteristic": "per",
+        "advances": 1,
+        "modifier": 0
+      },
+      "linguistics": {
+        "characteristic": "int",
+        "advances": 2,
+        "modifier": 0
+      },
+      "logic": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "lore": {
+        "characteristic": "int",
+        "advances": 2,
+        "modifier": 0
+      },
+      "medicae": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "melee": {
+        "characteristic": "ws",
+        "advances": 1,
+        "modifier": 0
+      },
+      "navigation": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "presence": {
+        "characteristic": "wil",
+        "advances": 1,
+        "modifier": 0
+      },
+      "piloting": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "psychic": {
+        "characteristic": "wil",
+        "advances": 0,
+        "modifier": 0
+      },
+      "ranged": {
+        "characteristic": "bs",
+        "advances": 1,
+        "modifier": 0
+      },
+      "rapport": {
+        "characteristic": "fel",
+        "advances": 2,
+        "modifier": 0
+      },
+      "reflexes": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "stealth": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "tech": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      }
+    },
+    "notes": {
+      "player": "",
+      "gm": "<p>Possessions: A set of Enforcer Carapace Armour, a Dataslate filled with information on infractionists, a set of Manacles, a Vox Bead, two reloads of Manstopper rounds for the Autogun, one reload of Amputator rounds for the Autogun. \t\n\nSpecialist Troopers\t\nMedic\tThe Enforcer has a Medicae (Humans) Skill of 50 and a Chirurgeon's Kit.\t\nBreacher\tThe Enforcer replaces their Autogun with a Specter Autogun.\t\nMarksman\tThe Enforcer has a Ranged (Long Guns) skill of 60 and replaces their Autogun with a Pax Factorem.\t\nWeapons Specialist\tThe Enforcer replaces their Autogun with a Creed 9 with the Fire Selector Weapon Modification.\t\nElement Leader\tThe Enforcer has a Presence (Leadership) skill of 60.</p>"
+    },
+    "combat": {
+      "size": "medium",
+      "armourModifier": 0,
+      "speed": {
+        "land": {
+          "value": "normal",
+          "modifier": 0
+        },
+        "fly": {
+          "value": "none",
+          "modifier": 0
+        }
+      },
+      "initiative": 8,
+      "wounds": {
+        "max": 16,
+        "value": 16
+      },
+      "criticals": {
+        "max": 1,
+        "value": 0
+      },
+      "resolve": 2,
+      "armour": {
+        "formula": "",
+        "value": 5,
+        "useItems": false
+      }
+    },
+    "faction": {
+      "id": "",
+      "name": "Adeptus Administratum"
+    },
+    "species": "Human (Administratum)",
+    "role": "elite",
+    "autoCalc": {
+      "wounds": false,
+      "criticals": false,
+      "initiative": false
+    }
+  },
+  "prototypeToken": {
+    "name": "Tactical Response Enforcer",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/impmal-core/assets/tokens/unknown.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "flags": {}
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "impmal",
+    "systemVersion": "3.2.1"
+  },
+  "_key": "!actors!adeptusActor0800",
+  "items": [
+    {
+      "name": "Call for Backup",
+      "type": "trait",
+      "_id": "adeptusActor08It",
+      "img": "modules/impmal-core/assets/icons/blank.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": "<p>As an Action, an Enforcer can call for backup. This call is heard by all Enforcers in a 1 mile radius. Backup usually arrives in 1d10 Rounds (or minutes if out of combat), but may be shorter or longer depending on distance.</p>"
+        },
+        "attack": {
+          "enabled": false,
+          "type": "melee",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "damage": {
+            "SL": false,
+            "base": "",
+            "characteristic": "",
+            "ignoreAP": false
+          },
+          "range": "",
+          "traits": {
+            "list": []
+          },
+          "self": false
+        },
+        "test": {
+          "enabled": false,
+          "target": "self",
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "roll": {
+          "enabled": false,
+          "formula": "",
+          "label": ""
+        },
+        "category": "standard"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!adeptusActor0800.adeptusActor08It"
+    },
+    {
+      "name": "Incarceratus",
+      "type": "trait",
+      "_id": "adeptusActor08I0",
+      "img": "modules/impmal-core/assets/icons/blank.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": "<p>When an Enforcer is Grappling an individual they can Manacle them as a Free Action  Kill Team Operations: Tactical Response Enforcers have Advantage on tests to resist the Frightened Condition and gains +1SL to Discipline Tests for every other Tactical Response Enforcer in the same zone as them.</p>"
+        },
+        "attack": {
+          "enabled": false,
+          "type": "melee",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "damage": {
+            "SL": false,
+            "base": "",
+            "characteristic": "",
+            "ignoreAP": false
+          },
+          "range": "",
+          "traits": {
+            "list": []
+          },
+          "self": false
+        },
+        "test": {
+          "enabled": false,
+          "target": "self",
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "roll": {
+          "enabled": false,
+          "formula": "",
+          "label": ""
+        },
+        "category": "standard"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!adeptusActor0800.adeptusActor08I0"
+    },
+    {
+      "name": "Autogun",
+      "type": "weapon",
+      "_id": "adeptusActor08I1",
+      "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": "<p>Ranged (Long Gun), 50, 6 + SL Damage, [Range]. Loud, Rapid Fire (3), Two-Handed</p>"
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 0,
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": true,
+          "hand": "",
+          "force": true
+        },
+        "damage": {
+          "base": "6",
+          "characteristic": "",
+          "SL": true,
+          "ignoreAP": false
+        },
+        "traits": {
+          "list": [
+            {
+              "key": "loud"
+            },
+            {
+              "key": "two-handed"
+            },
+            {
+              "key": "rapid_fire"
+            }
+          ]
+        },
+        "ammoCost": 0,
+        "attackType": "ranged",
+        "category": "long_gun",
+        "spec": "longGun",
+        "range": "range",
+        "rangeModifier": {
+          "value": 0,
+          "override": ""
+        },
+        "mag": {
+          "value": 1,
+          "current": 1
+        },
+        "ammo": {
+          "id": ""
+        },
+        "mods": {
+          "list": []
+        },
+        "slots": {
+          "list": [],
+          "value": 0
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!adeptusActor0800.adeptusActor08I1"
+    },
+    {
+      "name": "Stub Automatic",
+      "type": "weapon",
+      "_id": "adeptusActor08I2",
+      "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": "<p>Ranged (Pistol), 45, 6 + SL Damage, [Medium Range]. Burst, Close, Loud.</p>"
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 0,
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": true,
+          "hand": "",
+          "force": true
+        },
+        "damage": {
+          "base": "6",
+          "characteristic": "",
+          "SL": true,
+          "ignoreAP": false
+        },
+        "traits": {
+          "list": [
+            {
+              "key": "burst"
+            },
+            {
+              "key": "close"
+            },
+            {
+              "key": "loud"
+            }
+          ]
+        },
+        "ammoCost": 0,
+        "attackType": "ranged",
+        "category": "pistol",
+        "spec": "pistol",
+        "range": "medium",
+        "rangeModifier": {
+          "value": 0,
+          "override": ""
+        },
+        "mag": {
+          "value": 1,
+          "current": 1
+        },
+        "ammo": {
+          "id": ""
+        },
+        "mods": {
+          "list": []
+        },
+        "slots": {
+          "list": [],
+          "value": 0
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!adeptusActor0800.adeptusActor08I2"
+    },
+    {
+      "name": "Choke Grenade",
+      "type": "weapon",
+      "_id": "adeptusActor08I3",
+      "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": "<p>Ranged (Thrown), 45, Medium Range. Unstable. When a Choke Grenade hits a Zone, all creatures in that Zone must make a Hard (−20) Fortitude (Endurance) Test or suffer the Stunned (Minor) Condition for three rounds. Additionally, anyone who enters or starts their turn in that Zone for the next three rounds must make the same Test.</p>"
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 0,
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": true,
+          "hand": "",
+          "force": true
+        },
+        "damage": {
+          "base": "0",
+          "characteristic": "",
+          "SL": false,
+          "ignoreAP": false
+        },
+        "traits": {
+          "list": [
+            {
+              "key": "unstable"
+            }
+          ]
+        },
+        "ammoCost": 0,
+        "attackType": "ranged",
+        "category": "thrown",
+        "spec": "thrown",
+        "range": "medium",
+        "rangeModifier": {
+          "value": 0,
+          "override": ""
+        },
+        "mag": {
+          "value": 1,
+          "current": 1
+        },
+        "ammo": {
+          "id": ""
+        },
+        "mods": {
+          "list": []
+        },
+        "slots": {
+          "list": [],
+          "value": 0
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!adeptusActor0800.adeptusActor08I3"
+    },
+    {
+      "name": "Combat Knife",
+      "type": "weapon",
+      "_id": "adeptusActor08I4",
+      "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": "<p>Melee (One-Handed), 55, 5 + SL Damage.</p>"
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 0,
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": true,
+          "hand": "",
+          "force": true
+        },
+        "damage": {
+          "base": "5",
+          "characteristic": "",
+          "SL": true,
+          "ignoreAP": false
+        },
+        "traits": {
+          "list": []
+        },
+        "ammoCost": 0,
+        "attackType": "melee",
+        "category": "one-handed",
+        "spec": "oneHanded",
+        "range": "",
+        "rangeModifier": {
+          "value": 0,
+          "override": ""
+        },
+        "mag": {
+          "value": 1,
+          "current": 1
+        },
+        "ammo": {
+          "id": ""
+        },
+        "mods": {
+          "list": []
+        },
+        "slots": {
+          "list": [],
+          "value": 0
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!adeptusActor0800.adeptusActor08I4"
+    },
+    {
+      "name": "One-handed",
+      "type": "specialisation",
+      "_id": "adeptusActor08I5",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 2,
+        "restricted": false,
+        "skill": "melee"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!adeptusActor0800.adeptusActor08I5"
+    },
+    {
+      "name": "Interrogation",
+      "type": "specialisation",
+      "_id": "adeptusActor08I6",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 2,
+        "restricted": false,
+        "skill": "presence"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!adeptusActor0800.adeptusActor08I6"
+    },
+    {
+      "name": "Intimidation",
+      "type": "specialisation",
+      "_id": "adeptusActor08I7",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 2,
+        "restricted": false,
+        "skill": "presence"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!adeptusActor0800.adeptusActor08I7"
+    },
+    {
+      "name": "Long Guns",
+      "type": "specialisation",
+      "_id": "adeptusActor08I8",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 1,
+        "restricted": false,
+        "skill": "ranged"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!adeptusActor0800.adeptusActor08I8"
+    }
+  ]
+}

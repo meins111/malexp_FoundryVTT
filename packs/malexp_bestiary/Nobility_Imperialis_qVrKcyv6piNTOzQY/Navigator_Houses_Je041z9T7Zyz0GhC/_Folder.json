@@ -1,0 +1,20 @@
+{
+  "type": "Actor",
+  "folder": "qVrKcyv6piNTOzQY",
+  "name": "Navigator Houses",
+  "color": null,
+  "sorting": "a",
+  "_id": "Je041z9T7Zyz0GhC",
+  "description": "",
+  "sort": 100000,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "impmal",
+    "systemVersion": "3.2.1"
+  },
+  "_key": "!folders!Je041z9T7Zyz0GhC"
+}

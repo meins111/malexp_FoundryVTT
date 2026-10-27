@@ -1,0 +1,50 @@
+{
+  "title": "Adeptus Astartes Geneseed Organ Effects",
+  "source": "Geneseed Organ Effects.txt",
+  "effects": [
+    [
+      "Betcher Gland",
+      "As an Action, make a Ranged Attack at Immediate Range; it deals 2 + SL Damage and inflicts Blinded."
+    ],
+    [
+      "Catalepsean Node",
+      "No penalties to Awareness Tests from staying awake for long periods."
+    ],
+    [
+      "Preomnor & Mucranoid",
+      "Advantage on Fortitude (Poison) Tests against ingested poisons; reroll failed Fortitude (Endurance) Tests from heat or cold exposure."
+    ],
+    [
+      "Larraman's Organ",
+      "As a Free Action, make a Challenging (+0) Fortitude Test to remove Bleeding."
+    ],
+    [
+      "Lyman's Ear",
+      "Advantage to resist Deafened and +1SL on Awareness (Hearing)."
+    ],
+    [
+      "Multi-Lung",
+      "Triple Toughness Bonus when determining breath-holding time."
+    ],
+    [
+      "Neuroglottis",
+      "Advantage on Navigation (Tracking) by scent; tests to detect toxins by taste or smell."
+    ],
+    [
+      "Occulobe",
+      "Ignore penalties from Poorly Lit zones."
+    ],
+    [
+      "Oolitic Kidney",
+      "As a Free Action, make a Challenging (+0) Fortitude Test to remove Poisoned."
+    ],
+    [
+      "Sus-an Membrane",
+      "Critical unconsciousness causes suspended animation; revival requires Hard (-20) Medicae (Forbidden - Astartes)."
+    ],
+    [
+      "Belisarian Furnace",
+      "Primaris only: once per session, Hard (-20) Fortitude (Pain) to heal SL + half Toughness Bonus."
+    ]
+  ]
+}

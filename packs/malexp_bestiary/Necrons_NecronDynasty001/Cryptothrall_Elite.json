@@ -2,7 +2,7 @@
   "folder": "NecronDynasty001",
   "name": "Cryptothrall",
   "type": "npc",
-  "_id": "CryptothrallElite01",
+  "_id": "CryptothrallElit",
   "img": "modules/impmal-core/assets/tokens/unknown.webp",
   "system": {
     "characteristics": {
@@ -225,11 +225,11 @@
     {
       "name": "Living Metal (2)",
       "type": "trait",
-      "_id": "CTTrait1LivingMetal",
+      "_id": "CTTrait1LivingMe",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>At the start of the Cryptothrall's turn, it regains 2 Wounds. It is immune to the Bleeding, Fatigued, Frightened, and Poisoned Conditions. Additionally, it has no soul and cannot be detected by abilities such as Soulsight.</p>"
         },
         "attack": {
@@ -289,7 +289,7 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!CryptothrallElite01.CTTrait1LivingMetal"
+      "_key": "!actors.items!CryptothrallElit.CTTrait1LivingMe"
     },
     {
       "name": "Phase Out",
@@ -350,16 +350,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!CryptothrallElite01.CTTrait2PhaseOut"
+      "_key": "!actors.items!CryptothrallElit.CTTrait2PhaseOut"
     },
     {
       "name": "Reanimation Protocols (7+)",
       "type": "trait",
-      "_id": "CTTrait3Reanimation",
+      "_id": "CTTrait3Reanimat",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>When the Cryptothrall would die or be rendered Unconscious, roll 1d10. On a 7 or higher, it does not die or become Unconscious and gains wounds equal to the result.</p>"
         },
         "attack": {
@@ -419,12 +419,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!CryptothrallElite01.CTTrait3Reanimation"
+      "_key": "!actors.items!CryptothrallElit.CTTrait3Reanimat"
     },
     {
       "name": "Scouring Eye",
       "type": "weapon",
-      "_id": "CTWeapon1ScouringEye",
+      "_id": "CTWeapon1Scourin",
       "img": "modules/impmal-core/assets/icons/weapons/pistol.webp",
       "system": {
         "notes": {
@@ -497,12 +497,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!CryptothrallElite01.CTWeapon1ScouringEye"
+      "_key": "!actors.items!CryptothrallElit.CTWeapon1Scourin"
     },
     {
       "name": "Scythed Limbs",
       "type": "weapon",
-      "_id": "CTWeapon2ScythedLimbs",
+      "_id": "CTWeapon2Scythed",
       "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
       "system": {
         "notes": {
@@ -569,7 +569,7 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!CryptothrallElite01.CTWeapon2ScythedLimbs"
+      "_key": "!actors.items!CryptothrallElit.CTWeapon2Scythed"
     }
   ],
   "effects": [],
@@ -586,5 +586,5 @@
     "systemId": "impmal",
     "systemVersion": "3.2.1"
   },
-  "_key": "!actors!CryptothrallElite01"
+  "_key": "!actors!CryptothrallElit"
 }

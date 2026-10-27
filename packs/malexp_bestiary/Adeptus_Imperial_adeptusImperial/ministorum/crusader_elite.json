@@ -1,0 +1,557 @@
+{
+  "folder": "adeptusFolder050",
+  "name": "Crusader",
+  "type": "npc",
+  "_id": "adeptusActor2300",
+  "img": "modules/impmal-core/assets/tokens/unknown.webp",
+  "system": {
+    "characteristics": {
+      "ws": {
+        "starting": 50,
+        "advances": 0,
+        "modifier": 0
+      },
+      "bs": {
+        "starting": 30,
+        "advances": 0,
+        "modifier": 0
+      },
+      "str": {
+        "starting": 50,
+        "advances": 0,
+        "modifier": 0
+      },
+      "tgh": {
+        "starting": 50,
+        "advances": 0,
+        "modifier": 0
+      },
+      "ag": {
+        "starting": 30,
+        "advances": 0,
+        "modifier": 0
+      },
+      "int": {
+        "starting": 20,
+        "advances": 0,
+        "modifier": 0
+      },
+      "per": {
+        "starting": 40,
+        "advances": 0,
+        "modifier": 0
+      },
+      "wil": {
+        "starting": 50,
+        "advances": 0,
+        "modifier": 0
+      },
+      "fel": {
+        "starting": 20,
+        "advances": 0,
+        "modifier": 0
+      }
+    },
+    "skills": {
+      "athletics": {
+        "characteristic": "str",
+        "advances": 0,
+        "modifier": 0
+      },
+      "awareness": {
+        "characteristic": "per",
+        "advances": 1,
+        "modifier": 0
+      },
+      "dexterity": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "discipline": {
+        "characteristic": "wil",
+        "advances": 1,
+        "modifier": 0
+      },
+      "fortitude": {
+        "characteristic": "tgh",
+        "advances": 1,
+        "modifier": 0
+      },
+      "intuition": {
+        "characteristic": "per",
+        "advances": 2,
+        "modifier": 0
+      },
+      "linguistics": {
+        "characteristic": "int",
+        "advances": 2,
+        "modifier": 0
+      },
+      "logic": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "lore": {
+        "characteristic": "int",
+        "advances": 2,
+        "modifier": 0
+      },
+      "medicae": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "melee": {
+        "characteristic": "ws",
+        "advances": 1,
+        "modifier": 0
+      },
+      "navigation": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      },
+      "presence": {
+        "characteristic": "wil",
+        "advances": 1,
+        "modifier": 0
+      },
+      "piloting": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "psychic": {
+        "characteristic": "wil",
+        "advances": 0,
+        "modifier": 0
+      },
+      "ranged": {
+        "characteristic": "bs",
+        "advances": 0,
+        "modifier": 0
+      },
+      "rapport": {
+        "characteristic": "fel",
+        "advances": 2,
+        "modifier": 0
+      },
+      "reflexes": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "stealth": {
+        "characteristic": "ag",
+        "advances": 0,
+        "modifier": 0
+      },
+      "tech": {
+        "characteristic": "int",
+        "advances": 0,
+        "modifier": 0
+      }
+    },
+    "notes": {
+      "player": "",
+      "gm": "<p>Possessions: Crusader Carapace, Storm Shield, Holy Icon</p>"
+    },
+    "combat": {
+      "size": "medium",
+      "armourModifier": 0,
+      "speed": {
+        "land": {
+          "value": "normal",
+          "modifier": 0
+        },
+        "fly": {
+          "value": "none",
+          "modifier": 0
+        }
+      },
+      "initiative": 7,
+      "wounds": {
+        "max": 20,
+        "value": 20
+      },
+      "criticals": {
+        "max": 1,
+        "value": 0
+      },
+      "resolve": 3,
+      "armour": {
+        "formula": "",
+        "value": 5,
+        "useItems": false
+      }
+    },
+    "faction": {
+      "id": "",
+      "name": "Adeptus Ministorum"
+    },
+    "species": "Human (Ecclesiarchy)",
+    "role": "elite",
+    "autoCalc": {
+      "wounds": false,
+      "criticals": false,
+      "initiative": false
+    }
+  },
+  "prototypeToken": {
+    "name": "Crusader",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/impmal-core/assets/tokens/unknown.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "flags": {}
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "impmal",
+    "systemVersion": "3.2.1"
+  },
+  "_key": "!actors!adeptusActor2300",
+  "items": [
+    {
+      "name": "Deny the Witch",
+      "type": "trait",
+      "_id": "adeptusActor23It",
+      "img": "modules/impmal-core/assets/icons/blank.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": "<p>When a psyker within Medium Range of the Crusader Manifests a power, they may use their Reaction to attempt to disrupt it. The Crusader makes a Willpower Test with the same Difficulty as the Psychic Power. If they succeed, subtract their SL from the psyker's SL. This may reduce their SL below 1 and cause the psychic power to fail.  Truest Faith: The Crusader has 2 point of Fate.</p>"
+        },
+        "attack": {
+          "enabled": false,
+          "type": "melee",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "damage": {
+            "SL": false,
+            "base": "",
+            "characteristic": "",
+            "ignoreAP": false
+          },
+          "range": "",
+          "traits": {
+            "list": []
+          },
+          "self": false
+        },
+        "test": {
+          "enabled": false,
+          "target": "self",
+          "difficulty": "challenging",
+          "characteristic": "",
+          "skill": {
+            "key": "",
+            "specialisation": ""
+          },
+          "self": false
+        },
+        "roll": {
+          "enabled": false,
+          "formula": "",
+          "label": ""
+        },
+        "category": "standard"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!adeptusActor2300.adeptusActor23It"
+    },
+    {
+      "name": "Mastercrafted Sanctified Power Sword",
+      "type": "weapon",
+      "_id": "adeptusActor23I0",
+      "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": "<p>Melee (One-Handed), Test, 9 + SL Damage. Penetrating (4), Sanctified.</p>"
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "cost": 0,
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": true,
+          "hand": "",
+          "force": true
+        },
+        "damage": {
+          "base": "9",
+          "characteristic": "",
+          "SL": true,
+          "ignoreAP": false
+        },
+        "traits": {
+          "list": [
+            {
+              "key": "sanctified"
+            },
+            {
+              "key": "penetrating"
+            }
+          ]
+        },
+        "ammoCost": 0,
+        "attackType": "melee",
+        "category": "one-handed",
+        "spec": "oneHanded",
+        "range": "",
+        "rangeModifier": {
+          "value": 0,
+          "override": ""
+        },
+        "mag": {
+          "value": 1,
+          "current": 1
+        },
+        "ammo": {
+          "id": ""
+        },
+        "mods": {
+          "list": []
+        },
+        "slots": {
+          "list": [],
+          "value": 0
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!adeptusActor2300.adeptusActor23I0"
+    },
+    {
+      "name": "Psychic",
+      "type": "specialisation",
+      "_id": "adeptusActor23I1",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 2,
+        "restricted": false,
+        "skill": "discipline"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!adeptusActor2300.adeptusActor23I1"
+    },
+    {
+      "name": "Fear",
+      "type": "specialisation",
+      "_id": "adeptusActor23I2",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 2,
+        "restricted": false,
+        "skill": "discipline"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!adeptusActor2300.adeptusActor23I2"
+    },
+    {
+      "name": "Theology",
+      "type": "specialisation",
+      "_id": "adeptusActor23I3",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 2,
+        "restricted": false,
+        "skill": "lore"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!adeptusActor2300.adeptusActor23I3"
+    },
+    {
+      "name": "One-Handed",
+      "type": "specialisation",
+      "_id": "adeptusActor23I4",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 2,
+        "restricted": false,
+        "skill": "melee"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!adeptusActor2300.adeptusActor23I4"
+    },
+    {
+      "name": "Leadership",
+      "type": "specialisation",
+      "_id": "adeptusActor23I5",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 2,
+        "restricted": false,
+        "skill": "presence"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!adeptusActor2300.adeptusActor23I5"
+    },
+    {
+      "name": "Intimidation",
+      "type": "specialisation",
+      "_id": "adeptusActor23I6",
+      "img": "modules/impmal-core/assets/icons/generic.webp",
+      "system": {
+        "notes": {
+          "player": "",
+          "gm": ""
+        },
+        "advances": 2,
+        "restricted": false,
+        "skill": "presence"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "impmal",
+        "systemVersion": "3.2.1"
+      },
+      "_key": "!actors.items!adeptusActor2300.adeptusActor23I6"
+    }
+  ]
+}

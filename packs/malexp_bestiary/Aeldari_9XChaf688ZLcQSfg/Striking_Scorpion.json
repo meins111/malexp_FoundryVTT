@@ -245,7 +245,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Striking Scorpion has built in Mandi-Blasters.</p>"
         },
         "attack": {
@@ -306,7 +306,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>When fighting against Surprised targets, the Striking Scorpion inflicts 1 additional damage for every +2SL on their Attack Tests beyond the first.</p>"
         },
         "attack": {
@@ -367,7 +367,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Aeldari may use Psyniscience. The Aeldari has Disadvantage on any Tests made to resist Psychic Powers.</p>"
         },
         "attack": {
@@ -428,7 +428,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>A Striking Scorpion may fire their Mandiblasters once per round as a Free Action as an attack with the profile detailed in their weapons.</p>"
         },
         "attack": {
@@ -570,7 +570,7 @@
       "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>May be fired once per round as a Free Action.</p>"
         },
         "encumbrance": {

@@ -245,7 +245,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Storm Guardian has +1 Resolve and Advantage on Discipline Tests if they are on their Craftworld or engaging in actions to defend their Craftworld.</p>"
         },
         "attack": {
@@ -306,7 +306,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Aeldari may use Psyniscience. The Aeldari has Disadvantage on any Tests made to resist Psychic Powers.</p>"
         },
         "attack": {
@@ -367,7 +367,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Storm Guardian adds +1SL to Melee Attack tests.</p>"
         },
         "attack": {

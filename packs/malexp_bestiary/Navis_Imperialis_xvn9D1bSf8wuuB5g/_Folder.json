@@ -1,0 +1,20 @@
+{
+  "type": "Actor",
+  "folder": null,
+  "name": "Navis Imperialis",
+  "color": null,
+  "sorting": "a",
+  "_id": "xvn9D1bSf8wuuB5g",
+  "description": "",
+  "sort": 600000,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "impmal",
+    "systemVersion": "3.2.1"
+  },
+  "_key": "!folders!xvn9D1bSf8wuuB5g"
+}

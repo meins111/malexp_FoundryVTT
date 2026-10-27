@@ -245,7 +245,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>This profile is just for a regular Knarloc. If it is mounted by a Kroot ally, the Kroot uses the Knarloc's initiative for movement, but may still make Ranged Attacks on its own. The Kroot can be targeted individually regardless.</p>"
         },
         "attack": {
@@ -306,7 +306,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>There are many highly prized varieties of Knarloc within Kroot cadres. If you wish to display these different varieties, you may choose to add +10 to one of the following Characteristics: Strength, Toughness, Agility.</p>"
         },
         "attack": {

@@ -2,7 +2,7 @@
   "folder": "SkitariiForce001",
   "name": "Skitarii Marshal",
   "type": "npc",
-  "_id": "SkitariiMarshalLd1",
+  "_id": "SkitariiMarshalL",
   "img": "modules/impmal-core/assets/tokens/unknown.webp",
   "system": {
     "characteristics": {
@@ -235,16 +235,16 @@
     "systemId": "impmal",
     "systemVersion": "3.2.1"
   },
-  "_key": "!actors!SkitariiMarshalLd1",
+  "_key": "!actors!SkitariiMarshalL",
   "items": [
     {
       "name": "Heavily Augmented",
       "type": "trait",
-      "_id": "SMaT1",
+      "_id": "SMaT100000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Skitarii has Augmetic Arms, Augmetic Legs, an Augmetic Heart, an Augmetic Respiratory System, and Augmetic Sensory Organs. The benefits of these augmetics are already included.</p>"
         },
         "attack": {
@@ -296,16 +296,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SkitariiMarshalLd1.SMaT1"
+      "_key": "!actors.items!SkitariiMarshalL.SMaT100000000000"
     },
     {
       "name": "Augmetic Heart",
       "type": "trait",
-      "_id": "SMaT2",
+      "_id": "SMaT200000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>As an Action, the Skitarii makes a Challenging (+0) Fortitude Test. If they are successful, they remove a Bleeding Condition from themself.</p>"
         },
         "attack": {
@@ -357,16 +357,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SkitariiMarshalLd1.SMaT2"
+      "_key": "!actors.items!SkitariiMarshalL.SMaT200000000000"
     },
     {
       "name": "Augmetic Respiratory System",
       "type": "trait",
-      "_id": "SMaT3",
+      "_id": "SMaT300000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Skitarii gains +2 SL to Fortitude Tests to resist the effects of airborne toxins and poisonous gases.</p>"
         },
         "attack": {
@@ -418,16 +418,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SkitariiMarshalLd1.SMaT3"
+      "_key": "!actors.items!SkitariiMarshalL.SMaT300000000000"
     },
     {
       "name": "Control Edicts",
       "type": "trait",
-      "_id": "SMaT4",
+      "_id": "SMaT400000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>Once per round, as an Action, the Marshal may choose a number of Adeptus Mechanicus characters within Medium Range equal to its Intelligence Bonus. Choose one: selected characters may act immediately, may reroll one Attack roll, or can ignore Difficult Terrain for one round. Alternatively, summon 1d5+2 Skitarii as ambush (Hard Awareness test to detect), reducing Superiority by 1 if undetected.</p>"
         },
         "attack": {
@@ -479,16 +479,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SkitariiMarshalLd1.SMaT4"
+      "_key": "!actors.items!SkitariiMarshalL.SMaT400000000000"
     },
     {
       "name": "Noosphere Uplink",
       "type": "trait",
-      "_id": "SMaT5",
+      "_id": "SMaT500000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>Once per Encounter, as an action, the Marshal may choose a number of Adeptus Mechanicus characters within Medium Range that are Frightened or Desperate and remove these conditions from them.</p>"
         },
         "attack": {
@@ -540,12 +540,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SkitariiMarshalLd1.SMaT5"
+      "_key": "!actors.items!SkitariiMarshalL.SMaT500000000000"
     },
     {
       "name": "Phosphor Blast Pistol",
       "type": "weapon",
-      "_id": "SMaW1",
+      "_id": "SMaW100000000000",
       "img": "modules/impmal-core/assets/icons/weapons/pistol.webp",
       "system": {
         "notes": {
@@ -617,12 +617,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SkitariiMarshalLd1.SMaW1"
+      "_key": "!actors.items!SkitariiMarshalL.SMaW100000000000"
     },
     {
       "name": "Control Staff",
       "type": "weapon",
-      "_id": "SMaW2",
+      "_id": "SMaW200000000000",
       "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
       "system": {
         "notes": {
@@ -689,7 +689,7 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SkitariiMarshalLd1.SMaW2"
+      "_key": "!actors.items!SkitariiMarshalL.SMaW200000000000"
     }
   ]
 }

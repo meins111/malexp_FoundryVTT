@@ -2,7 +2,7 @@
   "folder": "NecronDynasty001",
   "name": "Triarch Praetorian",
   "type": "npc",
-  "_id": "TriarchPraetorianL1",
+  "_id": "TriarchPraetoria",
   "img": "modules/impmal-core/assets/tokens/unknown.webp",
   "system": {
     "characteristics": {
@@ -247,16 +247,16 @@
     "systemId": "impmal",
     "systemVersion": "3.2.1"
   },
-  "_key": "!actors!TriarchPraetorianL1",
+  "_key": "!actors!TriarchPraetoria",
   "items": [
     {
       "name": "Living Metal (4)",
       "type": "trait",
-      "_id": "TPTrait1",
+      "_id": "TPTrait100000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>At the start of the Triarch Praetorian's turn, it regains 4 Wounds. It is immune to the Bleeding, Fatigued, Frightened, and Poisoned Conditions. Additionally, it has no soul and cannot be detected by abilities such as Soulsight.</p>"
         },
         "attack": {
@@ -316,12 +316,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!TriarchPraetorianL1.TPTrait1"
+      "_key": "!actors.items!TriarchPraetoria.TPTrait100000000"
     },
     {
       "name": "Phase Out",
       "type": "trait",
-      "_id": "TPTrait2",
+      "_id": "TPTrait200000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
@@ -377,16 +377,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!TriarchPraetorianL1.TPTrait2"
+      "_key": "!actors.items!TriarchPraetoria.TPTrait200000000"
     },
     {
       "name": "Reanimation Protocols (7+)",
       "type": "trait",
-      "_id": "TPTrait3",
+      "_id": "TPTrait300000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>When the Triarch Praetorian would die or be rendered Unconscious, roll 1d10. On a 7 or higher, it does not die or become Unconscious and gains wounds equal to the result.</p>"
         },
         "attack": {
@@ -446,12 +446,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!TriarchPraetorianL1.TPTrait3"
+      "_key": "!actors.items!TriarchPraetoria.TPTrait300000000"
     },
     {
       "name": "Unshakeable Purpose",
       "type": "trait",
-      "_id": "TPTrait4",
+      "_id": "TPTrait400000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
@@ -507,12 +507,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!TriarchPraetorianL1.TPTrait4"
+      "_key": "!actors.items!TriarchPraetoria.TPTrait400000000"
     },
     {
       "name": "Rod of Covenant (Melee)",
       "type": "weapon",
-      "_id": "TPWeapon1",
+      "_id": "TPWeapon10000000",
       "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
       "system": {
         "notes": {
@@ -579,12 +579,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!TriarchPraetorianL1.TPWeapon1"
+      "_key": "!actors.items!TriarchPraetoria.TPWeapon10000000"
     },
     {
       "name": "Rod of Covenant (Ranged)",
       "type": "weapon",
-      "_id": "TPWeapon2",
+      "_id": "TPWeapon20000000",
       "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
       "system": {
         "notes": {
@@ -651,7 +651,7 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!TriarchPraetorianL1.TPWeapon2"
+      "_key": "!actors.items!TriarchPraetoria.TPWeapon20000000"
     }
   ]
 }

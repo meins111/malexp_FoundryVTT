@@ -2,7 +2,7 @@
   "folder": "NecronDynasty001",
   "name": "Flayed One",
   "type": "npc",
-  "_id": "FlayedOneElite0001",
+  "_id": "FlayedOneElite00",
   "img": "modules/impmal-core/assets/tokens/unknown.webp",
   "system": {
     "characteristics": {
@@ -235,16 +235,16 @@
     "systemId": "impmal",
     "systemVersion": "3.2.1"
   },
-  "_key": "!actors!FlayedOneElite0001",
+  "_key": "!actors!FlayedOneElite00",
   "items": [
     {
       "name": "Living Metal (3)",
       "type": "trait",
-      "_id": "FOTrait1",
+      "_id": "FOTrait100000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>At the start of the Flayed One's turn, it regains 3 Wounds. It is immune to the Bleeding, Fatigued, Frightened, and Poisoned Conditions. Additionally, it has no soul and cannot be detected by abilities such as Soulsight.</p>"
         },
         "attack": {
@@ -304,12 +304,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!FlayedOneElite0001.FOTrait1"
+      "_key": "!actors.items!FlayedOneElite00.FOTrait100000000"
     },
     {
       "name": "Phase Out",
       "type": "trait",
-      "_id": "FOTrait2",
+      "_id": "FOTrait200000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
@@ -365,16 +365,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!FlayedOneElite0001.FOTrait2"
+      "_key": "!actors.items!FlayedOneElite00.FOTrait200000000"
     },
     {
       "name": "Reanimation Protocols (7+)",
       "type": "trait",
-      "_id": "FOTrait3",
+      "_id": "FOTrait300000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>When the Flayed One would die or be rendered Unconscious, roll 1d10. On a 7 or higher, it does not die or become Unconscious and gains wounds equal to the result.</p>"
         },
         "attack": {
@@ -434,12 +434,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!FlayedOneElite0001.FOTrait3"
+      "_key": "!actors.items!FlayedOneElite00.FOTrait300000000"
     },
     {
       "name": "Flensing Claws",
       "type": "trait",
-      "_id": "FOTrait4",
+      "_id": "FOTrait400000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
@@ -495,16 +495,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!FlayedOneElite0001.FOTrait4"
+      "_key": "!actors.items!FlayedOneElite00.FOTrait400000000"
     },
     {
       "name": "Terrifying Foes",
       "type": "trait",
-      "_id": "FOTrait5",
+      "_id": "FOTrait500000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The first time a creature suffers wounds from an attack by the Flayed One, they must make a Difficult (-10) Discipline (Fear) Test or become Frightened. If all members of the party become Frightened this way, they lose 1 Superiority.</p>"
         },
         "attack": {
@@ -556,12 +556,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!FlayedOneElite0001.FOTrait5"
+      "_key": "!actors.items!FlayedOneElite00.FOTrait500000000"
     },
     {
       "name": "Flayer Claws",
       "type": "weapon",
-      "_id": "FOWeapon1",
+      "_id": "FOWeapon10000000",
       "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
       "system": {
         "notes": {
@@ -632,7 +632,7 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!FlayedOneElite0001.FOWeapon1"
+      "_key": "!actors.items!FlayedOneElite00.FOWeapon10000000"
     }
   ]
 }

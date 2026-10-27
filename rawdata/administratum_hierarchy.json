@@ -1,0 +1,25 @@
+{
+  "title": "Adeptus Administratum Hierarchy",
+  "source": "Administratum Hierarchy.docx",
+  "levels": [
+    "Subordinates",
+    "Menials",
+    "Ciphers",
+    "Curators",
+    "Ordinates",
+    "Masters",
+    "Prefects",
+    "Master Logisticar",
+    "Master of the Administratum"
+  ],
+  "roles": [
+    "Archivist",
+    "Scrivener",
+    "Scribe",
+    "Inditor",
+    "Scholar",
+    "Lexographer",
+    "Comptroller"
+  ],
+  "notes": "Administrative hierarchy and possible placement of records, messengers, scholars, and officials."
+}

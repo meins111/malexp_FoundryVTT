@@ -2,7 +2,7 @@
   "folder": "SkitariiForce001",
   "name": "Sydonian Skatros",
   "type": "npc",
-  "_id": "SydonianSkatrosElt",
+  "_id": "SydonianSkatrosE",
   "img": "modules/impmal-core/assets/tokens/unknown.webp",
   "system": {
     "characteristics": {
@@ -235,16 +235,16 @@
     "systemId": "impmal",
     "systemVersion": "3.2.1"
   },
-  "_key": "!actors!SydonianSkatrosElt",
+  "_key": "!actors!SydonianSkatrosE",
   "items": [
     {
       "name": "Heavily Augmented",
       "type": "trait",
-      "_id": "SST1",
+      "_id": "SST1000000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Skitarii has Augmetic Arms, Augmetic Legs, an Augmetic Heart, an Augmetic Respiratory System, and Augmetic Sensory Organs. The benefits of these augmetics are already included.</p>"
         },
         "attack": {
@@ -296,16 +296,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SydonianSkatrosElt.SST1"
+      "_key": "!actors.items!SydonianSkatrosE.SST1000000000000"
     },
     {
       "name": "Augmetic Heart",
       "type": "trait",
-      "_id": "SST2",
+      "_id": "SST2000000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>As an Action, the Skitarii makes a Challenging (+0) Fortitude Test. If they are successful, they remove a Bleeding Condition from themself.</p>"
         },
         "attack": {
@@ -357,16 +357,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SydonianSkatrosElt.SST2"
+      "_key": "!actors.items!SydonianSkatrosE.SST2000000000000"
     },
     {
       "name": "Augmetic Respiratory System",
       "type": "trait",
-      "_id": "SST3",
+      "_id": "SST3000000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Skitarii gains +2 SL to Fortitude Tests to resist the effects of airborne toxins and poisonous gases.</p>"
         },
         "attack": {
@@ -418,16 +418,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SydonianSkatrosElt.SST3"
+      "_key": "!actors.items!SydonianSkatrosE.SST3000000000000"
     },
     {
       "name": "Aquillan Eye",
       "type": "trait",
-      "_id": "SST4",
+      "_id": "SST4000000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Skitarii does not suffer penalties on Target a Location (pg. 210 CRB) actions when making a Ranged Attack.</p>"
         },
         "attack": {
@@ -479,12 +479,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SydonianSkatrosElt.SST4"
+      "_key": "!actors.items!SydonianSkatrosE.SST4000000000000"
     },
     {
       "name": "Transuranic Arquebus",
       "type": "weapon",
-      "_id": "SSW1",
+      "_id": "SSW1000000000000",
       "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
       "system": {
         "notes": {
@@ -561,7 +561,7 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SydonianSkatrosElt.SSW1"
+      "_key": "!actors.items!SydonianSkatrosE.SSW1000000000000"
     }
   ]
 }

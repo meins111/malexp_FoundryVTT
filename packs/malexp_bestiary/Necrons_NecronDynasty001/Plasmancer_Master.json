@@ -2,7 +2,7 @@
   "folder": "NecronDynasty001",
   "name": "Plasmancer",
   "type": "npc",
-  "_id": "PlasmancerMaster01",
+  "_id": "PlasmancerMaster",
   "img": "modules/impmal-core/assets/tokens/unknown.webp",
   "system": {
     "characteristics": {
@@ -247,16 +247,16 @@
     "systemId": "impmal",
     "systemVersion": "3.2.1"
   },
-  "_key": "!actors!PlasmancerMaster01",
+  "_key": "!actors!PlasmancerMaster",
   "items": [
     {
       "name": "Living Metal (4)",
       "type": "trait",
-      "_id": "PLTrait1",
+      "_id": "PLTrait100000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>At the start of the Plasmancer's turn, it regains 4 Wounds. It is immune to the Bleeding, Fatigued, Frightened, and Poisoned Conditions. Additionally, it has no soul and cannot be detected by abilities such as Soulsight.</p>"
         },
         "attack": {
@@ -316,12 +316,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!PlasmancerMaster01.PLTrait1"
+      "_key": "!actors.items!PlasmancerMaster.PLTrait100000000"
     },
     {
       "name": "Phase Out",
       "type": "trait",
-      "_id": "PLTrait2",
+      "_id": "PLTrait200000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
@@ -377,16 +377,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!PlasmancerMaster01.PLTrait2"
+      "_key": "!actors.items!PlasmancerMaster.PLTrait200000000"
     },
     {
       "name": "Reanimation Protocols (7+)",
       "type": "trait",
-      "_id": "PLTrait3",
+      "_id": "PLTrait300000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>When the Plasmancer would die or be rendered Unconscious, roll 1d10. On a 7 or higher, it does not die or become Unconscious and gains wounds equal to the result.</p>"
         },
         "attack": {
@@ -446,12 +446,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!PlasmancerMaster01.PLTrait3"
+      "_key": "!actors.items!PlasmancerMaster.PLTrait300000000"
     },
     {
       "name": "Harbinger of Destruction",
       "type": "trait",
-      "_id": "PLTrait4",
+      "_id": "PLTrait400000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
@@ -507,16 +507,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!PlasmancerMaster01.PLTrait4"
+      "_key": "!actors.items!PlasmancerMaster.PLTrait400000000"
     },
     {
       "name": "Living Lightning",
       "type": "trait",
-      "_id": "PLTrait5",
+      "_id": "PLTrait500000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>Once per Round, the first time the Plasmancer enters into Immediate Range with a hostile creature (or vice versa), they may spend a Reaction to immediately inflict 8 Damage to the target.</p>"
         },
         "attack": {
@@ -568,16 +568,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!PlasmancerMaster01.PLTrait5"
+      "_key": "!actors.items!PlasmancerMaster.PLTrait500000000"
     },
     {
       "name": "Solar Pulse",
       "type": "trait",
-      "_id": "PLTrait6",
+      "_id": "PLTrait600000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>As an Action, the Plasmancer may ignite the Solar Pulse, forcing all non-Necron Characters within 1km to pass a Very Hard (-30) Fortitude (Endurance) Test or be Blinded for 1d5+1 rounds. Using it a second time requires a Very Hard (-30) Tech (Engineering) Test with Disadvantage to avoid draining the weapon. A third use drains the Eldritch Lance entirely.</p>"
         },
         "attack": {
@@ -629,12 +629,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!PlasmancerMaster01.PLTrait6"
+      "_key": "!actors.items!PlasmancerMaster.PLTrait600000000"
     },
     {
       "name": "Eldritch Lance (Ranged)",
       "type": "weapon",
-      "_id": "PLWeapon1",
+      "_id": "PLWeapon10000000",
       "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
       "system": {
         "notes": {
@@ -700,12 +700,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!PlasmancerMaster01.PLWeapon1"
+      "_key": "!actors.items!PlasmancerMaster.PLWeapon10000000"
     },
     {
       "name": "Eldritch Lance (Melee)",
       "type": "weapon",
-      "_id": "PLWeapon2",
+      "_id": "PLWeapon20000000",
       "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
       "system": {
         "notes": {
@@ -771,7 +771,7 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!PlasmancerMaster01.PLWeapon2"
+      "_key": "!actors.items!PlasmancerMaster.PLWeapon20000000"
     }
   ]
 }

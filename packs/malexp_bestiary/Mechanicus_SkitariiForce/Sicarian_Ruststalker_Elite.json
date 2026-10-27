@@ -2,7 +2,7 @@
   "folder": "SkitariiForce001",
   "name": "Sicarian Ruststalker",
   "type": "npc",
-  "_id": "SicarianRustsElite",
+  "_id": "SicarianRustsEli",
   "img": "modules/impmal-core/assets/tokens/unknown.webp",
   "system": {
     "characteristics": {
@@ -235,16 +235,16 @@
     "systemId": "impmal",
     "systemVersion": "3.2.1"
   },
-  "_key": "!actors!SicarianRustsElite",
+  "_key": "!actors!SicarianRustsEli",
   "items": [
     {
       "name": "Heavily Augmented",
       "type": "trait",
-      "_id": "SRsT1",
+      "_id": "SRsT100000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Skitarii has Augmetic Arms, Augmetic Legs, an Augmetic Heart, an Augmetic Respiratory System, and Augmetic Sensory Organs. The benefits of these augmetics are already included.</p>"
         },
         "attack": {
@@ -296,16 +296,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SicarianRustsElite.SRsT1"
+      "_key": "!actors.items!SicarianRustsEli.SRsT100000000000"
     },
     {
       "name": "Augmetic Heart",
       "type": "trait",
-      "_id": "SRsT2",
+      "_id": "SRsT200000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>As an Action, the Skitarii makes a Challenging (+0) Fortitude Test. If they are successful, they remove a Bleeding Condition from themself.</p>"
         },
         "attack": {
@@ -357,16 +357,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SicarianRustsElite.SRsT2"
+      "_key": "!actors.items!SicarianRustsEli.SRsT200000000000"
     },
     {
       "name": "Augmetic Respiratory System",
       "type": "trait",
-      "_id": "SRsT3",
+      "_id": "SRsT300000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Skitarii gains +2 SL to Fortitude Tests to resist the effects of airborne toxins and poisonous gases.</p>"
         },
         "attack": {
@@ -418,12 +418,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SicarianRustsElite.SRsT3"
+      "_key": "!actors.items!SicarianRustsEli.SRsT300000000000"
     },
     {
       "name": "Transonic Blade (x2)",
       "type": "weapon",
-      "_id": "SRsW1",
+      "_id": "SRsW100000000000",
       "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
       "system": {
         "notes": {
@@ -493,7 +493,7 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SicarianRustsElite.SRsW1"
+      "_key": "!actors.items!SicarianRustsEli.SRsW100000000000"
     }
   ]
 }

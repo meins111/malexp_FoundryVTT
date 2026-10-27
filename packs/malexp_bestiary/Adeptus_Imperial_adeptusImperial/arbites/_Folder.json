@@ -1,0 +1,20 @@
+{
+  "type": "Actor",
+  "folder": "adeptusFolder060",
+  "name": "Arbites",
+  "color": null,
+  "sorting": "a",
+  "_id": "adeptusFolder020",
+  "description": "",
+  "sort": 921002,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "impmal",
+    "systemVersion": "3.2.1"
+  },
+  "_key": "!folders!adeptusFolder020"
+}

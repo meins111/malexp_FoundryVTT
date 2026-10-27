@@ -2,7 +2,7 @@
   "folder": "NecronDynasty001",
   "name": "Necron Immortal",
   "type": "npc",
-  "_id": "NecronImmortalElit1",
+  "_id": "NecronImmortalEl",
   "img": "modules/impmal-core/assets/tokens/unknown.webp",
   "system": {
     "characteristics": {
@@ -235,16 +235,16 @@
     "systemId": "impmal",
     "systemVersion": "3.2.1"
   },
-  "_key": "!actors!NecronImmortalElit1",
+  "_key": "!actors!NecronImmortalEl",
   "items": [
     {
       "name": "Living Metal (3)",
       "type": "trait",
-      "_id": "NITrait1",
+      "_id": "NITrait100000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>At the start of the Necron Immortal's turn, it regains 3 Wounds. It is immune to the Bleeding, Fatigued, Frightened, and Poisoned Conditions. Additionally, it has no soul and cannot be detected by abilities such as Soulsight.</p>"
         },
         "attack": {
@@ -304,12 +304,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!NecronImmortalElit1.NITrait1"
+      "_key": "!actors.items!NecronImmortalEl.NITrait100000000"
     },
     {
       "name": "Phase Out",
       "type": "trait",
-      "_id": "NITrait2",
+      "_id": "NITrait200000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
@@ -365,16 +365,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!NecronImmortalElit1.NITrait2"
+      "_key": "!actors.items!NecronImmortalEl.NITrait200000000"
     },
     {
       "name": "Reanimation Protocols (7+)",
       "type": "trait",
-      "_id": "NITrait3",
+      "_id": "NITrait300000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>When the Necron Immortal would die or be rendered Unconscious, roll 1d10. On a 7 or higher, it does not die or become Unconscious and gains wounds equal to the result.</p>"
         },
         "attack": {
@@ -434,12 +434,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!NecronImmortalElit1.NITrait3"
+      "_key": "!actors.items!NecronImmortalEl.NITrait300000000"
     },
     {
       "name": "Eternal Veteran",
       "type": "trait",
-      "_id": "NITrait4",
+      "_id": "NITrait400000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
@@ -495,12 +495,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!NecronImmortalElit1.NITrait4"
+      "_key": "!actors.items!NecronImmortalEl.NITrait400000000"
     },
     {
       "name": "Gauss Blaster",
       "type": "weapon",
-      "_id": "NIWeapon1",
+      "_id": "NIWeapon10000000",
       "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
       "system": {
         "notes": {
@@ -576,12 +576,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!NecronImmortalElit1.NIWeapon1"
+      "_key": "!actors.items!NecronImmortalEl.NIWeapon10000000"
     },
     {
       "name": "Tesla Carbine",
       "type": "weapon",
-      "_id": "NIWeapon2",
+      "_id": "NIWeapon20000000",
       "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
       "system": {
         "notes": {
@@ -657,7 +657,7 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!NecronImmortalElit1.NIWeapon2"
+      "_key": "!actors.items!NecronImmortalEl.NIWeapon20000000"
     }
   ]
 }

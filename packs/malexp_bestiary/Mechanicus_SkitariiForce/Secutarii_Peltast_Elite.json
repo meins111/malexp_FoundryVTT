@@ -2,7 +2,7 @@
   "folder": "SkitariiForce001",
   "name": "Secutarii Peltast",
   "type": "npc",
-  "_id": "SecutariiPeltastE1",
+  "_id": "SecutariiPeltast",
   "img": "modules/impmal-core/assets/tokens/unknown.webp",
   "system": {
     "characteristics": {
@@ -235,16 +235,16 @@
     "systemId": "impmal",
     "systemVersion": "3.2.1"
   },
-  "_key": "!actors!SecutariiPeltastE1",
+  "_key": "!actors!SecutariiPeltast",
   "items": [
     {
       "name": "Heavily Augmented",
       "type": "trait",
-      "_id": "SPeT1",
+      "_id": "SPeT100000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Skitarii has Augmetic Arms, Augmetic Legs, an Augmetic Heart, an Augmetic Respiratory System, and Augmetic Sensory Organs. The benefits of these augmetics are already included.</p>"
         },
         "attack": {
@@ -296,16 +296,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SecutariiPeltastE1.SPeT1"
+      "_key": "!actors.items!SecutariiPeltast.SPeT100000000000"
     },
     {
       "name": "Augmetic Heart",
       "type": "trait",
-      "_id": "SPeT2",
+      "_id": "SPeT200000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>As an Action, the Skitarii makes a Challenging (+0) Fortitude Test. If they are successful, they remove a Bleeding Condition from themself.</p>"
         },
         "attack": {
@@ -357,16 +357,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SecutariiPeltastE1.SPeT2"
+      "_key": "!actors.items!SecutariiPeltast.SPeT200000000000"
     },
     {
       "name": "Augmetic Respiratory System",
       "type": "trait",
-      "_id": "SPeT3",
+      "_id": "SPeT300000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Skitarii gains +2 SL to Fortitude Tests to resist the effects of airborne toxins and poisonous gases.</p>"
         },
         "attack": {
@@ -418,16 +418,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SecutariiPeltastE1.SPeT3"
+      "_key": "!actors.items!SecutariiPeltast.SPeT300000000000"
     },
     {
       "name": "Kyropatris Field Generator",
       "type": "trait",
-      "_id": "SPeT4",
+      "_id": "SPeT400000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>As long as the Secutarii is within Short Range of at least two other Secutarii with Kyropatris Field Generators, raise the Overload quality of their generators by 10.</p>"
         },
         "attack": {
@@ -479,16 +479,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SecutariiPeltastE1.SPeT4"
+      "_key": "!actors.items!SecutariiPeltast.SPeT400000000000"
     },
     {
       "name": "Titanguard",
       "type": "trait",
-      "_id": "SPeT5",
+      "_id": "SPeT500000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>As long as the Titan the Secutarii is attending to is still functional and has not been destroyed, they can never choose to Flee or Retreat.</p>"
         },
         "attack": {
@@ -540,16 +540,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SecutariiPeltastE1.SPeT5"
+      "_key": "!actors.items!SecutariiPeltast.SPeT500000000000"
     },
     {
       "name": "Blind Barrage",
       "type": "trait",
-      "_id": "SPeT6",
+      "_id": "SPeT600000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>Instead of making a Ranged Attack, the Secutarii Peltast may load their Galvanic Caster with Blind canister shot and fire at an allied position. Their zone counts as being Obscured for three rounds. This duration can be increased or shortened depending on ventilation.</p>"
         },
         "attack": {
@@ -601,12 +601,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SecutariiPeltastE1.SPeT6"
+      "_key": "!actors.items!SecutariiPeltast.SPeT600000000000"
     },
     {
       "name": "Galvanic Caster",
       "type": "weapon",
-      "_id": "SPeW1",
+      "_id": "SPeW100000000000",
       "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
       "system": {
         "notes": {
@@ -683,7 +683,7 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SecutariiPeltastE1.SPeW1"
+      "_key": "!actors.items!SecutariiPeltast.SPeW100000000000"
     }
   ]
 }

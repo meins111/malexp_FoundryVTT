@@ -245,7 +245,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>During a Surprise Round, if the Purestrain Genestealer managed to Surprise the enemy, they may attack twice with their Claws and Talons against a single target.</p>"
         },
         "attack": {
@@ -306,7 +306,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>If the Purestrain Genestealer has Grappled an enemy, they may make an Opposed Challenging (+0) Discipline Test against the victim. If the Genestealer succeeds, the victim swaps their faction to Genestealer Cults. If the victim has any Discipline or Psychic Mastery Advances, the Genestealer makes the test at Hard (-20) instead.</p>"
         },
         "attack": {
@@ -367,7 +367,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Purestrain Genestealer has +1 Resolve when connected to the Tyranid Hive Mind.</p>"
         },
         "attack": {
@@ -428,7 +428,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>When in Combat, the Cultist has a pool of 3 Resurgence Points. They may spend 1 Resurgence Point to gain +1SL on an Attack Test, 2 Resurgence Points to gain Advantage on any Test, or 3 Resurgence Points to reroll any Attack Test. The Cultist cannot regain the number of Resurgence Points they have spent, and can only spend Resurgence Points once per turn. If the Cultist has not spent any Resurgence Points by the time they die or are defeated, they can all be spent to revive themselves at the start of the next Round at half Wounds in a zone within Medium Range as long as it is not occupied by enemies.</p>"
         },
         "attack": {

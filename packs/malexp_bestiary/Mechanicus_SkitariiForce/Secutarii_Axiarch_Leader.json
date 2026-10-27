@@ -2,7 +2,7 @@
   "folder": "SkitariiForce001",
   "name": "Secutarii Axiarch",
   "type": "npc",
-  "_id": "SecutariiAxiarchL1",
+  "_id": "SecutariiAxiarch",
   "img": "modules/impmal-core/assets/tokens/unknown.webp",
   "system": {
     "characteristics": {
@@ -235,16 +235,16 @@
     "systemId": "impmal",
     "systemVersion": "3.2.1"
   },
-  "_key": "!actors!SecutariiAxiarchL1",
+  "_key": "!actors!SecutariiAxiarch",
   "items": [
     {
       "name": "Heavily Augmented",
       "type": "trait",
-      "_id": "SAaT1",
+      "_id": "SAaT100000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Skitarii has Augmetic Arms, Augmetic Legs, an Augmetic Heart, an Augmetic Respiratory System, and Augmetic Sensory Organs. The benefits of these augmetics are already included.</p>"
         },
         "attack": {
@@ -296,16 +296,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SecutariiAxiarchL1.SAaT1"
+      "_key": "!actors.items!SecutariiAxiarch.SAaT100000000000"
     },
     {
       "name": "Augmetic Heart",
       "type": "trait",
-      "_id": "SAaT2",
+      "_id": "SAaT200000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>As an Action, the Skitarii makes a Challenging (+0) Fortitude Test. If they are successful, they remove a Bleeding Condition from themself.</p>"
         },
         "attack": {
@@ -357,16 +357,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SecutariiAxiarchL1.SAaT2"
+      "_key": "!actors.items!SecutariiAxiarch.SAaT200000000000"
     },
     {
       "name": "Augmetic Respiratory System",
       "type": "trait",
-      "_id": "SAaT3",
+      "_id": "SAaT300000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Skitarii gains +2 SL to Fortitude Tests to resist the effects of airborne toxins and poisonous gases.</p>"
         },
         "attack": {
@@ -418,16 +418,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SecutariiAxiarchL1.SAaT3"
+      "_key": "!actors.items!SecutariiAxiarch.SAaT300000000000"
     },
     {
       "name": "Kyropatris Field Generator",
       "type": "trait",
-      "_id": "SAaT4",
+      "_id": "SAaT400000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>As long as the Secutarii is within Short Range of at least two other Secutarii with Kyropatris Field Generators, raise the Overload quality of their generators by 10.</p>"
         },
         "attack": {
@@ -479,16 +479,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SecutariiAxiarchL1.SAaT4"
+      "_key": "!actors.items!SecutariiAxiarch.SAaT400000000000"
     },
     {
       "name": "Titanguard",
       "type": "trait",
-      "_id": "SAaT5",
+      "_id": "SAaT500000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>As long as the Titan the Secutarii is attending to is still functional and has not been destroyed, they can never choose to Flee or Retreat.</p>"
         },
         "attack": {
@@ -540,16 +540,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SecutariiAxiarchL1.SAaT5"
+      "_key": "!actors.items!SecutariiAxiarch.SAaT500000000000"
     },
     {
       "name": "Control Edicts",
       "type": "trait",
-      "_id": "SAaT6",
+      "_id": "SAaT600000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>Once per round, as an Action, the Axiarch may choose a number of Titan Legions characters within Medium Range equal to its Intelligence Bonus. Choose one: selected characters may act immediately, may reroll one Attack roll, or can ignore Difficult Terrain for one round. Alternatively, summon 1d5+2 Secutarii as ambush (Hard Awareness test to detect), reducing Superiority by 1 if undetected.</p>"
         },
         "attack": {
@@ -601,16 +601,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SecutariiAxiarchL1.SAaT6"
+      "_key": "!actors.items!SecutariiAxiarch.SAaT600000000000"
     },
     {
       "name": "Noosphere Uplink",
       "type": "trait",
-      "_id": "SAaT7",
+      "_id": "SAaT700000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>Once per Encounter, as an action, the Axiarch may choose a number of Titan Legions characters within Medium Range that are Frightened or Desperate and remove these conditions from them.</p>"
         },
         "attack": {
@@ -662,12 +662,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SecutariiAxiarchL1.SAaT7"
+      "_key": "!actors.items!SecutariiAxiarch.SAaT700000000000"
     },
     {
       "name": "Radium Pistol",
       "type": "weapon",
-      "_id": "SAaW1",
+      "_id": "SAaW100000000000",
       "img": "modules/impmal-core/assets/icons/weapons/pistol.webp",
       "system": {
         "notes": {
@@ -740,12 +740,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SecutariiAxiarchL1.SAaW1"
+      "_key": "!actors.items!SecutariiAxiarch.SAaW100000000000"
     },
     {
       "name": "Power Sword",
       "type": "weapon",
-      "_id": "SAaW2",
+      "_id": "SAaW200000000000",
       "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
       "system": {
         "notes": {
@@ -812,7 +812,7 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SecutariiAxiarchL1.SAaW2"
+      "_key": "!actors.items!SecutariiAxiarch.SAaW200000000000"
     }
   ]
 }

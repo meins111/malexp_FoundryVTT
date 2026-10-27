@@ -2,7 +2,7 @@
   "folder": "SkitariiForce001",
   "name": "Skitarii Alpha",
   "type": "npc",
-  "_id": "SkitariiAlphaEl01",
+  "_id": "SkitariiAlphaEl0",
   "img": "modules/impmal-core/assets/tokens/unknown.webp",
   "system": {
     "characteristics": {
@@ -235,16 +235,16 @@
     "systemId": "impmal",
     "systemVersion": "3.2.1"
   },
-  "_key": "!actors!SkitariiAlphaEl01",
+  "_key": "!actors!SkitariiAlphaEl0",
   "items": [
     {
       "name": "Heavily Augmented",
       "type": "trait",
-      "_id": "SAT1",
+      "_id": "SAT1000000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Skitarii has Augmetic Arms, Augmetic Legs, an Augmetic Heart, an Augmetic Respiratory System, and Augmetic Sensory Organs. The benefits of these augmetics are already included.</p>"
         },
         "attack": {
@@ -296,16 +296,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SkitariiAlphaEl01.SAT1"
+      "_key": "!actors.items!SkitariiAlphaEl0.SAT1000000000000"
     },
     {
       "name": "Augmetic Heart",
       "type": "trait",
-      "_id": "SAT2",
+      "_id": "SAT2000000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>As an Action, the Skitarii makes a Challenging (+0) Fortitude Test. If they are successful, they remove a Bleeding Condition from themself.</p>"
         },
         "attack": {
@@ -357,16 +357,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SkitariiAlphaEl01.SAT2"
+      "_key": "!actors.items!SkitariiAlphaEl0.SAT2000000000000"
     },
     {
       "name": "Augmetic Respiratory System",
       "type": "trait",
-      "_id": "SAT3",
+      "_id": "SAT3000000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Skitarii gains +2 SL to Fortitude Tests to resist the effects of airborne toxins and poisonous gases.</p>"
         },
         "attack": {
@@ -418,12 +418,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SkitariiAlphaEl01.SAT3"
+      "_key": "!actors.items!SkitariiAlphaEl0.SAT3000000000000"
     },
     {
       "name": "Phosphor Blast Pistol",
       "type": "weapon",
-      "_id": "SAW1",
+      "_id": "SAW1000000000000",
       "img": "modules/impmal-core/assets/icons/weapons/pistol.webp",
       "system": {
         "notes": {
@@ -489,12 +489,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SkitariiAlphaEl01.SAW1"
+      "_key": "!actors.items!SkitariiAlphaEl0.SAW1000000000000"
     },
     {
       "name": "Power Sword",
       "type": "weapon",
-      "_id": "SAW2",
+      "_id": "SAW2000000000000",
       "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
       "system": {
         "notes": {
@@ -561,7 +561,7 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SkitariiAlphaEl01.SAW2"
+      "_key": "!actors.items!SkitariiAlphaEl0.SAW2000000000000"
     }
   ]
 }

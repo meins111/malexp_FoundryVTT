@@ -245,7 +245,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Dire Avenger has +1SL on Ranged Tests.</p>"
         },
         "attack": {
@@ -306,7 +306,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Aeldari may use Psyniscience. The Aeldari has Disadvantage on any Tests made to resist Psychic Powers.</p>"
         },
         "attack": {
@@ -367,7 +367,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Dire Avenger may still make regular Ranged attacks while maintaining Overwatch as long as it is in Cover.</p>"
         },
         "attack": {

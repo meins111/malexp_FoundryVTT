@@ -245,7 +245,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>Beastmen gain +2SL to Presence (Interrogation) and (Intimidation) Tests when facing down an enemy, but suffer a -2SL penalty to Fellowship tests against someone that would be disturbed by their sight, as determined by the GM.</p>"
         },
         "attack": {
@@ -306,7 +306,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>Whenever a Beastman fails a Discipline Test, they may choose to suffer 1d10 damage that ignores Armour to automatically pass the Test.</p>"
         },
         "attack": {
@@ -367,7 +367,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Beastman has a Witch-mark, as described in the Core Rulebook.</p>"
         },
         "attack": {

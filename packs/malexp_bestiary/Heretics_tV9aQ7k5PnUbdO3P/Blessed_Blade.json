@@ -245,7 +245,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>Whenever a Blessed Blade fails a Discipline Test, they may choose to suffer 1d10 damage that ignores Armour to automatically pass the Test.</p>"
         },
         "attack": {
@@ -306,7 +306,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>When within Medium Range of a Heretic Leader (or higher) character, the Blessed Blade may spend their Reaction to immediately move to Defend (IM CRB pg. 207) the Leader. If doing so were to cause the Blessed Blade to break Engagement (IM CRB pg. 212), their opponents have Disadvantage on their melee attack. If the Blessed Blade successfully defends the Leader, the character may then immediately Run as an immediate Free Action, counting as having Disengaged if necessary.</p>"
         },
         "attack": {
@@ -367,7 +367,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>It is impossible to Seduce a Blessed Blade, and attempts to Charm or Intimidate them have their difficulty increased by one level. As proof of their loyalty, Blessed Blades are incapable of speaking (either by ritual or other methods). As long as there is a Leader (or Higher) level Heretic or Chaos Character within the Combat, the Blessed Blade can never become Desperate. (Resolve is listed as 'Special' in the source and is set to 0 here for lack of an automatable value.)</p>"
         },
         "attack": {
@@ -428,7 +428,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>This character bears a Witch-mark, a physical sign of corruption by the Ruinous Powers (see Core Rulebook, Witch-marks, pg. 344).</p>"
         },
         "attack": {

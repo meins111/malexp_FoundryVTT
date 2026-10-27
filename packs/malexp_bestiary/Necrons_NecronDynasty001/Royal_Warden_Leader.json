@@ -2,7 +2,7 @@
   "folder": "NecronDynasty001",
   "name": "Royal Warden",
   "type": "npc",
-  "_id": "RoyalWardenLeader1",
+  "_id": "RoyalWardenLeade",
   "img": "modules/impmal-core/assets/tokens/unknown.webp",
   "system": {
     "characteristics": {
@@ -235,16 +235,16 @@
     "systemId": "impmal",
     "systemVersion": "3.2.1"
   },
-  "_key": "!actors!RoyalWardenLeader1",
+  "_key": "!actors!RoyalWardenLeade",
   "items": [
     {
       "name": "Living Metal (4)",
       "type": "trait",
-      "_id": "RWTrait1",
+      "_id": "RWTrait100000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>At the start of the Royal Warden's turn, it regains 4 Wounds. It is immune to the Bleeding, Fatigued, Frightened, and Poisoned Conditions. Additionally, it has no soul and cannot be detected by abilities such as Soulsight.</p>"
         },
         "attack": {
@@ -304,12 +304,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!RoyalWardenLeader1.RWTrait1"
+      "_key": "!actors.items!RoyalWardenLeade.RWTrait100000000"
     },
     {
       "name": "Phase Out",
       "type": "trait",
-      "_id": "RWTrait2",
+      "_id": "RWTrait200000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
@@ -365,16 +365,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!RoyalWardenLeader1.RWTrait2"
+      "_key": "!actors.items!RoyalWardenLeade.RWTrait200000000"
     },
     {
       "name": "Reanimation Protocols (7+)",
       "type": "trait",
-      "_id": "RWTrait3",
+      "_id": "RWTrait300000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>When the Royal Warden would die or be rendered Unconscious, roll 1d10. On a 7 or higher, it does not die or become Unconscious and gains wounds equal to the result.</p>"
         },
         "attack": {
@@ -434,12 +434,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!RoyalWardenLeader1.RWTrait3"
+      "_key": "!actors.items!RoyalWardenLeade.RWTrait300000000"
     },
     {
       "name": "Adaptive Strategy",
       "type": "trait",
-      "_id": "RWTrait4",
+      "_id": "RWTrait400000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
@@ -495,12 +495,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!RoyalWardenLeader1.RWTrait4"
+      "_key": "!actors.items!RoyalWardenLeade.RWTrait400000000"
     },
     {
       "name": "Engrammatic Logic",
       "type": "trait",
-      "_id": "RWTrait5",
+      "_id": "RWTrait500000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
@@ -556,12 +556,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!RoyalWardenLeader1.RWTrait5"
+      "_key": "!actors.items!RoyalWardenLeade.RWTrait500000000"
     },
     {
       "name": "Varguard",
       "type": "trait",
-      "_id": "RWTrait6",
+      "_id": "RWTrait600000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
@@ -617,12 +617,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!RoyalWardenLeader1.RWTrait6"
+      "_key": "!actors.items!RoyalWardenLeade.RWTrait600000000"
     },
     {
       "name": "Relic Gauss Blaster",
       "type": "weapon",
-      "_id": "RWWeapon1",
+      "_id": "RWWeapon10000000",
       "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
       "system": {
         "notes": {
@@ -698,7 +698,7 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!RoyalWardenLeader1.RWWeapon1"
+      "_key": "!actors.items!RoyalWardenLeade.RWWeapon10000000"
     }
   ]
 }

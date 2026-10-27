@@ -2,7 +2,7 @@
   "folder": "SkitariiForce001",
   "name": "Skitarii Ranger",
   "type": "npc",
-  "_id": "SkitariiRangerTrp1",
+  "_id": "SkitariiRangerTr",
   "img": "modules/impmal-core/assets/tokens/unknown.webp",
   "system": {
     "characteristics": {
@@ -235,16 +235,16 @@
     "systemId": "impmal",
     "systemVersion": "3.2.1"
   },
-  "_key": "!actors!SkitariiRangerTrp1",
+  "_key": "!actors!SkitariiRangerTr",
   "items": [
     {
       "name": "Heavily Augmented",
       "type": "trait",
-      "_id": "SRT1",
+      "_id": "SRT1000000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Skitarii has Augmetic Arms, Augmetic Legs, an Augmetic Heart, an Augmetic Respiratory System, and Augmetic Sensory Organs. The benefits of these augmetics are already included.</p>"
         },
         "attack": {
@@ -296,16 +296,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SkitariiRangerTrp1.SRT1"
+      "_key": "!actors.items!SkitariiRangerTr.SRT1000000000000"
     },
     {
       "name": "Augmetic Heart",
       "type": "trait",
-      "_id": "SRT2",
+      "_id": "SRT2000000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>As an Action, the Skitarii makes a Challenging (+0) Fortitude Test. If they are successful, they remove a Bleeding Condition from themself.</p>"
         },
         "attack": {
@@ -357,16 +357,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SkitariiRangerTrp1.SRT2"
+      "_key": "!actors.items!SkitariiRangerTr.SRT2000000000000"
     },
     {
       "name": "Augmetic Respiratory System",
       "type": "trait",
-      "_id": "SRT3",
+      "_id": "SRT3000000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Skitarii gains +2 SL to Fortitude Tests to resist the effects of airborne toxins and poisonous gases.</p>"
         },
         "attack": {
@@ -418,12 +418,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SkitariiRangerTrp1.SRT3"
+      "_key": "!actors.items!SkitariiRangerTr.SRT3000000000000"
     },
     {
       "name": "Galvanic Rifle",
       "type": "weapon",
-      "_id": "SRW1",
+      "_id": "SRW1000000000000",
       "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
       "system": {
         "notes": {
@@ -496,7 +496,7 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SkitariiRangerTrp1.SRW1"
+      "_key": "!actors.items!SkitariiRangerTr.SRW1000000000000"
     }
   ]
 }

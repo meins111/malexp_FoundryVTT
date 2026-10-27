@@ -2,7 +2,7 @@
   "folder": "NecronDynasty001",
   "name": "Necron Lord",
   "type": "npc",
-  "_id": "NecronLordLeader01",
+  "_id": "NecronLordLeader",
   "img": "modules/impmal-core/assets/tokens/unknown.webp",
   "system": {
     "characteristics": {
@@ -235,16 +235,16 @@
     "systemId": "impmal",
     "systemVersion": "3.2.1"
   },
-  "_key": "!actors!NecronLordLeader01",
+  "_key": "!actors!NecronLordLeader",
   "items": [
     {
       "name": "Living Metal (4)",
       "type": "trait",
-      "_id": "NLTrait1",
+      "_id": "NLTrait100000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>At the start of the Necron Lord's turn, it regains 4 Wounds. It is immune to the Bleeding, Fatigued, Frightened, and Poisoned Conditions. Additionally, it has no soul and cannot be detected by abilities such as Soulsight.</p>"
         },
         "attack": {
@@ -304,12 +304,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!NecronLordLeader01.NLTrait1"
+      "_key": "!actors.items!NecronLordLeader.NLTrait100000000"
     },
     {
       "name": "Phase Out",
       "type": "trait",
-      "_id": "NLTrait2",
+      "_id": "NLTrait200000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
@@ -365,16 +365,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!NecronLordLeader01.NLTrait2"
+      "_key": "!actors.items!NecronLordLeader.NLTrait200000000"
     },
     {
       "name": "Reanimation Protocols (7+)",
       "type": "trait",
-      "_id": "NLTrait3",
+      "_id": "NLTrait300000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>When the Necron Lord would die or be rendered Unconscious, roll 1d10. On a 7 or higher, it does not die or become Unconscious and gains wounds equal to the result.</p>"
         },
         "attack": {
@@ -434,12 +434,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!NecronLordLeader01.NLTrait3"
+      "_key": "!actors.items!NecronLordLeader.NLTrait300000000"
     },
     {
       "name": "Lord's Will",
       "type": "trait",
-      "_id": "NLTrait4",
+      "_id": "NLTrait400000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
@@ -495,12 +495,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!NecronLordLeader01.NLTrait4"
+      "_key": "!actors.items!NecronLordLeader.NLTrait400000000"
     },
     {
       "name": "Relentless March",
       "type": "trait",
-      "_id": "NLTrait5",
+      "_id": "NLTrait500000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
@@ -556,16 +556,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!NecronLordLeader01.NLTrait5"
+      "_key": "!actors.items!NecronLordLeader.NLTrait500000000"
     },
     {
       "name": "Resurrection Orb",
       "type": "trait",
-      "_id": "NLTrait6",
+      "_id": "NLTrait600000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>Once per Encounter, as a Reaction, the Necron Lord may cause a Necron ally within Long Range that has failed their Reanimation Protocol Test to pass it instead, healing half that ally's Wounds.</p>"
         },
         "attack": {
@@ -617,12 +617,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!NecronLordLeader01.NLTrait6"
+      "_key": "!actors.items!NecronLordLeader.NLTrait600000000"
     },
     {
       "name": "Staff of Light (Ranged)",
       "type": "weapon",
-      "_id": "NLWeapon1",
+      "_id": "NLWeapon10000000",
       "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
       "system": {
         "notes": {
@@ -692,12 +692,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!NecronLordLeader01.NLWeapon1"
+      "_key": "!actors.items!NecronLordLeader.NLWeapon10000000"
     },
     {
       "name": "Staff of Light (Melee)",
       "type": "weapon",
-      "_id": "NLWeapon2",
+      "_id": "NLWeapon20000000",
       "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
       "system": {
         "notes": {
@@ -767,7 +767,7 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!NecronLordLeader01.NLWeapon2"
+      "_key": "!actors.items!NecronLordLeader.NLWeapon20000000"
     }
   ]
 }

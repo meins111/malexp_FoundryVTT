@@ -1,0 +1,20 @@
+{
+  "type": "Actor",
+  "folder": "adeptusFolder060",
+  "name": "Administratum",
+  "color": null,
+  "sorting": "a",
+  "_id": "adeptusFolder010",
+  "description": "",
+  "sort": 921001,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "impmal",
+    "systemVersion": "3.2.1"
+  },
+  "_key": "!folders!adeptusFolder010"
+}

@@ -2,7 +2,7 @@
   "folder": "NecronDynasty001",
   "name": "Necron Warrior",
   "type": "npc",
-  "_id": "NecronWarriorElite1",
+  "_id": "NecronWarriorEli",
   "img": "modules/impmal-core/assets/tokens/unknown.webp",
   "system": {
     "characteristics": {
@@ -225,11 +225,11 @@
     {
       "name": "Living Metal (2)",
       "type": "trait",
-      "_id": "NWTrait1LivingMetal",
+      "_id": "NWTrait1LivingMe",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>At the start of the Necron Warrior's turn, it regains 2 Wounds. It is immune to the Bleeding, Fatigued, Frightened, and Poisoned Conditions. Additionally, it has no soul and cannot be detected by abilities such as Soulsight.</p>"
         },
         "attack": {
@@ -289,7 +289,7 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!NecronWarriorElite1.NWTrait1LivingMetal"
+      "_key": "!actors.items!NecronWarriorEli.NWTrait1LivingMe"
     },
     {
       "name": "Phase Out",
@@ -298,7 +298,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>When the Necron Warrior becomes Desperate, it teleports itself back to the nearest tomb world. It also attempts to do this when it is about to Die. The Necron Warrior only counts as being Defeated if it uses Phase Out or dies without using it.</p>"
         },
         "attack": {
@@ -350,16 +350,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!NecronWarriorElite1.NWTrait2PhaseOut"
+      "_key": "!actors.items!NecronWarriorEli.NWTrait2PhaseOut"
     },
     {
       "name": "Reanimation Protocols (7+)",
       "type": "trait",
-      "_id": "NWTrait3Reanimation",
+      "_id": "NWTrait3Reanimat",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>When the Necron Warrior would die or be rendered Unconscious, roll 1d10. On a 7 or higher, it does not die or become Unconscious and gains wounds equal to the result.</p>"
         },
         "attack": {
@@ -419,16 +419,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!NecronWarriorElite1.NWTrait3Reanimation"
+      "_key": "!actors.items!NecronWarriorEli.NWTrait3Reanimat"
     },
     {
       "name": "Their Number is Legion",
       "type": "trait",
-      "_id": "NWTrait4Legion",
+      "_id": "NWTrait4Legion00",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>As long as the Necron Warrior is in the same zone of at least one other Necron Warrior, they may re-roll their Reanimation Protocols test once per Round.</p>"
         },
         "attack": {
@@ -480,12 +480,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!NecronWarriorElite1.NWTrait4Legion"
+      "_key": "!actors.items!NecronWarriorEli.NWTrait4Legion00"
     },
     {
       "name": "Gauss Flayer",
       "type": "weapon",
-      "_id": "NWWeapon1GaussFlayer",
+      "_id": "NWWeapon1GaussFl",
       "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
       "system": {
         "notes": {
@@ -561,7 +561,7 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!NecronWarriorElite1.NWWeapon1GaussFlayer"
+      "_key": "!actors.items!NecronWarriorEli.NWWeapon1GaussFl"
     }
   ],
   "effects": [],
@@ -578,5 +578,5 @@
     "systemId": "impmal",
     "systemVersion": "3.2.1"
   },
-  "_key": "!actors!NecronWarriorElite1"
+  "_key": "!actors!NecronWarriorEli"
 }

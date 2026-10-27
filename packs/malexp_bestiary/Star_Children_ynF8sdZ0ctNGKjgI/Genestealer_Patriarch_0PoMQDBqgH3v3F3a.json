@@ -245,7 +245,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>During a Surprise Round, if the Genestealer Patriarch managed to Surprise the enemy, they may attack twice with their Claws and Talons against a single target.</p>"
         },
         "attack": {
@@ -306,7 +306,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The first time any creature encounters the Genestealer Patriarch, they must make a Hard (-20) Discipline (Fear) Test or be Frightened. If the Genestealer Patriarch is Surprising the creature, they suffer Disadvantage on the Test. If all party members are Frightened their Superiority is reduced to 0.</p>"
         },
         "attack": {
@@ -367,7 +367,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Genestealer Patriarch has an accompanying Psychic Familiar, allowing it to reroll failed Psychic Mastery tests.</p>"
         },
         "attack": {
@@ -428,7 +428,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>If the Patriarch has Grappled an enemy, they may make an Opposed Challenging (+0) Discipline Test against the victim. If the Genestealer succeeds, the victim swaps their faction to Genestealer Cults. If the victim has any Discipline or Psychic Mastery Advances, the Patriarch makes the test at Hard (-20) instead.</p>"
         },
         "attack": {
@@ -489,7 +489,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Genestealer Patriarch has +1 Resolve when connected to the Tyranid Hive Mind.</p>"
         },
         "attack": {
@@ -550,7 +550,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Patriarch knows the following Minor Powers: Dread Presence, Float, Lull, Psychic Static, Smite, Soulsight, Spectral Hands.</p>"
         },
         "attack": {
@@ -611,7 +611,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Patriarch knows the following Telepathy Powers: Compel, Dominate, Erasure, Mental Interrogation, Nightshroud, Psychic Fortitude, Psychic Shriek, Telepathic Link, Terrifying Visions.</p>"
         },
         "attack": {
@@ -672,7 +672,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Genestealer Patriarch has a Warp Threshold of 7.</p>"
         },
         "attack": {

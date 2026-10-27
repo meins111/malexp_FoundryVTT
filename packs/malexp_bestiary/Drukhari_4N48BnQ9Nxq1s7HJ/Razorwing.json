@@ -245,7 +245,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>Razorwings may be encountered in flocks; as such, Razorwings should be encountered in groups of three or more.</p>"
         },
         "attack": {
@@ -306,7 +306,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>To first identify a Razorwing as a threat rather than just a colorful bird, a Difficult (-10) Awareness (Sight) or Challenging (+0) Intuition Test must be done to note its razor-tipped feathers and sharp talons and beak.</p>"
         },
         "attack": {

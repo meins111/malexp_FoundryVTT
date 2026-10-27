@@ -2,7 +2,7 @@
   "folder": "SkitariiForce001",
   "name": "Serberys Sulphurhound",
   "type": "npc",
-  "_id": "SerberySulphrElte1",
+  "_id": "SerberySulphrElt",
   "img": "modules/impmal-core/assets/tokens/unknown.webp",
   "system": {
     "characteristics": {
@@ -235,16 +235,16 @@
     "systemId": "impmal",
     "systemVersion": "3.2.1"
   },
-  "_key": "!actors!SerberySulphrElte1",
+  "_key": "!actors!SerberySulphrElt",
   "items": [
     {
       "name": "Heavily Augmented",
       "type": "trait",
-      "_id": "SSuT1",
+      "_id": "SSuT100000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Skitarii has Augmetic Arms, Augmetic Legs, an Augmetic Heart, an Augmetic Respiratory System, and Augmetic Sensory Organs. The benefits of these augmetics are already included.</p>"
         },
         "attack": {
@@ -296,16 +296,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SerberySulphrElte1.SSuT1"
+      "_key": "!actors.items!SerberySulphrElt.SSuT100000000000"
     },
     {
       "name": "Augmetic Heart",
       "type": "trait",
-      "_id": "SSuT2",
+      "_id": "SSuT200000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>As an Action, the Skitarii makes a Challenging (+0) Fortitude Test. If they are successful, they remove a Bleeding Condition from themself.</p>"
         },
         "attack": {
@@ -357,16 +357,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SerberySulphrElte1.SSuT2"
+      "_key": "!actors.items!SerberySulphrElt.SSuT200000000000"
     },
     {
       "name": "Augmetic Respiratory System",
       "type": "trait",
-      "_id": "SSuT3",
+      "_id": "SSuT300000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Skitarii gains +2 SL to Fortitude Tests to resist the effects of airborne toxins and poisonous gases.</p>"
         },
         "attack": {
@@ -418,16 +418,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SerberySulphrElte1.SSuT3"
+      "_key": "!actors.items!SerberySulphrElt.SSuT300000000000"
     },
     {
       "name": "Mounted Warrior",
       "type": "trait",
-      "_id": "SSuT4",
+      "_id": "SSuT400000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>Whenever the Serberys makes a Ranged Attack while mounted, the difficulty can never be harder than Difficult (-10). If mounted on a Serberys mount, it gains +1SL on all Tests made to interact with it.</p>"
         },
         "attack": {
@@ -479,16 +479,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SerberySulphrElte1.SSuT4"
+      "_key": "!actors.items!SerberySulphrElt.SSuT400000000000"
     },
     {
       "name": "Line-Breaker",
       "type": "trait",
-      "_id": "SSuT5",
+      "_id": "SSuT500000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>When making a Charge Action, the Serberys Sulphurhound forces the Target to make a Challenging (+0) Discipline (Fear) Test or else they must begin attempting to retreat as if they are Desperate.</p>"
         },
         "attack": {
@@ -540,12 +540,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SerberySulphrElte1.SSuT5"
+      "_key": "!actors.items!SerberySulphrElt.SSuT500000000000"
     },
     {
       "name": "Phosphor Blast Carbine",
       "type": "weapon",
-      "_id": "SSuW1",
+      "_id": "SSuW100000000000",
       "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
       "system": {
         "notes": {
@@ -620,12 +620,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SerberySulphrElte1.SSuW1"
+      "_key": "!actors.items!SerberySulphrElt.SSuW100000000000"
     },
     {
       "name": "Shock Maul",
       "type": "weapon",
-      "_id": "SSuW2",
+      "_id": "SSuW200000000000",
       "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
       "system": {
         "notes": {
@@ -695,7 +695,7 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SerberySulphrElte1.SSuW2"
+      "_key": "!actors.items!SerberySulphrElt.SSuW200000000000"
     }
   ]
 }

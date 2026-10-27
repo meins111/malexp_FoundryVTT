@@ -1,0 +1,20 @@
+{
+  "type": "Actor",
+  "folder": "citInfractionist",
+  "name": "Citizens",
+  "color": null,
+  "sorting": "a",
+  "_id": "citcitizens00000",
+  "description": "",
+  "sort": 901001,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "impmal",
+    "systemVersion": "3.2.1"
+  },
+  "_key": "!folders!citcitizens00000"
+}

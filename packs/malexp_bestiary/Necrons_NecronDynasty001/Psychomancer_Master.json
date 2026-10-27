@@ -2,7 +2,7 @@
   "folder": "NecronDynasty001",
   "name": "Psychomancer",
   "type": "npc",
-  "_id": "PsychomancerMastr1",
+  "_id": "PsychomancerMast",
   "img": "modules/impmal-core/assets/tokens/unknown.webp",
   "system": {
     "characteristics": {
@@ -247,16 +247,16 @@
     "systemId": "impmal",
     "systemVersion": "3.2.1"
   },
-  "_key": "!actors!PsychomancerMastr1",
+  "_key": "!actors!PsychomancerMast",
   "items": [
     {
       "name": "Living Metal (4)",
       "type": "trait",
-      "_id": "PSYTrait1",
+      "_id": "PSYTrait10000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>At the start of the Psychomancer's turn, it regains 4 Wounds. It is immune to the Bleeding, Fatigued, Frightened, and Poisoned Conditions. Additionally, it has no soul and cannot be detected by abilities such as Soulsight.</p>"
         },
         "attack": {
@@ -316,12 +316,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!PsychomancerMastr1.PSYTrait1"
+      "_key": "!actors.items!PsychomancerMast.PSYTrait10000000"
     },
     {
       "name": "Phase Out",
       "type": "trait",
-      "_id": "PSYTrait2",
+      "_id": "PSYTrait20000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
@@ -377,16 +377,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!PsychomancerMastr1.PSYTrait2"
+      "_key": "!actors.items!PsychomancerMast.PSYTrait20000000"
     },
     {
       "name": "Reanimation Protocols (7+)",
       "type": "trait",
-      "_id": "PSYTrait3",
+      "_id": "PSYTrait30000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>When the Psychomancer would die or be rendered Unconscious, roll 1d10. On a 7 or higher, it does not die or become Unconscious and gains wounds equal to the result.</p>"
         },
         "attack": {
@@ -446,16 +446,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!PsychomancerMastr1.PSYTrait3"
+      "_key": "!actors.items!PsychomancerMast.PSYTrait30000000"
     },
     {
       "name": "Harbinger of Despair",
       "type": "trait",
-      "_id": "PSYTrait4",
+      "_id": "PSYTrait40000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The first time a Character sees the Psychomancer, they must make a Hard (-20) Discipline (Fear) Test or become Frightened. If all Characters are Frightened in this way, they lose 1 Superiority.</p>"
         },
         "attack": {
@@ -507,12 +507,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!PsychomancerMastr1.PSYTrait4"
+      "_key": "!actors.items!PsychomancerMast.PSYTrait40000000"
     },
     {
       "name": "Nightmare Shroud",
       "type": "trait",
-      "_id": "PSYTrait5",
+      "_id": "PSYTrait50000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
@@ -568,12 +568,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!PsychomancerMastr1.PSYTrait5"
+      "_key": "!actors.items!PsychomancerMast.PSYTrait50000000"
     },
     {
       "name": "Veil of Darkness",
       "type": "trait",
-      "_id": "PSYTrait6",
+      "_id": "PSYTrait60000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
@@ -629,12 +629,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!PsychomancerMastr1.PSYTrait6"
+      "_key": "!actors.items!PsychomancerMast.PSYTrait60000000"
     },
     {
       "name": "Abyssal Lance (Ranged)",
       "type": "weapon",
-      "_id": "PSYWeapon1",
+      "_id": "PSYWeapon1000000",
       "img": "modules/impmal-core/assets/icons/weapons/rifle.webp",
       "system": {
         "notes": {
@@ -703,12 +703,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!PsychomancerMastr1.PSYWeapon1"
+      "_key": "!actors.items!PsychomancerMast.PSYWeapon1000000"
     },
     {
       "name": "Abyssal Lance (Melee)",
       "type": "weapon",
-      "_id": "PSYWeapon2",
+      "_id": "PSYWeapon2000000",
       "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
       "system": {
         "notes": {
@@ -774,7 +774,7 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!PsychomancerMastr1.PSYWeapon2"
+      "_key": "!actors.items!PsychomancerMast.PSYWeapon2000000"
     }
   ]
 }

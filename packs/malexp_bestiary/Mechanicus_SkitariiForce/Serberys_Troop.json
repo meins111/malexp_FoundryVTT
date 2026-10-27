@@ -2,7 +2,7 @@
   "folder": "SkitariiForce001",
   "name": "Serberys",
   "type": "npc",
-  "_id": "SerberysMount0001",
+  "_id": "SerberysMount000",
   "img": "modules/impmal-core/assets/tokens/unknown.webp",
   "system": {
     "characteristics": {
@@ -235,16 +235,16 @@
     "systemId": "impmal",
     "systemVersion": "3.2.1"
   },
-  "_key": "!actors!SerberysMount0001",
+  "_key": "!actors!SerberysMount000",
   "items": [
     {
       "name": "Heavily Augmented",
       "type": "trait",
-      "_id": "SMT1",
+      "_id": "SMT1000000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Serberys has Augmetic Legs, an Augmetic Heart, an Augmetic Respiratory System, Augmetic Sensory Organs, and Subskin Armor. The benefits of these augmetics are already included.</p>"
         },
         "attack": {
@@ -296,16 +296,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SerberysMount0001.SMT1"
+      "_key": "!actors.items!SerberysMount000.SMT1000000000000"
     },
     {
       "name": "Augmetic Heart",
       "type": "trait",
-      "_id": "SMT2",
+      "_id": "SMT2000000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>As an Action, the Skitarii makes a Challenging (+0) Fortitude Test. If they are successful, they remove a Bleeding Condition from themself.</p>"
         },
         "attack": {
@@ -357,16 +357,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SerberysMount0001.SMT2"
+      "_key": "!actors.items!SerberysMount000.SMT2000000000000"
     },
     {
       "name": "Augmetic Respiratory System",
       "type": "trait",
-      "_id": "SMT3",
+      "_id": "SMT3000000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Skitarii gains +2 SL to Fortitude Tests to resist the effects of airborne toxins and poisonous gases.</p>"
         },
         "attack": {
@@ -418,16 +418,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SerberysMount0001.SMT3"
+      "_key": "!actors.items!SerberysMount000.SMT3000000000000"
     },
     {
       "name": "Bred for War",
       "type": "trait",
-      "_id": "SMT4",
+      "_id": "SMT4000000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Serberys has been trained to withstand the rigors of combat and gains +2 SL to Discipline (Fear) and Composure tests during a combat encounter.</p>"
         },
         "attack": {
@@ -479,16 +479,16 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SerberysMount0001.SMT4"
+      "_key": "!actors.items!SerberysMount000.SMT4000000000000"
     },
     {
       "name": "Sulphurhound",
       "type": "trait",
-      "_id": "SMT5",
+      "_id": "SMT5000000000000",
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>Not all Serberys are Sulphurhounds, but those that are gain the Phosphor Torch as a Ranged Attack in which it shall spew flames from its mouth.</p>"
         },
         "attack": {
@@ -540,12 +540,12 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SerberysMount0001.SMT5"
+      "_key": "!actors.items!SerberysMount000.SMT5000000000000"
     },
     {
       "name": "Mechanical Hooves",
       "type": "weapon",
-      "_id": "SMW1",
+      "_id": "SMW1000000000000",
       "img": "modules/impmal-core/assets/icons/weapons/melee-weapon.webp",
       "system": {
         "notes": {
@@ -607,7 +607,7 @@
         "systemId": "impmal",
         "systemVersion": "3.2.1"
       },
-      "_key": "!actors.items!SerberysMount0001.SMW1"
+      "_key": "!actors.items!SerberysMount000.SMW1000000000000"
     }
   ]
 }

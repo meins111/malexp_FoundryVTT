@@ -245,7 +245,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Aeldari may use Psyniscience. The Aeldari has Disadvantage on any Tests made to resist Psychic Powers.</p>"
         },
         "attack": {
@@ -306,7 +306,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Dark Reaper ignores 2 points of Armor granted by Cover that an enemy is hiding behind when firing with an Ordnance weapon.</p>"
         },
         "attack": {

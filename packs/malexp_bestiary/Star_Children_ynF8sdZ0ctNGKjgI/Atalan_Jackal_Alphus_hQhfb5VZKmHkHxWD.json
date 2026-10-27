@@ -245,7 +245,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Individual is connected to the Genestealer Broodmind, and gains advantage on Discipline Tests when within Long Range of a Genestealer Psyker.</p>"
         },
         "attack": {
@@ -306,7 +306,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>The Atalan Jackal Alphus has +1SL to Piloting (Civilian) Control Tests (IM CRB pg. 226 / MRG pg. 68).</p>"
         },
         "attack": {
@@ -367,7 +367,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>Once per Encounter, the Atalan Jackal Alphus may indicate an enemy Elite or Leader (or a Player Character). If the Jackal Alphus successfully Defeats the nominated enemy, they may make a Challenging (+0) Presence Test, and allow a number of Genestealer Cult Allies equal to the SL to immediately take their turn, even if their initiative has already passed.</p>"
         },
         "attack": {
@@ -428,7 +428,7 @@
       "img": "modules/impmal-core/assets/icons/blank.webp",
       "system": {
         "notes": {
-         "player": "",
+          "player": "",
           "gm": "<p>Once per Encounter, the Atalan Jackal Alphus may summon reinforcements of 1d5+2 Atalan Jackals which can be noticed with a Hard (-20) Awareness (Sight) or (Hearing) Test. If the reinforcements go unnoticed, the party's Superiority is reduced by 1.</p>"
         },
         "attack": {
