@@ -3,3 +3,9 @@ build/*/**
 /impmal-malexp/
 /build/module.json
 .idea
+packs/**/*.log
+packs/**/CURRENT
+packs/**/LOCK
+packs/**/LOG
+packs/**/LOG.old
+packs/**/MANIFEST*
