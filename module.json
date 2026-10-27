@@ -1,10 +1,10 @@
 {
     "id": "impmal-malexp",
     "title": "Imperium Maledictum - Maledictum Expanded Homebrew Additions and Convertions",
-    "version": "v1.4.0",
+    "version": "v1.5.0",
     "compatibility": {
         "minimum": "12",
-        "verified": "13"
+        "verified": "14"
     },
     "description": "<p>Brings the expanded options (origins, species, talents, items, vehicles, etc.) from the community / fan-made to your Imperium Maledictum game.</p><hr /><p>Status:</p><ul><li><p>Talents Expanded: WiP</p></li><li><p>Expanded Origin: Planned</p></li><li><p>Expanded Armories: Planned (focus on Imperial &amp; AdMech)</p></li><li><p>Bestiary: Planned</p></li><li><p>Everything else: Maybe</p></li></ul><p></p><hr /><p>Credits for Imperium Maledictum go to Moxy.</p>",
     "authors": [
