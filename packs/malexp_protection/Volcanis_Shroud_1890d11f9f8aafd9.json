@@ -1,0 +1,68 @@
+{
+  "name": "Volcanis Shroud",
+  "type": "protection",
+  "system": {
+    "notes": {
+      "player": "Protection is doubled against fire, acids and corrosives; includes a rebreather and photo-visor.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 4
+    },
+    "cost": 800,
+    "availability": "Scarce",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "force": false
+    },
+    "traits": {
+      "list": [
+        {
+          "key": "heavy",
+          "value": "4"
+        }
+      ]
+    },
+    "category": "basic",
+    "armour": 3,
+    "locations": {
+      "list": [
+        "rightLeg",
+        "leftLeg",
+        "rightArm",
+        "leftArm",
+        "body",
+        "head"
+      ],
+      "label": "All"
+    },
+    "damage": {},
+    "rended": {},
+    "slots": {
+      "list": [],
+      "value": 0
+    },
+    "mods": {
+      "list": []
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "1890d11f9f8aafd9",
+  "img": "modules/impmal-core/assets/icons/protection/armour.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!1890d11f9f8aafd9"
+}

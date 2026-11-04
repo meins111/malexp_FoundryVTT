@@ -1,0 +1,66 @@
+{
+  "name": "Obsidian Plate",
+  "type": "protection",
+  "system": {
+    "notes": {
+      "player": "Grants +1SL to resist Psychic Powers and counts as 3 AP higher against psychic bolts.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 4
+    },
+    "cost": 16000,
+    "availability": "Exotic",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "force": false
+    },
+    "traits": {
+      "list": [
+        {
+          "key": "heavy",
+          "value": "4"
+        },
+        {
+          "key": "loud"
+        }
+      ]
+    },
+    "category": "basic",
+    "armour": 6,
+    "locations": {
+      "list": [
+        "body"
+      ],
+      "label": "body"
+    },
+    "damage": {},
+    "rended": {},
+    "slots": {
+      "list": [],
+      "value": 0
+    },
+    "mods": {
+      "list": []
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "f0333758a12cfc81",
+  "img": "modules/impmal-core/assets/icons/protection/armour.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!f0333758a12cfc81"
+}

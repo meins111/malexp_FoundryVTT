@@ -1,0 +1,59 @@
+{
+  "name": "Mirker's Greaves",
+  "type": "protection",
+  "system": {
+    "notes": {
+      "player": "",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 2
+    },
+    "cost": 100,
+    "availability": "Scarce",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "force": false
+    },
+    "traits": {
+      "list": []
+    },
+    "category": "basic",
+    "armour": 4,
+    "locations": {
+      "list": [
+        "rightLeg",
+        "leftLeg"
+      ],
+      "label": "legs"
+    },
+    "damage": {},
+    "rended": {},
+    "slots": {
+      "list": [],
+      "value": 0
+    },
+    "mods": {
+      "list": []
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "e659c5f003a60963",
+  "img": "modules/impmal-core/assets/icons/protection/armour.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!e659c5f003a60963"
+}

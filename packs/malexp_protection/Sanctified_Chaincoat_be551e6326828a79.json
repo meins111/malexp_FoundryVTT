@@ -1,0 +1,64 @@
+{
+  "name": "Sanctified Chaincoat",
+  "type": "protection",
+  "system": {
+    "notes": {
+      "player": "",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 3
+    },
+    "cost": 1600,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "force": false
+    },
+    "traits": {
+      "list": [
+        {
+          "key": "sanctified"
+        }
+      ]
+    },
+    "category": "basic",
+    "armour": 4,
+    "locations": {
+      "list": [
+        "rightArm",
+        "leftArm",
+        "body"
+      ],
+      "label": "armsBody"
+    },
+    "damage": {},
+    "rended": {},
+    "slots": {
+      "list": [],
+      "value": 0
+    },
+    "mods": {
+      "list": []
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "be551e6326828a79",
+  "img": "modules/impmal-core/assets/icons/protection/armour.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!be551e6326828a79"
+}

@@ -1,0 +1,71 @@
+{
+  "name": "Feudal World Plate",
+  "type": "protection",
+  "system": {
+    "notes": {
+      "player": "",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 4
+    },
+    "cost": 450,
+    "availability": "Scarce",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "force": false
+    },
+    "traits": {
+      "list": [
+        {
+          "key": "heavy",
+          "value": "4"
+        },
+        {
+          "key": "loud"
+        }
+      ]
+    },
+    "category": "basic",
+    "armour": 5,
+    "locations": {
+      "list": [
+        "rightLeg",
+        "leftLeg",
+        "rightArm",
+        "leftArm",
+        "body",
+        "head"
+      ],
+      "label": "All"
+    },
+    "damage": {},
+    "rended": {},
+    "slots": {
+      "list": [],
+      "value": 0
+    },
+    "mods": {
+      "list": []
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "a1f45b8c6a6d18be",
+  "img": "modules/impmal-core/assets/icons/protection/armour.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!a1f45b8c6a6d18be"
+}

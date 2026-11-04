@@ -1,0 +1,63 @@
+{
+  "name": "Amulet of Warding",
+  "type": "protection",
+  "system": {
+    "notes": {
+      "player": "Protection 3d10; overload 30.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 0
+    },
+    "cost": 30000,
+    "availability": "Exotic",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "force": false
+    },
+    "traits": {
+      "list": []
+    },
+    "category": "forceField",
+    "armour": 0,
+    "locations": {
+      "list": [
+        "rightLeg",
+        "leftLeg",
+        "rightArm",
+        "leftArm",
+        "body",
+        "head"
+      ],
+      "label": "All"
+    },
+    "damage": {},
+    "rended": {},
+    "slots": {
+      "list": [],
+      "value": 0
+    },
+    "mods": {
+      "list": []
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "93bce457835994fd",
+  "img": "modules/impmal-core/assets/icons/protection/armour.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!93bce457835994fd"
+}

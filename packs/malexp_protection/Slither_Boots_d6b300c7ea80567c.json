@@ -1,0 +1,59 @@
+{
+  "name": "Slither Boots",
+  "type": "protection",
+  "system": {
+    "notes": {
+      "player": "Provides 6 AP against corrosives and +1SL to Agility Tests to maintain footing.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 1
+    },
+    "cost": 800,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "force": false
+    },
+    "traits": {
+      "list": []
+    },
+    "category": "basic",
+    "armour": 3,
+    "locations": {
+      "list": [
+        "rightLeg",
+        "leftLeg"
+      ],
+      "label": "legs"
+    },
+    "damage": {},
+    "rended": {},
+    "slots": {
+      "list": [],
+      "value": 0
+    },
+    "mods": {
+      "list": []
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "d6b300c7ea80567c",
+  "img": "modules/impmal-core/assets/icons/protection/armour.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!d6b300c7ea80567c"
+}

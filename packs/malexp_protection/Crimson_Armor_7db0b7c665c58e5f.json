@@ -1,0 +1,67 @@
+{
+  "name": "Crimson Armor",
+  "type": "protection",
+  "system": {
+    "notes": {
+      "player": "",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 2
+    },
+    "cost": 12500,
+    "availability": "Exotic",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "force": false
+    },
+    "traits": {
+      "list": [
+        {
+          "key": "loud"
+        }
+      ]
+    },
+    "category": "carapace",
+    "armour": 6,
+    "locations": {
+      "list": [
+        "rightLeg",
+        "leftLeg",
+        "rightArm",
+        "leftArm",
+        "body",
+        "head"
+      ],
+      "label": "All"
+    },
+    "damage": {},
+    "rended": {},
+    "slots": {
+      "list": [],
+      "value": 0
+    },
+    "mods": {
+      "list": []
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "7db0b7c665c58e5f",
+  "img": "modules/impmal-core/assets/icons/protection/armour.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!7db0b7c665c58e5f"
+}

@@ -42,6 +42,17 @@
             "system": "impmal"
         },
         {
+            "name": "malexp_protection",
+            "label": "Expanded Protection",
+            "path": "packs/malexp_protection",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "impmal"
+        },
+        {
             "name": "malexp_bestiary",
             "label": "Expanded Bestiary",
             "path": "packs/malexp_bestiary",
@@ -69,7 +80,7 @@
             "name": "Maledictum Expanded",
             "sorting": "m",
             "color": "",
-            "packs": ["malexp_talents", "malexp_weapons", "malexp_bestiary", "malexp_expandedCharacterCreation"]
+            "packs": ["malexp_talents", "malexp_weapons", "malexp_protection", "malexp_bestiary", "malexp_expandedCharacterCreation"]
         }
     ],
     "relationships": {

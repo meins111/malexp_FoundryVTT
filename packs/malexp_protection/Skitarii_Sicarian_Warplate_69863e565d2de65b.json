@@ -1,0 +1,63 @@
+{
+  "name": "Skitarii/Sicarian Warplate",
+  "type": "protection",
+  "system": {
+    "notes": {
+      "player": "Sicarian Warplate costs 12,000 and is Scarce; it grants Advantage on Stealth and Reflex tests.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 2
+    },
+    "cost": 6000,
+    "availability": "Common",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "force": false
+    },
+    "traits": {
+      "list": []
+    },
+    "category": "carapace",
+    "armour": 5,
+    "locations": {
+      "list": [
+        "rightLeg",
+        "leftLeg",
+        "rightArm",
+        "leftArm",
+        "body",
+        "head"
+      ],
+      "label": "All"
+    },
+    "damage": {},
+    "rended": {},
+    "slots": {
+      "list": [],
+      "value": 0
+    },
+    "mods": {
+      "list": []
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "69863e565d2de65b",
+  "img": "modules/impmal-core/assets/icons/protection/armour.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!69863e565d2de65b"
+}

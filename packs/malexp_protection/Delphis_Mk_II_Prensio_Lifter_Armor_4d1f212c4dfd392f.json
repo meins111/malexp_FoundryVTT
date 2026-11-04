@@ -1,0 +1,71 @@
+{
+  "name": "Delphis Mk. II Prensio Lifter Armor",
+  "type": "protection",
+  "system": {
+    "notes": {
+      "player": "Grants Advantage to appropriate Athletics (Might) Tests; includes auspex, chrono, vox, microbead and rebreather.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 11
+    },
+    "cost": 12500,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "force": false
+    },
+    "traits": {
+      "list": [
+        {
+          "key": "heavy",
+          "value": "4"
+        },
+        {
+          "key": "loud"
+        }
+      ]
+    },
+    "category": "power",
+    "armour": 9,
+    "locations": {
+      "list": [
+        "rightLeg",
+        "leftLeg",
+        "rightArm",
+        "leftArm",
+        "body",
+        "head"
+      ],
+      "label": "All"
+    },
+    "damage": {},
+    "rended": {},
+    "slots": {
+      "list": [],
+      "value": 0
+    },
+    "mods": {
+      "list": []
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "4d1f212c4dfd392f",
+  "img": "modules/impmal-core/assets/icons/protection/armour.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!4d1f212c4dfd392f"
+}

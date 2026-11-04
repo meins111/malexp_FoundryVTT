@@ -1,0 +1,61 @@
+{
+  "name": "Synford-Pattern Lockshield",
+  "type": "protection",
+  "system": {
+    "notes": {
+      "player": "",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 3
+    },
+    "cost": 800,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "force": false
+    },
+    "traits": {
+      "list": [
+        {
+          "key": "shield",
+          "value": "3"
+        }
+      ]
+    },
+    "category": "basic",
+    "armour": 0,
+    "locations": {
+      "list": [],
+      "label": "special"
+    },
+    "damage": {},
+    "rended": {},
+    "slots": {
+      "list": [],
+      "value": 0
+    },
+    "mods": {
+      "list": []
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "8fd503c5666f1c97",
+  "img": "modules/impmal-core/assets/icons/protection/armour.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!8fd503c5666f1c97"
+}

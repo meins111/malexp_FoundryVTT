@@ -1,0 +1,60 @@
+{
+  "name": "Verispex Armor",
+  "type": "protection",
+  "system": {
+    "notes": {
+      "player": "Special cost. Includes auspex, chrono, combi-tool and data-slates; grants +1SL to Logic (Investigation) and Medicae tests.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 1
+    },
+    "cost": 0,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "force": false
+    },
+    "traits": {
+      "list": []
+    },
+    "category": "carapace",
+    "armour": 2,
+    "locations": {
+      "list": [
+        "rightArm",
+        "leftArm",
+        "body"
+      ],
+      "label": "armsBody"
+    },
+    "damage": {},
+    "rended": {},
+    "slots": {
+      "list": [],
+      "value": 0
+    },
+    "mods": {
+      "list": []
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "afae1c5d4e0b3d21",
+  "img": "modules/impmal-core/assets/icons/protection/armour.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!afae1c5d4e0b3d21"
+}

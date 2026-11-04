@@ -1,0 +1,67 @@
+{
+  "name": "Dragon Scale Armor",
+  "type": "protection",
+  "system": {
+    "notes": {
+      "player": "Requires a cyber-mantle and potentia coil; includes a photo-visor and respirator.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 5
+    },
+    "cost": 100000,
+    "availability": "Exotic",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "force": false
+    },
+    "traits": {
+      "list": [
+        {
+          "key": "loud"
+        }
+      ]
+    },
+    "category": "power",
+    "armour": 10,
+    "locations": {
+      "list": [
+        "rightLeg",
+        "leftLeg",
+        "rightArm",
+        "leftArm",
+        "body",
+        "head"
+      ],
+      "label": "All"
+    },
+    "damage": {},
+    "rended": {},
+    "slots": {
+      "list": [],
+      "value": 0
+    },
+    "mods": {
+      "list": []
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "271c6749b8183a10",
+  "img": "modules/impmal-core/assets/icons/protection/armour.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!271c6749b8183a10"
+}

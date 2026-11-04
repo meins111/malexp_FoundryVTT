@@ -1,0 +1,67 @@
+{
+  "name": "Praetor Armor",
+  "type": "protection",
+  "system": {
+    "notes": {
+      "player": "Includes respirator, comm-link, photo-visor, targeter, recoil suppression sleeves and a long gun harness.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 4
+    },
+    "cost": 8000,
+    "availability": "Exotic",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "force": false
+    },
+    "traits": {
+      "list": [
+        {
+          "key": "loud"
+        }
+      ]
+    },
+    "category": "power",
+    "armour": 6,
+    "locations": {
+      "list": [
+        "rightLeg",
+        "leftLeg",
+        "rightArm",
+        "leftArm",
+        "body",
+        "head"
+      ],
+      "label": "All"
+    },
+    "damage": {},
+    "rended": {},
+    "slots": {
+      "list": [],
+      "value": 0
+    },
+    "mods": {
+      "list": []
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "0ae4c5ce744a5eaf",
+  "img": "modules/impmal-core/assets/icons/protection/armour.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!0ae4c5ce744a5eaf"
+}

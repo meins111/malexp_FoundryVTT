@@ -1,0 +1,61 @@
+{
+  "name": "Storm Shield",
+  "type": "protection",
+  "system": {
+    "notes": {
+      "player": "Also functions as a Force Field for Body and Arms with Protection 2d10 and Overload 20.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 2
+    },
+    "cost": 100000,
+    "availability": "Exotic",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "force": false
+    },
+    "traits": {
+      "list": [
+        {
+          "key": "shield",
+          "value": "5"
+        }
+      ]
+    },
+    "category": "power",
+    "armour": 0,
+    "locations": {
+      "list": [],
+      "label": "special"
+    },
+    "damage": {},
+    "rended": {},
+    "slots": {
+      "list": [],
+      "value": 0
+    },
+    "mods": {
+      "list": []
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "5e286f2e10a93e98",
+  "img": "modules/impmal-core/assets/icons/protection/armour.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!5e286f2e10a93e98"
+}

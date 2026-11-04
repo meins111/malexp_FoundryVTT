@@ -1,0 +1,58 @@
+{
+  "name": "Verispex Helm",
+  "type": "protection",
+  "system": {
+    "notes": {
+      "player": "Special cost. Includes infrared goggles and photo-visor; grants +1SL to Navigation (Tracking), Awareness (Sight) and Intuition (Surroundings).",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 2
+    },
+    "cost": 0,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "force": false
+    },
+    "traits": {
+      "list": []
+    },
+    "category": "carapace",
+    "armour": 4,
+    "locations": {
+      "list": [
+        "head"
+      ],
+      "label": "head"
+    },
+    "damage": {},
+    "rended": {},
+    "slots": {
+      "list": [],
+      "value": 0
+    },
+    "mods": {
+      "list": []
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "a071c3f1fbb2abc3",
+  "img": "modules/impmal-core/assets/icons/protection/armour.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!a071c3f1fbb2abc3"
+}

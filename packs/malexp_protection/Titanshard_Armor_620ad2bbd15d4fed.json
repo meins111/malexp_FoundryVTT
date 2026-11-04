@@ -1,0 +1,67 @@
+{
+  "name": "Titanshard Armor",
+  "type": "protection",
+  "system": {
+    "notes": {
+      "player": "Grants +20 Strength and a 1d10 Force Field with overload 10 while active.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 8
+    },
+    "cost": 100000000,
+    "availability": "Exotic",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "force": false
+    },
+    "traits": {
+      "list": [
+        {
+          "key": "loud"
+        }
+      ]
+    },
+    "category": "power",
+    "armour": 10,
+    "locations": {
+      "list": [
+        "rightLeg",
+        "leftLeg",
+        "rightArm",
+        "leftArm",
+        "body",
+        "head"
+      ],
+      "label": "All"
+    },
+    "damage": {},
+    "rended": {},
+    "slots": {
+      "list": [],
+      "value": 0
+    },
+    "mods": {
+      "list": []
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "620ad2bbd15d4fed",
+  "img": "modules/impmal-core/assets/icons/protection/armour.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!620ad2bbd15d4fed"
+}

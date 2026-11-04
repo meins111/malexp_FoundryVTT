@@ -1,0 +1,63 @@
+{
+  "name": "Incubus Torture Helm",
+  "type": "protection",
+  "system": {
+    "notes": {
+      "player": "Grants +1SL on Ranged and Melee attacks.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 1
+    },
+    "cost": 800000,
+    "availability": "Exotic",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "force": false
+    },
+    "traits": {
+      "list": [
+        {
+          "key": "heavy",
+          "value": "4"
+        }
+      ]
+    },
+    "category": "carapace",
+    "armour": 6,
+    "locations": {
+      "list": [
+        "head"
+      ],
+      "label": "head"
+    },
+    "damage": {},
+    "rended": {},
+    "slots": {
+      "list": [],
+      "value": 0
+    },
+    "mods": {
+      "list": []
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "f9ddca5df4b1356d",
+  "img": "modules/impmal-core/assets/icons/protection/armour.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!f9ddca5df4b1356d"
+}

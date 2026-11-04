@@ -1,0 +1,71 @@
+{
+  "name": "Hospitaller Carapace",
+  "type": "protection",
+  "system": {
+    "notes": {
+      "player": "Sealed; grants +2SL to resist airborne toxins and diseases; includes a rebreather and diagnostor.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 5
+    },
+    "cost": 500,
+    "availability": "Scarce",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "force": false
+    },
+    "traits": {
+      "list": [
+        {
+          "key": "heavy",
+          "value": "5"
+        },
+        {
+          "key": "loud"
+        }
+      ]
+    },
+    "category": "carapace",
+    "armour": 5,
+    "locations": {
+      "list": [
+        "rightLeg",
+        "leftLeg",
+        "rightArm",
+        "leftArm",
+        "body",
+        "head"
+      ],
+      "label": "All"
+    },
+    "damage": {},
+    "rended": {},
+    "slots": {
+      "list": [],
+      "value": 0
+    },
+    "mods": {
+      "list": []
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "8c0260eaead103c4",
+  "img": "modules/impmal-core/assets/icons/protection/armour.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!8c0260eaead103c4"
+}

@@ -1,0 +1,69 @@
+{
+  "name": "Gutterforged Armor",
+  "type": "protection",
+  "system": {
+    "notes": {
+      "player": "The wearer suffers -15 Agility.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 5
+    },
+    "cost": 2500,
+    "availability": "Rare",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "force": false
+    },
+    "traits": {
+      "list": [
+        {
+          "key": "heavy",
+          "value": "4"
+        },
+        {
+          "key": "loud"
+        }
+      ]
+    },
+    "category": "carapace",
+    "armour": 5,
+    "locations": {
+      "list": [
+        "rightArm",
+        "leftArm",
+        "body",
+        "head"
+      ],
+      "label": "armsBodyHead"
+    },
+    "damage": {},
+    "rended": {},
+    "slots": {
+      "list": [],
+      "value": 0
+    },
+    "mods": {
+      "list": []
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "ee92c65c03023a40",
+  "img": "modules/impmal-core/assets/icons/protection/armour.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!ee92c65c03023a40"
+}

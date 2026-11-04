@@ -1,0 +1,71 @@
+{
+  "name": "Solar Pattern Void Armor",
+  "type": "protection",
+  "system": {
+    "notes": {
+      "player": "When active, encumbrance is 0 and the wearer ignores the Heavy trait. Includes life support.",
+      "gm": ""
+    },
+    "encumbrance": {
+      "value": 5
+    },
+    "cost": 1200000,
+    "availability": "Exotic",
+    "quantity": 1,
+    "equipped": {
+      "value": false,
+      "force": false
+    },
+    "traits": {
+      "list": [
+        {
+          "key": "heavy",
+          "value": "4"
+        },
+        {
+          "key": "loud"
+        }
+      ]
+    },
+    "category": "carapace",
+    "armour": 6,
+    "locations": {
+      "list": [
+        "rightLeg",
+        "leftLeg",
+        "rightArm",
+        "leftArm",
+        "body",
+        "head"
+      ],
+      "label": "All"
+    },
+    "damage": {},
+    "rended": {},
+    "slots": {
+      "list": [],
+      "value": 0
+    },
+    "mods": {
+      "list": []
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "impmal",
+    "systemVersion": "3.2.0"
+  },
+  "_id": "3ba4e912778475e0",
+  "img": "modules/impmal-core/assets/icons/protection/armour.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!3ba4e912778475e0"
+}
