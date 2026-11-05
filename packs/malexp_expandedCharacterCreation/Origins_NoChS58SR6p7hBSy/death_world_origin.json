@@ -1,0 +1,42 @@
+{
+  "folder": "lWjke9bJb59710xJ",
+  "name": "Death World",
+  "type": "origin",
+  "_id": "ADwxsrnXWBFViy5k",
+  "img": "",
+  "system": {
+    "notes": {
+      "player": "<p>You hail from a death world, a planet that is so harsh to live on that on paper, you shouldn`t even be able to hail from there. Though the kinds of threats to the natives vary greatly, all of these planets share one important characteristic: life is often short. These threats vary tremendously, from aggressive predators to weather abnormalities, but that does not stop humanity from thriving against the odds. Individual roles and adherence to guidelines are crucial to the survival of any death world outpost or colony. As a result, life is often regimented, and punishment for ignoring assigned tasks is very harsh. Those unable to perform the more physical tasks provide support for those who can. No effort is wasted, and anyone capable but unwilling is dealt with severely.</p><ul><li><p>You gain +5 Toughness and +5 to either Strength, Perception, or Willpower.</p></li><li><p>You gain a <em>Shoddy</em> Beetle Tent (Tools, Equipment, Consumables Expanded).</p></li></ul>",
+      "gm": ""
+    },
+    "equipment": {
+      "list": []
+    },
+    "characteristics": {
+      "base": "tgh",
+      "choices": [
+        "per",
+        "str",
+        "wil"
+      ]
+    },
+    "factionTable": {
+    },
+    "talents": {
+      "list": []
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "impmal",
+    "systemVersion": "3.1.0"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

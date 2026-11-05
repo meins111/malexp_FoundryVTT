@@ -1,0 +1,60 @@
+{
+  "folder": "lWjke9bJb59710xJ",
+  "name": "Daemon World",
+  "type": "origin",
+  "_id": "ADwxsrnXWBFViy5k",
+  "img": "",
+  "system": {
+    "notes": {
+      "player": "<p>You hail from a Daemon World, but you would never admit it. You hail from a world scoured by the warp, where the terrain shifts to catch prey, and where daemons roam freely. You hail from a world that is potentially claimed by a Daemon Prince as their own dominion, or claimed to a specific Chaos God. There are not many of these worlds within Real Space, as most worlds that are swallowed by the Warp remain there forever, but as the Noctis Aeterna receded and the Days of Blinding ended, some worlds were revealed from under the curtain of warp storms as having been claimed wholy by the Dark Gods, and shaped by their whims. Inquisitorial visits to such worlds are short-lived and are for matters of dire necessity, learning how the world had been formed and behaved. Even the Adeptus Astartes chapters that perform reconnaissance prefer to not linger for too long, lest the taint of corruption that freely inhabits the people who survive there affect them too.</p><ul><li><p>You gain +5 Willpower and +5 to either Toughness, Perception, or Intelligence.</p></li><li><li></p></li><li><p>You gain a <em>shoddy</em> @UUID[Compendium.impmal-core.items.Item.oaY0wS7LewD6DXK6]{Holy Icon}.</p></li></ul>",
+      "gm": ""
+    },
+    "equipment": {
+      "list": [
+        {
+          "uuid": "Compendium.impmal-core.items.Item.oaY0wS7LewD6DXK6",
+          "diff": {
+            "name": "Shoddy Holy Icon",
+            "flags": {},
+            "system": {
+              "traits": {
+                "list": [
+                  {
+                    "key": "shoddy"
+                  }
+                ]
+              }
+            }
+          },
+          "name": "Shoddy Holy Icon"
+        }
+      ]
+    },
+    "characteristics": {
+      "base": "wil",
+      "choices": [
+        "int",
+        "per",
+        "tgh"
+      ]
+    },
+    "factionTable": {
+    },
+    "talents": {
+      "list": []
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "impmal",
+    "systemVersion": "3.1.0"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

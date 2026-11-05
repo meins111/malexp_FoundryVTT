@@ -1,0 +1,54 @@
+{
+  "folder": "lWjke9bJb59710xJ",
+  "name": "Garden World",
+  "type": "origin",
+  "_id": "ADwxsrnXWBFViy5k",
+  "img": "",
+  "system": {
+    "notes": {
+      "player": "<p>You hail from a garden world, one of the few planets with minimal technological development. Tithes are usually lower or non-existent, being lightly populated and with no readily available resources. Instead, they are used to offer idyllic settings, from recuperative locales, to private estates, in exchange for protection. Garden worlds are tranquil environments with unparalleled beauty, where scholars, priests, nobles, and other important individuals retire for a time for purposes of recuperation, study, meditation, and self reflection. People hailing from these worlds are quite open and equally skilled at keeping emotions under control to achieve necessary goals, being able to learn the skills of clients that frequent their services.</p><ul><li><p>You gain +5 Fellowship and +5 to either Willpower, Perception, or Agility.</p></li><li></p></li><li><p>You gain a @UUID[Compendium.impmal-core.items.Item.uSlUGjAxn1v6DvhG]{Regicide Set}.</p></li></ul>",
+      "gm": ""
+    },
+    "equipment": {
+      "list": [
+        {
+          "uuid": "Compendium.impmal-core.items.Item.uSlUGjAxn1v6DvhG",
+          "diff": {
+            "name": "Regicide Set",
+            "flags": {},
+            "system": {
+              "traits": {}
+            }
+          },
+          "name": "Regicide Set"
+        }
+      ]
+    },
+    "characteristics": {
+      "base": "fel",
+      "choices": [
+        "per",
+        "agi",
+        "wil"
+      ]
+    },
+    "factionTable": {
+    },
+    "talents": {
+      "list": []
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "impmal",
+    "systemVersion": "3.1.0"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

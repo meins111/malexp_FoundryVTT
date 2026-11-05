@@ -1,0 +1,60 @@
+{
+  "folder": "lWjke9bJb59710xJ",
+  "name": "Penal Colony",
+  "type": "origin",
+  "_id": "ADwxsrnXWBFViy5k",
+  "img": "",
+  "system": {
+    "notes": {
+      "player": "<p>You hail from a penal colony, defined by strict Imperial Law. In every expansion, there are recidivists, looters, murderers, and thieves that appear in its wake. The most violent or persistent offenders, if not granted summary execution or servitorization, may be shipped to off-world facilities designed to house them permanently. Life on many penal colonies is extremely regimented and monitored. Daily menial labor maintaining the gronuds, or more rarely mining or extracing resources, is designed to tax evenn the heartiest individuals energy levels, thereby reducing incidents.</p><ul><li><p>You gain +5 Toughness and +5 to either Weapon Skill, Perception, or Willpower.</p></li><li><li></p></li><li><p>You gain a <em>Shoddy</em> @UUID[Compendium.impmal-core.items.Item.QEbKaRlz9eZV01ix]{Manacles}.</p></li></ul>",
+      "gm": ""
+    },
+    "equipment": {
+      "list": [
+        {
+          "uuid": "Compendium.impmal-core.items.Item.QEbKaRlz9eZV01ix",
+          "diff": {
+            "name": "Shoddy Manacles",
+            "flags": {},
+            "system": {
+              "traits": {
+                "list": [
+                  {
+                    "key": "shoddy"
+                  }
+                ]
+              }
+            }
+          },
+          "name": "Shoddy Manacles"
+        }
+      ]
+    },
+    "characteristics": {
+      "base": "tgh",
+      "choices": [
+        "ws",
+        "per",
+        "wil"
+      ]
+    },
+    "factionTable": {
+    },
+    "talents": {
+      "list": []
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "impmal",
+    "systemVersion": "3.1.0"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

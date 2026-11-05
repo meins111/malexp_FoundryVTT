@@ -1,0 +1,62 @@
+{
+  "folder": "lWjke9bJb59710xJ",
+  "name": "Mindcleansed",
+  "type": "origin",
+  "_id": "ADwxsrnXWBFViy5k",
+  "img": "",
+  "system": {
+    "notes": {
+      "player": "<p>You do not know where you hail from. For all intents and purposes, you simply do not hail from anywhere. Your mind is almost completely locked from you, with a thousand questions you cannot answer. You do not know how you know anything, or where you could have learned these things. You simply have an emptiness inside you where anyone else would have memories, and feel adrift in social situations as if you are not even all there. Whoever has done this to you has done so with some reason, good or bad, as they decided you may continue to yet live.</p><ul><li><p>You gain +5 to two characteristics of your choice.</p></li><li><li></p></li><li><p>You gain a @UUID[Compendium.impmal-core.items.Item.96CumeSE9ClyVk05]{Hypno-Indoctrination} talent.</p></li></ul>",
+      "gm": "<p>Moxy Note: The Mindcleansed origin presented here is equivalent to the Tabula Rasa - Scraped Slate and Vat Grown Origins within the Inquisition Player`s Guide supplement. I consider the +5 in One characteristic and the Hypno-Indoctrination Talent but no Influence from Character creation to be a strange combination, but liked it generally and decided to alter it. The version of Mindcleansed here is different that previously portrayed versions, taking into account both how I feel it should be to maintain balance, and to give them an extra kick since they are Mindcleansed for a reason.</p>"
+    },
+    "equipment": {
+      "list": []
+    },
+    "characteristics": {
+      "base": "fel",
+      "choices": [
+        "int",
+        "per",
+        "wil"
+      ]
+    },
+    "factionTable": {
+    },
+    "talents": {
+        "structure": {
+          "type": "or",
+          "id": "root",
+          "options": [
+            {
+              "id": "7TIZq42JPi5BftXs",
+              "type": "option"
+            }
+          ]
+        },
+        "options": [
+          {
+            "type": "item",
+            "name": "Hypno-indoctrination",
+            "id": "7TIZq42JPi5BftXs",
+            "idType": "id",
+            "documentId": "96CumeSE9ClyVk05",
+            "diff": {},
+            "filters": []
+          }
+        ]
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "impmal",
+    "systemVersion": "3.1.0"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "folder": "lWjke9bJb59710xJ",
+  "name": "Highborn",
+  "type": "origin",
+  "_id": "ADwxsrnXWBFViy5k",
+  "img": "",
+  "system": {
+    "notes": {
+      "player": "<p>You hail not from any particular world, but from a palace either on or above it. You are amongst the elite of the Imperial worlds, the nobles, princes, and other equally privileged scions. To be born into such a setting is to have been given the best the planet has to offer, raised apart from those who struggle, and destined to take positions of great import. You have the luxuries people cannot even dream of as they do not think they are possible, and even if your rivals within your dynasty or others have you sent offworld, either to the Imperial Guard, the Ministorum, or other adepta, you will still be within a place of priviliege within them.</p><ul><li><p>You gain +5 Fellowship and +5 to either Intelligence, Perception, or Willpower.</p></li><li><li></p></li><li><p>You gain a <em>Ornamental</em> @UUID[Compendium.impmal-core.items.Item.bS4Uy21y8pkp7I7P]{Sword}.</p></li></ul>",
+      "gm": ""
+    },
+    "equipment": {
+      "list": [
+        {
+          "uuid": "Compendium.impmal-core.items.Item.bS4Uy21y8pkp7I7P",
+          "diff": {
+            "name": "Ornamental Sword",
+            "flags": {},
+            "system": {
+              "traits": {
+                "list": [
+                  {
+                    "key": "ornamental"
+                  }
+                ]
+              }
+            }
+          },
+          "name": "Ornamental Sword"
+        }
+      ]
+    },
+    "characteristics": {
+      "base": "fel",
+      "choices": [
+        "int",
+        "per",
+        "wil"
+      ]
+    },
+    "factionTable": {
+    },
+    "talents": {
+      "list": []
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "impmal",
+    "systemVersion": "3.1.0"
+  },
+  "ownership": {
+    "default": 0
+  }
+}
