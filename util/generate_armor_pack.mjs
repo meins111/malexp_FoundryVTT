@@ -30,14 +30,39 @@ const traitMap = {
 };
 
 const idFor = name => crypto.createHash('sha256').update(`malexp-protection:${name}`).digest('hex').slice(0, 16);
+const folderIdFor = source => crypto.createHash('sha256').update(`malexp-protection-folder:${source}`).digest('hex').slice(0, 16);
 const fileNameFor = (name, id) => `${name.replace(/[^A-Za-z0-9]+/g, '_').replace(/^_|_$/g, '')}_${id}.json`;
+const directoryNameFor = source => source.replace(/[^A-Za-z0-9]+/g, '_').replace(/^_|_$/g, '');
 
 const items = JSON.parse(await fs.readFile(sourcePath, 'utf8'));
 await fs.rm(outputDir, { recursive: true, force: true });
 await fs.mkdir(outputDir, { recursive: true });
 
+const sources = [...new Set(items.map(item => item.source))];
+await Promise.all(sources.map(async source => {
+    const folderId = folderIdFor(source);
+    const folderDir = path.join(outputDir, directoryNameFor(source));
+    await fs.mkdir(folderDir, { recursive: true });
+    const folder = {
+        type: 'Item',
+        folder: null,
+        name: source,
+        color: null,
+        sorting: 'a',
+        _id: folderId,
+        description: '',
+        sort: 0,
+        flags: {},
+        _stats: { compendiumSource: null, duplicateSource: null, exportSource: null, coreVersion: '13.348', systemId: 'impmal', systemVersion: '3.2.0' },
+        _key: `!folders!${folderId}`
+    };
+    await fs.writeFile(path.join(folderDir, '_Folder.json'), `${JSON.stringify(folder, null, 2)}\n`);
+}));
+
 await Promise.all(items.map(async item => {
     const id = idFor(item.name);
+    const folderId = folderIdFor(item.source);
+    const folderDir = path.join(outputDir, directoryNameFor(item.source));
     const document = {
         name: item.name,
         type: 'protection',
@@ -62,12 +87,12 @@ await Promise.all(items.map(async item => {
         _stats: { compendiumSource: null, duplicateSource: null, exportSource: null, coreVersion: '13.348', systemId: 'impmal', systemVersion: '3.2.0' },
         _id: id,
         img: image,
-        folder: null,
+        folder: folderId,
         sort: 0,
         ownership: { default: 0 },
         _key: `!items!${id}`
     };
-    await fs.writeFile(path.join(outputDir, fileNameFor(item.name, id)), `${JSON.stringify(document, null, 2)}\n`);
+    await fs.writeFile(path.join(folderDir, fileNameFor(item.name, id)), `${JSON.stringify(document, null, 2)}\n`);
 }));
 
-console.log(`Generated ${items.length} protection items in ${path.relative(root, outputDir)}`);
+console.log(`Generated ${items.length} protection items in ${sources.length} source folders under ${path.relative(root, outputDir)}`);
