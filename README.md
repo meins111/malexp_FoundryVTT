@@ -64,6 +64,15 @@ Contains many more item options (weapons, armor, drugs, wargear, etc) from vario
   - [x] Accurate
   - [x] Fast
 
+#### Protection Maker
+The protection maker generates Foundry protection items from `rawdata/armor_src.json` and writes them to `packs/malexp_protection`, grouped into folders by source. Run it from the repository root after updating the source JSON:
+
+```bash
+npm run generateProtection
+```
+
+This command replaces the existing contents of `packs/malexp_protection`, so review the generated files before committing them. To make the generated protection items available in Foundry, run `npm run build` afterwards and follow the Json-to-Foundry workflow below.
+
 ### Expanded Bestiary
 - [x] Import Star Children (credits: Stexinator)
 - [x] Import Necron (credits: Miguel)
