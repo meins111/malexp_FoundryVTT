@@ -4,6 +4,7 @@
     "description": "",
     "scripts": {
         "build": "node build.mjs",
+        "generateProtection": "node util/generate_armor_pack.mjs",
         "watch": "node build.mjs --watch",
         "extractPacks": "node extract-packs.mjs"
     },

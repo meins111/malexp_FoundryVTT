@@ -712,7 +712,8 @@
       },
       "_id": "ukhGyPwEbkPQTu08",
       "img": "modules/impmal-core/assets/icons/blank.webp",
-      "effects": [
+      "effects": [],
+      "effects_backup": [
         {
           "name": "Disgustingly Resilient",
           "_id": "fk1CA9hh1R2ueXLA",
